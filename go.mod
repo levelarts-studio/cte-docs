@@ -1,5 +1,5 @@
-module github.com/imfing/hextra-starter-template
+module github.com/levelarts-studio/ame-docs
 
-go 1.21
+go 1.25.0
 
-require github.com/imfing/hextra v0.10.1 // indirect
+require github.com/imfing/hextra v0.10.2 // indirect

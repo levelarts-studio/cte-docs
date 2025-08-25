@@ -1,6 +1,7 @@
+
 # Hugo configuration file
 title: AME | Intro to Media Careers + Game Art & Design
-baseURL: "/"
+baseURL: "cte.levelarts.studio"
 languageCode: en-us
 
 module:
@@ -23,35 +24,30 @@ taxonomies:
 menu:
   main:
     - name: Courses
-      pageRef: /courses
       weight: 1
 
+    - name: Canvas Login
+      url: "https://canvas.instructure.com/"
+      weight: 2
+
     - name: Intro to Media Careers
-      pageRef: /courses/intro-media-careers
+      pageRef: /imc-docs
       parent: Courses
       weight: 2
 
     - name: Game Art & Design 1
-      pageRef: /courses/game-art-design-1
+      pageRef: /gad1-docs
       parent: Courses
       weight: 3
 
     - name: Game Art & Design 2
-      pageRef: /courses/game-art-design-2
+      pageRef: /gad2-docs
       parent: Courses
       weight: 4
-
-    - name: Docs
-      pageRef: /docs
-      weight: 5
 
     - name: About
       pageRef: /about
       weight: 6
-
-    - name: Contact ↗
-      url: "mailto:jaytilghman@aldergrovecharter.org"
-      weight: 7
 
     - name: Search
       weight: 8
@@ -62,11 +58,10 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+  author:
+    email: jay@levelarts.studio
+    name: Jay Tilghman
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
-
-  editURL:
-    enable: true
-    base: "https://github.com/CHANGE_ME/ame-site/edit/main/content"
+    displayPoweredBy: false
