@@ -45,6 +45,10 @@ menu:
       parent: Courses
       weight: 4
 
+    - name: Roadmap
+      pageRef: /roadmap
+      weight: 4
+
     - name: About
       pageRef: /about
       weight: 6

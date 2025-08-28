@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: levelarts-studio/ame-docs
+  branch: main
+  # if using a Cloudflare auth proxy, add:
+  # base_url: https://cte.levelarts.studio
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "imc"
+    label: "IMC Docs"
+    folder: "content/imc-docs"
+    create: true
+    extension: "md"
+    index_file: "_index.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gad1"
+    label: "GAD1 Docs"
+    folder: "content/gad1-docs"
+    create: true
+    extension: "md"
+    index_file: "_index.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gad2"
+    label: "GAD2 Docs"
+    folder: "content/gad2-docs"
+    create: true
+    extension: "md"
+    index_file: "_index.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
