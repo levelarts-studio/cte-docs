@@ -1,6 +1,5 @@
 ---
 title: Unit Three
-subtitle: Visual Storytelling & Game Design Fundamentals
 weight: 3
 type: docs
 prev: imc-docs/modules/unit-2
@@ -8,56 +7,58 @@ next: imc-docs/modules/unit-3/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Visual Storytelling &amp; Game Design Fundamentals
+  Concept Art Basics
 </div>
 
-This unit introduces the fundamentals of game design and visual storytelling. Students explore different genres, gameplay loops, and mechanics, while also studying how narrative, characters, and environments shape player experience. Visual hierarchy, composition, and simple concept sketches are introduced as essential design tools.
+In this unit, students learn how artists turn ideas into visuals. They practice drawing fundamentals, explore visual storytelling, and create a concept art sheet for their own game world. Students begin to bring their ideas to life by sketching and refining a **prop** that reflects their creative vision.
 
 {{< callout type="info" >}}
-This unit bridges **storytelling principles** with **interactive design fundamentals**. By the end, students will be able to design and explain a basic game concept supported by visuals and player experience goals.
+This unit emphasizes **sketching, iteration, and presentation**. By the end, students will have a concept art piece ready for their portfolio that shows both process and final design. This is not a drawing class, but it is an art class. You won't be judged on your drawing skills, but rather on your ability to convey a design.
 {{< /callout >}}
 
 ## Topics Covered
-- Game genres, core gameplay loops, and mechanics  
-- Storytelling principles in games: characters, environments, player agency  
-- Visual hierarchy and composition basics  
-- Simple concept sketches in Krita  
+- Drawing fundamentals: line, shape, proportion, perspective  
+- Light, shadow, and value for depth and form  
+- Visual storytelling: mood, setting, and context through art  
+- Concept art workflows: thumbnails, iterations, refinement  
+- Creating a polished prop or environment tied to their game world  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-3/a1" title="(A3.1) Gameplay Genres & Loops" >}}
-  {{< card link="/imc-docs/modules/unit-3/a2" title="(A3.2) Storytelling in Games" >}}
-  {{< card link="/imc-docs/modules/unit-3/a3" title="(A3.3) Visual Hierarchy & Composition" >}}
-  {{< card link="/imc-docs/modules/unit-3/a4" title="(A3.4) Concept Sketching in Krita" >}}
+  {{< card link="/imc-docs/modules/unit-3/a1" title="(A3.1) Sketching Fundamentals Practice" >}}
+  {{< card link="/imc-docs/modules/unit-3/a2" title="(A3.2) Perspective & Value Study" >}}
+  {{< card link="/imc-docs/modules/unit-3/a3" title="(A3.3) Thumbnail Concepts" >}}
+  {{< card link="/imc-docs/modules/unit-3/a4" title="(A3.4) Refined Prop Drawing" >}}
+  {{< card link="/imc-docs/modules/unit-3/a5" title="(A3.5) Concept Art Portfolio Page" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Identify and compare major game genres, gameplay loops, and mechanics  
-- Apply storytelling principles to game concepts (characters, environments, agency)  
-- Use visual hierarchy and composition techniques to support design clarity  
-- Create simple digital concept sketches in Krita  
-- Develop and present a first-semester **Final Project**: a basic game concept pitch  
+- Demonstrate fundamentals of perspective, proportion, and value  
+- Use sketches and thumbnails to explore multiple design ideas  
+- Apply storytelling principles to concept art (tone, context, and mood)  
+- Produce a refined concept art sheet with both process and final design  
+- Publish the work on a portfolio site with reflection on design choices  
 
 **Materials**  
-- Notebook or sketchbook  
-- Classroom computers with Krita installed  
-- Reference games and media examples  
+- Drawing tools: sketchbook, pencils, or digital tablet  
+- Reference images (collected by students)  
+- Digital tools: Canva, Photoshop, or Krita for refinement  
 
 **Assessment**  
-Students demonstrate understanding of game design fundamentals through written and visual exercises, sketches, and a final concept pitch. Peer and instructor critique are used to refine ideas.  
+Students show mastery by creating a concept art sheet that demonstrates drawing fundamentals and communicates a clear design idea. Portfolio entries should include both process work and the final design.  
 
 **Activities**  
-Students analyze existing games by genre and mechanics, map story elements to gameplay, and practice sketching basic characters or environments. They then integrate these ideas into a **Final Project**: a game concept pitch presented visually and verbally.  
+Students complete daily drawing warm-ups, create thumbnail variations of their chosen prop or environment, and refine one design into a polished piece. They share their process in class critiques, then finalize and publish their work to their portfolio.  
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**.
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **1.3** — Evaluate how narrative structure, character, and setting impact story development.  
-- **1.4** — Apply principles of art, design, and composition to creative works.  
-- **2.1** — Communicate information and ideas respectfully in professional settings.  
-- **5.2** — Solve creative challenges, accept critique, and apply feedback.  
-- **10.3** — Visualize ideas using storytelling, sketching, or other creative methods.  
-- **11.1** — Demonstrate media literacy through critical inquiry and analysis.  
+- **1.4** — Apply principles of art, design, and composition to creative works  
+- **2.2** — Correctly use industry-appropriate terminology  
+- **10.2** — Use research, imagery, and inspiration to generate concept ideas  
+- **10.3** — Visualize thinking using sketches, thumbnails, and storyboarding  
+- **10.5** — Create multiple drafts and apply feedback for refinement  
+- **11.4** — Research current industry-standard tools and practices  

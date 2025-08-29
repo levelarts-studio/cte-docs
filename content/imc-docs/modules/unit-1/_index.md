@@ -7,57 +7,59 @@ next: imc-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Careers in Games & Media Arts
+  Computer Literacy, File Management & Career Exploration
 </div>
 
-This first unit introduces both the creative industries and the essential platforms you’ll use throughout the course. Students learn about careers in games and media arts, explore production pipelines, set up required accounts, and begin their **personal portfolio** that will grow throughout the pathway.
+This first unit builds the foundation for the entire pathway. Students learn essential digital literacy skills, how to organize and manage project files, and explore careers in games and media arts. At the same time, they set up their **personal portfolio**, which will grow across all three years.
 
 {{< callout type="info" >}}
-This unit combines **career exploration** with **technology onboarding** and **portfolio setup**. By the end, every student will have access to required accounts, understand how their interests connect to real opportunities in creative technology, and have the first page of a working portfolio.
+This unit combines **career exploration** with **technology onboarding** and **portfolio setup**. By the end, every student will have a working file system, access to required accounts, and the first page of their portfolio site published.
 {{< /callout >}}
 
 ## Topics Covered
-- Game industry roles: art, design, programming, production, audio, writing  
-- Mapping careers to animation, VFX, and design pathways  
-- Key production pipeline stages and terminology  
-- Logging in and setting up required accounts (school email, Canvas, Jupiter)  
-- Introduction to Canva and/or Google Sites for design, publishing, and portfolio building  
+- Digital literacy: safe logins, passwords, storage, and backups  
+- File management and naming conventions for creative workflows  
+- Game and media industry careers: art, design, animation, VFX, technical roles  
+- Hardware and software overview: classroom computers, OS basics, productivity tools, design software  
+- Setting up required accounts (Canvas, Jupiter, email, Google Drive/OneDrive)  
+- Launching a personal portfolio site (Google Sites or Canva)  
 
 ## Assignments
 {{< cards >}}
   {{< card link="/imc-docs/modules/unit-1/a1" title="(A1.1) Account Setup & Portfolio Launch" >}}
-  {{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) Career Roles Research" >}}
-  {{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) Mapping Media Pathways" >}}
-  {{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Production Pipeline Basics" >}}
+  {{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) File Management & Naming Practice" >}}
+  {{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) Career Roles Research" >}}
+  {{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Hardware & Software Overview" >}}
   {{< card link="/imc-docs/modules/unit-1/a5" title="(A1.5) Personal Career Reflection" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Recognize and describe roles in the game and media arts industries  
-- Connect careers across animation, VFX, and design pathways  
-- Identify and use production pipeline terminology  
-- Set up and log into core class platforms (Canvas, Jupiter, Canva/Google Sites)  
-- Launch a personal portfolio and publish first entries (career research + reflection)  
+- Demonstrate proper file management and storage techniques  
+- Recognize and describe careers across games and media arts  
+- Identify core classroom hardware and software used in the pathway  
+- Set up and log into all required accounts for class work  
+- Launch a live portfolio site and publish first entries (career research + reflection)  
 
 **Materials**  
-- Notebook or digital journal  
 - Classroom computers with internet access  
-- Accounts: Canvas, Jupiter, Canva or Google Sites  
+- Notebook or digital journal  
+- Accounts: Canvas, Jupiter, Google Sites or Canva  
 
 **Assessment**  
-Students demonstrate understanding of career pathways through written research and reflection. Technical skills are demonstrated by successful account setup and creation of a live portfolio with at least one published entry.  
+Students show technical skills by creating a working file system and setting up accounts. Academic learning is demonstrated through career research, reflection, and the first entries published to their portfolio site.  
 
 **Activities**  
-Students complete guided research, write career profiles, and map roles to AME pathways. In parallel, they set up required accounts, confirm access, and launch a personal portfolio site. Career reflection and research are posted as the first entries.  
+Students set up accounts and confirm access. They practice file management with naming conventions and organization. In parallel, they research careers, complete a guided overview of classroom hardware/software, and post reflections in their portfolio.  
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **2.2** — Correctly use industry-appropriate terminology.  
-- **3.1** — Explore creative and technical jobs across industries.  
-- **3.2** — Conduct interest, aptitude, and career research to develop a plan.  
-- **4.6** — Use industry-standard asset tracking, file naming conventions, and storage/back-up protocols.  
-- **11.1** — Demonstrate media literacy through critical inquiry and analysis.  
+- **2.2** — Correctly use industry-appropriate terminology  
+- **3.1** — Explore creative and technical jobs across industries  
+- **3.2** — Conduct interest, aptitude, and career research  
+- **4.3** — Use job-specific hardware/software for workflows and delivery of content  
+- **4.6** — Use industry-standard asset tracking, file naming conventions, and backup protocols  
+- **11.1** — Demonstrate media literacy through critical inquiry and analysis  

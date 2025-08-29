@@ -3,51 +3,64 @@ title: Unit Six
 weight: 6
 type: docs
 prev: imc-docs/modules/unit-5
-next: imc-docs/modules/unit-6/a1
+next: gad1-docs/modules/unit-1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Professional Skills & Portfolio Development
+  Character Design — Year One Capstone
 </div>
 
-This final unit focuses on professional readiness. Students develop personal branding and an online presence, build a resume, and curate a portfolio that showcases their best work. They also compare freelancing and studio employment in the games and media industries. The unit concludes with the **Final Project for Semester 2**: a professional presentation of their semester projects and updated career plan.
+This capstone unit brings together everything students have learned in Year 1. Building on drawing fundamentals, concept art, modeling basics, and animation, students will design a **complete character package**. The project includes a turnaround sheet, mood board, and written notes describing personality, backstory, and role in their game world.
 
 {{< callout type="info" >}}
-This is the **capstone unit for the course**. Students finish with a polished portfolio and the ability to present themselves as emerging creatives.
+This unit is the **final milestone for Year 1**. Students leave with a polished character design document that demonstrates art fundamentals, storytelling, and professional presentation skills.
 {{< /callout >}}
 
 ## Topics Covered
-- Personal branding and online presence for creatives  
-- Resume basics and portfolio curation  
-- Understanding freelancing vs. studio employment in games  
-- Final presentation of semester projects and updated career plan  
+- Principles of character design: silhouette, shape language, and appeal  
+- Anatomy basics and proportion for characters  
+- Costumes, props, and visual storytelling through design  
+- Creating turnarounds (front, side, back views)  
+- Building mood boards to communicate tone and style  
+- Writing character bios and narrative connections  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-6/a1" title="(A6.1) Personal Branding & Online Presence" >}}
-  {{< card link="/imc-docs/modules/unit-6/a2" title="(A6.2) Resume Basics" >}}
-  {{< card link="/imc-docs/modules/unit-6/a3" title="(A6.3) Portfolio Curation" >}}
-  {{< card link="/imc-docs/modules/unit-6/a4" title="(A6.4) Freelance vs. Studio Employment" >}}
-  {{< card link="/imc-docs/modules/unit-6/a5" title="(A6.5) Final Presentation & Career Plan" >}}
+  {{< card link="/imc-docs/modules/unit-6/a1" title="(A6.1) Shape Language & Silhouette Studies" >}}
+  {{< card link="/imc-docs/modules/unit-6/a2" title="(A6.2) Anatomy & Costume Sketches" >}}
+  {{< card link="/imc-docs/modules/unit-6/a3" title="(A6.3) Character Turnaround Sheet" >}}
+  {{< card link="/imc-docs/modules/unit-6/a4" title="(A6.4) Mood Board & Visual References" >}}
+  {{< card link="/imc-docs/modules/unit-6/a5" title="(A6.5) Final Character Design Document" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Create personal branding materials and establish an online presence  
-- Develop a professional resume suited for creative careers  
-- Curate a digital or physical portfolio of best work  
-- Analyze differences between freelancing and studio employment in games  
-- Deliver a final presentation that includes semester projects and an updated career plan  
+- Apply silhouette and shape language in character design  
+- Use anatomy and proportion to design believable characters  
+- Create polished turnarounds for clarity in 3D modeling  
+- Compile a mood board to capture tone, setting, and style  
+- Write a character bio connecting design choices to narrative  
 
 **Materials**  
-- Canva or similar design tool for branding assets  
-- Word processor for resumes  
-- Digital portfolio platform (Google Sites)  
-- Classroom computers with internet access
+- Drawing tools: sketchbook or digital tablet  
+- Reference images for anatomy, costumes, and props  
+- Canva, Photoshop, or Krita for compiling design docs  
+- Portfolio site for final submission  
 
 **Assessment**  
-Students are assessed on the quality of their resume, portfolio, and final presentation. Evaluation considers professionalism, clarity, and alignment with career goals. Peer and instructor critique help refine materials.  
+Students are evaluated on the completeness and polish of their Character Design Document. The final must include a turnaround sheet, a mood board, and written notes. Professional presentation and reflection in the portfolio are required.  
 
 **Activities**  
-Students design personal branding materials (logos, banners, or themes), draft and revise resumes, and build a portfolio site. They research career paths in freelancing vs. studio roles, weighing pros and cons. The unit culminate
+Students create silhouettes and studies, sketch anatomy and costumes, and draft a turnaround. They compile mood boards with visual references, then finalize everything into a professional Character Design Document for their portfolio.  
+
+## Education Standards
+
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
+
+- **1.4** — Apply principles of art, design, and composition to creative works  
+- **2.2** — Correctly use industry-appropriate terminology  
+- **10.2** — Use research and imagery to generate design ideas  
+- **10.3** — Visualize concepts using sketches, turnarounds, and storyboards  
+- **10.7** — Develop an artist’s statement describing process and challenges  
+- **17.3** — Apply principles of character design and development to creative projects  

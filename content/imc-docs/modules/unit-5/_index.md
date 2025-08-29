@@ -7,58 +7,58 @@ next: imc-docs/modules/unit-5/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Collaborative Media Project
+  Animation Basics
 </div>
 
-This unit simulates a simplified game development pipeline through a small-team project. Students take on specialized roles such as concept artist, modeler, or designer and work together to integrate 2D concept art into 3D mockups. The project emphasizes collaboration, iteration, and presenting work-in-progress for peer and instructor feedback.
+In this unit, students are introduced to **animation principles** and how they are applied in 3D. They learn how to set keyframes, adjust timing, and create smooth, believable motion. By the end, they will create a short animation using their prop or a simple object.
 
 {{< callout type="info" >}}
-This is a **team-based production unit**. Students gain experience in game pipeline roles and practice professional collaboration by producing a small, integrated project.
+This unit emphasizes **timing, motion, and iteration**. By the end, students will have a looping animation sequence suitable for their portfolio.
 {{< /callout >}}
 
 ## Topics Covered
-- Team-based project work in a simplified game pipeline  
-- Role-based responsibilities (concept art, modeling, design)  
-- Integrating 2D concept art into 3D mockups  
-- Iteration and presenting work-in-progress for critique  
+- 12 principles of animation (focus on squash & stretch, timing, anticipation)  
+- Keyframes and interpolation in Blender  
+- Dope sheet and graph editor basics  
+- Animating simple objects and props  
+- Exporting short animation loops or playblasts  
+- Critiquing and refining motion for believability  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-5/a1" title="(A5.1) Team Formation & Role Assignment" >}}
-  {{< card link="/imc-docs/modules/unit-5/a2" title="(A5.2) Concept Art for Team Project" >}}
-  {{< card link="/imc-docs/modules/unit-5/a3" title="(A5.3) 3D Mockup Integration" >}}
-  {{< card link="/imc-docs/modules/unit-5/a4" title="(A5.4) Work-in-Progress Presentation" >}}
-  {{< card link="/imc-docs/modules/unit-5/a5" title="(A5.5) Final Team Deliverable" >}}
+  {{< card link="/imc-docs/modules/unit-5/a1" title="(A5.1) Keyframe Practice (Bounce Ball)" >}}
+  {{< card link="/imc-docs/modules/unit-5/a2" title="(A5.2) Timing & Spacing Exercise" >}}
+  {{< card link="/imc-docs/modules/unit-5/a3" title="(A5.3) Prop Animation Test" >}}
+  {{< card link="/imc-docs/modules/unit-5/a4" title="(A5.4) Looping Animation Render" >}}
+  {{< card link="/imc-docs/modules/unit-5/a5" title="(A5.5) Portfolio Upload & Reflection" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Simulate a simplified game production pipeline in small teams  
-- Fulfill role responsibilities (concept artist, modeler, designer)  
-- Integrate 2D concept art into 3D mockups  
-- Present work-in-progress for feedback and respond to critique  
-- Deliver a final collaborative project that demonstrates teamwork and iteration  
+- Demonstrate knowledge of keyframe animation and timing  
+- Apply at least two classical animation principles in practice  
+- Animate a simple prop or object with smooth motion  
+- Export and render a short animation loop  
+- Upload to portfolio with reflection on animation process  
 
 **Materials**  
-- Classroom computers with Blender, Krita, and Canva  
-- Team project documentation (shared folders, naming conventions)  
-- Sketches, references, and digital collaboration tools  
+- Blender installed on classroom computers  
+- Student’s modeled prop from Unit 4  
+- Notebook or digital journal for planning and notes  
 
 **Assessment**  
-Students are assessed on their contribution to the team project, quality of deliverables, collaboration skills, and ability to incorporate feedback. Both individual and group performance are considered.  
+Students are assessed on their ability to animate an object or prop with clear timing, smooth interpolation, and evidence of classical principles (e.g., squash & stretch, anticipation). Final render and reflection must be posted to portfolio.  
 
 **Activities**  
-Students are assigned roles within teams and begin by creating concept art. These assets are then translated into simple 3D mockups. Teams meet checkpoints with work-in-progress presentations and refine based on feedback. The unit concludes with a final team deliverable that reflects collaborative effort.  
+Students complete guided exercises starting with a bouncing ball, then progress to animating their prop or a similar object. They refine motion using the graph editor, critique in class, and export a final looping render.  
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**.
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **2.1** — Communicate information and ideas respectfully in professional settings.  
-- **3.3** — Understand the importance of professional networking.  
-- **5.2** — Solve creative challenges, accept critique, and apply feedback.  
-- **7.1** — Identify responsibilities and behaviors of successful leaders.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.1** — Collaborate with a team to realize and finalize a project.  
-- **16.2** — Understand roles and responsibilities in a production team.  
+- **1.4** — Apply principles of art, design, and composition to creative works  
+- **2.2** — Use industry-appropriate terminology when presenting work  
+- **10.3** — Visualize ideas using storyboarding and iterative methods  
+- **10.5** — Refine work through multiple drafts and apply feedback  
+- **17.4** — Apply principles of animation to objects and characters  

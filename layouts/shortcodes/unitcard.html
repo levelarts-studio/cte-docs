@@ -1,0 +1,21 @@
+{{- $num := .Get "num" -}}
+{{- $title := .Get "title" -}}
+{{- $desc := .Get "desc" -}}
+{{- $href := .Get "href" -}}
+{{- $cta := .Get "cta" | default "View" -}}
+
+<div class="unit-card">
+  {{- if $num -}}
+    <div class="unit-badge">Unit {{ $num }}</div>
+  {{- end -}}
+  {{- if $title -}}
+    <div class="unit-title">{{ $title }}</div>
+  {{- end -}}
+  {{- if $desc -}}
+    <div class="unit-desc">{{ $desc }}</div>
+  {{- end -}}
+  {{- if $href -}}
+    <a class="unit-cta" href="{{ $href }}">{{ $cta }} →</a>
+  {{- end -}}
+  
+</div>

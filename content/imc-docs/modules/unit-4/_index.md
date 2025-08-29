@@ -7,56 +7,58 @@ next: imc-docs/modules/unit-4/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Game Art Foundations
+  Intro to Blender — Modeling Your Prop
 </div>
 
-This unit introduces students to the foundations of game art production. Students learn key elements of art and design that support asset creation, including color theory, silhouettes, and readability. They also begin working in 3D using Blender, creating and exporting a simple prop while comparing 2D and 3D workflows.
+This unit introduces students to **Blender**, the industry-standard 3D software they will use throughout the pathway. Students learn the interface, basic navigation, and essential tools for creating 3D objects. By the end, they will model and render a **low-poly version of the prop** they designed in Unit 3.
 
 {{< callout type="info" >}}
-This is the first **hands-on production unit**. Students create their first 3D game asset and practice moving between 2D and 3D workflows.
+This unit bridges **2D concept art** and **3D modeling**. By the end, students will see their first original prop design come to life as a 3D object.
 {{< /callout >}}
 
 ## Topics Covered
-- Elements of art and design for game assets (color theory, silhouettes, readability)  
-- Introduction to 3D space and navigation in Blender  
-- Creating and exporting a basic 3D prop  
-- Comparing 2D and 3D workflows  
+- Blender interface and workspace basics  
+- Viewport navigation and hotkeys  
+- Mesh editing: extrude, scale, rotate, move  
+- Topology and UV unwrapping basics  
+- Intro to texturing and simple material setup  
+- Rendering simple turntables of models  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-4/a1" title="(A4.1) Color Theory & Readability" >}}
-  {{< card link="/imc-docs/modules/unit-4/a2" title="(A4.2) Silhouettes in Game Design" >}}
-  {{< card link="/imc-docs/modules/unit-4/a3" title="(A4.3) Intro to Blender Navigation" >}}
-  {{< card link="/imc-docs/modules/unit-4/a4" title="(A4.4) Create & Export a Basic 3D Prop" >}}
-  {{< card link="/imc-docs/modules/unit-4/a5" title="(A4.5) Compare 2D & 3D Workflows" >}}
+  {{< card link="/imc-docs/modules/unit-4/a1" title="(A4.1) Blender Interface" >}}
+  {{< card link="/imc-docs/modules/unit-4/a2" title="(A4.2) Basic Modeling Exercises" >}}
+  {{< card link="/imc-docs/modules/unit-4/a3" title="(A4.3) Modeling Your Prop" >}}
+  {{< card link="/imc-docs/modules/unit-4/a4" title="(A4.4) Topology, UVs & Texturing" >}}
+  {{< card link="/imc-docs/modules/unit-4/a5" title="(A4.5) Prop Render & Portfolio Upload" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Apply color theory, silhouettes, and readability principles to game art  
-- Navigate 3D space and tools in Blender  
-- Model, texture, and export a simple 3D prop  
-- Compare the benefits and challenges of 2D vs 3D workflows  
+- Navigate Blender’s workspace and tools with confidence  
+- Apply mesh editing tools to create simple 3D geometry  
+- Demonstrate understanding of clean topology and UVs  
+- Apply basic textures and materials to a 3D model  
+- Render and present a prop in the portfolio  
 
 **Materials**  
-- Sketchbook or digital drawing tool  
-- Classroom computers with Blender and Krita installed  
-- Reference images for props and silhouettes  
+- Classroom computers with Blender installed  
+- Drawing/prop design sheet from Unit 3  
+- Notebook or digital journal for notes and sketches  
 
 **Assessment**  
-Students demonstrate mastery through digital sketches, silhouette studies, and completion of a simple 3D prop exported from Blender. Work is critiqued for readability, design clarity, and technical accuracy.  
+Students demonstrate mastery by producing a low-poly model of their original prop, with clean topology, UVs, and a basic textured render uploaded to their portfolio.  
 
 **Activities**  
-Students begin with 2D design exercises (silhouettes, color schemes), then move into Blender for 3D navigation. They build a simple prop (e.g., crate, lamp, or tool) and export it. The unit concludes with a reflection comparing 2D and 3D asset workflows.  
+Students practice navigation and tool use through short guided exercises. They block out their prop in simple geometry, refine it with clean topology, unwrap UVs, and apply textures. They then render a turntable or screenshot for their portfolio.  
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**.
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **1.4** — Apply principles of art, design, and composition to creative works.  
-- **2.2** — Correctly use industry-appropriate terminology.  
-- **5.2** — Solve creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **10.3** — Visualize ideas using storytelling, sketching, or other creative methods.  
-- **16.1** — Identify tools and equipment and their functions.  
+- **1.4** — Apply principles of art, design, and composition to creative works  
+- **4.3** — Use job-specific hardware/software for workflows and content delivery  
+- **4.5** — Apply rendering and exporting techniques to meet standards  
+- **10.3** — Visualize ideas through sketching, iteration, and modeling  
+- **17.5** — Model digital props and create orthographic/turntable views  
