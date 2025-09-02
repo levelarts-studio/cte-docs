@@ -7,58 +7,70 @@ next: gad2-docs/modules/unit-4/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Gameplay Systems & Interactive Elements
+  Vertical Slice Build (Alpha)
 </div>
 
-This unit introduces **gameplay systems, interactivity, and character setup** in Unreal Engine. Students use Blueprints to add simple mechanics, replace the default player character, and create reactive environments. The focus is on making levels feel playable, immersive, and responsive to the player.
+In this unit, teams move into **production mode** and begin building their vertical slice. The Alpha build demonstrates that the project is **playable and core systems are functioning**. Teams must integrate characters, environments, and mechanics into a working scene inside Unreal Engine.
 
 {{< callout type="info" >}}
-This unit emphasizes **player experience**. By the end, every team will have a custom player character, basic interactive systems, and environmental effects that enhance immersion.
+An **Alpha build** is not polished — it is about function, not beauty. By the end of this unit, you should be able to play through your slice from start to finish, even if art and effects are rough.
 {{< /callout >}}
 
+---
+
 ## Topics Covered
-- Replacing the default Unreal character with a project-specific player  
-- Adding simple Blueprint logic for movement, interaction, or UI prompts  
-- Creating interactive elements: doors, triggers, pickups  
-- Environmental effects: particles, sound cues, weather systems  
-- Navigation cues and feedback systems (checkpoints, markers)  
-- Testing and iteration through peer playtests  
+- Team production workflows and milestone management  
+- Importing assets into a shared Unreal project  
+- Integrating characters, environments, and props into levels  
+- Core gameplay loop implementation (navigation, interaction, win condition)  
+- Debugging and testing Alpha builds  
+- Documenting progress and assigning next-phase tasks  
+
+---
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-4/a1" title="(A4.1) Custom Player Character Setup" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a2" title="(A4.2) Blueprint Basics: Doors & Triggers" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a3" title="(A4.3) Adding Environmental Effects" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a4" title="(A4.4) Playtest & Feedback Iteration" >}}
+  {{< card link="/gad2-docs/modules/unit-4/a1" title="(A4.1) Shared Unreal Project Setup" >}}
+  {{< card link="/gad2-docs/modules/unit-4/a2" title="(A4.2) Asset Integration & Level Blockout" >}}
+  {{< card link="/gad2-docs/modules/unit-4/a3" title="(A4.3) Core Gameplay Loop Implementation" >}}
+  {{< card link="/gad2-docs/modules/unit-4/a4" title="(A4.4) Internal Playtest & Debug Report" >}}
+  {{< card link="/gad2-docs/modules/unit-4/a5" title="(A4.5) Portfolio Upload — Alpha Build Showcase" >}}
 {{< /cards >}}
+
+---
 
 ## Learning Report
 
 **Objectives**  
-- Replace the default Unreal character with a custom setup  
-- Script basic interactivity using Blueprints (doors, triggers, pickups)  
-- Add audio, particle, and weather effects to build atmosphere  
-- Implement navigation cues and feedback systems  
-- Conduct playtests to evaluate usability and immersion  
+- Work collaboratively in a shared Unreal project  
+- Integrate multiple asset types (characters, environments, props)  
+- Implement a basic, playable core gameplay loop  
+- Conduct internal playtests and document feedback  
+- Package an Alpha build and upload documentation to portfolio  
 
 **Materials**  
-- Unreal Engine project with Blueprint editor enabled  
-- Character template or starter project assets  
-- Audio/particle packs for environmental effects  
-- Peer playtesting forms  
+- Unreal Engine (team project files)  
+- Completed prototypes and GDD from previous units  
+- Collaboration tools (Git, Perforce, or Google Drive if simplified)  
 
 **Assessment**  
-Students are graded on character setup, clarity of interaction systems, integration of environmental effects, and responsiveness to playtest feedback.  
+Teams are assessed on whether they deliver a working Alpha build:  
+- A player can navigate the slice.  
+- At least one interactive system functions (trigger, pickup, or puzzle).  
+- Win condition or loop is present.  
+Clarity of documentation and portfolio submission are also required.  
 
 **Activities**  
-Teams configure a custom player character, implement basic Blueprint logic, and add reactive elements to their environments. Peer playtests guide revisions for navigation, clarity, and interactivity.  
+Teams divide asset creation and implementation tasks. They import content, block out levels, and hook up mechanics in Blueprints. Teams run **internal playtests** to catch bugs and log issues. Each group delivers a build plus a short reflection on next steps.  
+
+---
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.2** — Apply iterative design through prototypes and feedback.  
-- **16.9** — Track tasks and deliverables using industry-standard project management strategies/software.  
+- **5.2** — Solve creative challenges, accept critique, and iterate  
+- **9.1** — Collaborate with a team to realize a creative project  
+- **16.6** — Understand workflows in pre-production, production, and post-production  
+- **18.6** — Work with a production team to contribute to a complete game scene  
+- **20.1** — Investigate how real-time rendering is used in vertical slice builds  

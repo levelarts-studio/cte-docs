@@ -3,7 +3,7 @@ title: Unit Six
 weight: 6
 type: docs
 prev: imc-docs/modules/unit-5
-next: gad1-docs/modules/unit-1
+next: imc-docs/modules/unit-6/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">

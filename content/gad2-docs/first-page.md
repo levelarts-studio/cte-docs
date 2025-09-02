@@ -25,18 +25,16 @@ Game Art & Design II is an advanced capstone course. Students work in production
 ### Learning Outcomes
 Students will:
 1. Plan and document a project using a **Game Design Document (GDD)** and art style guide.  
-2. Create **core assets and modular kits** for efficient level building.  
-3. Assemble and light a playable environment in Unreal Engine.  
-4. Script simple **Blueprint interactions** and environmental effects.  
-5. Apply **optimization and QA practices** for performance.  
-6. Deliver a polished **vertical slice** and present it with professional materials.  
+2. Work in teams to assign roles, manage scope, and follow production pipelines.  
+3. Prototype mechanics, art style, and workflows to test feasibility.  
+4. Assemble a **playable Alpha build** with integrated assets and core gameplay loop.  
+5. Apply **polish, optimization, and marketing practices** to deliver a Beta build.  
+6. Present a final **vertical slice with a trailer, cover art, press kit, and showcase pitch**.  
 
 {{< callout type="important" >}}
 **Weekly Journal Assignments**  
 Starting Week 2, you will continue reflective journal work. Prompts connect directly to design thinking, production planning, or analysis of professional games/media. If you cannot complete the exact prompt, propose a substitute (reflection on past work, alternate game/media analysis, or your own design notes).
 {{< /callout >}}
-
----
 
 ## Weekly Points System
 
@@ -59,22 +57,18 @@ Every week you can earn **10 points**. These track participation, effort, and ho
 Missed participation points can be recovered with weekly Canvas Quizzes. Homework can be submitted late until the **end of the unit** it was assigned, but late work is penalized: **–3 points** from that week’s total.
 {{< /callout >}}
 
----
-
 ## Final Projects
 
 - **100 points each semester**  
-- Semester 1 → **Team Concept + First Playable** (Units 1–3)  
-- Semester 2 → **Final Vertical Slice Delivery** (Units 4–6)  
+- Semester 1 → **Vertical Slice Alpha Build** (Units 1–4)  
+- Semester 2 → **Final Vertical Slice & Showcase Presentation** (Units 5–6)  
 - Each project spans multiple weeks and requires documented planning, iteration, and presentation.  
 - Projects are graded using a detailed rubric aligned to **AME standards** and pathway expectations.  
 - Final projects = **30% of semester grade**. Weekly points (~70%) alone can only earn a **C at best**.  
 
 {{< callout type="important" >}}
-Final projects are **make-or-break**. Consistent weekly effort prepares you, but you must deliver a **finished, polished project** to pass with a higher grade.
+Final projects are **make-or-break**. Consistent weekly effort prepares you, but you must deliver a **finished, polished build and showcase presentation** to pass with a higher grade.
 {{< /callout >}}
-
----
 
 ## Weighting
 
@@ -84,8 +78,6 @@ Final projects are **make-or-break**. Consistent weekly effort prepares you, but
 | Final Project   | 100    | 30%    | End of Semester |
 
 **Grading Scale:** A = 90–100, B = 80–89, C = 70–79, D = 60–69, F < 59  
-
----
 
 {{< callout type="error" >}}
 **Academic honesty:** All work must be original. Cite sources and credit assets. For more info on when and how AI tools may be used, **[Click Here](/about/)**.

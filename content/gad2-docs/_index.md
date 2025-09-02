@@ -23,20 +23,30 @@ If these skills feel weak, review your **Game Art & Design I environment project
 
 ## What We Cover
 
-1. **Project Planning & Concept Development**  
-   Team formation and role assignment; game design document (GDD); art style guides; blockout of the main level in Unreal.
+{{% steps %}}
 
-2. **Core Asset Creation**  
-   High-priority props, modular kits, and interactive objects; efficient asset pipelines; testing imports and materials.
+### Step 1 — Narrative Design & Game Design Document (Unit 1)  
+Draft and refine a **Game Design Document (GDD)**.  
+Outline narrative, mechanics, art style, and scope for your vertical slice.  
 
-3. **World Assembly & First Playable**  
-   Replacing blockouts with final art; lighting and post-processing; building an early playable with basic navigation and storytelling.
+### Step 2 — Team Pitch & Pre-Production (Unit 2)  
+Present your GDD in a **pitch deck**.  
+Form teams, assign roles, and create production schedules and asset lists.  
 
-4. **Gameplay Systems & Interactive Elements**  
-   Blueprint scripting for doors, triggers, UI, or puzzles; particles, weather, and audio; adding immersion through navigation or simple AI.
+### Step 3 — Prototyping & Learning Objectives (Unit 3)  
+Build small prototypes to test mechanics, art style, or workflows.  
+Define **team learning objectives** and set milestones for production.  
 
-5. **Polish & Optimization**  
-   LODs, lightmap optimization, texture refinements; performance testing; QA and peer playtesting.
+### Step 4 — Vertical Slice Alpha (Unit 4)  
+Assemble an **Alpha build** in Unreal Engine.  
+Integrate assets and core gameplay into a playable, start-to-finish slice.  
 
-6. **Final Vertical Slice Delivery**  
-   Packaged build ready for play; marketing assets (screenshots, trailer, renders); showcase presentation to an audience.
+### Step 5 — Vertical Slice Beta + Marketing (Unit 5)  
+Polish and refine systems into a **Beta build**.  
+Add lighting, audio, effects, and create marketing materials: trailer, cover art, and press kit.  
+
+### Step 6 — Final Vertical Slice & Showcase (Unit 6)  
+Deliver a polished **Final Vertical Slice**.  
+Present your game and marketing package in a public **showcase event** and finalize portfolios/resumes.  
+
+{{% /steps %}}

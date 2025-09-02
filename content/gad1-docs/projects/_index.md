@@ -12,66 +12,83 @@ Good final projects are:
 - **Documented** — you save sketches, drafts, and notes.  
 - **Presented** — you explain your work clearly to an audience.  
 
+{{< cards >}}
+  {{< card
+        link="/gad1-docs/final/f1"
+        title="Midterm: Rigged Character Model"
+        image="/images/gad1/f1.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/gad1-docs/final/f2"
+        title="Final: Interactive Unreal Showcase"
+        image="/images/gad1/f2.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+{{< /cards >}}
+
 ---
 
-# Semester 1 Final Project
+## Semester 1 Final Project (Midterm)
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Hero Prop
+  Rigged Character Model
 </div>
 
-**Focus**: Storytelling through environment design.  
+**Focus**: 3D modeling, topology, UVs, and rigging workflows.  
 
-**Task**: Create an original **hero prop** that serves as the centerpiece of a story.  
-- Research references and visual inspiration.  
-- Sketch and refine prop designs in Krita.  
-- Build a simple 3D model in Blender.  
-- Explain the prop’s role in a larger narrative or world.  
+**Task**: Take your **Year 1 Character Design Document** and complete a game-ready character model in Blender.  
+- Block out and refine a character mesh  
+- Retopologize and UV unwrap for clean geometry  
+- Rig the character with a simple armature for posing and animation  
 
 **Deliverables**:  
-- Prop concept art (sketches + final render)  
-- 3D model of the hero prop (game-ready)  
-- Short written explanation of how the prop connects to a bigger story  
+- Blender file with clean, rigged character  
+- Screenshots showing wireframe, shaded, and posed versions  
+- Short turntable render or animation test  
+- Portfolio entry with notes on workflow and challenges  
 
 {{< callout type="info" >}}
-This project connects to **Unit 4 — Game Art Foundations** and prepares for environment building in Semester 2.  
+You are **not graded on sculpting detail**. What matters is clarity of form, clean topology, and a functional rig that can be animated and imported into Unreal Engine.  
 {{< /callout >}}
 
 ---
 
-# Semester 2 Final Project
+## Semester 2 Final Project (Final)
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Environment Design in Unreal
+  Interactive Unreal Showcase
 </div>
 
-**Focus**: Real-time environment design and integration.  
+**Focus**: Environment design, asset integration, and Blueprint scripting.  
 
-**Task**: Create a small **game environment** built around your Semester 1 hero prop.  
-Steps:  
-- Import your prop into Unreal Engine.  
-- Block out an environment to showcase the prop.  
-- Apply materials, lighting, and atmosphere.  
-- Add simple interactions (Blueprints for doors, lights, or effects).  
+**Task**: Create a **playable showcase environment** in Unreal Engine that brings together your character, props, and interactivity.  
+- Import your rigged character and props into Unreal  
+- Build a small environment with lighting and set dressing  
+- Add basic interactivity (movement, triggers, pickups, or win condition) using Blueprints  
+- Package the project and document your workflow  
 
 **Deliverables**:  
-- Complete Unreal scene with hero prop centerpiece  
-- Renders or walkthrough video of the environment  
-- Presentation explaining design choices and storytelling through space  
+- Unreal project folder and packaged build  
+- Screenshots or short playthrough video  
+- Portfolio entry documenting the environment and interactivity  
+- Reflection on design choices and lessons learned  
 
 {{< callout type="important" >}}
-This project connects to **Unit 5–6 — Environment Design & Final Project** and demonstrates readiness for advanced work in Year 2.  
+The **Midterm and Final Projects** each count for **30% of your semester grade**.  
+They are long-term projects that will take time to complete. **Time management** is critical in the creative industry — plan ahead, pace your work, and use weekly assignments to build toward your final deliverables.  
 {{< /callout >}}
 
 ---
 
 ## Portfolio Requirement
 
-By the end of Semester 2, you will submit a **starter portfolio** that includes:
-- Your Semester 1 hero prop (concept + model)  
-- Your Semester 2 environment project (renders/video)  
+By the end of Semester 2, you will submit a **portfolio package** that includes:  
+- Your Semester 1 rigged character model  
+- Your Semester 2 interactive Unreal showcase  
 - Selected weekly assignments that show process and growth  
-- A short reflection on your goals moving forward  
+- A short reflection on your technical and creative development  
 
 The portfolio is **not a one-time assignment**. You will continue to update and refine it throughout the 3-year AME pathway. It becomes the showcase of your work for future classes, college, or job applications.  
 
@@ -79,14 +96,10 @@ The portfolio is **not a one-time assignment**. You will continue to update and 
 
 ## Grading & Structure
 
-Final Projects count for **30–40% of the semester grade**.  
+Final Projects count for **30% of the semester grade**.  
 They are graded on:  
 - **Creativity & Originality** — unique ideas, thoughtful design choices  
-- **Technical Skill** — modeling, rendering, and environment assembly accuracy  
-- **Process** — research, sketches, revisions, feedback applied  
-- **Presentation** — ability to explain work and connect ideas  
-- **Professionalism** — meeting deadlines, following directions, portfolio formatting  
-
-{{< callout type="warning" >}}
-Final Projects are **make-or-break**. Perfect weekly points without a final project can only earn you a **C**. To earn an **A or B**, you must complete and present your Final Project.
-{{< /callout >}}
+- **Technical Skill** — modeling accuracy, topology, rigging, and Blueprint use  
+- **Process** — research, iterations, revisions, feedback applied  
+- **Presentation** — ability to explain work and document clearly  
+- **Professionalism** — meeting deadlines, correct file naming, portfolio formatting  

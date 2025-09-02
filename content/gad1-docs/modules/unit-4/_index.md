@@ -7,57 +7,58 @@ next: gad1-docs/modules/unit-4/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Unreal Engine Setup & Asset Import
+  Unreal Engine Basics
 </div>
 
-This unit introduces students to Unreal Engine. The focus is on learning the interface, navigating 3D space, setting up a project, organizing files, and importing their first props from Blender. Students will also create basic materials and test placing objects in a simple scene.
+In this unit, students transition into **Unreal Engine** for the first time. They will learn how to navigate the editor, import assets, and begin building a basic scene. The main focus is successfully importing their **rigged character from Blender** and understanding how assets work in the engine.
 
 {{< callout type="info" >}}
-This unit emphasizes **learning Unreal basics step by step**. By the end, students will have a functioning Unreal project with folders set up, Blender assets imported, and a simple scene assembled with materials applied.
+The goal of this unit is to become **comfortable in Unreal Engine**. Students will not be making a full game yet — just learning the interface, importing assets, and setting up a simple scene with their own character inside.
 {{< /callout >}}
 
 ## Topics Covered
-- Installing and launching Unreal Engine  
-- Navigating the viewport, panels, and tools  
-- Setting up a project and folder structure  
-- Importing Blender FBX assets  
-- Creating and applying simple materials  
-- Placing and transforming objects in a scene  
+- Unreal Engine interface overview (viewport, content browser, details panel)  
+- Importing characters and verifying rig/animations  
+- Applying materials and textures inside Unreal  
+- Placing and moving actors in a level  
+- Lighting basics: directional light, skylight, and post-processing  
+- Saving projects and packaging for testing  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad1-docs/modules/unit-4/a1" title="(A4.1) Unreal Interface & Navigation" >}}
-  {{< card link="/gad1-docs/modules/unit-4/a2" title="(A4.2) Creating a New Project" >}}
-  {{< card link="/gad1-docs/modules/unit-4/a3" title="(A4.3) Organizing Folders & Assets" >}}
-  {{< card link="/gad1-docs/modules/unit-4/a4" title="(A4.4) Importing Props from Blender" >}}
-  {{< card link="/gad1-docs/modules/unit-4/a5" title="(A4.5) Creating Materials & Building a Test Scene" >}}
+  {{< card link="/gad1-docs/modules/unit-4/a1" title="(A4.1) Unreal Engine Interface Exploration" >}}
+  {{< card link="/gad1-docs/modules/unit-4/a2" title="(A4.2) Importing Your Rigged Character" >}}
+  {{< card link="/gad1-docs/modules/unit-4/a3" title="(A4.3) Applying Materials & Textures" >}}
+  {{< card link="/gad1-docs/modules/unit-4/a4" title="(A4.4) Setting Up a Simple Scene" >}}
+  {{< card link="/gad1-docs/modules/unit-4/a5" title="(A4.5) Render & Portfolio Upload" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Navigate Unreal’s interface and tools with confidence  
-- Create a properly structured Unreal project  
-- Organize assets into folders for efficient workflow  
-- Import props from Blender with correct scale and pivots  
-- Apply simple materials and place props in a test scene  
+- Navigate the Unreal Engine interface with confidence  
+- Import a rigged character and verify geometry and animation function  
+- Apply simple materials and textures in-engine  
+- Set up a basic lit scene with a character placed inside  
+- Save, render, and upload a scene to the portfolio  
 
 **Materials**  
-- Classroom computer with Unreal Engine installed  
-- Exported props from Unit 3 (FBX format + textures)  
+- Unreal Engine installed on classroom computers  
+- Completed rigged character from Unit 3  
+- Reference notes from Blender export  
 
 **Assessment**  
-Students demonstrate proficiency by creating a new Unreal project, organizing it, importing at least one prop from Blender, applying a material, and arranging a simple scene. Evaluation emphasizes correct setup and functional workflow rather than visual polish.  
+Students are assessed on whether they can successfully import their character, apply materials, and set up a simple scene in Unreal. Proper file organization and portfolio submission are required.  
 
 **Activities**  
-Students will practice navigating Unreal, create a new project, organize folders, import props, and build a small test scene with basic materials. Independent exploration of camera controls, gizmos, and project settings will be encouraged.  
+Students explore the Unreal interface, import their rigged character from Blender, apply basic materials, and build a simple scene with lighting. They will then render a screenshot or short flythrough video and publish it to their portfolio.  
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**.
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **2.2** — Correctly use industry-appropriate terminology.  
-- **6.1** — Demonstrate technical skills using industry-standard tools.  
-- **6.3** — Optimize and organize files according to industry practices.  
-- **9.3** — Produce and export media that meets industry specifications.  
-- **11.2** — Demonstrate responsibility in managing digital projects and workflows.  
+- **4.3** — Use job-specific hardware/software for workflows and delivery  
+- **4.5** — Apply rendering and exporting techniques to meet standards  
+- **17.5** — Model digital characters and prepare them for engine workflows  
+- **18.2** — Understand artist workflows across modeling and engine integration  
+- **20.1** — Investigate how game engines and real-time rendering are used in production  

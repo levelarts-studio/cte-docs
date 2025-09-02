@@ -29,7 +29,7 @@ This pathway aligns with the **California Arts, Media, and Entertainment (AME) C
 {{< cards >}}
   {{< card
         link="/imc-docs/modules/unit-1"
-        title="Unit 1: Computer Literacy, File Management & Career Exploration"
+        title="Unit 1: Computer Literacy & Career Exploration"
         image="/images/imc/unit1.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}

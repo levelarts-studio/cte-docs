@@ -6,14 +6,8 @@ next: first-page
 Intro to Media Careers surveys creative roles and workflows in the AME sector with focus on animation/VFX, design, and game art. Students build core digital literacy, visual storytelling, and production habits while exploring careers and preparing a starter portfolio.
 
 {{< callout type="info" >}}
-Looking for lessons and assinments? See the **[Modules Page](modules)**.
+Looking for lessons and assignments? See the **[Modules Page](modules)**.
 {{< /callout >}}
-
-## Intro video
-<div class="hx:aspect-video hx:rounded-lg hx:overflow-hidden hx:bg-black hx:flex hx:items-center hx:justify-center hx:text-white hx:text-sm">
-  <!-- Replace this placeholder with your YouTube embed -->
-  Intro video placeholder — embed YouTube here
-</div>
 
 ## What We Cover
 

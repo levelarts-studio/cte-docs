@@ -7,55 +7,67 @@ next: gad2-docs/modules/unit-5/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Advanced Blueprints & Interactive Systems
+  Vertical Slice Build (Beta + Marketing)
 </div>
 
-This unit expands on Blueprint knowledge with more **complex gameplay logic** and interactive systems. Students create multi-step events, interactive props, and simple gameplay mechanics like inventory or health systems. The focus is on combining logic and design to deliver richer, more engaging player experiences.
+In this unit, teams refine their **Alpha builds** into **Beta builds** — projects that are feature-complete, playable from start to finish, and beginning to show polish. In addition, students create the **marketing materials** that will support their showcase: trailer, cover art, and press kit.
 
 {{< callout type="info" >}}
-This unit emphasizes **system depth**. By the end, every team will have implemented advanced interactive elements that support narrative, challenge, or gameplay flow.
+The Beta stage proves that your game slice is **ready for outside playtesting**. You must also learn to present your game professionally with marketing content, just like studios preparing for a pitch or release.
 {{< /callout >}}
 
+---
+
 ## Topics Covered
-- Advanced Blueprint scripting for puzzles, chained triggers, or scripted sequences  
-- Interactive props for storytelling (switches, terminals, multi-step devices)  
-- Simple gameplay systems such as health, inventory, or scoring (scaled to scope)  
-- Testing and refining systems for clarity, balance, and stability  
+- Refining core systems and fixing Alpha build bugs  
+- Adding polish: improved lighting, textures, effects, audio  
+- Balancing difficulty and pacing for playability  
+- Preparing external playtests and gathering feedback  
+- Basics of game marketing: creating a short trailer, designing cover art, writing a one-page press kit  
+- Packaging Beta builds for testing  
+
+---
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-5/a1" title="(A5.1) Advanced Blueprint Logic" >}}
-  {{< card link="/gad2-docs/modules/unit-5/a2" title="(A5.2) Interactive Prop or Puzzle" >}}
-  {{< card link="/gad2-docs/modules/unit-5/a3" title="(A5.3) Gameplay System Prototype" >}}
-  {{< card link="/gad2-docs/modules/unit-5/a4" title="(A5.4) Testing & Refinement Report" >}}
+  {{< card link="/gad2-docs/modules/unit-5/a1" title="(A5.1) Beta Build Submission" >}}
+  {{< card link="/gad2-docs/modules/unit-5/a2" title="(A5.2) Playtesting & Feedback Report" >}}
+  {{< card link="/gad2-docs/modules/unit-5/a3" title="(A5.3) Trailer Draft" >}}
+  {{< card link="/gad2-docs/modules/unit-5/a4" title="(A5.4) Cover Art Design" >}}
+  {{< card link="/gad2-docs/modules/unit-5/a5" title="(A5.5) Press Kit Outline & Portfolio Upload" >}}
 {{< /cards >}}
+
+---
 
 ## Learning Report
 
 **Objectives**  
-- Script advanced gameplay systems with Unreal Blueprints  
-- Build interactive props that add depth to environmental storytelling  
-- Prototype simple mechanics like inventory, health, or score systems  
-- Conduct testing to evaluate usability and technical stability  
-- Refine features based on feedback and project goals  
+- Deliver a **feature-complete Beta build** ready for external playtesting  
+- Polish visuals, audio, and interactivity for professional presentation  
+- Collect and analyze playtest feedback to refine the slice  
+- Produce basic marketing materials (trailer, cover art, press kit)  
+- Document progress and upload builds and materials to portfolio  
 
 **Materials**  
-- Unreal Engine project with Blueprint editor enabled  
-- Starter kits or sample logic templates for gameplay systems  
-- QA checklists for testing logic and interaction stability  
+- Unreal Engine project files  
+- Screen capture tools for trailers (OBS, Unreal Sequencer)  
+- Graphic design tools for cover art (Canva, Photoshop, Krita)  
+- Word processor or layout tool for press kit  
 
 **Assessment**  
-Students are graded on creativity, functionality, and stability of advanced Blueprint systems. Credit is also given for clarity of documentation and responsiveness to feedback during iteration.  
+Students are evaluated on whether they can deliver a working Beta build, demonstrate improvements from Alpha, and produce all required marketing materials. Builds must be packaged for testing, and materials must meet professional presentation standards.  
 
 **Activities**  
-Teams develop advanced Blueprint interactions, design interactive props, and prototype simple gameplay systems. Builds are tested, refined, and presented for peer and instructor feedback.  
+Teams polish gameplay features, refine assets, and run internal/external playtests. They design a short trailer (30–60 sec), create cover art that reflects their game’s identity, and draft a press kit with screenshots, descriptions, and credits. All outputs are submitted and added to portfolios.  
+
+---
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.2** — Apply iterative design through prototypes and feedback.  
-- **16.9** — Track tasks and deliverables using industry-standard project management strategies/software.  
+- **2.5** — Speak and present professionally when pitching work  
+- **13.2** — Effectively pitch an original concept with a visual presentation  
+- **15.7** — Use music and audio to enhance storytelling and player experience  
+- **16.9** — Track tasks and deliverables using project management strategies  
+- **20.1** — Investigate how real-time engines are used in virtual production and marketing  

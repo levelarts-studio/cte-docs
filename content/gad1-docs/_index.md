@@ -10,34 +10,46 @@ Game Art & Design I builds technical skills in 3D workflows. Students move from 
 Looking for lessons and assignments? See the **[Modules Page](modules)**.
 {{< /callout >}}
 
+---
+
 ## Recap — What You Should Know
 Before starting this course, you should already be comfortable with:
 
-- **Industry Roles & Pipelines** — basic understanding of careers in games, animation, and design; how roles fit into production.  
-- **Digital Literacy** — file management, backups, industry naming conventions, and installing/managing creative software (Blender, Krita).  
-- **Visual Storytelling** — game genres, player agency, composition, and concept sketching to communicate ideas.  
-- **3D Basics** — navigation in Blender, creating and exporting a simple prop, comparing 2D and 3D workflows.  
-- **Collaboration & Critique** — working in small teams, presenting works-in-progress, and applying feedback.  
-- **Professional Practices** — starter portfolio, resume basics, and awareness of freelance vs studio career paths.  
+- **Industry Roles & Pipelines** — careers in games, animation, and design; how roles fit into production.  
+- **Digital Literacy** — file management, backups, naming conventions, and managing software (Blender, Krita).  
+- **Visual Storytelling** — genres, player agency, composition, and concept sketching.  
+- **3D Basics** — Blender navigation, creating/exporting a simple prop, comparing 2D and 3D workflows.  
+- **Collaboration & Critique** — working in teams, presenting works-in-progress, applying feedback.  
+- **Professional Practices** — starter portfolio, resume basics, freelance vs studio career awareness.  
 
 If any of these areas feel shaky, review your **Intro to Media Careers notes** or revisit key modules before moving forward.
 
 ## What We Cover
 
-1. **Blender Fundamentals & Basic Props**  
-   Navigation, modeling tools, simple props (crates, barrels, furniture), clean meshes and materials.
+{{% steps %}}
 
-2. **Intermediate Prop Modeling & UV Mapping**  
-   Hard-surface modeling, low-poly game assets, UV unwrapping and texture mapping.
+### Step 1 — Blender Fundamentals & Basic Props  
+Learn Blender navigation and modeling tools by creating simple props (crates, barrels, furniture).  
+Focus on **clean meshes** and simple materials.  
 
-3. **Texturing, Lighting & Export Pipeline**  
-   Creating textures, baking normal/AO maps, lighting renders, preparing assets for Unreal.
+### Step 2 — Intermediate Prop Modeling & UV Mapping  
+Build more complex props and game-ready assets.  
+Practice **UV unwrapping** and prepare models for texturing.  
 
-4. **Unreal Engine Setup & Asset Import**  
-   Project setup, importing Blender models, organizing scenes, building materials.
+### Step 3 — Texturing, Lighting & Export Pipeline  
+Create textures and bake normal/AO maps.  
+Set up lighting for renders and learn how to **export assets for Unreal**.  
 
-5. **Environment Design & Level Assembly**  
-   Blocking out spaces, placing props, sculpting landscapes, adding foliage, lighting for mood.
+### Step 4 — Unreal Engine Setup & Asset Import  
+Open Unreal Engine, set up projects, and import Blender models.  
+Learn to **organize scenes** and build basic materials.  
 
-6. **Final Environment Project**  
-   Design and light a themed environment with your hero prop; add basic Blueprint interactivity; present a walkthrough and portfolio renders.
+### Step 5 — Environment Design & Level Assembly  
+Block out simple spaces, place props, and sculpt landscapes.  
+Add foliage and adjust lighting to set mood.  
+
+### Step 6 — Final Environment Project  
+Design and light a **small themed environment** using your hero prop.  
+Add basic Blueprint interactivity, record a walkthrough, and publish portfolio renders.  
+
+{{% /steps %}}

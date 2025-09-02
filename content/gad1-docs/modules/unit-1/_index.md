@@ -7,54 +7,58 @@ next: gad1-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Blender Fundamentals & Basic Props
+  Character Modeling I — Base Mesh
 </div>
 
-This first unit introduces Blender as a professional tool for 3D game asset creation. Students learn the interface, navigation, and core modeling tools while building their first simple props. By the end of the unit, each student will have created, textured, and exported basic meshes suitable for use in later projects.
+This unit begins the transition from 2D design into 3D modeling. Students will take their **Year 1 Character Design Document** and start creating a base mesh in Blender. The focus is on learning proper proportions, blocking out forms, and establishing clean geometry that will later be detailed, retopologized, and rigged.
 
 {{< callout type="info" >}}
-This unit combines **Blender onboarding** with **practical prop creation**. By the end, every student will be comfortable navigating Blender and producing simple, game-ready assets like crates, barrels, or furniture.
+This is the **first stage of character production**. The goal is not polish, but creating a solid foundation: readable proportions, correct scale, and clean topology to support future detailing and rigging.
 {{< /callout >}}
 
 ## Topics Covered
-- Blender interface, navigation, and workspace setup  
-- Basic modeling tools (extrude, loop cut, scale, grab, inset)  
-- Simple prop creation (crates, barrels, chairs, tables)  
-- Applying basic materials and viewport shading  
-- Exporting clean meshes (OBJ/FBX) for game engines  
+- Importing/using reference images and orthographic turnarounds  
+- Blender character setup (units, scale, and workspace)  
+- Blocking out character proportions with primitives  
+- Basic anatomy landmarks for modeling  
+- Mesh editing and sculpting workflows for base forms  
+- Saving and exporting clean project files  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad1-docs/modules/unit-1/a1" title="(A1.1) Blender Navigation & Workspace Setup" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a2" title="(A1.2) Modeling Your First Prop" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a3" title="(A1.3) Applying Materials" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a4" title="(A1.4) Exporting a Clean Mesh" >}}
+  {{< card link="/gad1-docs/modules/unit-1/a1" title="(A1.1) Setting Up Reference Images" >}}
+  {{< card link="/gad1-docs/modules/unit-1/a2" title="(A1.2) Blocking Out Base Mesh with Primitives" >}}
+  {{< card link="/gad1-docs/modules/unit-1/a3" title="(A1.3) Refining Proportions & Anatomy Landmarks" >}}
+  {{< card link="/gad1-docs/modules/unit-1/a4" title="(A1.4) Cleaning Topology for Next Stage" >}}
+  {{< card link="/gad1-docs/modules/unit-1/a5" title="(A1.5) Export & Portfolio Upload" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Navigate Blender’s interface and tools with confidence  
-- Apply key modeling functions to build simple 3D props  
-- Use materials to apply color and basic surface detail  
-- Export meshes cleanly for future use in Unreal  
+- Translate 2D character turnaround into a 3D base mesh  
+- Demonstrate accurate proportions and readable forms  
+- Identify and model basic anatomy landmarks  
+- Maintain clean geometry suitable for further detailing and retopo  
+- Save/export properly named project files and upload to portfolio  
 
 **Materials**  
-- Classroom computer with Blender installed  
-- Notebook or digital journal for notes and sketches  
+- Blender installed on classroom computers  
+- Character Design Document from Year 1, Unit 6  
+- Digital journal/sketchbook for notes  
 
 **Assessment**  
-Students demonstrate understanding of Blender basics by producing clean, game-ready props. Assessment is based on functionality (mesh integrity, export success) rather than artistic polish.  
+Students will be evaluated on the completeness of their base mesh, accuracy of proportions, and clarity of anatomy landmarks. Clean geometry and correct file submission are required for full credit.  
 
 **Activities**  
-Students follow guided demonstrations to set up Blender, create simple props, apply basic materials, and export their models. Independent practice is emphasized to reinforce comfort with navigation and tools.  
+Students import their reference sheets into Blender, block out their character with primitives, refine the model into a recognizable form, and practice cleaning geometry. They will upload screenshots and a portfolio entry showing progress and final base mesh.  
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**.
+The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **2.2** — Correctly use industry-appropriate terminology.  
-- **4.2** — Apply fundamental design principles in the creation of original work.  
-- **6.1** — Demonstrate technical skills using industry-standard tools.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.3** — Produce and export media that meets industry specifications.  
+- **1.4** — Apply principles of art, design, and composition to creative works  
+- **4.3** — Use job-specific hardware/software for workflows and content delivery  
+- **10.3** — Visualize ideas through sketches, turnarounds, and modeling  
+- **17.5** — Model digital characters and create orthographic/turntable views  
+- **18.2** — Understand artist workflows for modeling and anatomy forms  

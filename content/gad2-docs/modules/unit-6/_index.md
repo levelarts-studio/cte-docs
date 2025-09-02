@@ -3,59 +3,61 @@ title: Unit Six
 weight: 6
 type: docs
 prev: gad2-docs/modules/unit-5
-next: gad2-docs/final-projects
+next: roadmap
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Final Vertical Slice Delivery
+  Final Vertical Slice & Showcase
 </div>
 
-This unit completes the Game Art & Design II pathway. Students package, present, and showcase a polished **vertical slice** of their game project. Deliverables include a playable build, portfolio assets (screenshots, renders, trailer), and a professional team presentation.
-
-{{< callout type="info" >}}
-This unit emphasizes **presentation and professionalism**. By the end, every team will have a playable build, marketing-ready materials, and experience presenting to an audience.
-{{< /callout >}}
+This is the **capstone project milestone**. Teams finalize their vertical slice, polish all assets and mechanics, and prepare their game for a **public showcase presentation**. Alongside the playable slice, students present a marketing package — trailer, cover art, and press kit — and finalize their portfolio and resume.
 
 ## Topics Covered
-- Final build packaging and distribution in Unreal Engine  
-- Creating marketing assets: screenshots, trailer, and renders  
-- Preparing a portfolio case study of the project  
-- Rehearsing and delivering a showcase presentation  
-- Reflecting on team process and individual growth  
+- Final bug fixes, optimization, and polish  
+- Balancing gameplay and difficulty  
+- User experience and interface refinement  
+- External playtesting and feedback application  
+- Preparing a public showcase presentation (live or recorded)  
+- Assembling final marketing materials: trailer, cover art, press kit  
+- Portfolio and resume finalization  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-6/a1" title="(U6.1) Final Build Packaging" >}}
-  {{< card link="/gad2-docs/modules/unit-6/a2" title="(U6.2) Marketing Assets & Trailer" >}}
-  {{< card link="/gad2-docs/modules/unit-6/a3" title="(U6.3) Showcase Presentation & Reflection" >}}
+  {{< card link="/gad2-docs/modules/unit-6/a1" title="(A6.1) Final Build Submission" >}}
+  {{< card link="/gad2-docs/modules/unit-6/a2" title="(A6.2) Trailer & Cover Art Final Draft" >}}
+  {{< card link="/gad2-docs/modules/unit-6/a3" title="(A6.3) Press Kit & Team Credits" >}}
+  {{< card link="/gad2-docs/modules/unit-6/a4" title="(A6.4) Showcase Presentation" >}}
+  {{< card link="/gad2-docs/modules/unit-6/a5" title="(A6.5) Portfolio & Resume Final Upload" >}}
 {{< /cards >}}
+
 
 ## Learning Report
 
 **Objectives**  
-- Package and distribute a working vertical slice build  
-- Create marketing-ready images, renders, and trailers  
-- Document the project as a portfolio case study  
-- Deliver a professional showcase presentation  
-- Reflect on production workflow and collaboration  
+- Deliver a polished **vertical slice build** that represents the team’s vision  
+- Apply external playtest feedback for final adjustments  
+- Create a professional **marketing package** (trailer, cover art, press kit)  
+- Present and pitch the game at a showcase event  
+- Complete a professional **portfolio and resume** for industry or college applications  
 
 **Materials**  
-- Unreal Engine project (final build)  
-- Video capture software for trailer creation  
-- Presentation software (Google Slides, PowerPoint, Canva)  
+- Final Unreal Engine project files  
+- Screen capture and editing tools for trailers  
+- Graphic design software for cover art  
+- Portfolio platform (Google Sites, ArtStation, or equivalent)  
 
 **Assessment**  
-Students are graded on the quality of the final build, the professionalism of marketing materials, and the effectiveness of their presentation. Reflection papers highlight lessons learned and future goals.  
+Students are evaluated on the quality of their final build, marketing materials, and showcase presentation. Each team member must also present an updated personal portfolio and resume.  
 
 **Activities**  
-Teams finalize their Unreal projects, generate promotional content, and rehearse presentations. A final showcase event provides the opportunity to present their vertical slice to peers, instructors, and guests.  
+Teams polish their vertical slice, package builds, and finalize trailer/cover art. They assemble a press kit with screenshots, descriptions, and credits. Students rehearse and deliver a public showcase presentation. Individually, students finalize portfolios and resumes and upload them for assessment.  
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.2** — Apply iterative design through prototypes and feedback.  
-- **16.6** — Understand components and workflow for each stage of pre-production, production, and post-production.  
+- **2.3** — Present creative work professionally to an audience  
+- **12.3** — Articulate the role of audience and market research in presentation  
+- **13.2** — Effectively pitch an original concept with visuals and narrative  
+- **15.8** — Review and test content to resolve problems before release  
+- **20.1** — Demonstrate how real-time engines are used for vertical slice production and marketing  

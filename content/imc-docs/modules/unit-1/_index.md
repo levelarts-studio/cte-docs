@@ -7,7 +7,7 @@ next: imc-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Computer Literacy, File Management & Career Exploration
+  Computer Literacy & Career Exploration
 </div>
 
 This first unit builds the foundation for the entire pathway. Students learn essential digital literacy skills, how to organize and manage project files, and explore careers in games and media arts. At the same time, they set up their **personal portfolio**, which will grow across all three years.

@@ -7,56 +7,65 @@ next: gad2-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Project Planning & Concept Development
+  Narrative Design & Game Design Document
 </div>
 
-This unit launches the capstone year by introducing collaborative project planning and concept development. Students form teams, define their game’s vision, and create the core documents that will guide production: a **Game Design Document (GDD)**, an **art style guide**, and **visual target boards**. The unit ends with a blockout of the main level in Unreal Engine to test scale and layout.
+This unit kicks off the Capstone Year. Students learn how to **plan and document a game project** using professional methods. The focus is on connecting story, mechanics, and visual design into a cohesive plan. Each student will draft a **Game Design Document (GDD)** for their vertical slice idea.
 
 {{< callout type="info" >}}
-This unit emphasizes **pre-production**. By the end, every student team will have a playable blockout, a working GDD, and a shared visual direction for their final project.
+This is the **pre-production stage** of the capstone. A strong GDD now will make the rest of the year smoother and more focused. The GDD is not just paperwork — it is your team’s blueprint for the game.
 {{< /callout >}}
 
+---
+
 ## Topics Covered
-- Team formation and role assignment (art, design, tech, production)  
-- Game Design Document (GDD) structure and drafting  
-- Art style guides: palettes, references, tone  
-- Visual target boards and mood references  
-- Unreal Engine blockout of the main level (scale, navigation, composition)  
+- Fundamentals of narrative design in games (story, character arcs, player experience)  
+- Core gameplay loops and mechanics documentation  
+- Defining scope for a vertical slice  
+- Writing and formatting a Game Design Document (overview, mechanics, art style, UI, milestones)  
+- Researching examples of professional GDDs  
+
+---
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-1/a1" title="(U1.1) Team Roles & Pipeline Planning" >}}
-  {{< card link="/gad2-docs/modules/unit-1/a2" title="(U1.2) Drafting a Game Design Document" >}}
-  {{< card link="/gad2-docs/modules/unit-1/a3" title="(U1.3) Art Style Guide & Visual Targets" >}}
-  {{< card link="/gad2-docs/modules/unit-1/a4" title="(U1.4) Unreal Blockout: First Pass" >}}
+  {{< card link="/gad2-docs/modules/unit-1/a1" title="(A1.1) Narrative Concept & Story Pitch" >}}
+  {{< card link="/gad2-docs/modules/unit-1/a2" title="(A1.2) Core Loop & Gameplay Outline" >}}
+  {{< card link="/gad2-docs/modules/unit-1/a3" title="(A1.3) Drafting the Game Design Document" >}}
+  {{< card link="/gad2-docs/modules/unit-1/a4" title="(A1.4) Peer Review & Feedback Session" >}}
+  {{< card link="/gad2-docs/modules/unit-1/a5" title="(A1.5) Finalized GDD Portfolio Upload" >}}
 {{< /cards >}}
+
+---
 
 ## Learning Report
 
 **Objectives**  
-- Assign and describe production roles within a game team  
-- Draft a Game Design Document with goals, features, and scope  
-- Create an art style guide with references and tone boards  
-- Assemble visual target boards to align team vision  
-- Produce a playable Unreal Engine blockout for scale and layout testing  
+- Define a game narrative that fits into a vertical slice scope  
+- Outline core mechanics and player experience in a structured way  
+- Draft and revise a professional-style GDD  
+- Collaborate with peers to give and receive constructive feedback  
+- Prepare documentation that can be handed off to a team  
 
 **Materials**  
 - Notebook or digital journal  
-- Classroom computers with Unreal Engine and Blender installed  
-- Shared team workspace (Google Drive, Notion, or equivalent)  
+- Reference examples of professional GDDs  
+- Word processor or layout tool (Google Docs, Notion, Canva, etc.)  
 
 **Assessment**  
-Students demonstrate planning skills through GDD drafts, style guides, and visual targets. Technical understanding is shown in the Unreal blockout build. Collaboration is assessed through participation in team role assignments and group deliverables.  
+Students will be assessed on the clarity, completeness, and usability of their Game Design Document. The GDD must be detailed enough that another team could use it to build the vertical slice without further explanation.  
 
 **Activities**  
-Teams brainstorm concepts, draft a GDD, collect references for style and tone, and build a simple blockout of their level in Unreal. Class critiques provide checkpoints for refining documents and adjusting scope before production.  
+Students draft narrative pitches, identify core mechanics, and build out GDD sections week by week. Peer reviews ensure clarity and scope. At the end, the GDD is finalized and uploaded to portfolios.  
+
+---
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **3.1** — Explore the wide array of creative and technical jobs across industries.  
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **4.6** — Use industry-standard asset tracking, file naming conventions, and storage/back-up protocols.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **16.6** — Understand components and workflow for each stage of pre-production, production, and post-production.  
+- **2.2** — Use industry-appropriate terminology in design documentation  
+- **10.2** — Use research and references to support creative ideas  
+- **16.4** — Develop and analyze creative briefs and design documents  
+- **18.6** — Collaborate with a production team on project planning  
+- **20.1** — Investigate how game engines support narrative and design pipelines  

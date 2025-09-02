@@ -7,57 +7,66 @@ next: gad2-docs/modules/unit-2/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Core Asset Creation
+  Team Pitch & Pre-Production
 </div>
 
-This unit focuses on building the **core assets** your game environment requires. Students model high-priority props and interactive objects in Blender, create modular kits for efficient level design, and prepare assets for seamless import into Unreal Engine. The goal is to establish a strong, reusable asset library that defines the look and feel of the final project.
+This unit is about **selling your idea and planning as a team**. Students will pitch their game concepts from Unit 1, then form teams to merge ideas or choose one concept to pursue. Once groups are formed, teams will draft production documents, assign roles, and establish schedules for their **vertical slice project**.
 
 {{< callout type="info" >}}
-This unit emphasizes **production efficiency**. By the end, every student team will have a functioning asset kit with clean models, UVs, textures, and ready-to-use exports for Unreal.
+Think of this unit as your **studio formation phase**. You will not only pitch a creative idea but also prove that your team can organize, plan, and manage the work needed to build it.
 {{< /callout >}}
 
+---
+
 ## Topics Covered
-- Identifying high-priority and gameplay-critical assets  
-- Modeling workflow for modular kits (walls, floors, props)  
-- Maintaining clean topology and consistent scale  
-- UV unwrapping and texel density across assets  
-- Baking and texturing props for game readiness  
-- Testing asset import and material setup in Unreal  
+- Pitching fundamentals: clarity, persuasion, and scope  
+- Peer evaluation and feedback on pitches  
+- Team formation and role assignment (art, design, programming, production)  
+- Refining the Game Design Document into a **team GDD**  
+- Pre-production workflows: schedules, milestones, and asset lists  
+- Risk assessment and scope management for student projects  
+
+---
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-2/a1" title="(U2.1) Asset Priority List & Planning" >}}
-  {{< card link="/gad2-docs/modules/unit-2/a2" title="(U2.2) Modular Kit Blockouts in Blender" >}}
-  {{< card link="/gad2-docs/modules/unit-2/a3" title="(U2.3) UVs, Bakes, and Textures" >}}
-  {{< card link="/gad2-docs/modules/unit-2/a4" title="(U2.4) Unreal Import & Material Check" >}}
+  {{< card link="/gad2-docs/modules/unit-2/a1" title="(A2.1) Pitch Deck Creation" >}}
+  {{< card link="/gad2-docs/modules/unit-2/a2" title="(A2.2) In-Class Pitch Presentation" >}}
+  {{< card link="/gad2-docs/modules/unit-2/a3" title="(A2.3) Team Formation & Roles" >}}
+  {{< card link="/gad2-docs/modules/unit-2/a4" title="(A2.4) Pre-Production Plan & Asset List" >}}
+  {{< card link="/gad2-docs/modules/unit-2/a5" title="(A2.5) Portfolio Upload — Team GDD & Pitch Deck" >}}
 {{< /cards >}}
+
+---
 
 ## Learning Report
 
 **Objectives**  
-- Plan and prioritize game assets for production  
-- Model reusable modular kits and hero props in Blender  
-- Apply UV mapping, baking, and texturing workflows  
-- Verify imports and materials function correctly in Unreal  
-- Collaborate to maintain consistent asset quality and style  
+- Create and deliver a compelling **pitch deck**  
+- Form a team and assign clear roles and responsibilities  
+- Refine an individual GDD into a **team production document**  
+- Plan asset creation, milestones, and workflow schedules  
+- Practice collaborative communication and decision-making  
 
 **Materials**  
-- Blender with asset management add-ons  
-- Unreal Engine project set up from Unit 1 blockout  
-- Shared team asset library (Google Drive, Git, or Perforce)  
+- Drafted GDD from Unit 1  
+- Presentation software (Google Slides, Canva, PowerPoint)  
+- Project management tools (Trello, Notion, or classroom template)  
 
 **Assessment**  
-Students are evaluated on asset planning, modeling accuracy, UV and texture quality, and successful Unreal integration. Team consistency is assessed through modular kit coherence and shared visual style.  
+Students are evaluated on the quality and clarity of their pitch, their ability to form and collaborate in teams, and the completeness of their pre-production plan. Team GDDs must reflect clear scope, assigned roles, and documented milestones.  
 
 **Activities**  
-Teams create an asset priority list, build modular kits in Blender, unwrap UVs, and texture assets. Each group tests imports in Unreal and conducts a peer review to ensure scale, materials, and readability meet project goals.  
+Students create pitch decks and present them in class. Teams vote or merge ideas to select final projects. Each team then outlines production tasks, asset lists, and schedules. Deliverables are packaged into a **Team GDD and Pitch Deck** and uploaded to portfolios.  
+
+---
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **4.6** — Use industry-standard asset tracking, file naming conventions, and storage/back-up protocols.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **16.9** — Track tasks and deliverables using industry-standard project management strategies/software.  
+- **2.1** — Communicate effectively in professional presentations  
+- **13.2** — Effectively pitch an original concept with visuals and narrative  
+- **16.4** — Develop and analyze creative briefs and design documents  
+- **18.6** — Collaborate with a production team on planning and workflow  
+- **19.2** — Explore roles in production coordination and management  

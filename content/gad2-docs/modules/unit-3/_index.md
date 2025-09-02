@@ -7,55 +7,58 @@ next: gad2-docs/modules/unit-3/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  World Assembly & First Playable
+  Prototyping & Outlining Learning Objectives
 </div>
 
-This unit focuses on assembling a **first playable demo** of the project. Students replace blockouts with a handful of major key props, establish layout, and set up basic lighting and post-processing. The goal is to create an early build that communicates mood, navigation, and environmental storytelling — even if most assets are still placeholder blockouts.
+This unit focuses on **rapid prototyping and planning for production**. After pitching and forming teams in Unit 2, students now create small test builds to validate mechanics, art style, and scope. Teams also outline their **learning objectives** — what skills and features they will focus on in their capstone vertical slice.
 
 {{< callout type="info" >}}
-This unit emphasizes **iteration and testing**. By the end, every team will have a rough but playable demo that sets the stage for deeper interactivity in Semester 2.
+Prototyping is about answering questions quickly: *Does this mechanic work? Is this art style feasible?* Keep tests small and focused. The clearer your objectives, the more successful your final project will be.
 {{< /callout >}}
 
 ## Topics Covered
-- Replacing blockouts with major key props to establish layout  
-- Setting up lighting and post-processing for readability and mood  
-- Early navigation and composition checks  
-- Using environment elements to suggest story context  
-- Preparing a first playable build for milestone review  
+- The role of prototypes in game development  
+- Greyboxing and blockouts for levels and mechanics  
+- Building simple test scenes in Unreal with placeholder assets  
+- Iteration and feedback loops for rapid improvement  
+- Defining **team learning objectives** for the vertical slice (art, design, programming, production)  
+- Establishing measurable goals for semester milestones  
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-3/a1" title="(U3.1) Blockout + Key Prop Pass" >}}
-  {{< card link="/gad2-docs/modules/unit-3/a2" title="(U3.2) Lighting & Post-Processing Setup" >}}
-  {{< card link="/gad2-docs/modules/unit-3/a3" title="(U3.3) First Playable Build Submission" >}}
+  {{< card link="/gad2-docs/modules/unit-3/a1" title="(A3.1) Greybox Prototype Build" >}}
+  {{< card link="/gad2-docs/modules/unit-3/a2" title="(A3.2) Core Mechanic Test in Unreal" >}}
+  {{< card link="/gad2-docs/modules/unit-3/a3" title="(A3.3) Art Style or Asset Workflow Test" >}}
+  {{< card link="/gad2-docs/modules/unit-3/a4" title="(A3.4) Team Learning Objectives Draft" >}}
+  {{< card link="/gad2-docs/modules/unit-3/a5" title="(A3.5) Portfolio Upload — Prototype & Objectives" >}}
 {{< /cards >}}
 
 ## Learning Report
 
 **Objectives**  
-- Replace blockouts with major props to define layout and scale  
-- Apply basic lighting and post-processing to establish clarity and mood  
-- Create an early playable demo with basic navigation  
-- Test and refine environmental storytelling through composition  
-- Deliver a first milestone build for critique and feedback  
+- Build rapid prototypes to test mechanics, visuals, or workflows  
+- Demonstrate iterative design through quick feedback cycles  
+- Define clear **team learning objectives** tied to capstone outcomes  
+- Document decisions on scope, priorities, and risks  
+- Share prototypes and objectives in portfolios for accountability  
 
 **Materials**  
-- Unreal Engine project with imported blockouts and props  
-- Team asset library (major props + placeholder sets)  
-- Checklists for navigation, scale, and readability  
+- Unreal Engine with starter content  
+- Blender or 2D art tools for quick placeholder assets  
+- Team project management tool (Trello, Notion, Google Docs)  
 
 **Assessment**  
-Students are graded on the clarity of their playable layout, the effectiveness of lighting and mood, and the functionality of the early build. Peer and instructor critique will guide improvements for the next units.  
+Students are evaluated on the **clarity and usability** of their prototypes and the completeness of their team objectives. Prototypes do not need polish, but they must test core ideas. Objectives must be specific, measurable, and tied to the vertical slice.  
 
 **Activities**  
-Teams replace blockouts with key props, refine layouts, and set up early lighting passes. Playable builds are tested for readability and navigation, then presented for milestone review.  
+Teams brainstorm and identify the riskiest parts of their project. They create quick prototypes (greybox levels, mechanic tests, placeholder art pipelines) to validate feasibility. Teams then outline their **learning objectives** — e.g., “Learn advanced lighting techniques,” “Implement a working inventory system,” or “Develop consistent art style.” Results are shared for peer and instructor feedback.  
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content to various platforms.  
-- **5.2** — Solve industry-specific creative challenges, accept critique, and apply feedback.  
-- **7.2** — Work collaboratively and follow through as a team member.  
-- **9.2** — Apply iterative design through prototypes and feedback.  
-- **16.6** — Understand components and workflow for each stage of pre-production, production, and post-production.  
+- **5.2** — Solve creative challenges, accept critique, and iterate  
+- **10.4** — Generate and test prototypes through iterative processes  
+- **16.4** — Develop and analyze creative briefs and planning documents  
+- **18.5** — Turn prototypes into previsualizations using engine tools  
+- **19.3** — Explore careers in game design, technical art, and development  
