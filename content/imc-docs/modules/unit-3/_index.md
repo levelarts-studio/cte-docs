@@ -7,58 +7,71 @@ next: imc-docs/modules/unit-3/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Concept Art Basics
+  Visual Development I: Character & Prop Concepts in Krita
 </div>
 
-In this unit, students learn how artists turn ideas into visuals. They practice drawing fundamentals, explore visual storytelling, and create a concept art sheet for their own game world. Students begin to bring their ideas to life by sketching and refining a **prop** that reflects their creative vision.
+Now that your narrative foundation is complete, it's time to **visualize** your world. In Unit 3, you'll learn Krita (free 2D digital art software) and create concept art for your characters and props. Focus on line, form, and design fundamentals.
 
 {{< callout type="info" >}}
-This unit emphasizes **sketching, iteration, and presentation**. By the end, students will have a concept art piece ready for their portfolio that shows both process and final design. This is not a drawing class, but it is an art class. You won't be judged on your drawing skills, but rather on your ability to convey a design.
+This unit emphasizes **design thinking over drawing skill**. Professional concept artists iterate rapidly, exploring multiple ideas before refining. You're learning to communicate design ideas visually.
 {{< /callout >}}
 
 ## Topics Covered
-- Drawing fundamentals: line, shape, proportion, perspective  
-- Light, shadow, and value for depth and form  
-- Visual storytelling: mood, setting, and context through art  
-- Concept art workflows: thumbnails, iterations, refinement  
-- Creating a polished prop or environment tied to their game world  
+- Introduction to Krita: interface, brushes, layers, and tools
+- Line quality and shape language in character design
+- Silhouette design and readability
+- Prop design fundamentals
+- Form, proportion, and basic anatomy (2D sketch level)
+- Iterative sketching and thumbnail exploration
+- Creating character concept sheets
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-3/a1" title="(A3.1) Sketching Fundamentals Practice" >}}
-  {{< card link="/imc-docs/modules/unit-3/a2" title="(A3.2) Perspective & Value Study" >}}
-  {{< card link="/imc-docs/modules/unit-3/a3" title="(A3.3) Thumbnail Concepts" >}}
-  {{< card link="/imc-docs/modules/unit-3/a4" title="(A3.4) Refined Prop Drawing" >}}
-  {{< card link="/imc-docs/modules/unit-3/a5" title="(A3.5) Concept Art Portfolio Page" >}}
+  {{< card link="/imc-docs/modules/unit-3/a1" title="(A3.1) Introduction to Krita" >}}
+  {{< card link="/imc-docs/modules/unit-3/a2" title="(A3.2) Shape Language & Silhouettes" >}}
+  {{< card link="/imc-docs/modules/unit-3/a3" title="(A3.3) Character Design Thumbnails" >}}
+  {{< card link="/imc-docs/modules/unit-3/a4" title="(A3.4) Prop Concept Sketches" >}}
+  {{< card link="/imc-docs/modules/unit-3/a5" title="(A3.5) Refined Character Concept" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Demonstrate fundamentals of perspective, proportion, and value  
-- Use sketches and thumbnails to explore multiple design ideas  
-- Apply storytelling principles to concept art (tone, context, and mood)  
-- Produce a refined concept art sheet with both process and final design  
-- Publish the work on a portfolio site with reflection on design choices  
+**Objectives**
+- Navigate Krita effectively and understand core digital painting tools
+- Apply shape language principles to character and prop design
+- Create readable silhouettes that communicate character personality
+- Design props that fit the world and serve the narrative
+- Develop character concepts through iterative thumbnail sketching
+- Produce refined concept art for characters from your capstone project
 
-**Materials**  
-- Drawing tools: sketchbook, pencils, or digital tablet  
-- Reference images (collected by students)  
-- Digital tools: Canva, Photoshop, or Krita for refinement  
+**Materials**
+- Computer with Krita installed (free download)
+- Digital drawing tablet (recommended) or mouse
+- Reference images for inspiration
+- Concept Document from Units 1-2
+- Sketchbook for preliminary ideas (optional)
 
-**Assessment**  
-Students show mastery by creating a concept art sheet that demonstrates drawing fundamentals and communicates a clear design idea. Portfolio entries should include both process work and the final design.  
+**Assessment**
+Students demonstrate visual development skills through character and prop concept art created in Krita. Assessment focuses on design thinking, iteration process, and ability to translate written concepts into visual form—not on advanced drawing technique.
 
-**Activities**  
-Students complete daily drawing warm-ups, create thumbnail variations of their chosen prop or environment, and refine one design into a polished piece. They share their process in class critiques, then finalize and publish their work to their portfolio.  
+**Activities**
+Students learn Krita basics through guided tutorials, explore shape language through exercises, create multiple thumbnail variations of their character, design props that support the narrative, and refine one character concept into a polished sheet showing front, side, and back views or key expressions.
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **1.4** — Apply principles of art, design, and composition to creative works  
-- **2.2** — Correctly use industry-appropriate terminology  
-- **10.2** — Use research, imagery, and inspiration to generate concept ideas  
-- **10.3** — Visualize thinking using sketches, thumbnails, and storyboarding  
-- **10.5** — Create multiple drafts and apply feedback for refinement  
-- **11.4** — Research current industry-standard tools and practices  
+- **10.2** — Conduct research and gather resources to inspire the creative process
+- **10.3** — Generate multiple ideas and approaches to developing content
+- **17.2** — Apply anatomy and expression fundamentals (2D sketch level)
+- **4.3** — Use job-specific software for workflows (Krita)
+- **10.5** — Create multiple drafts and revisions, incorporating feedback
+
+## Connection to Your Journey
+
+The character and prop concepts you create in Unit 3 will:
+- Be refined with color and style in Unit 4
+- Guide your 3D modeling work in Year 2
+- Serve as reference for your final Unreal Engine scene in Year 3
+
+Strong concept art makes 3D modeling much easier—you'll know exactly what you're building.
