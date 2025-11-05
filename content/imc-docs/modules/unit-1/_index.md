@@ -7,59 +7,69 @@ next: imc-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Computer Literacy & Career Exploration
+  Concept & Narrative I: World-Building Foundations
 </div>
 
-This first unit builds the foundation for the entire pathway. Students learn essential digital literacy skills, how to organize and manage project files, and explore careers in games and media arts. At the same time, they set up their **personal portfolio**, which will grow across all three years.
+Welcome to Year 1! This first unit launches your **three-year capstone project**. You'll begin by defining the world for your project—the setting, history, and audience. Every decision you make here will guide your work through all three years, so take your time and think deeply about what kind of world you want to create.
 
 {{< callout type="info" >}}
-This unit combines **career exploration** with **technology onboarding** and **portfolio setup**. By the end, every student will have a working file system, access to required accounts, and the first page of their portfolio site published.
+This unit focuses on **world-building fundamentals** and **conceptual development**. By the end, you'll have the foundation of your Concept Document started in Google Docs.
 {{< /callout >}}
 
 ## Topics Covered
-- Digital literacy: safe logins, passwords, storage, and backups  
-- File management and naming conventions for creative workflows  
-- Game and media industry careers: art, design, animation, VFX, technical roles  
-- Hardware and software overview: classroom computers, OS basics, productivity tools, design software  
-- Setting up required accounts (Canvas, Jupiter, email, Google Drive/OneDrive)  
-- Launching a personal portfolio site (Google Sites or Canva)  
+- Introduction to world-building: setting, environment, and atmosphere
+- Historical and cultural context for fictional worlds
+- Target audience identification and design considerations
+- Narrative structure and storytelling principles
+- Beginning your Concept Document in Google Docs
+- Research and reference gathering techniques
 
 ## Assignments
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-1/a1" title="(A1.1) Account Setup & Portfolio Launch" >}}
-  {{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) File Management & Naming Practice" >}}
-  {{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) Career Roles Research" >}}
-  {{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Hardware & Software Overview" >}}
-  {{< card link="/imc-docs/modules/unit-1/a5" title="(A1.5) Personal Career Reflection" >}}
+  {{< card link="/imc-docs/modules/unit-1/a1" title="(A1.1) Introduction to World-Building" >}}
+  {{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) Defining Your World's Environment" >}}
+  {{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) World History & Timeline" >}}
+  {{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Target Audience Analysis" >}}
+  {{< card link="/imc-docs/modules/unit-1/a5" title="(A1.5) Starting Your Concept Document" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Demonstrate proper file management and storage techniques  
-- Recognize and describe careers across games and media arts  
-- Identify core classroom hardware and software used in the pathway  
-- Set up and log into all required accounts for class work  
-- Launch a live portfolio site and publish first entries (career research + reflection)  
+**Objectives**
+- Understand the fundamentals of world-building for game art and design
+- Define the physical environment and atmosphere of a fictional world
+- Develop historical and cultural context for narrative settings
+- Identify and analyze target audience considerations
+- Begin comprehensive Concept Documentation in Google Docs
 
-**Materials**  
-- Classroom computers with internet access  
-- Notebook or digital journal  
-- Accounts: Canvas, Jupiter, Google Sites or Canva  
+**Materials**
+- Google Docs for Concept Document
+- Notebook or digital journal for brainstorming
+- Reference images and research materials
+- Classroom computers with internet access
 
-**Assessment**  
-Students show technical skills by creating a working file system and setting up accounts. Academic learning is demonstrated through career research, reflection, and the first entries published to their portfolio site.  
+**Assessment**
+Students demonstrate conceptual thinking through world-building exercises, research, and the beginning of their Concept Document. Academic learning is shown through written documentation, critical analysis of audience needs, and application of narrative principles.
 
-**Activities**  
-Students set up accounts and confirm access. They practice file management with naming conventions and organization. In parallel, they research careers, complete a guided overview of classroom hardware/software, and post reflections in their portfolio.  
+**Activities**
+Students explore world-building concepts through guided exercises, research existing fictional worlds for inspiration, define their own world's environment and history, identify their target audience, and begin formal documentation in Google Docs that will continue throughout the year.
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **2.2** — Correctly use industry-appropriate terminology  
-- **3.1** — Explore creative and technical jobs across industries  
-- **3.2** — Conduct interest, aptitude, and career research  
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content  
-- **4.6** — Use industry-standard asset tracking, file naming conventions, and backup protocols  
-- **11.1** — Demonstrate media literacy through critical inquiry and analysis  
+- **1.3** — Use research to determine needed information and resources
+- **1.4** — Apply academic skills to CTE in mathematics, science, health, history, language arts, and social studies
+- **4.2** — Use communication technologies appropriately (Google Docs, collaboration tools)
+- **10.2** — Conduct research and gather resources to inspire the creative process
+- **10.3** — Generate multiple ideas and approaches to developing content
+- **12.1** — Identify the intended audience and determine content and tone to reach them
+
+## Connection to Your Three-Year Journey
+
+In Year 1, you're establishing the **conceptual foundation**. The world you define now will:
+- Be visualized in 2D concept art (Units 3-4)
+- Be modeled in 3D in Year 2 (character, props, environment)
+- Be fully realized in Unreal Engine in Year 3 (lighting, VFX, final renders)
+
+Think of this unit as planting the seeds that will grow into your complete portfolio piece.
