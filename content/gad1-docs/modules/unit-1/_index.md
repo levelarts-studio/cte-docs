@@ -7,58 +7,58 @@ next: gad1-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Character Modeling I — Base Mesh
+  Intro to 3D Modeling (Blender)
 </div>
 
-This unit begins the transition from 2D design into 3D modeling. Students will take their **Year 1 Character Design Document** and start creating a base mesh in Blender. The focus is on learning proper proportions, blocking out forms, and establishing clean geometry that will later be detailed, retopologized, and rigged.
+Year 2 begins with a hard reset on 3D skills. We move from "playing" with Blender to "mastering" it. Students learn the professional pipeline for creating 3D assets: Box Modeling, UV Unwrapping, and Texturing.
 
 {{< callout type="info" >}}
-This is the **first stage of character production**. The goal is not polish, but creating a solid foundation: readable proportions, correct scale, and clean topology to support future detailing and rigging.
+This is the **foundation of the entire year**. If you skip this, everything else will be impossible. Focus on **hotkeys** and **clean topology**.
 {{< /callout >}}
 
 ## Topics Covered
-- Importing/using reference images and orthographic turnarounds  
-- Blender character setup (units, scale, and workspace)  
-- Blocking out character proportions with primitives  
-- Basic anatomy landmarks for modeling  
-- Mesh editing and sculpting workflows for base forms  
-- Saving and exporting clean project files  
+
+- **Blender Interface**: Reviewing navigation and tools.
+- **Box Modeling**: Extruding, scaling, and rotating faces.
+- **Topology**: Quads vs Tris vs N-Gons.
+- **UV Unwrapping**: Peeling the orange.
+- **Texturing**: Applying simple colors and materials.
 
 ## Assignments
+
 {{< cards >}}
-  {{< card link="/gad1-docs/modules/unit-1/a1" title="(A1.1) Setting Up Reference Images" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a2" title="(A1.2) Blocking Out Base Mesh with Primitives" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a3" title="(A1.3) Refining Proportions & Anatomy Landmarks" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a4" title="(A1.4) Cleaning Topology for Next Stage" >}}
-  {{< card link="/gad1-docs/modules/unit-1/a5" title="(A1.5) Export & Portfolio Upload" >}}
+{{< card link="/gad1-docs/modules/unit-1/a1" title="(A1.1) Blender Interface" >}}
+{{< card link="/gad1-docs/modules/unit-1/a2" title="(A1.2) Blockout Challenge" >}}
+{{< card link="/gad1-docs/modules/unit-1/a3" title="(A1.3) Modeling the Prop" >}}
+{{< card link="/gad1-docs/modules/unit-1/a4" title="(A1.4) UV & Texturing" >}}
+{{< card link="/gad1-docs/modules/unit-1/a5" title="(A1.5) Deliverable: Prop Turntable" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Translate 2D character turnaround into a 3D base mesh  
-- Demonstrate accurate proportions and readable forms  
-- Identify and model basic anatomy landmarks  
-- Maintain clean geometry suitable for further detailing and retopo  
-- Save/export properly named project files and upload to portfolio  
+**Objectives**
 
-**Materials**  
-- Blender installed on classroom computers  
-- Character Design Document from Year 1, Unit 6  
-- Digital journal/sketchbook for notes  
+- Navigate Blender using industry-standard hotkeys.
+- Create complex shapes using simple primitives (Box Modeling).
+- Unwrap a 3D model into a flat 2D texture map.
+- Apply materials and render a video turntable.
+
+**Materials**
+
+- Blender 4.0+.
+- 3-Button Mouse (Required).
+- Reference Images (from Unit 6 or new).
 
 **Assessment**  
-Students will be evaluated on the completeness of their base mesh, accuracy of proportions, and clarity of anatomy landmarks. Clean geometry and correct file submission are required for full credit.  
+Students will be evaluated on the completeness of their base mesh, accuracy of proportions, and clarity of anatomy landmarks. Clean geometry and correct file submission are required for full credit.
 
 **Activities**  
-Students import their reference sheets into Blender, block out their character with primitives, refine the model into a recognizable form, and practice cleaning geometry. They will upload screenshots and a portfolio entry showing progress and final base mesh.  
+Students import their reference sheets into Blender, block out their character with primitives, refine the model into a recognizable form, and practice cleaning geometry. They will upload screenshots and a portfolio entry showing progress and final base mesh.
 
 ## Education Standards
 
 The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
 
-- **1.4** — Apply principles of art, design, and composition to creative works  
-- **4.3** — Use job-specific hardware/software for workflows and content delivery  
-- **10.3** — Visualize ideas through sketches, turnarounds, and modeling  
-- **17.5** — Model digital characters and create orthographic/turntable views  
-- **18.2** — Understand artist workflows for modeling and anatomy forms  
+- **4.3** — Use job-specific hardware/software for workflows and content delivery
+- **17.5** — Model digital props and create orthographic/turntable views
+- **11.4** — Research current industry-standard tools and practices

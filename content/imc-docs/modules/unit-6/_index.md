@@ -7,60 +7,57 @@ next: imc-docs/modules/unit-6/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Character Design — Year One Capstone
+  The Pitch (Final Project)
 </div>
 
-This capstone unit brings together everything students have learned in Year 1. Building on drawing fundamentals, concept art, modeling basics, and animation, students will design a **complete character package**. The project includes a turnaround sheet, mood board, and written notes describing personality, backstory, and role in their game world.
+This is it. The Year 1 Finale. Students take everything they have created—their Avatar (Unit 4), their Story (Unit 5), and their Design Skills (Unit 2)—and pitch a full game concept.
 
 {{< callout type="info" >}}
-This unit is the **final milestone for Year 1**. Students leave with a polished character design document that demonstrates art fundamentals, storytelling, and professional presentation skills.
+This unit focuses on **public speaking**, **presentation**, and **selling an idea**.
 {{< /callout >}}
 
 ## Topics Covered
-- Principles of character design: silhouette, shape language, and appeal  
-- Anatomy basics and proportion for characters  
-- Costumes, props, and visual storytelling through design  
-- Creating turnarounds (front, side, back views)  
-- Building mood boards to communicate tone and style  
-- Writing character bios and narrative connections  
+
+- **The Pitch Deck**: How to restructure information for an investor/audience.
+- **Key Art**: Creating a "Movie Poster" moment.
+- **Target Audience**: Demographics and Player Personas.
+- **Public Speaking**: Recording and presenting a confident pitch.
+- **Web Design**: Building a dedicated landing page for the project.
 
 ## Assignments
+
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-6/a1" title="(A6.1) Shape Language & Silhouette Studies" >}}
-  {{< card link="/imc-docs/modules/unit-6/a2" title="(A6.2) Anatomy & Costume Sketches" >}}
-  {{< card link="/imc-docs/modules/unit-6/a3" title="(A6.3) Character Turnaround Sheet" >}}
-  {{< card link="/imc-docs/modules/unit-6/a4" title="(A6.4) Mood Board & Visual References" >}}
-  {{< card link="/imc-docs/modules/unit-6/a5" title="(A6.5) Final Character Design Document" >}}
+{{< card link="/imc-docs/modules/unit-6/a1" title="(A6.1) The Deck" >}}
+{{< card link="/imc-docs/modules/unit-6/a2" title="(A6.2) Key Art" >}}
+{{< card link="/imc-docs/modules/unit-6/a3" title="(A6.3) Target Audience" >}}
+{{< card link="/imc-docs/modules/unit-6/a4" title="(A6.4) Recorded Pitch" >}}
+{{< card link="/imc-docs/modules/unit-6/a5" title="(A6.5) Deliverable: The Pitch Page" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Apply silhouette and shape language in character design  
-- Use anatomy and proportion to design believable characters  
-- Create polished turnarounds for clarity in 3D modeling  
-- Compile a mood board to capture tone, setting, and style  
-- Write a character bio connecting design choices to narrative  
+**Objectives**
 
-**Materials**  
-- Drawing tools: sketchbook or digital tablet  
-- Reference images for anatomy, costumes, and props  
-- Canva, Photoshop, or Krita for compiling design docs  
-- Portfolio site for final submission  
+- Synthesize previous work into a cohesive product pitch.
+- Create compeling Key Art that sells the fantasy of the game.
+- Identify and describe the Target Audience (Demographics).
+- Deliver a persuasive spoken presentation (60 seconds).
+- Build a polished "Product Page" on their portfolio.
 
-**Assessment**  
-Students are evaluated on the completeness and polish of their Character Design Document. The final must include a turnaround sheet, a mood board, and written notes. Professional presentation and reflection in the portfolio are required.  
+**Materials**
 
-**Activities**  
-Students create silhouettes and studies, sketch anatomy and costumes, and draft a turnaround. They compile mood boards with visual references, then finalize everything into a professional Character Design Document for their portfolio.  
+- Google Slides.
+- Krita/Canva.
+- Microphone/Webcam (or phone) for recording.
 
-## Education Standards
+**Assessment**
+Students are evaluated on the completeness and polish of their Character Design Document. The final must include a turnaround sheet, a mood board, and written notes. Professional presentation and reflection in the portfolio are required.
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
+**Activities**
+Students create silhouettes and studies, sketch anatomy and costumes, and draft a turnaround. They compile mood boards with visual references, then finalize everything into a professional Character Design Document for their portfolio.
 
-- **1.4** — Apply principles of art, design, and composition to creative works  
-- **2.2** — Correctly use industry-appropriate terminology  
-- **10.2** — Use research and imagery to generate design ideas  
-- **10.3** — Visualize concepts using sketches, turnarounds, and storyboards  
-- **10.7** — Develop an artist’s statement describing process and challenges  
-- **17.3** — Apply principles of character design and development to creative projects  
+## Standards Alignment
+
+- **2.5** — Deliver a professional presentation
+- **11.4** — Research current industry-standard tools and practices
+- **10.7** — Develop an artist’s statement and presentation

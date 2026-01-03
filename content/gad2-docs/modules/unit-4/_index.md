@@ -7,70 +7,70 @@ next: gad2-docs/modules/unit-4/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Vertical Slice Build (Alpha)
+  The Short Film (Asset Production)
 </div>
 
-In this unit, teams move into **production mode** and begin building their vertical slice. The Alpha build demonstrates that the project is **playable and core systems are functioning**. Teams must integrate characters, environments, and mechanics into a working scene inside Unreal Engine.
+The story is locked. Now we build. In this unit, teams split into roles (Modelers, Riggers, Textures) and produce every asset needed for the film.
 
 {{< callout type="info" >}}
-An **Alpha build** is not polished — it is about function, not beauty. By the end of this unit, you should be able to play through your slice from start to finish, even if art and effects are rough.
+Organization is Key. Naming conventions (Char_Bob_01.fbx) and version control will save your life.
 {{< /callout >}}
 
 ---
 
 ## Topics Covered
-- Team production workflows and milestone management  
-- Importing assets into a shared Unreal project  
-- Integrating characters, environments, and props into levels  
-- Core gameplay loop implementation (navigation, interaction, win condition)  
-- Debugging and testing Alpha builds  
-- Documenting progress and assigning next-phase tasks  
+
+- **Production Management**: Creating a "Shot List" and "Asset List".
+- **Hard Surface Modeling**: Vehicles, Guns, Robotic Limbs.
+- **Advanced Rigging**: Facial Rigs for lip sync.
+- **Pipeline**: How to get a model from Blender -> Substance -> Unreal.
 
 ---
 
 ## Assignments
+
 {{< cards >}}
-  {{< card link="/gad2-docs/modules/unit-4/a1" title="(A4.1) Shared Unreal Project Setup" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a2" title="(A4.2) Asset Integration & Level Blockout" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a3" title="(A4.3) Core Gameplay Loop Implementation" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a4" title="(A4.4) Internal Playtest & Debug Report" >}}
-  {{< card link="/gad2-docs/modules/unit-4/a5" title="(A4.5) Portfolio Upload — Alpha Build Showcase" >}}
+{{< card link="/gad2-docs/modules/unit-4/a1" title="(A4.1) Asset List & Scheduling" >}}
+{{< card link="/gad2-docs/modules/unit-4/a2" title="(A4.2) Hero Assets Modeling" >}}
+{{< card link="/gad2-docs/modules/unit-4/a3" title="(A4.3) Rigging the Cast" >}}
+{{< card link="/gad2-docs/modules/unit-4/a4" title="(A4.4) Texturing Pipeline" >}}
+{{< card link="/gad2-docs/modules/unit-4/a5" title="(A4.5) Deliverable: All Assets Game Ready" >}}
 {{< /cards >}}
 
 ---
 
 ## Learning Report
 
-**Objectives**  
-- Work collaboratively in a shared Unreal project  
-- Integrate multiple asset types (characters, environments, props)  
-- Implement a basic, playable core gameplay loop  
-- Conduct internal playtests and document feedback  
-- Package an Alpha build and upload documentation to portfolio  
+**Objectives**
 
-**Materials**  
-- Unreal Engine (team project files)  
-- Completed prototypes and GDD from previous units  
-- Collaboration tools (Git, Perforce, or Google Drive if simplified)  
+- Create a spreadsheet tracking every asset's status.
+- Model the "Hero" props (High fidelity).
+- Rig the characters with facial controls.
+- Texture everything using a consistent PBR workflow.
 
-**Assessment**  
-Teams are assessed on whether they deliver a working Alpha build:  
-- A player can navigate the slice.  
-- At least one interactive system functions (trigger, pickup, or puzzle).  
+**Materials**
+
+- Trello / Jira (for task tracking).
+- Substance Painter.
+- Blender.
+
+**Assessment**
+Teams are assessed on whether they deliver a working Alpha build:
+
+- A player can navigate the slice.
+- At least one interactive system functions (trigger, pickup, or puzzle).
 - Win condition or loop is present.  
-Clarity of documentation and portfolio submission are also required.  
+  Clarity of documentation and portfolio submission are also required.
 
-**Activities**  
-Teams divide asset creation and implementation tasks. They import content, block out levels, and hook up mechanics in Blueprints. Teams run **internal playtests** to catch bugs and log issues. Each group delivers a build plus a short reflection on next steps.  
+**Activities**
+Teams divide asset creation and implementation tasks. They import content, block out levels, and hook up mechanics in Blueprints. Teams run **internal playtests** to catch bugs and log issues. Each group delivers a build plus a short reflection on next steps.
 
 ---
 
 ## Education Standards
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
+**Standards Alignment**
 
-- **5.2** — Solve creative challenges, accept critique, and iterate  
-- **9.1** — Collaborate with a team to realize a creative project  
-- **16.6** — Understand workflows in pre-production, production, and post-production  
-- **18.6** — Work with a production team to contribute to a complete game scene  
-- **20.1** — Investigate how real-time rendering is used in vertical slice builds  
+- **18.6** — Collaborate with a production team on planning and workflow
+- **4.3** — Use job-specific hardware/software for workflows and content delivery
+- **19.2** — Explore roles in production coordination and management

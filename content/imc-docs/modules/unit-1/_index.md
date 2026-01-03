@@ -7,59 +7,48 @@ next: imc-docs/modules/unit-1/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Computer Literacy & Career Exploration
+  Digital Bootcamp & Portfolio Setup
 </div>
 
-This first unit builds the foundation for the entire pathway. Students learn essential digital literacy skills, how to organize and manage project files, and explore careers in games and media arts. At the same time, they set up their **personal portfolio**, which will grow across all three years.
+This first unit builds the foundation for the entire pathway. Students learn essential digital literacy skills, how to organize and manage project files, and set up their **personal portfolio**, which will grow across all three years.
 
 {{< callout type="info" >}}
-This unit combines **career exploration** with **technology onboarding** and **portfolio setup**. By the end, every student will have a working file system, access to required accounts, and the first page of their portfolio site published.
+This unit combines **computer literacy** with **Internet safety** and **portfolio setup**. By the end, every student will have a working file system, understand digital citizenship, and have the first page of their portfolio site published.
 {{< /callout >}}
 
 ## Topics Covered
-- Digital literacy: safe logins, passwords, storage, and backups  
-- File management and naming conventions for creative workflows  
-- Game and media industry careers: art, design, animation, VFX, technical roles  
-- Hardware and software overview: classroom computers, OS basics, productivity tools, design software  
-- Setting up required accounts (Canvas, Jupiter, email, Google Drive/OneDrive)  
-- Launching a personal portfolio site (Google Sites or Canva)  
+
+- **Hardware Anatomy**: Identifying peripherals and ports
+- **File Management**: Creating a structured file tree (Year > Unit > Asset)
+- **Digital Citizenship**: Phishing, passwords, and copyright
+- **Portfolio Shell**: Building "Home" and "About" pages on Google Sites
 
 ## Assignments
+
 {{< cards >}}
-  {{< card link="/imc-docs/modules/unit-1/a1" title="(A1.1) Account Setup & Portfolio Launch" >}}
-  {{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) File Management & Naming Practice" >}}
-  {{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) Career Roles Research" >}}
-  {{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Hardware & Software Overview" >}}
-  {{< card link="/imc-docs/modules/unit-1/a5" title="(A1.5) Personal Career Reflection" >}}
+{{< card link="/imc-docs/modules/unit-1/a1" title="(A1.1) Hardware Anatomy" >}}
+{{< card link="/imc-docs/modules/unit-1/a2" title="(A1.2) The File Tree" >}}
+{{< card link="/imc-docs/modules/unit-1/a3" title="(A1.3) Digital Citizenship" >}}
+{{< card link="/imc-docs/modules/unit-1/a4" title="(A1.4) Portfolio Shell" >}}
+{{< card link="/imc-docs/modules/unit-1/a5" title="(A1.5) Deliverable: Professional Webpage Shell" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Demonstrate proper file management and storage techniques  
-- Recognize and describe careers across games and media arts  
-- Identify core classroom hardware and software used in the pathway  
-- Set up and log into all required accounts for class work  
-- Launch a live portfolio site and publish first entries (career research + reflection)  
+**Objectives**
 
-**Materials**  
-- Classroom computers with internet access  
-- Notebook or digital journal  
-- Accounts: Canvas, Jupiter, Google Sites or Canva  
+- Identify key hardware components and ports.
+- demonstrate proper file management using a directory structure.
+- Understand digital safety, passwords, and copyright basics.
+- Launch a professional portfolio website.
 
-**Assessment**  
-Students show technical skills by creating a working file system and setting up accounts. Academic learning is demonstrated through career research, reflection, and the first entries published to their portfolio site.  
+**Materials**
 
-**Activities**  
-Students set up accounts and confirm access. They practice file management with naming conventions and organization. In parallel, they research careers, complete a guided overview of classroom hardware/software, and post reflections in their portfolio.  
+- Classroom computers.
+- Google Drive or Local Storage.
+- Google Sites.
 
-## Education Standards
+**Standards Alignment**
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
-
-- **2.2** — Correctly use industry-appropriate terminology  
-- **3.1** — Explore creative and technical jobs across industries  
-- **3.2** — Conduct interest, aptitude, and career research  
-- **4.3** — Use job-specific hardware/software for workflows and delivery of content  
-- **4.6** — Use industry-standard asset tracking, file naming conventions, and backup protocols  
-- **11.1** — Demonstrate media literacy through critical inquiry and analysis  
+- **Anchor Standards**: 1.0–12.0 (Academics, Technology, Career Planning)
+- **Interdisciplinary Standards**: 13.0–16.0 (Business, Media Creation)

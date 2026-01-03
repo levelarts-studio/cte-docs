@@ -7,58 +7,55 @@ next: gad1-docs/modules/unit-2/a1
 ---
 
 <div class="hx:mt-1 hx:text-gray-500 hx:text-lg">
-  Character Modeling II — Detail & Retopology
+  Environment Art (Modular Kits)
 </div>
 
-This unit focuses on **refining the base mesh** created in Unit 1. Students will add detail to their character, including clothing, accessories, and props, while learning how to optimize geometry through **retopology and UV mapping**. The emphasis is on creating a game-ready character model that is both visually appealing and efficient.
+Environment artists don't build entire cities one building at a time; they build **Legos**. In this unit, students learn the power of **Modular Kits**: creating a set of reusable assets that can be snapped together to create infinite variations.
 
 {{< callout type="info" >}}
-The goal of this unit is not just detail, but **efficiency**. Students will practice balancing aesthetics with technical constraints by creating optimized topology and UV maps suitable for texturing and animation.
+This unit simulates a real-world game studio environment pipeline. **Efficiency** and **Reusability** are key.
 {{< /callout >}}
 
 ## Topics Covered
-- Refining the base mesh with detail passes  
-- Adding clothing, accessories, and simple props  
-- Understanding polygon density and edge flow  
-- Retopology techniques for clean, optimized meshes  
-- UV unwrapping and organizing UV layouts  
-- Preparing meshes for texturing and rigging  
+
+- **Modularity**: How to build things that snap together (Grid spacing).
+- **Texture Atlases**: Putting multiple object textures on one map to save memory.
+- **The "Hero" Asset**: When to break modularity for unique storytelling props.
+- **Level Design Basics**: guiding the player's eye.
 
 ## Assignments
+
 {{< cards >}}
-  {{< card link="/gad1-docs/modules/unit-2/a1" title="(A2.1) Detail Pass — Clothing & Accessories" >}}
-  {{< card link="/gad1-docs/modules/unit-2/a2" title="(A2.2) Edge Flow & Topology Practice" >}}
-  {{< card link="/gad1-docs/modules/unit-2/a3" title="(A2.3) Retopology for Game-Ready Mesh" >}}
-  {{< card link="/gad1-docs/modules/unit-2/a4" title="(A2.4) UV Mapping & Layout" >}}
-  {{< card link="/gad1-docs/modules/unit-2/a5" title="(A2.5) Export & Portfolio Upload" >}}
+{{< card link="/gad1-docs/modules/unit-2/a1" title="(A2.1) Modular Theory" >}}
+{{< card link="/gad1-docs/modules/unit-2/a2" title="(A2.2) Texture Atlas" >}}
+{{< card link="/gad1-docs/modules/unit-2/a3" title="(A2.3) Modeling Building Blocks" >}}
+{{< card link="/gad1-docs/modules/unit-2/a4" title="(A2.4) Hero Asset" >}}
+{{< card link="/gad1-docs/modules/unit-2/a5" title="(A2.5) Deliverable: Game Environment" >}}
 {{< /cards >}}
 
 ## Learning Report
 
-**Objectives**  
-- Refine a base mesh with details like clothing and props  
-- Demonstrate understanding of edge flow and optimized topology  
-- Retopologize a character for efficient in-game use  
-- Create organized UV layouts suitable for texturing  
-- Export a clean, optimized model and publish it to the portfolio  
+**Objectives**
 
-**Materials**  
-- Blender installed on classroom computers  
-- Completed base mesh from Unit 1  
-- Digital journal for documenting workflow  
+- Design a "Modular Kit" layout on paper.
+- Create a texture atlas in Photoshop/Krita.
+- Model 3-5 modular pieces (Wall, Floor, Corner) that tile perfectly on the grid.
+- Assemble a small scene in Blender using these pieces.
 
-**Assessment**  
-Students are evaluated on how well they refine their base mesh into a more complete character, with attention to detail, proportion, and efficiency. Retopology and UVs are assessed for cleanliness and usability.  
+**Materials**
 
-**Activities**  
-Students add detail passes to their models, experiment with edge flow, and retopologize for clarity. They unwrap UVs and prepare their model for texturing. Each student exports renders/screenshots of their detailed and retopologized character for portfolio submission.  
+- Blender.
+- Photoshop/Krita (for Atlas).
+- Grid Paper.
 
-## Education Standards
+**Assessment**
+Students are evaluated on how well they refine their base mesh into a more complete character, with attention to detail, proportion, and efficiency. Retopology and UVs are assessed for cleanliness and usability.
 
-The following standards are drawn from the **[2024 AME Industry Skills Framework](https://docs.google.com/document/d/1ThwCnxPBgFsFeWkcRfRSsjtwC0ePxsqy/edit?usp=sharing&ouid=113094467559066742351&rtpof=true&sd=true)**:
+**Activities**
+Students add detail passes to their models, experiment with edge flow, and retopologize for clarity. They unwrap UVs and prepare their model for texturing. Each student exports renders/screenshots of their detailed and retopologized character for portfolio submission.
 
-- **1.4** — Apply principles of art, design, and composition to creative works  
-- **4.3** — Use job-specific hardware/software for workflows and delivery  
-- **4.5** — Apply rendering and exporting techniques to meet standards  
-- **17.5** — Model digital characters and prepare for rigging/texturing  
-- **18.2** — Understand artist workflows for modeling, retopology, and UVs  
+## Standards Alignment
+
+- **4.3** — Use job-specific hardware/software for workflows and content delivery
+- **10.3** — Visualize ideas through sketches, turnarounds, and modeling
+- **10.2** — Use research, imagery, and inspiration to generate design ideas
