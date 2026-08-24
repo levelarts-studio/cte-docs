@@ -1,0 +1,9 @@
+
+topology: "The layout and flow of vertices, edges, and faces that form a 3D model mesh."
+normal_map: "A texture map that simulates fine surface details and bumps without adding geometry."
+pbr: "Physically Based Rendering, a shading model that simulates real-world optical behavior."
+blueprint: "Unreal Engine visual scripting language node system for building gameplay logic."
+vertical_slice: "A fully polished, feature-complete sample portion of a project representing the final quality bar."
+gdd: "Game Design Document, the master blueprint detailing game mechanics, story, and technical scope."
+fair_use: "A legal doctrine permitting limited use of copyrighted material without permission under specific factors."
+

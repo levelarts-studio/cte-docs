@@ -1,0 +1,24 @@
+{{ $currentID := .Params.id }}
+{{ $usedCourses := slice }}
+{{ if $currentID }}
+  {{ range where site.RegularPages "Section" "courses" }}
+    {{ $courseTitle := .Title }}
+    {{ range $uIdx, $unit := .Params.units }}
+      {{ if or (in $unit.modules $currentID) (in $unit.assignments $currentID) }}
+        {{ $usedCourses = $usedCourses | append (dict "course" $courseTitle "unit" $unit.name) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if gt (len $usedCourses) 0 }}
+  <div class="hx:my-4 hx:p-3 hx:rounded-md hx:bg-slate-800/80 hx:border hx:border-slate-700">
+    <span class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-slate-400">Used in Courses:</span>
+    <div class="hx:mt-1.5 hx:flex hx:flex-wrap hx:gap-2">
+      {{ range $usedCourses }}
+        <span class="hx:text-xs hx:px-2.5 hx:py-1 hx:rounded-full hx:bg-indigo-950 hx:text-indigo-300 hx:border hx:border-indigo-800">
+          <strong>{{ .course }}</strong> — {{ .unit }}
+        </span>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

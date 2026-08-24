@@ -1,0 +1,38 @@
+{{/* Extended FlexSearch Index Data for CTE Site */}}
+{{- $indexType := site.Params.search.flexsearch.index | default "content" -}}
+
+{{- if not (in (slice "content" "summary" "heading" "title" ) $indexType) -}}
+  {{- errorf "unknown flexsearch index type: %s" $indexType -}}
+{{- end -}}
+
+{{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+{{- $pages = where $pages "Params.excludeSearch" "!=" true -}}
+{{- $pages = where $pages "Content" "!=" "" -}}
+
+{{- $output := dict -}}
+
+{{- range $index, $page := $pages -}}
+  {{- $pageTitle := $page.LinkTitle | default $page.File.BaseFileName -}}
+  {{- $pageLink := $page.RelPermalink -}}
+  {{- $data := partial "utils/fragments" (dict "context" $page "type" $indexType) -}}
+  
+  {{/* Inject ID and Keywords into FlexSearch index */}}
+  {{- $kwText := "" -}}
+  {{- with $page.Params.id -}}
+    {{- $kwText = printf "%s %s" $kwText . -}}
+  {{- end -}}
+  {{- with $page.Params.keywords -}}
+    {{- $kwText = printf "%s %s" $kwText (delimit . " ") -}}
+  {{- end -}}
+  {{- with $page.Params.subject -}}
+    {{- $kwText = printf "%s %s" $kwText . -}}
+  {{- end -}}
+
+  {{- if ne $kwText "" -}}
+    {{- $data = merge $data (dict "Keywords & Codes" $kwText) -}}
+  {{- end -}}
+
+  {{- $output = $output | merge (dict $pageLink (dict "title" $pageTitle "data" $data)) -}}
+{{- end -}}
+
+{{- $output | jsonify -}}

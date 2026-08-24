@@ -1,0 +1,26 @@
+{{ $currentID := .Page.Params.id }}
+{{ $nextPages := slice }}
+{{ if $currentID }}
+  {{ range where site.RegularPages "Params.kind" "module" }}
+    {{ if in .Params.prereqs $currentID }}
+      {{ $nextPages = $nextPages | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if gt (len $nextPages) 0 }}
+  <div class="hx:mt-4 hx:p-4 hx:rounded-lg hx:border hx:border-emerald-500/30 hx:bg-emerald-950/30">
+    <div class="hx:font-semibold hx:text-emerald-400 hx:mb-2">Next Modules in Sequence:</div>
+    <ul class="hx:list-disc hx:pl-5 hx:space-y-1">
+      {{ range $nextPages }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="hx:text-emerald-300 hover:hx:underline">
+            <span class="hx:font-mono hx:text-xs hx:px-1.5 hx:py-0.5 hx:rounded hx:bg-emerald-900 hx:mr-2">{{ .Params.id }}</span>
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ else }}
+  <p class="hx:text-gray-400 hx:italic">No direct dependent modules. Explore the <a href="/courses/" class="hx:underline">Course Maps</a> for suggested sequences.</p>
+{{ end }}

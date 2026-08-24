@@ -1,12 +1,16 @@
-
-# Hugo configuration file
-title: AME | Intro to Media Careers + Game Art & Design
-baseURL: "cte.levelarts.studio"
+title: "Level Arts CTE Module Library & Course Maps"
+baseURL: "https://cte.levelarts.studio/"
 languageCode: en-us
+theme: hextra
 
-module:
-  imports:
-    - path: github.com/imfing/hextra
+enableGitInfo: true
+
+taxonomies:
+  standard: standards
+  tool: tools
+
+outputs:
+  home: ["HTML", "JSON"]
 
 markup:
   goldmark:
@@ -15,43 +19,35 @@ markup:
   highlight:
     noClasses: false
 
-# Optional content organization
-taxonomies:
-  unit: units
-  lesson: lessons
-  tag: tags
-
 menu:
   main:
-    - name: Courses
+    - name: Start Here
+      url: /start/
       weight: 1
 
-    - name: Canvas Login
-      url: "https://canvas.instructure.com/"
+    - name: Module Library
+      url: /learn/
       weight: 2
 
-    - name: Intro to Media Careers
-      pageRef: /imc-docs
-      parent: Courses
-      weight: 2
-
-    - name: Game Art & Design 1
-      pageRef: /gad1-docs
-      parent: Courses
+    - name: Course Maps
+      url: /courses/
       weight: 3
 
-    - name: Game Art & Design 2
-      pageRef: /gad2-docs
-      parent: Courses
+    - name: Assignments
+      url: /assignments/
       weight: 4
 
-    - name: Roadmap
-      pageRef: /roadmap
-      weight: 4
+    - name: Standards
+      url: /standards/
+      weight: 5
 
-    - name: About
-      pageRef: /about
+    - name: Status Dashboard
+      url: /status/
       weight: 6
+
+    - name: Google Classroom
+      url: "https://classroom.google.com/"
+      weight: 7
 
     - name: Search
       weight: 8
@@ -65,7 +61,7 @@ params:
   author:
     email: jay@levelarts.studio
     name: Jay Tilghman
-
   footer:
     displayCopyright: false
     displayPoweredBy: false
+
