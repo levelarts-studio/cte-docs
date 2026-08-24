@@ -1,51 +1,74 @@
 {{ define "main" }}
-  <div class="hx:mx-auto hx:max-w-4xl hx:px-4 hx:py-8">
-    <div class="hx:mb-8">
-      <a href="/courses/" class="hx:text-xs hx:font-semibold hx:text-indigo-400 hover:hx:underline">← Back to All Course Maps</a>
-      <h1 class="hx:text-3xl hx:font-extrabold hx:mt-2 hx:text-slate-100">{{ .Title }}</h1>
+  <div class="hx:mx-auto hx:max-w-6xl hx:px-4 hx:py-8">
+    <div class="hx:mb-10">
+      <a href="/courses/" class="hx:inline-flex hx:items-center hx:gap-1 hx:text-xs hx:font-semibold hx:text-indigo-400 hover:hx:text-indigo-300 hx:transition">
+        <svg class="hx:w-4 hx:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        Back to All Course Maps
+      </a>
+      <h1 class="hx:text-3xl md:hx:text-4xl hx:font-extrabold hx:tracking-tight hx:mt-3 hx:text-neutral-100">{{ .Title }}</h1>
       {{ if .Params.course_code }}
-        <span class="hx:inline-block hx:mt-1 hx:px-2.5 hx:py-0.5 hx:rounded-full hx:text-xs hx:font-bold hx:bg-indigo-950 hx:text-indigo-300 hx:border hx:border-indigo-800">
+        <span class="hx:inline-flex hx:items-center hx:mt-2 hx:px-3 hx:py-1 hx:rounded-full hx:text-xs hx:font-bold hx:bg-indigo-950/80 hx:text-indigo-300 hx:border hx:border-indigo-700/60">
           Course Code: {{ .Params.course_code }}
         </span>
       {{ end }}
-      <div class="hx:mt-4 hx:text-slate-300 hx:prose hx:prose-invert">
+      <div class="hx:mt-4 hx:text-base hx:text-neutral-300 hx:leading-relaxed hx:max-w-3xl">
         {{ .Content }}
       </div>
     </div>
 
-    <div class="hx:space-y-8">
+    <div class="hx:space-y-12">
       {{ range $idx, $unit := .Params.units }}
-        <div class="hx:p-6 hx:rounded-2xl hx:bg-slate-900/90 hx:border hx:border-slate-800 hx:shadow-lg">
-          <div class="hx:flex hx:items-center hx:gap-3 hx:mb-4 hx:border-b hx:border-slate-800 hx:pb-3">
-            <span class="hx:flex hx:items-center hx:justify-center hx:w-8 hx:h-8 hx:rounded-full hx:bg-indigo-600 hx:text-white hx:font-bold hx:text-sm">
+        <section class="hx:space-y-6">
+          <div class="hx:flex hx:items-center hx:gap-3.5 hx:border-b hx:border-neutral-800 hx:pb-4">
+            <span class="hx:flex hx:items-center hx:justify-center hx:w-9 hx:h-9 hx:rounded-xl hx:bg-indigo-600 hx:text-white hx:font-bold hx:text-base hx:shadow-md">
               {{ add $idx 1 }}
             </span>
-            <h2 class="hx:text-xl hx:font-bold hx:text-slate-100 hx:m-0">{{ $unit.name }}</h2>
+            <h2 class="hx:text-2xl hx:font-bold hx:text-neutral-100 hx:m-0">{{ $unit.name }}</h2>
           </div>
 
           {{ if $unit.modules }}
-            <div class="hx:mb-6">
-              <h3 class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-slate-400 hx:mb-3">Modules (Textbook Lessons)</h3>
-              <div class="hx:grid hx:grid-cols-1 md:hx:grid-cols-2 hx:gap-2.5">
+            <div>
+              <h3 class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-neutral-400 hx:mb-4 hx:flex hx:items-center hx:gap-2">
+                <svg class="hx:w-4 hx:h-4 hx:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                Textbook Modules
+              </h3>
+              <div class="hextra-cards hx:grid hx:grid-cols-1 md:hx:grid-cols-2 lg:hx:grid-cols-3 hx:gap-4">
                 {{ range $modID := $unit.modules }}
                   {{ $modPage := index (where site.RegularPages "Params.id" $modID) 0 }}
                   {{ if $modPage }}
-                    <a href="{{ $modPage.RelPermalink }}" class="hx:group hx:p-3 hx:rounded-lg hx:bg-slate-800/60 hover:hx:bg-slate-800 hx:border hx:border-slate-700/60 hx:flex hx:items-center hx:justify-between hx:transition">
-                      <div class="hx:flex hx:items-center hx:gap-2.5 hx:min-w-0">
-                        {{ if eq $modPage.Params.status "complete" }}
-                          <span class="hx:w-2.5 hx:h-2.5 hx:rounded-full hx:bg-emerald-400 hx:shrink-0" title="Complete"></span>
-                        {{ else if eq $modPage.Params.status "draft" }}
-                          <span class="hx:w-2.5 hx:h-2.5 hx:rounded-full hx:bg-blue-400 hx:shrink-0" title="Draft"></span>
-                        {{ else }}
-                          <span class="hx:w-2.5 hx:h-2.5 hx:rounded-full hx:bg-amber-400/80 hx:shrink-0" title="Stub"></span>
-                        {{ end }}
-                        <span class="hx:font-mono hx:text-xs hx:font-bold hx:text-indigo-300">{{ $modID }}</span>
-                        <span class="hx:text-sm hx:text-slate-200 group-hover:hx:text-white hx:truncate">{{ $modPage.Title }}</span>
+                    {{ $subj := $modPage.Params.subject | default "computing" }}
+                    {{ $img := printf "/images/placeholders/%s.svg" $subj }}
+                    <a href="{{ $modPage.RelPermalink }}" class="hextra-card hx:group hx:flex hx:flex-col hx:justify-between hx:overflow-hidden hx:rounded-xl hx:border hx:border-neutral-800 hx:bg-neutral-900/60 hover:hx:bg-neutral-800/80 hover:hx:border-neutral-700 hx:transition-all hx:duration-200 hx:shadow-sm">
+                      <div class="hx:relative hx:aspect-[16/9] hx:overflow-hidden hx:bg-neutral-950">
+                        <img src="{{ $img }}" alt="{{ $modPage.Title }}" class="hx:w-full hx:h-full hx:object-cover group-hover:hx:scale-105 hx:transition-transform hx:duration-300" />
+                        <div class="hx:absolute hx:top-2.5 hx:left-2.5 hx:flex hx:items-center hx:gap-1.5">
+                          <span class="hx:font-mono hx:text-xs hx:font-bold hx:px-2 hx:py-0.5 hx:rounded hx:bg-neutral-950/90 hx:text-indigo-300 hx:border hx:border-indigo-700/60 hx:backdrop-blur-sm">
+                            {{ $modID }}
+                          </span>
+                          {{ if eq $modPage.Params.status "complete" }}
+                            <span class="hx:px-2 hx:py-0.5 hx:rounded hx:text-xs hx:font-bold hx:bg-emerald-950/90 hx:text-emerald-300 hx:border hx:border-emerald-700/60">Complete</span>
+                          {{ else if eq $modPage.Params.status "draft" }}
+                            <span class="hx:px-2 hx:py-0.5 hx:rounded hx:text-xs hx:font-bold hx:bg-blue-950/90 hx:text-blue-300 hx:border hx:border-blue-700/60">Draft</span>
+                          {{ else }}
+                            <span class="hx:px-2 hx:py-0.5 hx:rounded hx:text-xs hx:font-bold hx:bg-amber-950/90 hx:text-amber-300 hx:border hx:border-amber-700/60">Stub</span>
+                          {{ end }}
+                        </div>
                       </div>
-                      <span class="hx:text-xs hx:text-slate-500 group-hover:hx:text-slate-300">→</span>
+                      <div class="hx:p-4 hx:flex-1 hx:flex hx:flex-col hx:justify-between">
+                        <div>
+                          <h4 class="hx:text-base hx:font-bold hx:text-neutral-100 group-hover:hx:text-indigo-300 hx:transition-colors hx:m-0">{{ $modPage.Title }}</h4>
+                        </div>
+                        <div class="hx:mt-3 hx:pt-3 hx:border-t hx:border-neutral-800/80 hx:flex hx:items-center hx:justify-between hx:text-xs hx:text-neutral-400">
+                          <span class="hx:capitalize hx:font-medium">{{ $subj }}</span>
+                          <span class="hx:font-medium group-hover:hx:text-indigo-300 hx:flex hx:items-center hx:gap-1">
+                            Start Lesson
+                            <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          </span>
+                        </div>
+                      </div>
                     </a>
                   {{ else }}
-                    <div class="hx:p-3 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-500 hx:text-xs hx:font-mono">
+                    <div class="hx:p-4 hx:rounded-xl hx:bg-neutral-900/40 hx:border hx:border-neutral-800 hx:text-neutral-500 hx:text-xs hx:font-mono">
                       {{ $modID }} (Pending)
                     </div>
                   {{ end }}
@@ -56,20 +79,38 @@
 
           {{ if $unit.assignments }}
             <div>
-              <h3 class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-slate-400 hx:mb-3">Assignments (Required Student Work)</h3>
-              <div class="hx:grid hx:grid-cols-1 md:hx:grid-cols-2 hx:gap-2.5">
+              <h3 class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-neutral-400 hx:mb-4 hx:flex hx:items-center hx:gap-2">
+                <svg class="hx:w-4 hx:h-4 hx:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+                Required Assignments
+              </h3>
+              <div class="hextra-cards hx:grid hx:grid-cols-1 md:hx:grid-cols-2 lg:hx:grid-cols-3 hx:gap-4">
                 {{ range $assignID := $unit.assignments }}
                   {{ $assignPage := index (where site.RegularPages "Params.id" $assignID) 0 }}
                   {{ if $assignPage }}
-                    <a href="{{ $assignPage.RelPermalink }}" class="hx:group hx:p-3 hx:rounded-lg hx:bg-amber-950/20 hover:hx:bg-amber-950/40 hx:border hx:border-amber-800/40 hx:flex hx:items-center hx:justify-between hx:transition">
-                      <div class="hx:flex hx:items-center hx:gap-2.5 hx:min-w-0">
-                        <svg class="hx:w-4 hx:h-4 hx:text-amber-400 hx:shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
-                        <span class="hx:text-sm hx:font-semibold hx:text-amber-200 group-hover:hx:text-white hx:truncate">{{ $assignPage.Title }}</span>
+                    <a href="{{ $assignPage.RelPermalink }}" class="hextra-card hx:group hx:flex hx:flex-col hx:justify-between hx:overflow-hidden hx:rounded-xl hx:border hx:border-amber-500/30 hx:bg-amber-950/10 hover:hx:bg-amber-950/20 hover:hx:border-amber-500/50 hx:transition-all hx:duration-200 hx:shadow-sm">
+                      <div class="hx:relative hx:aspect-[16/9] hx:overflow-hidden hx:bg-neutral-950">
+                        <img src="/images/placeholders/assignment.svg" alt="{{ $assignPage.Title }}" class="hx:w-full hx:h-full hx:object-cover group-hover:hx:scale-105 hx:transition-transform hx:duration-300" />
+                        <div class="hx:absolute hx:top-2.5 hx:left-2.5">
+                          <span class="hx:font-mono hx:text-xs hx:font-bold hx:px-2 hx:py-0.5 hx:rounded hx:bg-amber-950/90 hx:text-amber-300 hx:border hx:border-amber-700/60 hx:backdrop-blur-sm">
+                            ASSIGNMENT
+                          </span>
+                        </div>
                       </div>
-                      <span class="hx:text-xs hx:text-amber-400">View Task →</span>
+                      <div class="hx:p-4 hx:flex-1 hx:flex hx:flex-col hx:justify-between">
+                        <div>
+                          <h4 class="hx:text-base hx:font-bold hx:text-amber-100 group-hover:hx:text-amber-300 hx:transition-colors hx:m-0">{{ $assignPage.Title }}</h4>
+                        </div>
+                        <div class="hx:mt-3 hx:pt-3 hx:border-t hx:border-amber-800/40 hx:flex hx:items-center hx:justify-between hx:text-xs hx:text-amber-400">
+                          <span class="hx:font-medium">Lab Spec</span>
+                          <span class="hx:font-medium hx:flex hx:items-center hx:gap-1">
+                            View Spec
+                            <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          </span>
+                        </div>
+                      </div>
                     </a>
                   {{ else }}
-                    <div class="hx:p-3 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-500 hx:text-xs hx:font-mono">
+                    <div class="hx:p-4 hx:rounded-xl hx:bg-neutral-900/40 hx:border hx:border-neutral-800 hx:text-neutral-500 hx:text-xs hx:font-mono">
                       {{ $assignID }} (Pending)
                     </div>
                   {{ end }}
@@ -77,7 +118,7 @@
               </div>
             </div>
           {{ end }}
-        </div>
+        </section>
       {{ end }}
     </div>
   </div>
