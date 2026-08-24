@@ -1,14 +1,16 @@
 ---
-title: Start Here & Orientation
 type: docs
+cascade:
+  type: docs
+title: Start Here & Orientation
 description: Orientation guide to the AED Module Library, search keyboard shortcuts, standards, and course pathways.
 ---
 
 Welcome to the **AED Module Library** (Arts, Entertainment, & Design). This site serves as a decoupled curriculum repository housing **144 textbook modules**, **50 student assignment specs**, **178 Model Curriculum Standards (MCS)**, and **3 complete course maps**.
 
-{{< callout type="info" >}}
+{{{< callout type="info" >}}
 **Quick Keyboard Shortcut**: Press <kbd>Ctrl + K</kbd> (or <kbd>Cmd + K</kbd> on Mac) anywhere on the site to open instant search across all lessons, tools, standards, and keywords.
-{{< /callout >}}
+{{{< /callout >}}}
 
 ---
 
@@ -44,8 +46,8 @@ California Model Curriculum Standards index for Arts, Media, and Entertainment (
 
 ## Quick Exploration
 
-{{< cards >}}
-  {{< card
+{{{{< cards >}}
+  {{{< card
     link="/learn/"
     title="Explore Module Library"
     subtitle="Browse 144 textbook modules across 9 subject areas."
@@ -53,7 +55,7 @@ California Model Curriculum Standards index for Arts, Media, and Entertainment (
     tagColor="indigo"
   >}}
 
-  {{< card
+  {{{< card
     link="/courses/"
     title="View Course Maps"
     subtitle="See sequenced unit pathways for IMC, GAD1, and GAD2."
@@ -61,7 +63,7 @@ California Model Curriculum Standards index for Arts, Media, and Entertainment (
     tagColor="green"
   >}}
 
-  {{< card
+  {{{< card
     link="/assignments/"
     title="Assignment Specs"
     subtitle="Review required student lab deliverables and rubrics."
@@ -69,11 +71,11 @@ California Model Curriculum Standards index for Arts, Media, and Entertainment (
     tagColor="amber"
   >}}
 
-  {{< card
+  {{{< card
     link="/standards/"
     title="MCS Standards Index"
     subtitle="Explore California CTE AME Model Curriculum Standards."
     tag="178 TERMS"
     tagColor="purple"
   >}}
-{{< /cards >}}
+{{{{< /cards >}}

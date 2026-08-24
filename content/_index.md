@@ -1,4 +1,7 @@
 ---
+type: docs
+cascade:
+  type: docs
 title: Game Art, Design & Media Learning Library
 layout: hextra-home
 ---

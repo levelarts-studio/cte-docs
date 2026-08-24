@@ -13,9 +13,9 @@ description: "ANIM-101: 12 Principles in 3D textbook module stub."
 summary: "ANIM-101: 12 Principles in 3D textbook module stub."
 ---
 
-{< callout type="warning" >}
+{{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{< /callout >}
+{{< /callout >}}
 
 ## What you'll be able to do
 
@@ -25,7 +25,7 @@ summary: "ANIM-101: 12 Principles in 3D textbook module stub."
 
 ## Try it
 
-{% steps %}
+{{% steps %}} %}
 
 ### Step 1 — Key Concepts & Tools
 Review the core principles and tool shortcuts for this lesson.
@@ -36,4 +36,4 @@ Follow along in software to build the exercise file.
 ### Step 3 — Self Check & Review
 Verify your results against the rubric criteria.
 
-{% /steps %}
+{{% /steps %}} %}

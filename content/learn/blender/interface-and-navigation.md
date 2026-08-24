@@ -39,7 +39,7 @@ aliases: ["/m/BLND-101", "/gad1-docs/modules/unit-1/a1"]
 
 ## Try it
 
-{{% steps %}}
+{{{% steps %}} %}}
 
 ### Step 1 — Key Concepts & Tools
 Review the core principles and tool shortcuts for this lesson.
@@ -50,7 +50,7 @@ Follow along in software (Blender, Unreal Engine, Krita, or PureRef) to build th
 ### Step 3 — Self Check & Review
 Verify your results against the rubric criteria.
 
-{{% /steps %}}
+{{{% /steps %}} %}}
 
 ## Terms
 

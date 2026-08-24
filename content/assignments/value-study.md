@@ -26,7 +26,7 @@ Review prerequisites:
 
 ## Steps
 
-{{% steps %}}
+{{{% steps %}} %}}
 
 
 1. Draw three 2x3 inch boxes on paper or in your digital canvas.
@@ -36,13 +36,13 @@ Review prerequisites:
 5. Sketch Thumbnail 3 demonstrating atmospheric perspective (dark foreground, light background).
 
 
-{{% /steps %}}
+{{{% /steps %}} %}}
 
 ## Submit
 
-{{< callout type="warning" >}}
+{{{< callout type="warning" >}}}
 **Portfolio Deliverable**: Upload your final project artifact to your **Google Sites Portfolio** under the section specified in Classroom.
-{{< /callout >}}
+{{{< /callout >}}}
 
 Submit your Google Sites portfolio link to **Google Classroom**.
 

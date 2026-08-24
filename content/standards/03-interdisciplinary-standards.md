@@ -8,9 +8,9 @@ weight: 30
 
 The **Interdisciplinary Standards (13.0–16.0)** outline business, legal responsibility, media creation, and project management skills relevant to all AME Pathways.
 
-{{< callout type="info" >}}
+{{{< callout type="info" >}}
 **Cross-Curricular Integration**: Interdisciplinary standards build upon the Anchor Standards and should be integrated across all pathway instruction and student portfolio deliverables.
-{{< /callout >}}
+{{{< /callout >}}}
 
 ---
 

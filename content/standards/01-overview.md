@@ -10,9 +10,9 @@ weight: 10
 
 The Career Technical Education (CTE) Model Curriculum Standards (MCS) publication is organized for use as a complete document or for access to individual industry sectors and pathways. The document aligns with the Standards for Career Ready Practice and establishes curricular guidance for high quality CTE programs.
 
-{{< callout type="info" >}}
+{{{< callout type="info" >}}
 **Sector Overview**: The Arts, Media, and Entertainment (AME) CTE sector prepares students for technical, creative, and project-based careers in media, game design, visual arts, and performance.
-{{< /callout >}}
+{{{< /callout >}}}
 
 ## **Description** 
 
@@ -22,7 +22,7 @@ The 2023 CTE AME MCS integrate the *Standards for Career Ready Practice*[^1] int
 
 They are designed to provide students with knowledge and understanding that will prepare them for work and/or other post-secondary or vocational training in creative careers and industries.
 
-{{% steps %}}
+{{{% steps %}} %}}
 
 ### **1. Anchor Standards** 
 
@@ -34,7 +34,7 @@ The four (13.0-16.0) Interdisciplinary Standards address universal skills that a
 
 ### **3. Pathway Standards**
 
-{{% /steps %}} 
+{{{% /steps %}} %}} 
 
 Pathway Standards (17.0-20.0) align with career-specific skills and competencies and build on the Anchor Standards and Interdisciplinary Standards to incorporate technical skills. Pathway standards are organized by occupation-specific Focus Areas in some industry sectors. Pathway standards ensure students leave high school with a general knowledge that will allow them to specialize in a specific industry after high school.
 

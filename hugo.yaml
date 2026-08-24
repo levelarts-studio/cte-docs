@@ -64,3 +64,6 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: false
+
+cascade:
+  - type: docs

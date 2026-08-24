@@ -22,17 +22,17 @@ Task for Careers Portfolio Page.
 
 ## Steps
 
-{{% steps %}}
+{{{% steps %}} %}}
 
 
 
-{{% /steps %}}
+{{{% /steps %}} %}}
 
 ## Submit
 
-{{< callout type="warning" >}}
+{{{< callout type="warning" >}}}
 **Portfolio Deliverable**: Upload your final project artifact to your **Google Sites Portfolio** under the section specified in Classroom.
-{{< /callout >}}
+{{{< /callout >}}}
 
 ## Rubric
 
