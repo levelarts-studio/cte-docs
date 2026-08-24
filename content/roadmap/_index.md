@@ -29,142 +29,124 @@ This pathway aligns with the **California Arts, Media, and Entertainment (AME) C
 
 ## Year 1 – Foundations
 
-{{{{< cards >}}
-  {{{< card
+{{< cards >}}
+  {{< card
         link="/imc-docs/modules/unit-1"
         title="Unit 1: Computer Literacy & Career Exploration"
         image="/images/imc/unit1.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/imc-docs/modules/unit-2"
         title="Unit 2: Graphic Design Fundamentals"
         image="/images/imc/unit2.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/imc-docs/modules/unit-3"
         title="Unit 3: Concept Art Basics"
         image="/images/imc/unit3.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/imc-docs/modules/unit-4"
         title="Unit 4: Intro to Blender"
         image="/images/imc/unit4.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/imc-docs/modules/unit-5"
         title="Unit 5: Animation Basics"
         image="/images/imc/unit5.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/imc-docs/modules/unit-6"
         title="Unit 6: Character Design"
         image="/images/imc/unit6.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-{{{{< /cards >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
+{{< /cards >}}
 
 ---
 
 ## Year 2 – Character Production & Unreal Pipeline
 
-{{{{< cards >}}
-  {{{< card
+{{< cards >}}
+  {{< card
         link="/gad1-docs/modules/unit-1"
         title="Unit 1: Character Modeling I"
         image="/images/gad1/unit1.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad1-docs/modules/unit-2"
         title="Unit 2: Character Modeling II"
         image="/images/gad1/unit2.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad1-docs/modules/unit-3"
         title="Unit 3: Character Rigging & Preparation"
         image="/images/gad1/unit3.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad1-docs/modules/unit-4"
         title="Unit 4: Unreal Engine Basics"
         image="/images/gad1/unit4.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad1-docs/modules/unit-5"
         title="Unit 5: Environment Design in Unreal"
         image="/images/gad1/unit5.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad1-docs/modules/unit-6"
         title="Unit 6: Blueprint Scripting Basics"
         image="/images/gad1/unit6.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-{{{{< /cards >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
+{{< /cards >}}
 
 ---
 
 ## Year 3 – Capstone Production
 
-{{{{< cards >}}
-  {{{< card
+{{< cards >}}
+  {{< card
         link="/gad2-docs/modules/unit-1"
         title="Unit 1: Narrative Design & Game Design Document"
         image="/images/gad2/unit1.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad2-docs/modules/unit-2"
         title="Unit 2: Team Pitch & Pre-Production"
         image="/images/gad2/unit2.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad2-docs/modules/unit-3"
         title="Unit 3: Prototyping & Outlining Learning Objectives"
         image="/images/gad2/unit3.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad2-docs/modules/unit-4"
         title="Unit 4: Vertical Slice Build (Alpha)"
         image="/images/gad2/unit4.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad2-docs/modules/unit-5"
         title="Unit 5: Vertical Slice Build (Beta + Marketing)"
         image="/images/gad2/unit5.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
 
-  {{{< card
+  {{< card
         link="/gad2-docs/modules/unit-6"
         title="Unit 6: Final Vertical Slice & Showcase"
         image="/images/gad2/unit6.jpg"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-{{{{< /cards >}}
+        imageStyle="object-fit:cover; aspect-ratio:16/9;" >}}
+{{< /cards >}}

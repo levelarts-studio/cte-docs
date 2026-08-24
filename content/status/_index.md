@@ -16,6 +16,6 @@ Public build progress dashboard. Tracking development across all modules and ass
 
 ## Progress Tracking
 
-{{{< callout type="info" >}}
+{{< callout type="info" >}}
 All 144 module stubs and 50 assignment specs are active in the module library. Use **Ctrl + K** or the sidebar menu to navigate across subjects and courses.
-{{{< /callout >}}}
+{{< /callout >}}

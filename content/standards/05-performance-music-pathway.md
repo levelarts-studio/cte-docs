@@ -24,9 +24,9 @@ All Introductory and Concentrator courses in Performance, Music, and Live Events
 
 **Performance, Music, and Live Events Pathway**
 
-{{{< callout type="info" >}}
+{{< callout type="info" >}}
 **Performance & Music Pathway**: Focuses on stage technology, event production, dance, theatre, audio engineering, and music recording arts.
-{{{< /callout >}}}
+{{< /callout >}}
 
 ### **Stage and Event Technology** 
 

@@ -25,7 +25,7 @@ summary: "CHAR-201: Facial Structure & Planes textbook module stub."
 
 ## Try it
 
-{{% steps %}} %}
+{{% steps %}}
 
 ### Step 1 — Key Concepts & Tools
 Review the core principles and tool shortcuts for this lesson.
@@ -36,4 +36,4 @@ Follow along in software to build the exercise file.
 ### Step 3 — Self Check & Review
 Verify your results against the rubric criteria.
 
-{{% /steps %}} %}
+{{% /steps %}}

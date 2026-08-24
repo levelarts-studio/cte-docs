@@ -13,9 +13,9 @@ This site hosts all course content for the **Arts, Media & Entertainment (AME) G
 - **Standards**: Each unit lists the California AME CTE standards it covers.  
 - **Submissions & Grades**: If you are an Alder Grove student all work is turned in through **Canvas**, and grades are recorded in **Jupiter**. This site does not handle submissions or grades directly.  
 
-{{{< callout type="info" >}}
+{{< callout type="info" >}}
 Think of this site as the **library and roadmap** of the program. Canvas is the **workspace** where you turn things in. Jupiter is the **gradebook** where you see results.
-{{{< /callout >}}}
+{{< /callout >}}
 
 
 ## AI Use Policy
@@ -29,9 +29,9 @@ AI tools are part of modern creative work. You may use them here under clear gui
 | Generating inspiration or references      | Omitting credit when AI tools were used             |
 | Editing support (spelling/grammar checks) |                                                    |
 
-{{{< callout type="warning" >}}}
+{{< callout type="warning" >}}
 If AI contributes, **you must cite it**. Example: *“Outline generated with ChatGPT, revised by student.”*
-{{{< /callout >}}}
+{{< /callout >}}
 
 
 ## Contact
