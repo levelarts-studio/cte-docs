@@ -23,6 +23,10 @@ All Introductory and Concentrator courses in Design, Visual, and Graphic Arts Pa
 
 **Design, Visual and Graphic Arts Pathway**
 
+{{< callout type="info" >}}
+**Design & Visual Arts Pathway**: Focuses on foundational design principles, composition, branding, digital art, studio craft, and graphic communication.
+{{< /callout >}}
+
 ### **Design** 
 
 **Focus Area Description:**  

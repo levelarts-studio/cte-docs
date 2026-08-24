@@ -22,6 +22,12 @@ Task for Thumbnail Ideation Sprint.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

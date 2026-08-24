@@ -26,11 +26,17 @@ Review prerequisites:
 
 ## Steps
 
+{{% steps %}}
+
+
 1. Draw three 2x3 inch boxes on paper or in your digital canvas.
 2. Establish a 5-step value scale (White, Light Gray, Midtone, Dark Gray, Black).
 3. Sketch Thumbnail 1 focusing on high contrast focal point.
 4. Sketch Thumbnail 2 focusing on subtle low contrast values.
 5. Sketch Thumbnail 3 demonstrating atmospheric perspective (dark foreground, light background).
+
+
+{{% /steps %}}
 
 ## Submit
 

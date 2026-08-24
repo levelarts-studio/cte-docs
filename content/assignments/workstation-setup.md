@@ -22,6 +22,12 @@ Task for Workstation Setup & Conventions.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

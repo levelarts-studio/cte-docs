@@ -22,6 +22,12 @@ Task for Industry Roles Report.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

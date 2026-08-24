@@ -22,6 +22,12 @@ Task for Team Role Charter.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

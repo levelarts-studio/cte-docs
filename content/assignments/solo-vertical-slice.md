@@ -22,6 +22,12 @@ Task for Solo Vertical Slice Build.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

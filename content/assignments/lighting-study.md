@@ -22,6 +22,12 @@ Task for 3-Point Lighting Study.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

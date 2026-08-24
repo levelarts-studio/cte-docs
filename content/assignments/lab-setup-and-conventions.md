@@ -22,6 +22,12 @@ Task for Lab Setup and Conventions.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

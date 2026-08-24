@@ -22,6 +22,12 @@ Task for Feedback Systems & Juice Pass.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

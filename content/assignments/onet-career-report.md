@@ -22,6 +22,12 @@ Task for O*NET Career Research Report.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

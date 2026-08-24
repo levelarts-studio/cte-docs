@@ -10,6 +10,10 @@ weight: 10
 
 The Career Technical Education (CTE) Model Curriculum Standards (MCS) publication is organized for use as a complete document or for access to individual industry sectors and pathways. The document aligns with the Standards for Career Ready Practice and establishes curricular guidance for high quality CTE programs.
 
+{{< callout type="info" >}}
+**Sector Overview**: The Arts, Media, and Entertainment (AME) CTE sector prepares students for technical, creative, and project-based careers in media, game design, visual arts, and performance.
+{{< /callout >}}
+
 ## **Description** 
 
 The Arts, Media, and Entertainment (AME) CTE industry sector prepares students for occupations in creative industries. The work in this sector is highly technical and project based. AME programs teach essential workplace skills, train students on industry-standard technology, and emulate professional environments to create authentic learning experiences for students.
@@ -18,15 +22,19 @@ The 2023 CTE AME MCS integrate the *Standards for Career Ready Practice*[^1] int
 
 They are designed to provide students with knowledge and understanding that will prepare them for work and/or other post-secondary or vocational training in creative careers and industries.
 
-### **Anchor Standards** 
+{{% steps %}}
+
+### **1. Anchor Standards** 
 
 The twelve Anchor Standards (1.0-12.0) build on the California Standards for Career Ready Practice and are common across all industry sectors. The Anchor Standards emphasize the importance of 21st century skills, essential workplace skills and literacy. These standards emphasize the importance of 21st century skills, essential workplace skills, and literacy. They are at the core of CTE instruction and are embedded in every level of a CTE pathway.
 
-### **Interdisciplinary Standards** 
+### **2. Interdisciplinary Standards** 
 
 The four (13.0-16.0) Interdisciplinary Standards address universal skills that apply to all pathways in an industry sector. They build on the universal Anchor Standards and Standards for Career Ready Practice to help lay a foundation for CTE students. These standards serve as prerequisite and corequisite learning for Pathway Standards and outline the importance of industry-specific transferable skills including business and marketing, legal responsibility, media production, and project management.
 
-### **Pathway Standards** 
+### **3. Pathway Standards**
+
+{{% /steps %}} 
 
 Pathway Standards (17.0-20.0) align with career-specific skills and competencies and build on the Anchor Standards and Interdisciplinary Standards to incorporate technical skills. Pathway standards are organized by occupation-specific Focus Areas in some industry sectors. Pathway standards ensure students leave high school with a general knowledge that will allow them to specialize in a specific industry after high school.
 

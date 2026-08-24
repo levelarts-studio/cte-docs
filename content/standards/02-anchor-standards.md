@@ -10,7 +10,11 @@ weight: 20
 
 The 2023 AME Anchor Standards serve as a foundation for all CTE programs. The Anchor Standards supplement the California Standards for Career Ready Practice[^3] and emphasize the importance of social responsibility, media literacy, digital literacy, and career-readiness across CTE pathways. The Anchor Standards outline essential skills and knowledge required for a myriad of occupations and workplace environments.
 
-### **1.0-12.0 AME Anchor Standards** 
+#{{< callout type="info" >}}
+**Core Workplace Skills**: Twelve Anchor Standards (1.0–12.0) cover essential 21st-century workplace skills, technical literacy, problem solving, safety, and leadership.
+{{< /callout >}}
+
+## **1.0-12.0 AME Anchor Standards** 
 
 #### **1.0 Academics**
 

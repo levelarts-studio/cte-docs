@@ -22,6 +22,12 @@ Task for Vertical Slice Showcase Pitch.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

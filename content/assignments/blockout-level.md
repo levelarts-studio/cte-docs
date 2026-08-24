@@ -22,6 +22,12 @@ Task for Blockout Level Layout.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

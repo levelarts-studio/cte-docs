@@ -22,6 +22,12 @@ Task for File System & Naming Drill.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

@@ -22,6 +22,12 @@ Task for Mini Game Design Document.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

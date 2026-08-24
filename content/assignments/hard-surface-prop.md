@@ -22,6 +22,12 @@ Task for Hard Surface Prop.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

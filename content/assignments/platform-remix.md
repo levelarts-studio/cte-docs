@@ -22,6 +22,12 @@ Task for Platform & Audience Remix.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

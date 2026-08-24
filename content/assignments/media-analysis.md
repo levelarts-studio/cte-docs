@@ -22,6 +22,12 @@ Task for Media Message Analysis.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

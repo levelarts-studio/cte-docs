@@ -22,6 +22,12 @@ Task for Typing & Shortcut Baseline.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

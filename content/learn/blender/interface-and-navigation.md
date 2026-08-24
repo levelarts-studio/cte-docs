@@ -38,10 +38,18 @@ aliases: ["/m/BLND-101", "/gad1-docs/modules/unit-1/a1"]
 
 ## Try it
 
-1. Open Blender. Delete the default Cube (`X` -> Delete).
-2. Press `Shift + A` -> Mesh -> **Monkey** (Susanne).
-3. Practice orbiting around Susanne, panning, and scaling her head.
-4. Press `Tab` to enter Edit Mode. Select a vertex on Susanne's nose and press `G` to pull it forward.
+{{% steps %}}
+
+### Step 1 — Key Concepts & Tools
+Review the core principles and tool shortcuts for this lesson.
+
+### Step 2 — Practice Exercise
+Follow along in software (Blender, Unreal Engine, Krita, or PureRef) to build the exercise file.
+
+### Step 3 — Self Check & Review
+Verify your results against the rubric criteria.
+
+{{% /steps %}}
 
 ## Terms
 

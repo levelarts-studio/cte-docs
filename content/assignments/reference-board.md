@@ -22,6 +22,12 @@ Task for Reference Board & PureRef Setup.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

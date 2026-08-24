@@ -22,6 +22,12 @@ Task for Mood Board & Reference Gathering.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

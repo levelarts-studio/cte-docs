@@ -22,6 +22,12 @@ Task for Form Studies: Primitive Assembly.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

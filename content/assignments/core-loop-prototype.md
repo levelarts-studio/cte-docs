@@ -22,6 +22,12 @@ Task for Core Loop Prototype.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

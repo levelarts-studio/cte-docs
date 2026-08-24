@@ -22,6 +22,12 @@ Task for Portfolio Final Capstone Review.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

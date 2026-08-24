@@ -22,6 +22,12 @@ Task for Asset License Audit.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

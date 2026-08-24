@@ -22,6 +22,12 @@ Task for Concept Deck & Pitch Presentation.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

@@ -22,6 +22,12 @@ Task for Interactive Door Blueprint.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

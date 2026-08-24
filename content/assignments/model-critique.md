@@ -22,6 +22,12 @@ Task for Model Critique Round.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

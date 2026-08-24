@@ -22,6 +22,12 @@ Task for One-Minute Video Challenge.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

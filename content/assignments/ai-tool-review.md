@@ -22,6 +22,12 @@ Task for Generative AI Tool Review.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}

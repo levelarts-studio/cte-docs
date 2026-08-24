@@ -22,6 +22,12 @@ Task for PBR Texture Set Creation.
 
 ## Steps
 
+{{% steps %}}
+
+
+
+{{% /steps %}}
+
 ## Submit
 
 {{< portfolio >}}
