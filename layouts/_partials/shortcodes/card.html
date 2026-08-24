@@ -21,7 +21,7 @@
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
 <a
-  class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
+  class="hextra-card hx:group hx:flex hx:flex-col hx:justify-between hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
   {{- if $link -}}
     href="{{ $href }}"
     {{ with $external }}target="_blank" rel="noreferrer"{{ end -}}
@@ -40,29 +40,30 @@
     />
   {{- end -}}
 
-  {{- $padding := "hx:p-4" -}}
-  {{- with $subtitle -}}
-    {{- $padding = "hx:pt-4 hx:px-4" -}}
-  {{- end -}}
-
-  <div class="hx:mt-auto">
-    <span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
-      {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
-      {{- $title -}}
-    </span>
-    {{- with $subtitle -}}
-      <div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">{{- $subtitle | markdownify -}}</div>
-    {{- end -}}
+  <div class="hx:p-4 hx:flex-1 hx:flex hx:flex-col hx:justify-between">
+    <div>
+      <div class="hx:flex hx:items-start hx:justify-between hx:gap-3">
+        <span class="hx:font-semibold hx:text-base hx:leading-snug hx:text-gray-900 hx:dark:text-neutral-100 group-hover:hx:text-primary-600 hx:dark:group-hover:hx:text-primary-400 hx:transition-colors">
+          {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
+          {{- $title -}}
+        </span>
+        {{- if $tag }}
+          <div class="hx:shrink-0">
+            {{- partial "shortcodes/badge.html" (dict
+              "content" $tag
+              "color" $tagColor
+              "border" $tagBorder
+              "icon" $tagIcon
+              )
+            -}}
+          </div>
+        {{- end }}
+      </div>
+      {{- with $subtitle -}}
+        <p class="hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:mt-2.5 hx:line-clamp-3 hx:leading-relaxed hx:m-0">
+          {{- $subtitle | markdownify -}}
+        </p>
+      {{- end -}}
+    </div>
   </div>
-
-  {{- if $tag }}
-    {{- partial "shortcodes/badge.html" (dict
-      "content" $tag
-      "color" $tagColor
-      "class" "hextra-card-tag"
-      "border" $tagBorder
-      "icon" $tagIcon
-      )
-    -}}
-  {{- end -}}
 </a>
