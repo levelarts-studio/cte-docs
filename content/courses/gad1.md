@@ -1,4 +1,6 @@
 ---
+description: "Game Art & Design 1 course map outlining 3D modeling, texturing, and Unreal Engine units."
+summary: "Game Art & Design 1 course map outlining 3D modeling, texturing, and Unreal Engine units."
 title: Game Art & Design 1
 course_code: GAD1
 ---

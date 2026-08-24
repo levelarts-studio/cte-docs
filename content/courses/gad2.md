@@ -1,4 +1,6 @@
 ---
+description: "Game Art & Design 2 course map outlining technical art, retopology, and capstone units."
+summary: "Game Art & Design 2 course map outlining technical art, retopology, and capstone units."
 title: Game Art & Design 2
 course_code: GAD2
 ---

@@ -1,4 +1,6 @@
 ---
+description: "Intro to Media Careers course map outlining units, modules, and assignments."
+summary: "Intro to Media Careers course map outlining units, modules, and assignments."
 title: Intro to Media Careers
 course_code: IMC
 ---
