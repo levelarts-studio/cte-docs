@@ -1,6 +1,0 @@
-{{ $code := .Get 0 }}
-{{ if $code }}
-  <a href="/standards/{{ $code | urlize }}/" class="hx:inline-flex hx:items-center hx:px-2 hx:py-0.5 hx:rounded hx:text-xs hx:font-medium hx:bg-blue-900/60 hx:text-blue-300 hx:border hx:border-blue-700 hover:hx:bg-blue-800">
-    Standard {{ $code }}
-  </a>
-{{ end }}

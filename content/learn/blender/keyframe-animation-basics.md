@@ -36,4 +36,4 @@ Verify your results against the rubric criteria.
 ## Terms
 
 ## Next
-{{< nextup >}}
+

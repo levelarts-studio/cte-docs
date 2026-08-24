@@ -56,4 +56,4 @@ Verify your results against the rubric criteria.
 - [topology](/glossary/#topology)
 
 ## Next
-{{< nextup >}}
+
