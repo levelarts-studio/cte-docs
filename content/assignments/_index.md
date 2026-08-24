@@ -5,7 +5,6 @@ cascade:
   type: docs
 ---
 
-# Assignment Specs
 
 Flat library of required student assignments and lab specs. Each spec includes task objectives, prerequisite modules, submission instructions, and standard rubrics.
 

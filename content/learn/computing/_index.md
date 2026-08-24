@@ -5,4 +5,3 @@ cascade:
   entity: "module"
 ---
 
-# Computing & PC Literacy

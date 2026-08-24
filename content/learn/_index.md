@@ -5,7 +5,6 @@ cascade:
   type: docs
 ---
 
-# Textbook Module Library
 
 Modules are decoupled textbook lessons organized by subject area and tier level.
 

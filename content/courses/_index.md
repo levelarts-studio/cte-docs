@@ -5,7 +5,6 @@ cascade:
   type: docs
 ---
 
-# Course Maps
 
 Course maps define the ordered sequence of units, modules, and assignments for each active class track.
 

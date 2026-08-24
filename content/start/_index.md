@@ -5,7 +5,6 @@ cascade:
   type: docs
 ---
 
-# Start Here
 
 Orientation and setup guide for students and teachers.
 
