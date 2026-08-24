@@ -36,63 +36,111 @@ Visual Effects (VFX)
 
 #### **17.0: Animation, VFX, and Games: Skill Building**
 
-AVG.17.1 Apply principles of art and design to development of environments, props, and other assets (perspective, dimension, color theory, color modes, shading, contrast, opacity/transparency, layering, etc.)
+{{< std code="AVG.17.1" >}}
+Apply principles of art and design to development of environments, props, and other assets (perspective, dimension, color theory, color modes, shading, contrast, opacity/transparency, layering, etc.)
+{{< /std >}}
 
-AVG.17.2 Apply knowledge of anatomy, body mechanics, and facial expressions, to human, animal, and fictional characters.
+{{< std code="AVG.17.2" >}}
+Apply knowledge of anatomy, body mechanics, and facial expressions, to human, animal, and fictional characters.
+{{< /std >}}
 
-AVG.17.3 Utilize character dynamic poses to express personality, emotion, tone, and story points.
+{{< std code="AVG.17.3" >}}
+Utilize character dynamic poses to express personality, emotion, tone, and story points.
+{{< /std >}}
 
-AVG.17.4 Apply principles of animation to simple objects or text.
+{{< std code="AVG.17.4" >}}
+Apply principles of animation to simple objects or text.
+{{< /std >}}
 
-AVG.17.5 Model 2D and/or 3D digital props and characters and create turntable / orthographic views.
+{{< std code="AVG.17.5" >}}
+Model 2D and/or 3D digital props and characters and create turntable / orthographic views.
+{{< /std >}}
 
 AVG.17.6. Apply principles of rigging and animated movement to a digital character or prop using original animation or match-moving.
 
-AVG.17.7 Apply principles of digital effects such as smoke, water, fire, destruction, and/or fur/hair to a scene.
+{{< std code="AVG.17.7" >}}
+Apply principles of digital effects such as smoke, water, fire, destruction, and/or fur/hair to a scene.
+{{< /std >}}
 
-AVG.17.8 Apply principles of color/lighting and texture of props, characters, and/or digital effects in a scene.
+{{< std code="AVG.17.8" >}}
+Apply principles of color/lighting and texture of props, characters, and/or digital effects in a scene.
+{{< /std >}}
 
-AVG.17.9 Apply principles of rotoscoping, digital paint, and compositing to a scene.
+{{< std code="AVG.17.9" >}}
+Apply principles of rotoscoping, digital paint, and compositing to a scene.
+{{< /std >}}
 
 #### **18.0 Animation, VFX, and Games: Process and Practice**
 
-AVG.18.1 Examine the production pipeline and responsibility of each department, including the steps, skills, and processes within each pipeline stage.
+{{< std code="AVG.18.1" >}}
+Examine the production pipeline and responsibility of each department, including the steps, skills, and processes within each pipeline stage.
+{{< /std >}}
 
-AVG.18.2 Understand the artist workflows necessary to create 3D models, textures, materials, lighting, VFX, rigging, and animation.
+{{< std code="AVG.18.2" >}}
+Understand the artist workflows necessary to create 3D models, textures, materials, lighting, VFX, rigging, and animation.
+{{< /std >}}
 
 AVG 18.3 Turn a storyboard into an animatic that incorporates sound and music.
 
-AVG.18.4 Turn an animatic into previsualization using CG characters, animatics, and props.
+{{< std code="AVG.18.4" >}}
+Turn an animatic into previsualization using CG characters, animatics, and props.
+{{< /std >}}
 
-AVG.18.5 Contribute to a comprehensive animated scene and/or sequence in a professional environment.
+{{< std code="AVG.18.5" >}}
+Contribute to a comprehensive animated scene and/or sequence in a professional environment.
+{{< /std >}}
 
-AVG.18.6 Use standard digital content creation software to create 3D models, rigging, materials, animation, and visual effects.
+{{< std code="AVG.18.6" >}}
+Use standard digital content creation software to create 3D models, rigging, materials, animation, and visual effects.
+{{< /std >}}
 
-AVG.18.7 Work with an editorial team to finalize an animated game, short, or other creative project.
+{{< std code="AVG.18.7" >}}
+Work with an editorial team to finalize an animated game, short, or other creative project.
+{{< /std >}}
 
-AVG.18.8 Demonstrate understanding of distribution across animation, VFX and games, including marketing and publicity planning.
+{{< std code="AVG.18.8" >}}
+Demonstrate understanding of distribution across animation, VFX and games, including marketing and publicity planning.
+{{< /std >}}
 
 #### **19.0 Animation, VFX, and Games: Career Exploration**
 
-AVG.19.1 Explore career pathways within animation, visual effects (VFX) and games.
+{{< std code="AVG.19.1" >}}
+Explore career pathways within animation, visual effects (VFX) and games.
+{{< /std >}}
 
-AVG.19.2 Explore career pathways for storyboard and concept artists across industries.
+{{< std code="AVG.19.2" >}}
+Explore career pathways for storyboard and concept artists across industries.
+{{< /std >}}
 
-AVG.19.3 Understand career pathways for animators across industries.
+{{< std code="AVG.19.3" >}}
+Understand career pathways for animators across industries.
+{{< /std >}}
 
-AVG.19.4 Understand career pathways for producers and coordinators across industries.
+{{< std code="AVG.19.4" >}}
+Understand career pathways for producers and coordinators across industries.
+{{< /std >}}
 
-AVG.19.5 Understand career pathways for game design and development professionals.
+{{< std code="AVG.19.5" >}}
+Understand career pathways for game design and development professionals.
+{{< /std >}}
 
 #### **20.0 Animation, VFX, and Games: Advanced Technologies**
 
-AVG.20.1 Explore fundamentals of virtual production using real-time rendering and new VFX technologies.
+{{< std code="AVG.20.1" >}}
+Explore fundamentals of virtual production using real-time rendering and new VFX technologies.
+{{< /std >}}
 
-AVG.20.2 Examine principles of motion capture and its applications in animation, gaming and VFX.
+{{< std code="AVG.20.2" >}}
+Examine principles of motion capture and its applications in animation, gaming and VFX.
+{{< /std >}}
 
-AVG.20.3 Examine principles of crowd simulation to create movement and/or dynamics for multiple objects or characters.
+{{< std code="AVG.20.3" >}}
+Examine principles of crowd simulation to create movement and/or dynamics for multiple objects or characters.
+{{< /std >}}
 
-AVG.20.4 Demonstrate foundational knowledge of common programming languages and how scripting automates tasks in games.
+{{< std code="AVG.20.4" >}}
+Demonstrate foundational knowledge of common programming languages and how scripting automates tasks in games.
+{{< /std >}}
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 
@@ -152,63 +200,115 @@ Virtual Production
 
 #### **17.0 Film and Television: Skill Building (Production Crafts)**
 
-FT.17.1 Research and demonstrate understanding of the cinematic process, including story structure and development, script development and analysis, preproduction[^13], production, and postproduction.
+{{< std code="FT.17.1" >}}
+Research and demonstrate understanding of the cinematic process, including story structure and development, script development and analysis, preproduction[^13], production, and postproduction.
+{{< /std >}}
 
-FT.17.2 Research and demonstrate an understanding of call sheets and the roles and responsibilities for each department [^14]
+{{< std code="FT.17.2" >}}
+Research and demonstrate an understanding of call sheets and the roles and responsibilities for each department [^14]
+{{< /std >}}
 
-FT.17.3 Observe sets/locations for potential challenges and to determine filming and lighting requirements.
+{{< std code="FT.17.3" >}}
+Observe sets/locations for potential challenges and to determine filming and lighting requirements.
+{{< /std >}}
 
-FT.17.4 Research and identify needs of props, set, costumes, hair, and makeup in alignment with show design and creative direction.[^15]
+{{< std code="FT.17.4" >}}
+Research and identify needs of props, set, costumes, hair, and makeup in alignment with show design and creative direction.[^15]
+{{< /std >}}
 
-FT.17.5 Confer with directors and department heads to execute filming sequences, camera movements, and lighting requirements.
+{{< std code="FT.17.5" >}}
+Confer with directors and department heads to execute filming sequences, camera movements, and lighting requirements.
+{{< /std >}}
 
-FT.17.6 Properly handle, place, and operate cameras and related equipment (i.e., lenses, and filters) to capture high-quality content to achieve desired effects for an audience.
+{{< std code="FT.17.6" >}}
+Properly handle, place, and operate cameras and related equipment (i.e., lenses, and filters) to capture high-quality content to achieve desired effects for an audience.
+{{< /std >}}
 
-FT.17.7 Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads)
+{{< std code="FT.17.7" >}}
+Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads)
+{{< /std >}}
 
-FT.17.8 Place and operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, and shotgun/boom microphones, and speakers) to capture high quality audio.
+{{< std code="FT.17.8" >}}
+Place and operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, and shotgun/boom microphones, and speakers) to capture high quality audio.
+{{< /std >}}
 
-FT.17.9 Operate grip and set lighting equipment (i.e., green screens, camera mounts, Century Stands (C-Stands), tripods, and/or camera dollies) to control shadows, brightness, color, and effects.
+{{< std code="FT.17.9" >}}
+Operate grip and set lighting equipment (i.e., green screens, camera mounts, Century Stands (C-Stands), tripods, and/or camera dollies) to control shadows, brightness, color, and effects.
+{{< /std >}}
 
 #### **18.0 Film and Television: Process and Practice (Editing and Postproduction)**
 
-FT.18.1 Properly transcode and import all media and digital assets from production after each shoot to prepare for edit and proper delivery specifications.
+{{< std code="FT.18.1" >}}
+Properly transcode and import all media and digital assets from production after each shoot to prepare for edit and proper delivery specifications.
+{{< /std >}}
 
-FT.18.2 Organize and tag all digital assets and footage based on camera logs, notes from script supervisors, and scene numbers or shoot dates using editorial script programs.
+{{< std code="FT.18.2" >}}
+Organize and tag all digital assets and footage based on camera logs, notes from script supervisors, and scene numbers or shoot dates using editorial script programs.
+{{< /std >}}
 
-FT.18.3 Review footage, select scenes, and assemble into a rough cut according to the lead creative’s vision.
+{{< std code="FT.18.3" >}}
+Review footage, select scenes, and assemble into a rough cut according to the lead creative’s vision.
+{{< /std >}}
 
-FT.18.4 Edit scenes together with smooth transitions (i.e., cut, dissolve, and wipe) using industry-standard software.
+{{< std code="FT.18.4" >}}
+Edit scenes together with smooth transitions (i.e., cut, dissolve, and wipe) using industry-standard software.
+{{< /std >}}
 
-FT.18.5 Generate and/or integrate effects, motion graphics, captions, credits, and/or animation into editorial workflow.
+{{< std code="FT.18.5" >}}
+Generate and/or integrate effects, motion graphics, captions, credits, and/or animation into editorial workflow.
+{{< /std >}}
 
-FT.18.6 Collaborate with artistic and editorial team to apply constructive feedback, finalize an edit, and lock the film according to the director’s instruction.
+{{< std code="FT.18.6" >}}
+Collaborate with artistic and editorial team to apply constructive feedback, finalize an edit, and lock the film according to the director’s instruction.
+{{< /std >}}
 
-FT.18.7 Create a locked final edit to initiate final color and sound editing process.
+{{< std code="FT.18.7" >}}
+Create a locked final edit to initiate final color and sound editing process.
+{{< /std >}}
 
-FT.18.8 Assist and understand process for spotting sound, music, and VFX in a final edit.
+{{< std code="FT.18.8" >}}
+Assist and understand process for spotting sound, music, and VFX in a final edit.
+{{< /std >}}
 
-FT.18.9 Export final master for distribution in accordance with specs and legal requirements of platform or distributor.
+{{< std code="FT.18.9" >}}
+Export final master for distribution in accordance with specs and legal requirements of platform or distributor.
+{{< /std >}}
 
 #### **19.0 Film and Television: Career Exploration**
 
-FT.19.1 Explore career pathways in different production environments (i.e., commercials, music videos, scripted and unscripted television, independent films, and feature films.)
+{{< std code="FT.19.1" >}}
+Explore career pathways in different production environments (i.e., commercials, music videos, scripted and unscripted television, independent films, and feature films.)
+{{< /std >}}
 
-FT.19.2 Explore career pathways in the production crafts, visual effects (VFX) and post-production (i.e., below the line) on set and in production support facilities.
+{{< std code="FT.19.2" >}}
+Explore career pathways in the production crafts, visual effects (VFX) and post-production (i.e., below the line) on set and in production support facilities.
+{{< /std >}}
 
-FT.19.3 Explore career pathways for actors, producers, screenwriters, and directors (i.e., above the line.)
+{{< std code="FT.19.3" >}}
+Explore career pathways for actors, producers, screenwriters, and directors (i.e., above the line.)
+{{< /std >}}
 
-FT.19.4 Explore corporate and marketing careers across industries for filmmakers, content creators, and editing professionals.
+{{< std code="FT.19.4" >}}
+Explore corporate and marketing careers across industries for filmmakers, content creators, and editing professionals.
+{{< /std >}}
 
 #### **20.0 Film and Television: Advanced Technologies (VFX and Virtual Production)**
 
-FT.20.1 Examine the VFX pipeline (creative and technical) from prep to delivery.
+{{< std code="FT.20.1" >}}
+Examine the VFX pipeline (creative and technical) from prep to delivery.
+{{< /std >}}
 
-FT.20.2 Examine on-set VFX and Virtual Production technologies including green screen, motion capture, motion control, LED soundstages, virtual storyboarding, virtual art department, virtual scouting, etc.
+{{< std code="FT.20.2" >}}
+Examine on-set VFX and Virtual Production technologies including green screen, motion capture, motion control, LED soundstages, virtual storyboarding, virtual art department, virtual scouting, etc.
+{{< /std >}}
 
-FT.20.3 Explore fundamentals of virtual production using real-time rendering and new VFX technologies.
+{{< std code="FT.20.3" >}}
+Explore fundamentals of virtual production using real-time rendering and new VFX technologies.
+{{< /std >}}
 
-FT.20.4 Examine principles of motion capture and its applications in VFX.
+{{< std code="FT.20.4" >}}
+Examine principles of motion capture and its applications in VFX.
+{{< /std >}}
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 
@@ -270,61 +370,111 @@ Content Creation
 
 #### **17.0 Digital Communications: Skill Building (Story Development)**
 
-DC.17.1 Identify the target audience, main objective, message, and tone of a story, and select content based on community interests, audience preference, and/or requests from the public.
+{{< std code="DC.17.1" >}}
+Identify the target audience, main objective, message, and tone of a story, and select content based on community interests, audience preference, and/or requests from the public.
+{{< /std >}}
 
-DC.17.2 Study background information, including relevant statistics and data, community interests, audience preference, and/or requests from the public to prepare for programs or interviews.
+{{< std code="DC.17.2" >}}
+Study background information, including relevant statistics and data, community interests, audience preference, and/or requests from the public to prepare for programs or interviews.
+{{< /std >}}
 
-DC.17.3 Write outlines, scripts, and interview questions to develop a program and prepare to interview guests about topics of interest.
+{{< std code="DC.17.3" >}}
+Write outlines, scripts, and interview questions to develop a program and prepare to interview guests about topics of interest.
+{{< /std >}}
 
-DC.17.4 Design content around specific formats (i.e., social media, podcast, news broadcast, and public service announcements) and determine appropriate story structure and media elements.
+{{< std code="DC.17.4" >}}
+Design content around specific formats (i.e., social media, podcast, news broadcast, and public service announcements) and determine appropriate story structure and media elements.
+{{< /std >}}
 
-DC.17.5 Prepare, write, and deliver reports (i.e., news, sports, and weather); organizing material to convey a specific message and to fit specific time slots.
+{{< std code="DC.17.5" >}}
+Prepare, write, and deliver reports (i.e., news, sports, and weather); organizing material to convey a specific message and to fit specific time slots.
+{{< /std >}}
 
-DC.17.6 Refine and edit digital content to ensure it effectively conveys the intended message and tells a clear story.
+{{< std code="DC.17.6" >}}
+Refine and edit digital content to ensure it effectively conveys the intended message and tells a clear story.
+{{< /std >}}
 
-DC.17.7 Create content that describes or demonstrates the value of products, goods, or services.
+{{< std code="DC.17.7" >}}
+Create content that describes or demonstrates the value of products, goods, or services.
+{{< /std >}}
 
-DC.17.8 Provide commentary and conduct interviews online and/or during live events, (i.e., sporting events, parades, conventions, and concerts).
+{{< std code="DC.17.8" >}}
+Provide commentary and conduct interviews online and/or during live events, (i.e., sporting events, parades, conventions, and concerts).
+{{< /std >}}
 
-DC.17.9 Moderate panels or discussion shows on topics such as current affairs, art, education, etc.
+{{< std code="DC.17.9" >}}
+Moderate panels or discussion shows on topics such as current affairs, art, education, etc.
+{{< /std >}}
 
 #### **18.0 Digital Communications: Process and Practice (Content Capture and Editing)**
 
-DC.18.1 Properly handle and operate cameras and related equipment including selecting appropriate placement, lenses, filters, and camera settings to achieve desired effects for an audience.
+{{< std code="DC.18.1" >}}
+Properly handle and operate cameras and related equipment including selecting appropriate placement, lenses, filters, and camera settings to achieve desired effects for an audience.
+{{< /std >}}
 
-DC.18.2 Operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, speakers, mixers, and amplifiers) to achieve high quality audio capture and reproduction.
+{{< std code="DC.18.2" >}}
+Operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, speakers, mixers, and amplifiers) to achieve high quality audio capture and reproduction.
+{{< /std >}}
 
-DC.18.3 Apply techniques to record content for various platforms, including camera and/or microphone selection and placement.
+{{< std code="DC.18.3" >}}
+Apply techniques to record content for various platforms, including camera and/or microphone selection and placement.
+{{< /std >}}
 
-DC.18.4 Properly operate equipment, hardware, and software in a recording or broadcast studio including switchers, mixing boards, Digital Audio Workstations (DAW), receivers, and transmitters.
+{{< std code="DC.18.4" >}}
+Properly operate equipment, hardware, and software in a recording or broadcast studio including switchers, mixing boards, Digital Audio Workstations (DAW), receivers, and transmitters.
+{{< /std >}}
 
-DC.18.5 Scout locations to identify potential needs and challenges.
+{{< std code="DC.18.5" >}}
+Scout locations to identify potential needs and challenges.
+{{< /std >}}
 
-DC.18.6 Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads).
+{{< std code="DC.18.6" >}}
+Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads).
+{{< /std >}}
 
-DC.18.7 Examine and apply best practices to transmit content from remote locations, using streaming, networking, and/or broadcast equipment.
+{{< std code="DC.18.7" >}}
+Examine and apply best practices to transmit content from remote locations, using streaming, networking, and/or broadcast equipment.
+{{< /std >}}
 
-DC.18.8 Review, manipulate, and enhance digital content to tell a clear story, using industry software.
+{{< std code="DC.18.8" >}}
+Review, manipulate, and enhance digital content to tell a clear story, using industry software.
+{{< /std >}}
 
-DC.18.9 Generate and/or integrate images, effects, graphics, captions, and/or animation into final content; Collaborate with artistic and editorial team to apply constructive feedback and finalize an edit.
+{{< std code="DC.18.9" >}}
+Generate and/or integrate images, effects, graphics, captions, and/or animation into final content; Collaborate with artistic and editorial team to apply constructive feedback and finalize an edit.
+{{< /std >}}
 
 #### **19.0 Digital Communications: Career Exploration**
 
-DC.19.1 Explore career pathways for content creators and editors in marketing, branding, and other commercial and web-based environments.
+{{< std code="DC.19.1" >}}
+Explore career pathways for content creators and editors in marketing, branding, and other commercial and web-based environments.
+{{< /std >}}
 
-DC.19.2 Explore career pathways for podcast, live streaming audio/visual (A/V), and broadcast professionals.
+{{< std code="DC.19.2" >}}
+Explore career pathways for podcast, live streaming audio/visual (A/V), and broadcast professionals.
+{{< /std >}}
 
-DC.19.3 Explore career pathways in public relations, journalism, and documentary storytelling.
+{{< std code="DC.19.3" >}}
+Explore career pathways in public relations, journalism, and documentary storytelling.
+{{< /std >}}
 
-DC.19.4 Explore career pathways for show hosts, commentators, shout casters, and media anchors.
+{{< std code="DC.19.4" >}}
+Explore career pathways for show hosts, commentators, shout casters, and media anchors.
+{{< /std >}}
 
 #### **20.0 Digital Communications: Advanced Technologies**
 
-DC.20.1 Examine how web-based technologies are evolving and changing the way content is funded, produced, monetized, and consumed.
+{{< std code="DC.20.1" >}}
+Examine how web-based technologies are evolving and changing the way content is funded, produced, monetized, and consumed.
+{{< /std >}}
 
-DC.20.2 Examine how innovative technologies have changed what is possible in live streaming and broadcast, including the roles and responsibilities of streaming platforms and content creators.
+{{< std code="DC.20.2" >}}
+Examine how innovative technologies have changed what is possible in live streaming and broadcast, including the roles and responsibilities of streaming platforms and content creators.
+{{< /std >}}
 
-DC.20.2 Explore possibilities with immersive storytelling and journalism through virtual and augmented reality technology.
+{{< std code="DC.20.2" >}}
+Explore possibilities with immersive storytelling and journalism through virtual and augmented reality technology.
+{{< /std >}}
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 

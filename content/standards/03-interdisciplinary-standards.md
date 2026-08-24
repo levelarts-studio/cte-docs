@@ -15,77 +15,137 @@ The 2023 AME Interdisciplinary Standards are relevant to students in all AME Pat
 
 *Understand and employ effective business and marketing strategies.*
 
-13.1 Develop and present stories that demonstrate the value of a product, service, or experience.
+{{< std code="13.1" >}}
+Develop and present stories that demonstrate the value of a product, service, or experience.
+{{< /std >}}
 
-13.2 Pitch an original concept with a visual presentation and engaging narrative.
+{{< std code="13.2" >}}
+Pitch an original concept with a visual presentation and engaging narrative.
+{{< /std >}}
 
-13.3 Develop and/or maintain a visually compelling and appropriate set of branded elements for a product, service, or experience.
+{{< std code="13.3" >}}
+Develop and/or maintain a visually compelling and appropriate set of branded elements for a product, service, or experience.
+{{< /std >}}
 
-13.4 Explore content monetization using different social media, distribution, and streaming platforms.
+{{< std code="13.4" >}}
+Explore content monetization using different social media, distribution, and streaming platforms.
+{{< /std >}}
 
-13.5 Create and/or adhere to a project and/or production budget.
+{{< std code="13.5" >}}
+Create and/or adhere to a project and/or production budget.
+{{< /std >}}
 
-13.6 Interact professionally with clients and help define clear and actionable objectives that satisfy their goals.
+{{< std code="13.6" >}}
+Interact professionally with clients and help define clear and actionable objectives that satisfy their goals.
+{{< /std >}}
 
-13.7 Develop and apply business acumen skills to advance creative and/or entrepreneurial ideas.
+{{< std code="13.7" >}}
+Develop and apply business acumen skills to advance creative and/or entrepreneurial ideas.
+{{< /std >}}
 
 #### **14.0 Legal Responsibility**
 
 *Understand contracts, laws, regulations, and organizational norms.*
 
-14.1 Examine how copyright laws impact content creation, derivative works, performance, and publishing across various platforms.
+{{< std code="14.1" >}}
+Examine how copyright laws impact content creation, derivative works, performance, and publishing across various platforms.
+{{< /std >}}
 
-14.2 Adhere to terms of use, including copyright laws and regulations.
+{{< std code="14.2" >}}
+Adhere to terms of use, including copyright laws and regulations.
+{{< /std >}}
 
-14.3 Appropriately cite proprietary information.
+{{< std code="14.3" >}}
+Appropriately cite proprietary information.
+{{< /std >}}
 
-14.4 Use correct terminology as it applies to contracts and legal.
+{{< std code="14.4" >}}
+Use correct terminology as it applies to contracts and legal.
+{{< /std >}}
 
-14.5 Read and interpret a contract and/or legal document.
+{{< std code="14.5" >}}
+Read and interpret a contract and/or legal document.
+{{< /std >}}
 
-14.6 Apply rules and regulations regarding sharing of confidential information as determined by workplace practices including Non-Disclosure Agreements (NDA).
+{{< std code="14.6" >}}
+Apply rules and regulations regarding sharing of confidential information as determined by workplace practices including Non-Disclosure Agreements (NDA).
+{{< /std >}}
 
-14.7 Examine process for registering original creative works to protect intellectual property (IP).
+{{< std code="14.7" >}}
+Examine process for registering original creative works to protect intellectual property (IP).
+{{< /std >}}
 
-14.8 Understand steps and documents required to start a non-profit or for-profit company.
+{{< std code="14.8" >}}
+Understand steps and documents required to start a non-profit or for-profit company.
+{{< /std >}}
 
 #### **15.0 Media Content Creation**
 
 *Develop and create original content.*
 
-15.1 Tell engaging and compelling stories using a variety of artistic mediums and/or media formats.
+{{< std code="15.1" >}}
+Tell engaging and compelling stories using a variety of artistic mediums and/or media formats.
+{{< /std >}}
 
-15.2 Develop original content for a specific media platform based on format, length, and audience.
+{{< std code="15.2" >}}
+Develop original content for a specific media platform based on format, length, and audience.
+{{< /std >}}
 
-15.3 Clearly communicate a story using different industry-specific methods (i.e., outline, script, rundown, treatment, and synopsis.) prior to capturing or creating content.
+{{< std code="15.3" >}}
+Clearly communicate a story using different industry-specific methods (i.e., outline, script, rundown, treatment, and synopsis.) prior to capturing or creating content.
+{{< /std >}}
 
-15.4 Use storyboarding and/or shot lists to plan an engaging and clear scene or sequence.
+{{< std code="15.4" >}}
+Use storyboarding and/or shot lists to plan an engaging and clear scene or sequence.
+{{< /std >}}
 
-15.5 Use angles, composition, framing, shots, and editing to enhance visual storytelling.
+{{< std code="15.5" >}}
+Use angles, composition, framing, shots, and editing to enhance visual storytelling.
+{{< /std >}}
 
-15.6 Use music and audio to enhance storytelling.
+{{< std code="15.6" >}}
+Use music and audio to enhance storytelling.
+{{< /std >}}
 
-15.7 Generate and integrate audio elements (i.e., sound effects, dialog, and music) into seamless and effective sequences.
+{{< std code="15.7" >}}
+Generate and integrate audio elements (i.e., sound effects, dialog, and music) into seamless and effective sequences.
+{{< /std >}}
 
-15.8 Review content to identify and resolve problems, ensure seamless transitions, and maximize the audience’s experience.
+{{< std code="15.8" >}}
+Review content to identify and resolve problems, ensure seamless transitions, and maximize the audience’s experience.
+{{< /std >}}
 
 #### **16.0 Production and Project Management**
 
 *Understand production pipeline and project workflow.*
 
-16.1 Identify and differentiate tools and equipment (including name, function, and purpose) to demonstrate proficiency required for safe and proper use and operation.
+{{< std code="16.1" >}}
+Identify and differentiate tools and equipment (including name, function, and purpose) to demonstrate proficiency required for safe and proper use and operation.
+{{< /std >}}
 
-16.2 Understand roles and responsibilities for each member of a production or project team and related communications etiquette.
+{{< std code="16.2" >}}
+Understand roles and responsibilities for each member of a production or project team and related communications etiquette.
+{{< /std >}}
 
-16.3 Properly handle, operate, maintain, document, and store supplies, tools, equipment, scenic and costume items, cables, and/or accessories.
+{{< std code="16.3" >}}
+Properly handle, operate, maintain, document, and store supplies, tools, equipment, scenic and costume items, cables, and/or accessories.
+{{< /std >}}
 
-16.4 Analyze and breakdown creative plans[^5] to identify specific production and project needs and logistics (i.e., location/venue, casting, insurance, permits, scheduling, budgeting, and crewing.)
+{{< std code="16.4" >}}
+Analyze and breakdown creative plans[^5] to identify specific production and project needs and logistics (i.e., location/venue, casting, insurance, permits, scheduling, budgeting, and crewing.)
+{{< /std >}}
 
-16.5 Attend production/project meetings to discuss creative plans, timelines, and division of duties.
+{{< std code="16.5" >}}
+Attend production/project meetings to discuss creative plans, timelines, and division of duties.
+{{< /std >}}
 
-16.6 Interact professionally with technical crew, talent, developers, and/or staff to realize creative ideas and execute project needs.
+{{< std code="16.6" >}}
+Interact professionally with technical crew, talent, developers, and/or staff to realize creative ideas and execute project needs.
+{{< /std >}}
 
-16.7 Track tasks and deliverables using industry-standard project management strategies and software.
+{{< std code="16.7" >}}
+Track tasks and deliverables using industry-standard project management strategies and software.
+{{< /std >}}
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 

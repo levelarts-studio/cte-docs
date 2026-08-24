@@ -1,0 +1,22 @@
+{{- $code := .Get "code" | default (.Get 0) -}}
+{{- $title := .Get "title" -}}
+{{- $color := .Get "color" | default "indigo" -}}
+{{- $content := .InnerDeindent | markdownify -}}
+
+<div class="not-prose hx:my-3 hx:p-4 hx:rounded-xl hx:bg-neutral-900/70 hx:border hx:border-neutral-800/80 hover:hx:border-indigo-500/40 hx:transition-all hx:duration-200 hx:shadow-sm">
+  <div class="hx:flex hx:items-start hx:gap-3">
+    {{ if $code }}
+      <span class="hx:inline-flex hx:items-center hx:shrink-0 hx:px-2.5 hx:py-1 hx:rounded-md hx:text-xs hx:font-mono hx:font-bold hx:bg-indigo-500/10 hx:text-indigo-300 hx:border hx:border-indigo-500/30">
+        {{ $code }}
+      </span>
+    {{ end }}
+    <div class="hx:w-full hx:min-w-0">
+      {{ if $title }}
+        <h4 class="hx:text-sm hx:font-bold hx:text-neutral-100 hx:m-0 hx:mb-1">{{ $title }}</h4>
+      {{ end }}
+      <div class="hx:text-sm hx:text-neutral-300 hx:leading-relaxed">
+        {{ $content }}
+      </div>
+    </div>
+  </div>
+</div>
