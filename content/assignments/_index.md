@@ -1,5 +1,8 @@
 ---
 title: Assignment Specs
+type: docs
+cascade:
+  type: docs
 ---
 
 # Assignment Specs

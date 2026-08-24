@@ -1,3 +1,6 @@
 ---
-title: Site Build Status Dashboard
+title: Status Dashboard
+type: docs
+cascade:
+  type: docs
 ---

@@ -1,5 +1,8 @@
 ---
 title: Module Library
+type: docs
+cascade:
+  type: docs
 ---
 
 # Textbook Module Library

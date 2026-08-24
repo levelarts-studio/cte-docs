@@ -1,5 +1,6 @@
 ---
-title: Model Curriculum Standards
+title: Standards Index
+type: docs
+cascade:
+  type: docs
 ---
-
-# Standards Index

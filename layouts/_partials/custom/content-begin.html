@@ -1,6 +1,6 @@
 {{ if or (eq .Params.entity "module") (eq .Params.entity "assignment") }}
   {{ if eq .Params.status "stub" }}
-    <div class="hx:overflow-x-auto hx:mt-4 hx:mb-6 hx:flex hx:rounded-lg hx:border hx:py-3 hx:px-4 hx:border-amber-500/30 hx:bg-amber-500/10 hx:text-amber-300">
+    <div class="hx:overflow-x-auto hx:mt-4 hx:mb-6 hx:flex hx:rounded-lg hx:border hx:py-3 hx:px-4 hx:border-amber-200/30 hx:bg-amber-900/20 hx:text-amber-200">
       <div class="hx:ltr:pr-3 hx:rtl:pl-3 hx:flex hx:items-center">
         <svg class="hx:w-5 hx:h-5 hx:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
@@ -13,45 +13,45 @@
     </div>
   {{ end }}
 
-  <div class="not-prose hx:my-4 hx:p-4 hx:rounded-xl hx:bg-neutral-900/40 hx:border hx:border-neutral-800/60 hx:space-y-3">
+  <div class="not-prose hx:my-6 hx:p-4 hx:rounded-xl hx:bg-neutral-900/60 hx:border hx:border-neutral-800 hx:space-y-3">
     <div class="hx:flex hx:flex-wrap hx:items-center hx:gap-2">
       {{ if .Params.id }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-mono hx:font-bold hx:bg-indigo-500/10 hx:text-indigo-300 hx:border hx:border-indigo-500/30">
+        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-mono hx:font-bold hx:bg-neutral-800 hx:text-indigo-300 hx:border hx:border-neutral-700">
           ID: {{ .Params.id }}
         </span>
       {{ end }}
 
       {{ if .Params.subject }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-medium hx:capitalize hx:bg-neutral-800/60 hx:text-neutral-300 hx:border hx:border-neutral-700/40">
+        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-medium hx:capitalize hx:bg-neutral-800 hx:text-neutral-300 hx:border hx:border-neutral-700">
           {{ .Params.subject }}
         </span>
       {{ end }}
 
       {{ if .Params.tier }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-semibold hx:bg-purple-500/10 hx:text-purple-300 hx:border hx:border-purple-500/30">
+        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-semibold hx:bg-neutral-800 hx:text-purple-300 hx:border hx:border-neutral-700">
           Tier {{ .Params.tier }}
         </span>
       {{ end }}
 
       {{ if .Params.status }}
-        {{ $statusClass := "hx:bg-amber-500/10 hx:text-amber-300 hx:border-amber-500/30" }}
+        {{ $statusClass := "hx:bg-neutral-800 hx:text-amber-300 hx:border-neutral-700" }}
         {{ if eq .Params.status "complete" }}
-          {{ $statusClass = "hx:bg-emerald-500/10 hx:text-emerald-300 hx:border-emerald-500/30" }}
+          {{ $statusClass = "hx:bg-neutral-800 hx:text-emerald-300 hx:border-neutral-700" }}
         {{ else if eq .Params.status "draft" }}
-          {{ $statusClass = "hx:bg-blue-500/10 hx:text-blue-300 hx:border-blue-500/30" }}
+          {{ $statusClass = "hx:bg-neutral-800 hx:text-blue-300 hx:border-neutral-700" }}
         {{ end }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-bold hx:uppercase hx:border {{ $statusClass }}">
+        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-bold hx:uppercase hx:border {{ $statusClass }}">
           {{ .Params.status }}
         </span>
       {{ end }}
 
       {{ if .Params.duration }}
-        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-medium hx:bg-neutral-800/60 hx:text-neutral-400 hx:border hx:border-neutral-700/40">
+        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-medium hx:bg-neutral-800 hx:text-neutral-400 hx:border hx:border-neutral-700">
           <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           {{ .Params.duration }} mins
         </span>
       {{ else if .Params.est_time }}
-        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-md hx:px-2.5 hx:py-1 hx:text-xs hx:font-medium hx:bg-neutral-800/60 hx:text-neutral-400 hx:border hx:border-neutral-700/40">
+        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-full hx:px-2.5 hx:py-0.5 hx:text-xs hx:font-medium hx:bg-neutral-800 hx:text-neutral-400 hx:border hx:border-neutral-700">
           <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           {{ .Params.est_time }} mins est.
         </span>
@@ -60,11 +60,11 @@
 
     {{ $reqs := or .Params.prereqs .Params.requires }}
     {{ if $reqs }}
-      <div class="hx:text-xs hx:pt-2 hx:border-t hx:border-neutral-800/60 hx:flex hx:items-center hx:gap-2">
+      <div class="hx:text-xs hx:pt-2.5 hx:border-t hx:border-neutral-800 hx:flex hx:items-center hx:gap-2">
         <span class="hx:font-semibold hx:text-neutral-400">Prerequisites:</span>
         <div class="hx:flex hx:flex-wrap hx:gap-1.5">
           {{ range $reqs }}
-            <span class="hx:inline-flex hx:items-center hx:font-mono hx:text-xs hx:px-2 hx:py-0.5 hx:rounded hx:bg-neutral-800/80 hx:text-neutral-300">
+            <span class="hx:inline-flex hx:items-center hx:font-mono hx:text-xs hx:px-2 hx:py-0.5 hx:rounded hx:bg-neutral-800 hx:text-neutral-300">
               {{ . }}
             </span>
           {{ end }}
@@ -73,11 +73,11 @@
     {{ end }}
 
     {{ if .Params.standards }}
-      <div class="hx:text-xs hx:pt-2 hx:border-t hx:border-neutral-800/60 hx:flex hx:items-center hx:gap-2">
+      <div class="hx:text-xs hx:pt-2.5 hx:border-t hx:border-neutral-800 hx:flex hx:items-center hx:gap-2">
         <span class="hx:font-semibold hx:text-neutral-400">MCS Standards:</span>
         <div class="hx:flex hx:flex-wrap hx:gap-1.5">
           {{ range .Params.standards }}
-            <a href="/standards/{{ . | urlize }}/" class="hx:inline-flex hx:items-center hx:font-mono hx:text-xs hx:px-2 hx:py-0.5 hx:rounded hx:bg-blue-500/10 hx:text-blue-300 hx:border hx:border-blue-500/30 hover:hx:bg-blue-500/20 hx:transition">
+            <a href="/standards/{{ . | urlize }}/" class="hx:inline-flex hx:items-center hx:font-mono hx:text-xs hx:px-2 hx:py-0.5 hx:rounded hx:bg-primary-500/10 hx:text-primary-400 hx:border hx:border-primary-500/20 hover:hx:bg-primary-500/20 hx:transition">
               {{ . }}
             </a>
           {{ end }}

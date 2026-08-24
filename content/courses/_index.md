@@ -1,5 +1,8 @@
 ---
 title: Course Maps
+type: docs
+cascade:
+  type: docs
 ---
 
 # Course Maps
