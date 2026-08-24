@@ -1,51 +1,33 @@
 {{ if or (eq .Params.entity "module") (eq .Params.entity "assignment") }}
-  <div class="not-prose hx:mt-3 hx:mb-6 hx:space-y-3">
-    <!-- Inline Metadata Badges -->
-    <div class="hx:flex hx:flex-wrap hx:items-center hx:gap-2 hx:text-xs">
+  <div class="not-prose hx:my-4 hx:space-y-3">
+    <!-- Hextra Native Badges -->
+    <div class="hx:flex hx:flex-wrap hx:items-center hx:gap-2">
       {{ if .Params.id }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-mono hx:font-bold hx:bg-neutral-800 hx:text-indigo-300">
-          ID: {{ .Params.id }}
-        </span>
+        {{ partial "shortcodes/badge.html" (dict "content" (printf "ID: %s" .Params.id) "color" "indigo") }}
       {{ end }}
 
       {{ if .Params.subject }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-medium hx:capitalize hx:bg-neutral-800 hx:text-neutral-300">
-          {{ .Params.subject }}
-        </span>
+        {{ partial "shortcodes/badge.html" (dict "content" .Params.subject "color" "gray") }}
       {{ end }}
 
       {{ if .Params.tier }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-semibold hx:bg-neutral-800 hx:text-purple-300">
-          Tier {{ .Params.tier }}
-        </span>
+        {{ partial "shortcodes/badge.html" (dict "content" (printf "Tier %v" .Params.tier) "color" "purple") }}
       {{ end }}
 
       {{ if .Params.status }}
-        {{ $statusColor := "hx:text-amber-300 hx:bg-neutral-800" }}
-        {{ if eq .Params.status "complete" }}
-          {{ $statusColor = "hx:text-emerald-300 hx:bg-neutral-800" }}
-        {{ else if eq .Params.status "draft" }}
-          {{ $statusColor = "hx:text-blue-300 hx:bg-neutral-800" }}
-        {{ end }}
-        <span class="hx:inline-flex hx:items-center hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-bold hx:uppercase {{ $statusColor }}">
-          {{ .Params.status }}
-        </span>
+        {{ $statusColor := "amber" }}
+        {{ if eq .Params.status "complete" }}{{ $statusColor = "green" }}{{ else if eq .Params.status "draft" }}{{ $statusColor = "blue" }}{{ end }}
+        {{ partial "shortcodes/badge.html" (dict "content" (upper .Params.status) "color" $statusColor) }}
       {{ end }}
 
       {{ if .Params.duration }}
-        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-medium hx:bg-neutral-800 hx:text-neutral-400">
-          <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          {{ .Params.duration }} mins
-        </span>
+        {{ partial "shortcodes/badge.html" (dict "content" (printf "%v mins" .Params.duration) "color" "gray") }}
       {{ else if .Params.est_time }}
-        <span class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-full hx:px-2.5 hx:py-0.5 hx:font-medium hx:bg-neutral-800 hx:text-neutral-400">
-          <svg class="hx:w-3.5 hx:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          {{ .Params.est_time }} mins est.
-        </span>
+        {{ partial "shortcodes/badge.html" (dict "content" (printf "%v mins est." .Params.est_time) "color" "gray") }}
       {{ end }}
     </div>
 
-    <!-- Prerequisites & MCS Standards Inline Row -->
+    <!-- Prerequisites & Standards -->
     {{ $reqs := or .Params.prereqs .Params.requires }}
     {{ if or $reqs .Params.standards }}
       <div class="hx:flex hx:flex-wrap hx:items-center hx:gap-x-4 hx:gap-y-2 hx:text-xs hx:text-neutral-400">
@@ -53,9 +35,7 @@
           <div class="hx:flex hx:items-center hx:gap-1.5">
             <span class="hx:font-semibold">Prerequisites:</span>
             {{ range $reqs }}
-              <span class="hx:font-mono hx:text-neutral-300 hx:bg-neutral-800 hx:px-2 hx:py-0.5 hx:rounded">
-                {{ . }}
-              </span>
+              {{ partial "shortcodes/badge.html" (dict "content" . "color" "gray") }}
             {{ end }}
           </div>
         {{ end }}
@@ -64,9 +44,8 @@
           <div class="hx:flex hx:items-center hx:gap-1.5">
             <span class="hx:font-semibold">MCS Standards:</span>
             {{ range .Params.standards }}
-              <a href="/standards/{{ . | urlize }}/" class="hx:font-mono hx:text-primary-400 hover:hx:underline hx:bg-neutral-800 hx:px-2 hx:py-0.5 hx:rounded">
-                {{ . }}
-              </a>
+              {{ $stdLink := printf "/standards/%s/" (. | urlize) }}
+              {{ partial "shortcodes/badge.html" (dict "content" . "color" "blue" "link" $stdLink) }}
             {{ end }}
           </div>
         {{ end }}
@@ -75,16 +54,12 @@
 
     {{ partial "shortcodes/coursepath.html" . }}
 
-    <!-- Stub Banner: Minimal clean Hextra alert -->
+    <!-- Hextra Native Callout for Stub Warning -->
     {{ if eq .Params.status "stub" }}
-      <div class="hx:overflow-x-auto hx:mt-3 hx:flex hx:rounded-lg hx:py-2 hx:px-3.5 hx:bg-amber-500/10 hx:text-amber-300 hx:text-xs">
-        <div class="hx:ltr:pr-2.5 hx:rtl:pl-2.5 hx:flex hx:items-center">
-          <svg class="hx:w-4 hx:h-4 hx:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-        </div>
-        <div class="hx:w-full hx:min-w-0 hx:leading-5">
-          <strong class="hx:font-semibold hx:text-amber-300">Stub Notice:</strong> Lesson currently being authored. Use <kbd class="hx:px-1 hx:py-0.5 hx:bg-neutral-900 hx:rounded hx:font-mono hx:text-2xs">Ctrl + K</kbd> to search keywords.
-        </div>
-      </div>
+      {{ partial "shortcodes/callout.html" (dict
+        "type" "warning"
+        "content" "This lesson is currently being authored (Stub). Use **Ctrl + K** to search tools and keywords."
+      ) }}
     {{ end }}
   </div>
 {{ end }}

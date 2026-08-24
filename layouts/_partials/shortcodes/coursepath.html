@@ -15,9 +15,8 @@
     <div class="hx:flex hx:items-center hx:gap-1.5">
       <span class="hx:font-semibold">Used in Courses:</span>
       {{ range $usedCourses }}
-        <span class="hx:font-medium hx:text-indigo-300 hx:bg-neutral-800 hx:px-2 hx:py-0.5 hx:rounded">
-          <strong>{{ .course }}</strong> &mdash; {{ .unit }}
-        </span>
+        {{ $label := printf "%s — %s" .course .unit }}
+        {{ partial "shortcodes/badge.html" (dict "content" $label "color" "indigo") }}
       {{ end }}
     </div>
   </div>

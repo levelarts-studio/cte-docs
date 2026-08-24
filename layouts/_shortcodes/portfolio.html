@@ -1,11 +1,4 @@
-<div class="hx:overflow-x-auto hx:my-6 hx:flex hx:rounded-lg hx:py-2.5 hx:px-4 hx:bg-amber-500/10 hx:text-amber-200">
-  <div class="hx:ltr:pr-3 hx:rtl:pl-3 hx:flex hx:items-start hx:pt-0.5">
-    <svg class="hx:w-5 hx:h-5 hx:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-  </div>
-  <div class="hx:w-full hx:min-w-0 hx:leading-6 hx:text-sm">
-    <strong class="hx:font-semibold hx:text-amber-300">Portfolio Artifact Requirement:</strong>
-    <p class="hx:mt-1 hx:text-sm hx:text-amber-200/90">
-      This assignment produces a permanent portfolio piece. Upload your final artifact to your <strong>Google Sites Portfolio</strong> under the section specified in Classroom.
-    </p>
-  </div>
-</div>
+{{ partial "shortcodes/callout.html" (dict
+  "type" "warning"
+  "content" "**Portfolio Artifact Requirement:** This assignment produces a permanent portfolio piece. Upload your final artifact to your **Google Sites Portfolio** under the section specified in Classroom."
+) }}

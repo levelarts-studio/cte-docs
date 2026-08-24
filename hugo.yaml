@@ -1,4 +1,4 @@
-title: "Level Arts CTE Module Library & Course Maps"
+title: "AED Module Library"
 baseURL: "https://cte.levelarts.studio/"
 languageCode: en-us
 theme: hextra
@@ -64,4 +64,3 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: false
-
