@@ -1,6 +1,7 @@
 ---
 id: GAME-101
 title: "What Is a Game"
+weight: 10
 entity: module
 subject: gamedesign
 tier: 100

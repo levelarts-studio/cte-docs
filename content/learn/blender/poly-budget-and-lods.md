@@ -1,6 +1,7 @@
 ---
 id: BLND-212
 title: "Poly Budget and LODs"
+weight: 170
 entity: module
 subject: blender
 tier: 200

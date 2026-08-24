@@ -1,6 +1,7 @@
 ---
 id: BLND-211
 title: "Game-Ready Export"
+weight: 180
 entity: module
 subject: blender
 tier: 200

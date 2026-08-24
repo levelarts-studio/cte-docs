@@ -1,6 +1,7 @@
 ---
 id: MEDIA-106
 title: "Camera Angles and Movement"
+weight: 70
 entity: module
 subject: media
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: COMP-112
 title: "Staying Safe and Private Online"
+weight: 110
 entity: module
 subject: computing
 tier: 100

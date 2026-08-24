@@ -1,6 +1,7 @@
 ---
 id: BLND-208
 title: "Cameras and Rendering"
+weight: 120
 entity: module
 subject: blender
 tier: 200

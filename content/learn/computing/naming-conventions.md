@@ -1,6 +1,7 @@
 ---
 id: COMP-105
 title: "Naming Conventions"
+weight: 50
 entity: module
 subject: computing
 tier: 100

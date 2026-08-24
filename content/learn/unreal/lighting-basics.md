@@ -1,6 +1,7 @@
 ---
 id: UE-106
 title: "Lighting Basics"
+weight: 60
 entity: module
 subject: unreal
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: CAREER-204
 title: "Entrepreneurship and Freelancing"
+weight: 80
 entity: module
 subject: career
 tier: 200

@@ -1,6 +1,7 @@
 ---
 id: CAREER-111
 title: "Education and Training Routes"
+weight: 60
 entity: module
 subject: career
 tier: 100

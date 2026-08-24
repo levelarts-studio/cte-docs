@@ -1,6 +1,7 @@
 ---
 id: LAW-106
 title: "Attribution and Citing Sources"
+weight: 50
 entity: module
 subject: law
 tier: 100

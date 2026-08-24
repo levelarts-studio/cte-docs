@@ -1,6 +1,7 @@
 ---
 id: LAW-110
 title: "Responsible AI Use and Verification"
+weight: 120
 entity: module
 subject: law
 tier: 100

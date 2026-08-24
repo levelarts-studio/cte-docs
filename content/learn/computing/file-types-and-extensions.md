@@ -1,6 +1,7 @@
 ---
 id: COMP-104
 title: "File Types and Extensions"
+weight: 40
 entity: module
 subject: computing
 tier: 100

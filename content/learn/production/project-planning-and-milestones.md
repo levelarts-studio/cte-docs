@@ -1,6 +1,7 @@
 ---
 id: PROD-104
 title: "Project Planning and Milestones"
+weight: 50
 entity: module
 subject: production
 tier: 100

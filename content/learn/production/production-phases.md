@@ -1,6 +1,7 @@
 ---
 id: PROD-101
 title: "Production Phases"
+weight: 10
 entity: module
 subject: production
 tier: 100

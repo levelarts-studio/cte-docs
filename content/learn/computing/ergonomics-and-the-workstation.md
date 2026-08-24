@@ -1,6 +1,7 @@
 ---
 id: COMP-110
 title: "Ergonomics and the Workstation"
+weight: 70
 entity: module
 subject: computing
 tier: 100

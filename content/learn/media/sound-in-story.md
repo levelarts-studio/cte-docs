@@ -1,6 +1,7 @@
 ---
 id: MEDIA-109
 title: "Sound in Story"
+weight: 80
 entity: module
 subject: media
 tier: 100

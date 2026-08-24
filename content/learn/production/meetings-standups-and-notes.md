@@ -1,6 +1,7 @@
 ---
 id: PROD-106
 title: "Meetings, Standups, and Notes"
+weight: 70
 entity: module
 subject: production
 tier: 100

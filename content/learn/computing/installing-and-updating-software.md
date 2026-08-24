@@ -1,6 +1,7 @@
 ---
 id: COMP-107
 title: "Installing and Updating Software"
+weight: 80
 entity: module
 subject: computing
 tier: 100

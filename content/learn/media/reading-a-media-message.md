@@ -1,6 +1,7 @@
 ---
 id: MEDIA-112
 title: "Reading a Media Message"
+weight: 120
 entity: module
 subject: media
 tier: 100

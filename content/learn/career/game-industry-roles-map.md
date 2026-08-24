@@ -1,6 +1,7 @@
 ---
 id: CAREER-201
 title: "Game Industry Roles Map"
+weight: 40
 entity: module
 subject: career
 tier: 200

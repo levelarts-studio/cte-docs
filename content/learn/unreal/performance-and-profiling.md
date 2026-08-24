@@ -1,6 +1,7 @@
 ---
 id: UE-210
 title: "Performance and Profiling"
+weight: 170
 entity: module
 subject: unreal
 tier: 200

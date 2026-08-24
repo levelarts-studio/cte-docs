@@ -1,6 +1,7 @@
 ---
 id: CAREER-106
 title: "Artist Statement and Bio"
+weight: 120
 entity: module
 subject: career
 tier: 100

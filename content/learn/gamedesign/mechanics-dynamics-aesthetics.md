@@ -1,6 +1,7 @@
 ---
 id: GAME-104
 title: "Mechanics, Dynamics, Aesthetics"
+weight: 30
 entity: module
 subject: gamedesign
 tier: 100

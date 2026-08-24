@@ -1,6 +1,7 @@
 ---
 id: PROD-107
 title: "Giving and Receiving Feedback"
+weight: 80
 entity: module
 subject: production
 tier: 100

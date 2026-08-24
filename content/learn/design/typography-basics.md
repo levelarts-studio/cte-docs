@@ -1,6 +1,7 @@
 ---
 id: DESN-109
 title: "Typography Basics"
+weight: 140
 entity: module
 subject: design
 tier: 100

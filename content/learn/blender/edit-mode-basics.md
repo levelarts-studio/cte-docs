@@ -1,6 +1,7 @@
 ---
 id: BLND-104
 title: "Edit Mode Basics"
+weight: 40
 entity: module
 subject: blender
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: LAW-103
 title: "Trademark and Publicity Rights"
+weight: 60
 entity: module
 subject: law
 tier: 100

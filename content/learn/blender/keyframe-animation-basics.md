@@ -1,6 +1,7 @@
 ---
 id: BLND-210
 title: "Keyframe Animation Basics"
+weight: 200
 entity: module
 subject: blender
 tier: 200

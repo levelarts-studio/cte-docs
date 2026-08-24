@@ -1,6 +1,7 @@
 ---
 id: UE-101
 title: "Interface and Navigation"
+weight: 20
 entity: module
 subject: unreal
 tier: 100

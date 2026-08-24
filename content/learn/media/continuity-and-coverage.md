@@ -1,6 +1,7 @@
 ---
 id: MEDIA-107
 title: "Continuity and Coverage"
+weight: 90
 entity: module
 subject: media
 tier: 100

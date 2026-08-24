@@ -1,6 +1,7 @@
 ---
 id: MEDIA-104
 title: "Point of View"
+weight: 50
 entity: module
 subject: media
 tier: 100

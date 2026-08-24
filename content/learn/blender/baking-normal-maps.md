@@ -1,6 +1,7 @@
 ---
 id: BLND-206
 title: "Baking Normal Maps"
+weight: 110
 entity: module
 subject: blender
 tier: 200

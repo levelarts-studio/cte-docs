@@ -1,6 +1,7 @@
 ---
 id: GAME-206
 title: "Monetization Models"
+weight: 170
 entity: module
 subject: gamedesign
 tier: 200

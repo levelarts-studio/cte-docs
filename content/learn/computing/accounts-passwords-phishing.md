@@ -1,6 +1,7 @@
 ---
 id: COMP-111
 title: "Accounts, Passwords, Phishing"
+weight: 120
 entity: module
 subject: computing
 tier: 100

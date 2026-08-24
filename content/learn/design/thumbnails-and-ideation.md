@@ -1,6 +1,7 @@
 ---
 id: DESN-110
 title: "Thumbnails and Ideation"
+weight: 100
 entity: module
 subject: design
 tier: 100

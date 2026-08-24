@@ -1,6 +1,7 @@
 ---
 id: BLND-207
 title: "Lighting in Blender"
+weight: 130
 entity: module
 subject: blender
 tier: 200

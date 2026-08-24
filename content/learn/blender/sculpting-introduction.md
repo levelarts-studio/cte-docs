@@ -1,6 +1,7 @@
 ---
 id: BLND-203
 title: "Sculpting Introduction"
+weight: 140
 entity: module
 subject: blender
 tier: 200

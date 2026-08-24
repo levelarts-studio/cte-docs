@@ -1,6 +1,7 @@
 ---
 id: LAW-109
 title: "AI, Authorship, and Ownership"
+weight: 110
 entity: module
 subject: law
 tier: 100

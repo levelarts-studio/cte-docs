@@ -1,6 +1,7 @@
 ---
 id: GAME-109
 title: "Accessibility in Games"
+weight: 150
 entity: module
 subject: gamedesign
 tier: 100

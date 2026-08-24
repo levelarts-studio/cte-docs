@@ -1,6 +1,7 @@
 ---
 id: DESN-101
 title: "Elements of Art"
+weight: 10
 entity: module
 subject: design
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: UE-202
 title: "Variables and Flow Control"
+weight: 110
 entity: module
 subject: unreal
 tier: 200

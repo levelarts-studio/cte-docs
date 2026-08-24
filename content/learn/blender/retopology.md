@@ -1,6 +1,7 @@
 ---
 id: BLND-301
 title: "Retopology"
+weight: 150
 entity: module
 subject: blender
 tier: 300

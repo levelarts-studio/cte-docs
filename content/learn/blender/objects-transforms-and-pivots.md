@@ -1,6 +1,7 @@
 ---
 id: BLND-102
 title: "Objects, Transforms, and Pivots"
+weight: 20
 entity: module
 subject: blender
 tier: 100

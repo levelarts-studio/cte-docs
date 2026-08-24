@@ -1,6 +1,7 @@
 ---
 id: BLND-105
 title: "Modifiers Introduction"
+weight: 60
 entity: module
 subject: blender
 tier: 100

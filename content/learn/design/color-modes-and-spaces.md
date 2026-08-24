@@ -1,6 +1,7 @@
 ---
 id: DESN-106
 title: "Color Modes and Spaces"
+weight: 70
 entity: module
 subject: design
 tier: 100

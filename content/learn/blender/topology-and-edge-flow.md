@@ -1,6 +1,7 @@
 ---
 id: BLND-201
 title: "Topology and Edge Flow"
+weight: 80
 entity: module
 subject: blender
 tier: 200

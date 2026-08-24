@@ -1,6 +1,7 @@
 ---
 id: LAW-102
 title: "Copyright Basics"
+weight: 20
 entity: module
 subject: law
 tier: 100

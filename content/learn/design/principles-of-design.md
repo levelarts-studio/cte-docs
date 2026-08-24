@@ -1,6 +1,7 @@
 ---
 id: DESN-102
 title: "Principles of Design"
+weight: 40
 entity: module
 subject: design
 tier: 100

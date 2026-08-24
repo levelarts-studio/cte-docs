@@ -1,6 +1,7 @@
 ---
 id: CAREER-203
 title: "Cross-Sector Careers for Game Skills"
+weight: 180
 entity: module
 subject: career
 tier: 200

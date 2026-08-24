@@ -1,6 +1,7 @@
 ---
 id: UE-209
 title: "Packaging a Build"
+weight: 180
 entity: module
 subject: unreal
 tier: 200

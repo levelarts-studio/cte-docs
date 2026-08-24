@@ -1,6 +1,7 @@
 ---
 id: DESN-113
 title: "Wireframes and Layout"
+weight: 150
 entity: module
 subject: design
 tier: 100

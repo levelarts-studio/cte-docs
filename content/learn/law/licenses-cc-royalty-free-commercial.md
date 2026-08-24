@@ -1,6 +1,7 @@
 ---
 id: LAW-105
 title: "Licenses: CC, Royalty-Free, Commercial"
+weight: 40
 entity: module
 subject: law
 tier: 100

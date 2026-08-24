@@ -1,6 +1,7 @@
 ---
 id: COMP-108
 title: "Reading a Spec Sheet"
+weight: 100
 entity: module
 subject: computing
 tier: 100

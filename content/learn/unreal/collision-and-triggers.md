@@ -1,6 +1,7 @@
 ---
 id: UE-204
 title: "Collision and Triggers"
+weight: 90
 entity: module
 subject: unreal
 tier: 200

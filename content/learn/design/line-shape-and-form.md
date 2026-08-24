@@ -1,6 +1,7 @@
 ---
 id: DESN-103
 title: "Line, Shape, and Form"
+weight: 20
 entity: module
 subject: design
 tier: 100

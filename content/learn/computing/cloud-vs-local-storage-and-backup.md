@@ -1,6 +1,7 @@
 ---
 id: COMP-106
 title: "Cloud vs Local Storage and Backup"
+weight: 90
 entity: module
 subject: computing
 tier: 100

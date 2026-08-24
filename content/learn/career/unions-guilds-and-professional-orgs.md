@@ -1,6 +1,7 @@
 ---
 id: CAREER-112
 title: "Unions, Guilds, and Professional Orgs"
+weight: 90
 entity: module
 subject: career
 tier: 100

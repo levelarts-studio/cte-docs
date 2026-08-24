@@ -1,6 +1,7 @@
 ---
 id: BLND-209
 title: "Rigging Basics"
+weight: 210
 entity: module
 subject: blender
 tier: 200

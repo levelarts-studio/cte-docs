@@ -1,6 +1,7 @@
 ---
 id: PROD-108
 title: "Asset Management and Naming"
+weight: 100
 entity: module
 subject: production
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: BLND-103
 title: "Primitive Modeling"
+weight: 30
 entity: module
 subject: blender
 tier: 100

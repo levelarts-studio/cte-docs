@@ -1,6 +1,7 @@
 ---
 id: PROD-102
 title: "Roles on a Creative Team"
+weight: 20
 entity: module
 subject: production
 tier: 100

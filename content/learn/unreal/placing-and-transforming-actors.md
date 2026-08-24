@@ -1,6 +1,7 @@
 ---
 id: UE-103
 title: "Placing and Transforming Actors"
+weight: 30
 entity: module
 subject: unreal
 tier: 100

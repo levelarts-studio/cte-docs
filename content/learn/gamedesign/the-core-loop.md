@@ -1,6 +1,7 @@
 ---
 id: GAME-102
 title: "The Core Loop"
+weight: 40
 entity: module
 subject: gamedesign
 tier: 100

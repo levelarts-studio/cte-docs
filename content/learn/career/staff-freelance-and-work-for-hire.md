@@ -1,6 +1,7 @@
 ---
 id: CAREER-113
 title: "Staff, Freelance, and Work for Hire"
+weight: 70
 entity: module
 subject: career
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: DESN-104
 title: Value and Contrast
+weight: 30
 entity: module
 subject: design
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: COMP-103
 title: "Files, Folders, and Paths"
+weight: 30
 entity: module
 subject: computing
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: MEDIA-113
 title: "Source Credibility and Bias"
+weight: 130
 entity: module
 subject: media
 tier: 100

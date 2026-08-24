@@ -1,6 +1,7 @@
 ---
 id: PROD-205
 title: "Handoff and Documentation"
+weight: 140
 entity: module
 subject: production
 tier: 200

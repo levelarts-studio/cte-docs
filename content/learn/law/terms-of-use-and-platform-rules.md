@@ -1,6 +1,7 @@
 ---
 id: LAW-107
 title: "Terms of Use and Platform Rules"
+weight: 90
 entity: module
 subject: law
 tier: 100

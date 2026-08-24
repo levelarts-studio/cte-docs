@@ -1,6 +1,7 @@
 ---
 id: PROD-201
 title: "The Game Design Document"
+weight: 40
 entity: module
 subject: production
 tier: 200

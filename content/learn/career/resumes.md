@@ -1,6 +1,7 @@
 ---
 id: CAREER-107
 title: "Resumes"
+weight: 110
 entity: module
 subject: career
 tier: 100

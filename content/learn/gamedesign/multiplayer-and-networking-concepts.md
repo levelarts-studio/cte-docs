@@ -1,6 +1,7 @@
 ---
 id: GAME-207
 title: "Multiplayer and Networking Concepts"
+weight: 160
 entity: module
 subject: gamedesign
 tier: 200

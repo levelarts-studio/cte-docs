@@ -1,6 +1,7 @@
 ---
 id: PROD-202
 title: "Version Control for Teams"
+weight: 110
 entity: module
 subject: production
 tier: 200

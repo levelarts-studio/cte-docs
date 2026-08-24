@@ -1,6 +1,7 @@
 ---
 id: GAME-202
 title: "Economy and Progression"
+weight: 110
 entity: module
 subject: gamedesign
 tier: 200

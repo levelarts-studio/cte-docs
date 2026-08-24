@@ -1,6 +1,7 @@
 ---
 id: DESN-111
 title: "Mood Boards and Reference"
+weight: 90
 entity: module
 subject: design
 tier: 100

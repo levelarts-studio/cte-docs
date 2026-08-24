@@ -1,6 +1,7 @@
 ---
 id: BLND-205
 title: "Texturing and PBR Maps"
+weight: 100
 entity: module
 subject: blender
 tier: 200

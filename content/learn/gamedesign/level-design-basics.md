@@ -1,6 +1,7 @@
 ---
 id: GAME-105
 title: "Level Design Basics"
+weight: 60
 entity: module
 subject: gamedesign
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: CAREER-105
 title: "Documenting Your Work"
+weight: 130
 entity: module
 subject: career
 tier: 100

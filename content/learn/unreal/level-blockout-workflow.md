@@ -1,6 +1,7 @@
 ---
 id: UE-206
 title: "Level Blockout Workflow"
+weight: 50
 entity: module
 subject: unreal
 tier: 200

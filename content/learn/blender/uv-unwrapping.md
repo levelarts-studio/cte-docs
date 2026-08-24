@@ -1,6 +1,7 @@
 ---
 id: BLND-204
 title: "UV Unwrapping"
+weight: 90
 entity: module
 subject: blender
 tier: 200

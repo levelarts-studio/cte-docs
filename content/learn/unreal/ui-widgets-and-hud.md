@@ -1,6 +1,7 @@
 ---
 id: UE-205
 title: "UI Widgets and HUD"
+weight: 130
 entity: module
 subject: unreal
 tier: 200

@@ -1,6 +1,7 @@
 ---
 id: UE-102
 title: "Project Setup and Folder Structure"
+weight: 10
 entity: module
 subject: unreal
 tier: 100

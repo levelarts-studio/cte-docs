@@ -1,6 +1,7 @@
 ---
 id: LAW-101
 title: "What Intellectual Property Is"
+weight: 10
 entity: module
 subject: law
 tier: 100

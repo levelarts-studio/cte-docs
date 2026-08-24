@@ -1,6 +1,7 @@
 ---
 id: CAREER-104
 title: "Building a Google Sites Portfolio"
+weight: 140
 entity: module
 subject: career
 tier: 100

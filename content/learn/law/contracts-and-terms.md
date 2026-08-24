@@ -1,6 +1,7 @@
 ---
 id: LAW-201
 title: "Contracts and Terms"
+weight: 80
 entity: module
 subject: law
 tier: 200

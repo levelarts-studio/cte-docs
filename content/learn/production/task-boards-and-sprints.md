@@ -1,6 +1,7 @@
 ---
 id: PROD-203
 title: "Task Boards and Sprints"
+weight: 60
 entity: module
 subject: production
 tier: 200

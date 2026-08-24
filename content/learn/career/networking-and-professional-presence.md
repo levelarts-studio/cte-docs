@@ -1,6 +1,7 @@
 ---
 id: CAREER-109
 title: "Networking and Professional Presence"
+weight: 170
 entity: module
 subject: career
 tier: 100

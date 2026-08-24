@@ -1,6 +1,7 @@
 ---
 id: DESN-105
 title: "Color Theory Basics"
+weight: 60
 entity: module
 subject: design
 tier: 100

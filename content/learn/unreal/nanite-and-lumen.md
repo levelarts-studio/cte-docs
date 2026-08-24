@@ -1,6 +1,7 @@
 ---
 id: UE-301
 title: "Nanite and Lumen"
+weight: 70
 entity: module
 subject: unreal
 tier: 300

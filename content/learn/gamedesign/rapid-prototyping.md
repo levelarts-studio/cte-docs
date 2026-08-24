@@ -1,6 +1,7 @@
 ---
 id: GAME-208
 title: "Rapid Prototyping"
+weight: 80
 entity: module
 subject: gamedesign
 tier: 200

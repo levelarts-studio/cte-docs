@@ -1,6 +1,7 @@
 ---
 id: PROD-206
 title: "Budgets and Resources"
+weight: 120
 entity: module
 subject: production
 tier: 200

@@ -1,6 +1,7 @@
 ---
 id: COMP-101
 title: "What a Computer Is Doing"
+weight: 10
 entity: module
 subject: computing
 tier: 100

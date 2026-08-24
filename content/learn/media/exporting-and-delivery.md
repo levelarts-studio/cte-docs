@@ -1,6 +1,7 @@
 ---
 id: MEDIA-114
 title: "Exporting and Delivery"
+weight: 110
 entity: module
 subject: media
 tier: 100

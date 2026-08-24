@@ -1,6 +1,7 @@
 ---
 id: CAREER-110
 title: "Interests, Skills, and Aptitude"
+weight: 10
 entity: module
 subject: career
 tier: 100

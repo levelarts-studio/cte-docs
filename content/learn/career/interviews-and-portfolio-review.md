@@ -1,6 +1,7 @@
 ---
 id: CAREER-114
 title: "Interviews and Portfolio Review"
+weight: 150
 entity: module
 subject: career
 tier: 100

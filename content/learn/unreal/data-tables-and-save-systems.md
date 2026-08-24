@@ -1,6 +1,7 @@
 ---
 id: UE-302
 title: "Data Tables and Save Systems"
+weight: 160
 entity: module
 subject: unreal
 tier: 300

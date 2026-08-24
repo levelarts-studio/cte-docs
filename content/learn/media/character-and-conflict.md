@@ -1,6 +1,7 @@
 ---
 id: MEDIA-103
 title: "Character and Conflict"
+weight: 30
 entity: module
 subject: media
 tier: 100

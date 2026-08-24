@@ -1,6 +1,7 @@
 ---
 id: MEDIA-101
 title: "What Makes a Story"
+weight: 10
 entity: module
 subject: media
 tier: 100

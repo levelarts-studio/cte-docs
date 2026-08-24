@@ -1,6 +1,7 @@
 ---
 id: COMP-102
 title: "Operating Systems and Why They Differ"
+weight: 20
 entity: module
 subject: computing
 tier: 100

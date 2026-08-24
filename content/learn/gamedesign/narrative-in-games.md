@@ -1,6 +1,7 @@
 ---
 id: GAME-107
 title: "Narrative in Games"
+weight: 130
 entity: module
 subject: gamedesign
 tier: 100

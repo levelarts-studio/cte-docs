@@ -1,6 +1,7 @@
 ---
 id: BLND-302
 title: "Modular Kit Building"
+weight: 160
 entity: module
 subject: blender
 tier: 300

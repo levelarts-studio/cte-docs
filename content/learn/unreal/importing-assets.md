@@ -1,6 +1,7 @@
 ---
 id: UE-104
 title: "Importing Assets"
+weight: 40
 entity: module
 subject: unreal
 tier: 100

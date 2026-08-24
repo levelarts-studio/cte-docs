@@ -1,6 +1,7 @@
 ---
 id: MEDIA-108
 title: "Editing: Cuts and Transitions"
+weight: 100
 entity: module
 subject: media
 tier: 100

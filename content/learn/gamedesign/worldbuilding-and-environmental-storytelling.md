@@ -1,6 +1,7 @@
 ---
 id: GAME-205
 title: "Worldbuilding and Environmental Storytelling"
+weight: 140
 entity: module
 subject: gamedesign
 tier: 200

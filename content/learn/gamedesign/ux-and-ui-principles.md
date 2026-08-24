@@ -1,6 +1,7 @@
 ---
 id: GAME-108
 title: "UX and UI Principles"
+weight: 120
 entity: module
 subject: gamedesign
 tier: 100

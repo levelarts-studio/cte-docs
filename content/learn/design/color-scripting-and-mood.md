@@ -1,6 +1,7 @@
 ---
 id: DESN-201
 title: "Color Scripting and Mood"
+weight: 160
 entity: module
 subject: design
 tier: 200

@@ -1,6 +1,7 @@
 ---
 id: BLND-106
 title: "Viewport Shading and Preview"
+weight: 50
 entity: module
 subject: blender
 tier: 100

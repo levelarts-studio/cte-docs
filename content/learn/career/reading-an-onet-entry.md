@@ -1,6 +1,7 @@
 ---
 id: CAREER-102
 title: "Reading an O*NET Entry"
+weight: 50
 entity: module
 subject: career
 tier: 100

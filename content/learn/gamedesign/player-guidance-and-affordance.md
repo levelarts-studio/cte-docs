@@ -1,6 +1,7 @@
 ---
 id: GAME-106
 title: "Player Guidance and Affordance"
+weight: 50
 entity: module
 subject: gamedesign
 tier: 100

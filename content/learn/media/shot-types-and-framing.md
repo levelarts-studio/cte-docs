@@ -1,6 +1,7 @@
 ---
 id: MEDIA-105
 title: "Shot Types and Framing"
+weight: 60
 entity: module
 subject: media
 tier: 100

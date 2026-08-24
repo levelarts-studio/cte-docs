@@ -1,6 +1,7 @@
 ---
 id: DESN-203
 title: "Shape Language in Character Design"
+weight: 120
 entity: module
 subject: design
 tier: 200

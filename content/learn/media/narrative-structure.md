@@ -1,6 +1,7 @@
 ---
 id: MEDIA-102
 title: "Narrative Structure"
+weight: 20
 entity: module
 subject: media
 tier: 100

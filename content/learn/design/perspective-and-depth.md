@@ -1,6 +1,7 @@
 ---
 id: DESN-108
 title: "Perspective and Depth"
+weight: 80
 entity: module
 subject: design
 tier: 100

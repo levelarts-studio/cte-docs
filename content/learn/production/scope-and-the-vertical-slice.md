@@ -1,6 +1,7 @@
 ---
 id: PROD-204
 title: "Scope and the Vertical Slice"
+weight: 130
 entity: module
 subject: production
 tier: 200

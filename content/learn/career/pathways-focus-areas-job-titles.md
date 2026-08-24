@@ -1,6 +1,7 @@
 ---
 id: CAREER-103
 title: "Pathways, Focus Areas, Job Titles"
+weight: 30
 entity: module
 subject: career
 tier: 100

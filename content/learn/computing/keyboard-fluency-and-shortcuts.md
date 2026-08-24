@@ -1,6 +1,7 @@
 ---
 id: COMP-109
 title: "Keyboard Fluency and Shortcuts"
+weight: 60
 entity: module
 subject: computing
 tier: 100

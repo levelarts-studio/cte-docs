@@ -1,6 +1,7 @@
 ---
 id: LAW-108
 title: "How Generative AI Works"
+weight: 100
 entity: module
 subject: law
 tier: 100

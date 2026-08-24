@@ -1,6 +1,7 @@
 ---
 id: UE-201
 title: "Blueprint Fundamentals"
+weight: 100
 entity: module
 subject: unreal
 tier: 200

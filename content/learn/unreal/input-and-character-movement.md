@@ -1,6 +1,7 @@
 ---
 id: UE-203
 title: "Input and Character Movement"
+weight: 120
 entity: module
 subject: unreal
 tier: 200

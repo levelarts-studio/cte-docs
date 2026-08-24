@@ -1,6 +1,7 @@
 ---
 id: CAREER-101
 title: "The Arts, Entertainment & Design Cluster"
+weight: 20
 entity: module
 subject: career
 tier: 100

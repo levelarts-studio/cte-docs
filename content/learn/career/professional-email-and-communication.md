@@ -1,6 +1,7 @@
 ---
 id: CAREER-108
 title: "Professional Email and Communication"
+weight: 100
 entity: module
 subject: career
 tier: 100

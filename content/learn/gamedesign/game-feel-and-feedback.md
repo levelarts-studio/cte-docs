@@ -1,6 +1,7 @@
 ---
 id: GAME-203
 title: "Game Feel and Feedback"
+weight: 70
 entity: module
 subject: gamedesign
 tier: 200

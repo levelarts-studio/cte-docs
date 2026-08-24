@@ -1,6 +1,7 @@
 ---
 id: GAME-204
 title: "Playtesting Methods"
+weight: 90
 entity: module
 subject: gamedesign
 tier: 200

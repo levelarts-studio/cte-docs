@@ -1,6 +1,7 @@
 ---
 id: LAW-104
 title: "Fair Use: The Four Factors"
+weight: 30
 entity: module
 subject: law
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: GAME-103
 title: "Genres and Player Profiles"
+weight: 20
 entity: module
 subject: gamedesign
 tier: 100

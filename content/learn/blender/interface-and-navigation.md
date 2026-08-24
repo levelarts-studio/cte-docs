@@ -1,6 +1,7 @@
 ---
 id: BLND-101
 title: Interface and Navigation
+weight: 10
 entity: module
 subject: blender
 tier: 100

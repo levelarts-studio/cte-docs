@@ -1,6 +1,7 @@
 ---
 id: BLND-202
 title: "Hard Surface Modeling"
+weight: 70
 entity: module
 subject: blender
 tier: 200

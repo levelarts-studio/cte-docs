@@ -1,6 +1,7 @@
 ---
 id: DESN-114
 title: "The Critique Process"
+weight: 180
 entity: module
 subject: design
 tier: 100

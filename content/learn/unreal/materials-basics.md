@@ -1,6 +1,7 @@
 ---
 id: UE-105
 title: "Materials Basics"
+weight: 80
 entity: module
 subject: unreal
 tier: 100

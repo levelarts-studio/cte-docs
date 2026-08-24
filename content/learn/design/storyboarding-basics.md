@@ -1,6 +1,7 @@
 ---
 id: DESN-112
 title: "Storyboarding Basics"
+weight: 110
 entity: module
 subject: design
 tier: 100

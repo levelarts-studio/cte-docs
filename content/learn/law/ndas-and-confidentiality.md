@@ -1,6 +1,7 @@
 ---
 id: LAW-111
 title: "NDAs and Confidentiality"
+weight: 70
 entity: module
 subject: law
 tier: 100

@@ -1,6 +1,7 @@
 ---
 id: DESN-107
 title: "Composition and Focal Point"
+weight: 50
 entity: module
 subject: design
 tier: 100

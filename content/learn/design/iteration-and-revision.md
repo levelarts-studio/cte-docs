@@ -1,6 +1,7 @@
 ---
 id: DESN-115
 title: "Iteration and Revision"
+weight: 170
 entity: module
 subject: design
 tier: 100

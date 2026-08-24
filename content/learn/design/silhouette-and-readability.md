@@ -1,6 +1,7 @@
 ---
 id: DESN-202
 title: "Silhouette and Readability"
+weight: 130
 entity: module
 subject: design
 tier: 200

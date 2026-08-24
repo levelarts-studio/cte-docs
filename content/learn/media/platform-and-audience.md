@@ -1,6 +1,7 @@
 ---
 id: MEDIA-110
 title: "Platform and Audience"
+weight: 140
 entity: module
 subject: media
 tier: 100

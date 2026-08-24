@@ -1,6 +1,7 @@
 ---
 id: PROD-103
 title: "The Creative Brief"
+weight: 30
 entity: module
 subject: production
 tier: 100

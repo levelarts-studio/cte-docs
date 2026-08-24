@@ -1,6 +1,7 @@
 ---
 id: GAME-201
 title: "Systems and Balancing"
+weight: 100
 entity: module
 subject: gamedesign
 tier: 200
