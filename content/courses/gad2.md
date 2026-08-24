@@ -1,25 +1,90 @@
 ---
 title: Game Art & Design 2
 course_code: GAD2
-units:
-  - name: "Unit 1: Advanced 3D & Retopology"
-    modules: [BLND-203, BLND-301, BLND-302, BLND-212]
-    assignments: []
-  - name: "Unit 2: Technical Art & Optimization"
-    modules: [BLND-209, BLND-210, UE-301, UE-210]
-    assignments: []
-  - name: "Unit 3: Advanced Blueprint & Game Systems"
-    modules: [UE-202, UE-205, UE-207, UE-208, UE-302]
-    assignments: []
-  - name: "Unit 4: Systems Balancing & Game Economy"
-    modules: [GAME-201, GAME-202, GAME-205, GAME-206, GAME-207]
-    assignments: []
-  - name: "Unit 5: Team Production & Project Planning"
-    modules: [PROD-202, PROD-203, PROD-205, PROD-206, LAW-201]
-    assignments: []
-  - name: "Unit 6: Senior Capstone & Studio Showcase"
-    modules: [CAREER-202, CAREER-203, CAREER-204, CAREER-114]
-    assignments: []
 ---
 
 Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly workflows, modular environments, complex engine blueprints, systems design, and team production capstones.
+
+## Unit 1: Advanced 3D & Retopology
+
+{{< cards >}}
+  {{< card
+    link="/learn/blender/retopology/"
+    title="BLND-301: Retopology"
+    subtitle="High-to-low poly retopology, quad drawing, and shrinkwrap workflows."
+    image="/images/placeholders/blender.svg"
+    tag="MODULE"
+    tagColor="orange"
+  >}}
+  {{< card
+    link="/learn/blender/modular-kit-building/"
+    title="BLND-302: Modular Kit Building"
+    subtitle="Grid snapping, modular walls, pivot alignment, and kit assembly."
+    image="/images/placeholders/blender.svg"
+    tag="MODULE"
+    tagColor="orange"
+  >}}
+{{< /cards >}}
+
+## Unit 2: Technical Art & Optimization
+
+{{< cards >}}
+  {{< card
+    link="/learn/unreal/nanite-and-lumen/"
+    title="UE-301: Nanite & Lumen"
+    subtitle="Nanite virtualized geometry and Lumen global illumination."
+    image="/images/placeholders/unreal.svg"
+    tag="MODULE"
+    tagColor="indigo"
+  >}}
+  {{< card
+    link="/learn/unreal/performance-and-profiling/"
+    title="UE-210: Performance & Profiling"
+    subtitle="Stat fps, GPU visualizer, draw call optimization, and profiling."
+    image="/images/placeholders/unreal.svg"
+    tag="MODULE"
+    tagColor="indigo"
+  >}}
+{{< /cards >}}
+
+## Unit 3: Advanced Blueprint & Game Systems
+
+{{< cards >}}
+  {{< card
+    link="/learn/unreal/data-tables-and-save-systems/"
+    title="UE-302: Data Tables & Save Systems"
+    subtitle="Structs, data tables, save games, and persistent state."
+    image="/images/placeholders/unreal.svg"
+    tag="MODULE"
+    tagColor="indigo"
+  >}}
+  {{< card
+    link="/learn/gamedesign/systems-and-balancing/"
+    title="GAME-201: Systems & Balancing"
+    subtitle="Spreadsheet balancing, damage math, stat scaling, and curves."
+    image="/images/placeholders/gamedesign.svg"
+    tag="MODULE"
+    tagColor="green"
+  >}}
+{{< /cards >}}
+
+## Unit 4: Team Production & Capstone
+
+{{< cards >}}
+  {{< card
+    link="/learn/production/version-control-for-teams/"
+    title="PROD-202: Version Control for Teams"
+    subtitle="Git & Perforce branching, merge conflict resolution, and commits."
+    image="/images/placeholders/production.svg"
+    tag="MODULE"
+    tagColor="blue"
+  >}}
+  {{< card
+    link="/learn/production/task-boards-and-sprints/"
+    title="PROD-203: Task Boards & Sprints"
+    subtitle="Kanban boards, Trello, sprint planning, and backlog grooming."
+    image="/images/placeholders/production.svg"
+    tag="MODULE"
+    tagColor="blue"
+  >}}
+{{< /cards >}}
