@@ -1,0 +1,5 @@
+/* Prevent Hextra card tag badges from overlapping card titles */
+.hextra-card-icon {
+  padding-right: 4.5rem;
+  display: block;
+}
