@@ -9,7 +9,7 @@ weight: 35
 
 Textbook modules for **3D Character Design** organized from basic proportion blockouts to advanced deformation topology and hair card creation.
 
-## Tier 100 — Character Foundations
+## Character Foundations
 
 {{< cards >}}
   {{< card
@@ -26,7 +26,7 @@ Textbook modules for **3D Character Design** organized from basic proportion blo
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 200 — Topology & Anatomy
+## Topology & Anatomy
 
 {{< cards >}}
   {{< card
@@ -43,7 +43,7 @@ Textbook modules for **3D Character Design** organized from basic proportion blo
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 300 — Clothing, Armor & Hair
+## Clothing, Armor & Hair
 
 {{< cards >}}
   {{< card
@@ -60,7 +60,7 @@ Textbook modules for **3D Character Design** organized from basic proportion blo
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 400 — Skin & PBR Texturing
+## Skin & PBR Texturing
 
 {{< cards >}}
   {{< card

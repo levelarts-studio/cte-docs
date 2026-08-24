@@ -9,7 +9,7 @@ weight: 36
 
 Textbook modules for **Game Animation** organized from fundamental timing principles to real-time Unreal Anim Blueprints.
 
-## Tier 100 — Animation Foundations
+## Animation Foundations
 
 {{< cards >}}
   {{< card
@@ -26,7 +26,7 @@ Textbook modules for **Game Animation** organized from fundamental timing princi
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 200 — Rigging & Locomotion
+## Rigging & Locomotion
 
 {{< cards >}}
   {{< card
@@ -43,7 +43,7 @@ Textbook modules for **Game Animation** organized from fundamental timing princi
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 300 — Action & Combat
+## Action & Combat
 
 {{< cards >}}
   {{< card
@@ -54,7 +54,7 @@ Textbook modules for **Game Animation** organized from fundamental timing princi
     tagColor="amber" >}}
 {{< /cards >}}
 
-## Tier 400 — Engine Integration
+## Engine Integration
 
 {{< cards >}}
   {{< card
