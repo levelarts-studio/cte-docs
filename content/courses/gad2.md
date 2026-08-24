@@ -12,7 +12,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/blender/retopology/"
     title="BLND-301: Retopology"
     subtitle="High-to-low poly retopology, quad drawing, and shrinkwrap workflows."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -20,7 +19,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/blender/modular-kit-building/"
     title="BLND-302: Modular Kit Building"
     subtitle="Grid snapping, modular walls, pivot alignment, and kit assembly."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -33,7 +31,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/unreal/nanite-and-lumen/"
     title="UE-301: Nanite & Lumen"
     subtitle="Nanite virtualized geometry and Lumen global illumination."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -41,7 +38,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/unreal/performance-and-profiling/"
     title="UE-210: Performance & Profiling"
     subtitle="Stat fps, GPU visualizer, draw call optimization, and profiling."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -54,7 +50,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/unreal/data-tables-and-save-systems/"
     title="UE-302: Data Tables & Save Systems"
     subtitle="Structs, data tables, save games, and persistent state."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -62,7 +57,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/gamedesign/systems-and-balancing/"
     title="GAME-201: Systems & Balancing"
     subtitle="Spreadsheet balancing, damage math, stat scaling, and curves."
-    image="/images/placeholders/gamedesign.svg"
     tag="MODULE"
     tagColor="green"
   >}}
@@ -75,7 +69,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/production/version-control-for-teams/"
     title="PROD-202: Version Control for Teams"
     subtitle="Git & Perforce branching, merge conflict resolution, and commits."
-    image="/images/placeholders/production.svg"
     tag="MODULE"
     tagColor="blue"
   >}}
@@ -83,7 +76,6 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     link="/learn/production/task-boards-and-sprints/"
     title="PROD-203: Task Boards & Sprints"
     subtitle="Kanban boards, Trello, sprint planning, and backlog grooming."
-    image="/images/placeholders/production.svg"
     tag="MODULE"
     tagColor="blue"
   >}}

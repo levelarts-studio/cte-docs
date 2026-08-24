@@ -12,7 +12,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/blender/objects-transforms-and-pivots/"
     title="BLND-102: Objects, Transforms & Pivots"
     subtitle="Origin points, 3D cursor, transform orientation, and pivot manipulation."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -20,7 +19,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/unreal/interface-and-navigation/"
     title="UE-101: Interface & Navigation"
     subtitle="Unreal viewport controls, content browser, outliner, and details panel."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -28,7 +26,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/blender-first-model/"
     title="Assignment: Hero Prop Modeling"
     subtitle="Model a hero prop in Blender and export to engine."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
@@ -41,7 +38,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/blender/topology-and-edge-flow/"
     title="BLND-201: Topology & Edge Flow"
     subtitle="Quads, edge loops, poles, n-gons, and deformation topology."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -49,7 +45,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/blender/hard-surface-modeling/"
     title="BLND-202: Hard Surface Modeling"
     subtitle="Bevel modifiers, weighted normals, and crease control."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -57,7 +52,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/hard-surface-prop/"
     title="Assignment: Hard Surface Prop"
     subtitle="Create a hard surface prop mesh with clean geometry."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
@@ -70,7 +64,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/blender/uv-unwrapping/"
     title="BLND-204: UV Unwrapping"
     subtitle="Seam placement, UV packing, and texel density optimization."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -78,7 +71,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/blender/texturing-and-pbr-maps/"
     title="BLND-205: Texturing & PBR Maps"
     subtitle="Albedo, roughness, metallic, and normal map texture sets."
-    image="/images/placeholders/blender.svg"
     tag="MODULE"
     tagColor="orange"
   >}}
@@ -86,7 +78,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/pbr-texture-set/"
     title="Assignment: PBR Texture Set"
     subtitle="Author and apply PBR material textures to your hero prop."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
@@ -99,7 +90,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/unreal/importing-assets/"
     title="UE-104: Importing Assets"
     subtitle="FBX import settings, collision setup, and static mesh actors."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -107,7 +97,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/unreal/blueprint-fundamentals/"
     title="UE-201: Blueprint Fundamentals"
     subtitle="Nodes, execution pins, variable types, and event graphs."
-    image="/images/placeholders/unreal.svg"
     tag="MODULE"
     tagColor="indigo"
   >}}
@@ -115,7 +104,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/interactive-door/"
     title="Assignment: Interactive Door Blueprint"
     subtitle="Build an interactive trigger door Blueprint in Unreal Engine 5."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
@@ -128,7 +116,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/gamedesign/the-core-loop/"
     title="GAME-102: The Core Loop"
     subtitle="Action, reward, expansion, and gameplay loop design."
-    image="/images/placeholders/gamedesign.svg"
     tag="MODULE"
     tagColor="green"
   >}}
@@ -136,7 +123,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/gamedesign/level-design-basics/"
     title="GAME-105: Level Design Basics"
     subtitle="Level flow, pacing, sightlines, and greybox layouts."
-    image="/images/placeholders/gamedesign.svg"
     tag="MODULE"
     tagColor="green"
   >}}
@@ -144,7 +130,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/blockout-level/"
     title="Assignment: Blockout Level Layout"
     subtitle="Greybox a playable level layout with spatial pacing."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
@@ -157,7 +142,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/learn/production/scope-and-the-vertical-slice/"
     title="PROD-204: Scope & Vertical Slice"
     subtitle="Scope management, feature cuts, and vertical slice targets."
-    image="/images/placeholders/production.svg"
     tag="MODULE"
     tagColor="blue"
   >}}
@@ -165,7 +149,6 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     link="/assignments/solo-vertical-slice/"
     title="Assignment: Solo Vertical Slice"
     subtitle="Assemble, light, and publish a solo vertical slice build."
-    image="/images/placeholders/assignment.svg"
     tag="ASSIGNMENT"
     tagColor="amber"
   >}}
