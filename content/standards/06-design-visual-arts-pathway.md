@@ -1,4 +1,5 @@
 ---
+summary: "Design, Visual & Graphic Arts"
 title: "Design, Visual & Graphic Arts"
 type: docs
 description: "Design and Studio Arts Pathway Standards"
@@ -62,115 +63,63 @@ Visual and Commercial Art
 
 #### **17.0 Design: Skill Building**
 
-{{< std code="D.17.1" >}}
-Apply principles of composition to original work, including scale, visual hierarchy, balance, and negative space.
-{{< /std >}}
+- **D.17.1** &mdash; Apply principles of composition to original work, including scale, visual hierarchy, balance, and negative space.
 
-{{< std code="D.17.2" >}}
-Incorporate color theory, color modes, contrast, opacity, transparency, shading, and layering to create depth and movement within designs.
-{{< /std >}}
+- **D.17.2** &mdash; Incorporate color theory, color modes, contrast, opacity, transparency, shading, and layering to create depth and movement within designs.
 
-{{< std code="D.17.3" >}}
-Use narrative, decorative, informative and/or conceptual illustrations to articulate a creative idea or vision.
-{{< /std >}}
+- **D.17.3** &mdash; Use narrative, decorative, informative and/or conceptual illustrations to articulate a creative idea or vision.
 
-{{< std code="D.17.4" >}}
-Apply knowledge of typography and letterforms to set visual tone, deliver clear messages and organize information.
-{{< /std >}}
+- **D.17.4** &mdash; Apply knowledge of typography and letterforms to set visual tone, deliver clear messages and organize information.
 
-{{< std code="D.17.5" >}}
-Use layout and vector-based software to create print applications like logos, posters, packaging, brochures, or signs.
-{{< /std >}}
+- **D.17.5** &mdash; Use layout and vector-based software to create print applications like logos, posters, packaging, brochures, or signs.
 
-{{< std code="D.17.6" >}}
-Use User Experience (UX) and User Interface (UI) principles to design experiences for websites, applications, social networks, and digital services.
-{{< /std >}}
+- **D.17.6** &mdash; Use User Experience (UX) and User Interface (UI) principles to design experiences for websites, applications, social networks, and digital services.
 
-{{< std code="D.17.7" >}}
-Apply principles of interaction design, to prioritize UX and UI in digital products and services.
-{{< /std >}}
+- **D.17.7** &mdash; Apply principles of interaction design, to prioritize UX and UI in digital products and services.
 
-{{< std code="D.17.8" >}}
-Use accessible design practices, considering the needs of people with different abilities.
-{{< /std >}}
+- **D.17.8** &mdash; Use accessible design practices, considering the needs of people with different abilities.
 
-{{< std code="D.17.9" >}}
-Create and integrate images, effects, motion graphics, and/or animation into final content.
-{{< /std >}}
+- **D.17.9** &mdash; Create and integrate images, effects, motion graphics, and/or animation into final content.
 
 #### **18.0 Design: Process and Practice**
 
-{{< std code="D.18.1" >}}
-Explore different approaches to solving design problems and evaluate what makes each approach effective.
-{{< /std >}}
+- **D.18.1** &mdash; Explore different approaches to solving design problems and evaluate what makes each approach effective.
 
-{{< std code="D.18.2" >}}
-Read and interpret a project brief and generate multiple relevant concepts.
-{{< /std >}}
+- **D.18.2** &mdash; Read and interpret a project brief and generate multiple relevant concepts.
 
-{{< std code="D.18.3" >}}
-Tell a compelling story through design elements.
-{{< /std >}}
+- **D.18.3** &mdash; Tell a compelling story through design elements.
 
-{{< std code="D.18.4" >}}
-Help clients define clear and actionable design objectives that satisfy their goals and allow creative exploration.
-{{< /std >}}
+- **D.18.4** &mdash; Help clients define clear and actionable design objectives that satisfy their goals and allow creative exploration.
 
-{{< std code="D.18.5" >}}
-Write an effective proposal for a client, including pricing, relevant case studies and work samples.
-{{< /std >}}
+- **D.18.5** &mdash; Write an effective proposal for a client, including pricing, relevant case studies and work samples.
 
-{{< std code="D.18.6" >}}
-Contribute to a comprehensive design project in a professional environment.
-{{< /std >}}
+- **D.18.6** &mdash; Contribute to a comprehensive design project in a professional environment.
 
-{{< std code="D.18.7" >}}
-Track tasks and deliverables using project management software.
-{{< /std >}}
+- **D.18.7** &mdash; Track tasks and deliverables using project management software.
 
-{{< std code="D.18.8" >}}
-Monitor project milestones and deliverables and create project status presentations.
-{{< /std >}}
+- **D.18.8** &mdash; Monitor project milestones and deliverables and create project status presentations.
 
-{{< std code="D.18.9" >}}
-Collaborate with a cross-functional design team to finalize a project.
-{{< /std >}}
+- **D.18.9** &mdash; Collaborate with a cross-functional design team to finalize a project.
 
 #### **19.0 Design: Career Exploration**
 
-{{< std code="D.19.1" >}}
-Explore the range of design careers across sectors.
-{{< /std >}}
+- **D.19.1** &mdash; Explore the range of design careers across sectors.
 
-{{< std code="D.19.2" >}}
-Explore career pathways in packaging, publication, and graphic design.
-{{< /std >}}
+- **D.19.2** &mdash; Explore career pathways in packaging, publication, and graphic design.
 
-{{< std code="D.19.3" >}}
-Explore career pathways in interactive design including UX and UI, web design, product design, system, and information design.
-{{< /std >}}
+- **D.19.3** &mdash; Explore career pathways in interactive design including UX and UI, web design, product design, system, and information design.
 
-{{< std code="D.19.4" >}}
-Explore career pathways in branding design, advertising, and digital marketing.
-{{< /std >}}
+- **D.19.4** &mdash; Explore career pathways in branding design, advertising, and digital marketing.
 
 #### **20.0 Design: Impact**
 
-{{< std code="D.20.1" >}}
-Understand the environmental impact of design and how to create with sustainability in mind.
-{{< /std >}}
+- **D.20.1** &mdash; Understand the environmental impact of design and how to create with sustainability in mind.
 
-{{< std code="D.20.2" >}}
-Employ inclusive, equitable and accessible design practices.
-{{< /std >}}
+- **D.20.2** &mdash; Employ inclusive, equitable and accessible design practices.
 
-{{< std code="D.20.3" >}}
-Use design and creative problem solving for the greater good, while resolving or communicating issues within local communities.
-{{< /std >}}
+- **D.20.3** &mdash; Use design and creative problem solving for the greater good, while resolving or communicating issues within local communities.
 
-{{< std code="D.20.4" >}}
-Design a solution for a community need or problem.
-{{< /std >}}
+- **D.20.4** &mdash; Design a solution for a community need or problem.
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 
@@ -231,107 +180,59 @@ Visual and Commercial Art
 
 #### **17.0 Studio Arts: Skill Building**
 
-{{< std code="SA.17.1" >}}
-Apply principles of composition to original work, including scale, form, visual hierarchy, balance, and negative space.
-{{< /std >}}
+- **SA.17.1** &mdash; Apply principles of composition to original work, including scale, form, visual hierarchy, balance, and negative space.
 
-{{< std code="SA.17.2" >}}
-Incorporate color theory, shading, line, and contrast to create depth and movement within images.
-{{< /std >}}
+- **SA.17.2** &mdash; Incorporate color theory, shading, line, and contrast to create depth and movement within images.
 
-{{< std code="SA.17.3" >}}
-Use narrative, decorative, informative and/or conceptual illustrations to articulate a creative idea or vision.
-{{< /std >}}
+- **SA.17.3** &mdash; Use narrative, decorative, informative and/or conceptual illustrations to articulate a creative idea or vision.
 
-{{< std code="SA.17.4" >}}
-Apply a knowledge of anatomy, body mechanics, and facial expressions, to images of human, animal, and fictional characters.
-{{< /std >}}
+- **SA.17.4** &mdash; Apply a knowledge of anatomy, body mechanics, and facial expressions, to images of human, animal, and fictional characters.
 
-{{< std code="SA.17.5" >}}
-Use different techniques, materials, textures, and artistic mediums to produce desired effects in original work.
-{{< /std >}}
+- **SA.17.5** &mdash; Use different techniques, materials, textures, and artistic mediums to produce desired effects in original work.
 
-{{< std code="SA.17.6" >}}
-Apply a knowledge of perspective and dimension to environments, scenic design, photography, and other artistic products.
-{{< /std >}}
+- **SA.17.6** &mdash; Apply a knowledge of perspective and dimension to environments, scenic design, photography, and other artistic products.
 
-{{< std code="SA.17.7" >}}
-Combine and/or manipulate a range of physical, digital, and virtual mediums (i.e., painting, color, opacity, transparency, and layering).
-{{< /std >}}
+- **SA.17.7** &mdash; Combine and/or manipulate a range of physical, digital, and virtual mediums (i.e., painting, color, opacity, transparency, and layering).
 
-{{< std code="SA.17.8" >}}
-Operate camera equipment effectively, capture various types of images, and transfer, render, and optimize images using industry-standard editing software.
-{{< /std >}}
+- **SA.17.8** &mdash; Operate camera equipment effectively, capture various types of images, and transfer, render, and optimize images using industry-standard editing software.
 
-{{< std code="SA.17.9" >}}
-Apply appropriate techniques in handling tools and materials used to design, plan, create and install 2D or 3D artwork.
-{{< /std >}}
+- **SA.17.9** &mdash; Apply appropriate techniques in handling tools and materials used to design, plan, create and install 2D or 3D artwork.
 
 #### **18.0 Studio Arts: Process and Practice (exhibition)**
 
-{{< std code="SA.18.1" >}}
-Identify appropriate specific exhibition needs, including venue type, permits, scheduling, budgeting, and staffing.
-{{< /std >}}
+- **SA.18.1** &mdash; Identify appropriate specific exhibition needs, including venue type, permits, scheduling, budgeting, and staffing.
 
-{{< std code="SA.18.2" >}}
-Determine the value of artwork and price appropriately for commercial purposes, display, and sale.
-{{< /std >}}
+- **SA.18.2** &mdash; Determine the value of artwork and price appropriately for commercial purposes, display, and sale.
 
-{{< std code="SA.18.3" >}}
-Design and execute a digital marketing campaign for a product, service, public event, or gallery opening.
-{{< /std >}}
+- **SA.18.3** &mdash; Design and execute a digital marketing campaign for a product, service, public event, or gallery opening.
 
-{{< std code="SA.18.4" >}}
-Work with artists, artistic directors, curators, and technical staff to realize an artistic vision in a gallery, event, or public space.
-{{< /std >}}
+- **SA.18.4** &mdash; Work with artists, artistic directors, curators, and technical staff to realize an artistic vision in a gallery, event, or public space.
 
-{{< std code="SA.18.5" >}}
-Create, arrange, caption, label, and install artistic work for a client or public audience.
-{{< /std >}}
+- **SA.18.5** &mdash; Create, arrange, caption, label, and install artistic work for a client or public audience.
 
-{{< std code="SA.18.6" >}}
-Create artwork aligned to client specifications, commercial purposes, and specific project guidelines.
-{{< /std >}}
+- **SA.18.6** &mdash; Create artwork aligned to client specifications, commercial purposes, and specific project guidelines.
 
-{{< std code="SA.18.7" >}}
-Coordinate the strike of an installation and properly disassemble, store and document artistic works.
-{{< /std >}}
+- **SA.18.7** &mdash; Coordinate the strike of an installation and properly disassemble, store and document artistic works.
 
-{{< std code="SA.18.8" >}}
-Create and submit artwork to public shows or galleries according to a specific theme, topic, style, and/or medium.
-{{< /std >}}
+- **SA.18.8** &mdash; Create and submit artwork to public shows or galleries according to a specific theme, topic, style, and/or medium.
 
-{{< std code="SA.18.9" >}}
-Create, refine, showcase, and value an original collection of artworks, demonstrating technical skill in a specific medium and style.
-{{< /std >}}
+- **SA.18.9** &mdash; Create, refine, showcase, and value an original collection of artworks, demonstrating technical skill in a specific medium and style.
 
 #### **19.0 Studio Arts: Career Exploration**
 
-{{< std code="SA.19.1" >}}
-Explore the range of careers for visual artists and photographers across industries.
-{{< /std >}}
+- **SA.19.1** &mdash; Explore the range of careers for visual artists and photographers across industries.
 
-{{< std code="SA.19.2" >}}
-Explore career pathways arts educators.
-{{< /std >}}
+- **SA.19.2** &mdash; Explore career pathways arts educators.
 
-{{< std code="SA.19.3" >}}
-Explore career pathways for museum and gallery professionals including curators, archivists, collections management and restoration professionals, and museum educators.
-{{< /std >}}
+- **SA.19.3** &mdash; Explore career pathways for museum and gallery professionals including curators, archivists, collections management and restoration professionals, and museum educators.
 
-{{< std code="SA.19.4" >}}
-Explore career pathways for photographers and visual artists in commercial settings and marketing.
-{{< /std >}}
+- **SA.19.4** &mdash; Explore career pathways for photographers and visual artists in commercial settings and marketing.
 
 #### **20.0 Studio Arts: Impact**
 
-{{< std code="SA.20.1" >}}
-Explore advanced technology (i.e., coding, computation, and data) as an artistic medium for art production, augmentation, and exhibition.
-{{< /std >}}
+- **SA.20.1** &mdash; Explore advanced technology (i.e., coding, computation, and data) as an artistic medium for art production, augmentation, and exhibition.
 
-{{< std code="SA.20.2" >}}
-Use creative problem solving for the greater good, while resolving and/or communicating issues within local communities through artistic works.
-{{< /std >}}
+- **SA.20.2** &mdash; Use creative problem solving for the greater good, while resolving and/or communicating issues within local communities through artistic works.
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 

@@ -1,4 +1,5 @@
 ---
+summary: "Performance, Music & Live Events"
 title: "Performance, Music & Live Events"
 type: docs
 description: "Stage, Event Technology, Dance, Theatre, and Music & Recording Arts"
@@ -63,111 +64,61 @@ Esports Production
 
 #### **17.0 Stage and Event Technology: Skill Building (Design)**
 
-{{< std code="ST.17.1" >}}
-Examine how production elements (i.e., lighting, audio, video, scenic, special effects, and automation.) can drive story points and achieve desired effects for an audience.
-{{< /std >}}
+- **ST.17.1** &mdash; Examine how production elements (i.e., lighting, audio, video, scenic, special effects, and automation.) can drive story points and achieve desired effects for an audience.
 
-{{< std code="ST.17.2" >}}
-Determine artistic elements in alignment with the creative director's vision including all production elements.
-{{< /std >}}
+- **ST.17.2** &mdash; Determine artistic elements in alignment with the creative director's vision including all production elements.
 
-{{< std code="ST.17.3" >}}
-Demonstrate understanding of industry software (i.e., CAD programs) for show design purposes.
-{{< /std >}}
+- **ST.17.3** &mdash; Demonstrate understanding of industry software (i.e., CAD programs) for show design purposes.
 
-{{< std code="ST.17.4" >}}
-Design scenic and lighting for live events using CAD or other industry previsualization (PreViz) programs to achieve intended effect.
-{{< /std >}}
+- **ST.17.4** &mdash; Design scenic and lighting for live events using CAD or other industry previsualization (PreViz) programs to achieve intended effect.
 
-{{< std code="ST.17.5" >}}
-Understand music structure and how to accent music-driven performances with production elements.
-{{< /std >}}
+- **ST.17.5** &mdash; Understand music structure and how to accent music-driven performances with production elements.
 
-{{< std code="ST.17.6" >}}
-Differentiate design and technical needs for dance, theatre, music, sports events, live events, and presentations.
-{{< /std >}}
+- **ST.17.6** &mdash; Differentiate design and technical needs for dance, theatre, music, sports events, live events, and presentations.
 
-{{< std code="ST.17.7" >}}
-Design a production for different venue types, locations, and/or stage layouts.
-{{< /std >}}
+- **ST.17.7** &mdash; Design a production for different venue types, locations, and/or stage layouts.
 
 #### **18.0 Stage and Event Technology: Process and Practice (Technical)**
 
-{{< std code="ST.18.1" >}}
-Demonstrate understanding of how to program and operate consoles and digital control environments (i.e., video, audio, lighting, automation, and/or special effects.)
-{{< /std >}}
+- **ST.18.1** &mdash; Demonstrate understanding of how to program and operate consoles and digital control environments (i.e., video, audio, lighting, automation, and/or special effects.)
 
-{{< std code="ST.18.2" >}}
-Properly decipher technical drawings and renders to develop a technical implementation plan.
-{{< /std >}}
+- **ST.18.2** &mdash; Properly decipher technical drawings and renders to develop a technical implementation plan.
 
-{{< std code="ST.18.3" >}}
-Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads.)
-{{< /std >}}
+- **ST.18.3** &mdash; Apply knowledge of power and data distribution (i.e., signal flow, networking systems, connectors, cabling, show power, and balancing of power loads.)
 
-{{< std code="ST.18.4" >}}
-Demonstrate understanding of how to safely rig equipment and structures.
-{{< /std >}}
+- **ST.18.4** &mdash; Demonstrate understanding of how to safely rig equipment and structures.
 
-{{< std code="ST.18.5" >}}
-Rig and operate lighting equipment to control shadows, brightness, color, and effects.
-{{< /std >}}
+- **ST.18.5** &mdash; Rig and operate lighting equipment to control shadows, brightness, color, and effects.
 
-{{< std code="ST.18.6" >}}
-Operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, speakers, mixers, and amplifiers.) to achieve high quality audio capture and reproduction.
-{{< /std >}}
+- **ST.18.6** &mdash; Operate sound equipment (i.e., dynamic, condenser, lavalier/lapel, speakers, mixers, and amplifiers.) to achieve high quality audio capture and reproduction.
 
-{{< std code="ST.18.7" >}}
-Safely handle and operate tools and materials to construct and dress a set; demonstrate an understanding of scenic elements (i.e., staging, automation, soft goods, and floor surfaces.)
-{{< /std >}}
+- **ST.18.7** &mdash; Safely handle and operate tools and materials to construct and dress a set; demonstrate an understanding of scenic elements (i.e., staging, automation, soft goods, and floor surfaces.)
 
-{{< std code="ST.18.8" >}}
-Identify the components of a live video system and their uses (i.e., led screens, projectors, projection screens, cameras, switchers, and monitors); demonstrate an understanding of the relationship between video and other live production elements.
-{{< /std >}}
+- **ST.18.8** &mdash; Identify the components of a live video system and their uses (i.e., led screens, projectors, projection screens, cameras, switchers, and monitors); demonstrate an understanding of the relationship between video and other live production elements.
 
-{{< std code="ST.18.9" >}}
-Coordinate the strike and load out of a live production and properly transport and/or store production equipment.
-{{< /std >}}
+- **ST.18.9** &mdash; Coordinate the strike and load out of a live production and properly transport and/or store production equipment.
 
 #### **19.0 Stage and Event Technology: Career Exploration**
 
-{{< std code="ST.19.1" >}}
-Explore career pathways in different live production environments (i.e., concerts, theatre, festivals, tournaments, and conferences.)
-{{< /std >}}
+- **ST.19.1** &mdash; Explore career pathways in different live production environments (i.e., concerts, theatre, festivals, tournaments, and conferences.)
 
-{{< std code="ST.19.2" >}}
-Explore career pathways in the production crafts and trades (i.e., lighting, audio, video, special effects, scenic, automation, and stagehand.)
-{{< /std >}}
+- **ST.19.2** &mdash; Explore career pathways in the production crafts and trades (i.e., lighting, audio, video, special effects, scenic, automation, and stagehand.)
 
-{{< std code="ST.19.3" >}}
-Explore career pathways for producers, creative directors, and designers.
-{{< /std >}}
+- **ST.19.3** &mdash; Explore career pathways for producers, creative directors, and designers.
 
-{{< std code="ST.19.4" >}}
-Explore corporate careers across industries for performance and live events professionals.
-{{< /std >}}
+- **ST.19.4** &mdash; Explore corporate careers across industries for performance and live events professionals.
 
-{{< std code="ST.19.5" >}}
-Understand career pathways for promoters and tour managers.
-{{< /std >}}
+- **ST.19.5** &mdash; Understand career pathways for promoters and tour managers.
 
 #### **20.0 Stage and Event Technology: Advanced Technologies**
 
-{{< std code="ST.20.1" >}}
-Examine how automation has created new opportunities for spectacle and fundamentally changed the roles and responsibilities of technical crews.
-{{< /std >}}
+- **ST.20.1** &mdash; Examine how automation has created new opportunities for spectacle and fundamentally changed the roles and responsibilities of technical crews.
 
-{{< std code="ST.20.2" >}}
-Understand the fundamentals of special effects and pyrotechnics from a technician’s perspective.
-{{< /std >}}
+- **ST.20.2** &mdash; Understand the fundamentals of special effects and pyrotechnics from a technician’s perspective.
 
-{{< std code="ST.20.3" >}}
-Understand how virtual and augmented reality, real-time technology, and dynamic media is used in live production.
-{{< /std >}}
+- **ST.20.3** &mdash; Understand how virtual and augmented reality, real-time technology, and dynamic media is used in live production.
 
-{{< std code="ST.20.4" >}}
-Understand the principles of stage automation and how it changes what is possible for live entertainment.
-{{< /std >}}
+- **ST.20.4** &mdash; Understand the principles of stage automation and how it changes what is possible for live entertainment.
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 
@@ -240,139 +191,77 @@ Theatre Performance
 
 #### **17.0 Dance and Theater: Skill Building**
 
-{{< std code="DT.17.1" >}}
-Practice strengthening, coordination, balance, flexibility, and/or alignment exercises to improve physical technique for dance and theatre performance.
-{{< /std >}}
+- **DT.17.1** &mdash; Practice strengthening, coordination, balance, flexibility, and/or alignment exercises to improve physical technique for dance and theatre performance.
 
-{{< std code="DT.17.2" >}}
-Explore and refine techniques from different styles, crafts, forms, and genres in acting and/or dance disciplines.
-{{< /std >}}
+- **DT.17.2** &mdash; Explore and refine techniques from different styles, crafts, forms, and genres in acting and/or dance disciplines.
 
-{{< std code="DT.17.3" >}}
-Understand and apply proper dance and theatre terminology and vocabulary to practice and performance.
-{{< /std >}}
+- **DT.17.3** &mdash; Understand and apply proper dance and theatre terminology and vocabulary to practice and performance.
 
-{{< std code="DT.17.4" >}}
-Safely navigate physical spaces and develop spatial and environmental awareness through practice and performance.
-{{< /std >}}
+- **DT.17.4** &mdash; Safely navigate physical spaces and develop spatial and environmental awareness through practice and performance.
 
-{{< std code="DT.17.5" >}}
-Apply techniques that help reduce the risk of injury and contribute to emotional, mental, and physical wellness (i.e., yoga, Pilates, meditation, and breathwork.)
-{{< /std >}}
+- **DT.17.5** &mdash; Apply techniques that help reduce the risk of injury and contribute to emotional, mental, and physical wellness (i.e., yoga, Pilates, meditation, and breathwork.)
 
-{{< std code="DT.17.6" >}}
-Attend auditions and demonstrate effective performance skills in response to audition requirements.
-{{< /std >}}
+- **DT.17.6** &mdash; Attend auditions and demonstrate effective performance skills in response to audition requirements.
 
-{{< std code="DT.17.7" >}}
-Understand elements of directing and effectively communicate artistic ideas when working with performers.
-{{< /std >}}
+- **DT.17.7** &mdash; Understand elements of directing and effectively communicate artistic ideas when working with performers.
 
-{{< std code="DT.17.8" >}}
-Apply choreographic techniques to creating, staging, and blocking of performance material.
-{{< /std >}}
+- **DT.17.8** &mdash; Apply choreographic techniques to creating, staging, and blocking of performance material.
 
-{{< std code="DT.17.9" >}}
-Differentiate techniques for directing, choreographing, and performing for film/video and for live audiences.
-{{< /std >}}
+- **DT.17.9** &mdash; Differentiate techniques for directing, choreographing, and performing for film/video and for live audiences.
 
 #### **18.0 Dance and Theatre: Process and Practice**
 
-{{< std code="DT.18.1" >}}
-Use improvisation to experiment with creative ideas.
-{{< /std >}}
+- **DT.18.1** &mdash; Use improvisation to experiment with creative ideas.
 
-{{< std code="DT.18.2" >}}
-Apply knowledge of anatomy and body mechanics to a safe physical practice.
-{{< /std >}}
+- **DT.18.2** &mdash; Apply knowledge of anatomy and body mechanics to a safe physical practice.
 
-{{< std code="DT.18.3" >}}
-Utilize movement and gesture to express character, emotion, and story points.
-{{< /std >}}
+- **DT.18.3** &mdash; Utilize movement and gesture to express character, emotion, and story points.
 
-{{< std code="DT.18.4" >}}
-Experiment with mood and timing using music, sound effects, and/or spoken narrative to make artistic decisions and enhance a performance.
-{{< /std >}}
+- **DT.18.4** &mdash; Experiment with mood and timing using music, sound effects, and/or spoken narrative to make artistic decisions and enhance a performance.
 
 DT.18.5. Experiment with technical design elements (i.e., projection, lighting, costumes, property, and scenic) to make artistic decisions and enhance a performance.
 
-{{< std code="DT.18.6" >}}
-Experiment with camera shots, angles, and editing to create professional reels and performance excerpts.
-{{< /std >}}
+- **DT.18.6** &mdash; Experiment with camera shots, angles, and editing to create professional reels and performance excerpts.
 
 DT 18.7 Explore how innovative stage technologies (i.e., immersive media, automation, projection mapping, and holographic technology) can enhance possibilities for performers.
 
-{{< std code="DT.18.8" >}}
-Memorize and practice performance material to maximize performance potential.
-{{< /std >}}
+- **DT.18.8** &mdash; Memorize and practice performance material to maximize performance potential.
 
-{{< std code="DT.18.9" >}}
-Reflect and ask questions throughout the creative process to inform analysis and refinement of work.
-{{< /std >}}
+- **DT.18.9** &mdash; Reflect and ask questions throughout the creative process to inform analysis and refinement of work.
 
 #### **19.0 Dance and Theatre: Career Exploration**
 
-{{< std code="DT.19.1" >}}
-Understand careers for performers across concert, commercial, and tourism industries.
-{{< /std >}}
+- **DT.19.1** &mdash; Understand careers for performers across concert, commercial, and tourism industries.
 
-{{< std code="DT.19.2" >}}
-Explore career pathways in arts management and business, including studio, venue, and company management.
-{{< /std >}}
+- **DT.19.2** &mdash; Explore career pathways in arts management and business, including studio, venue, and company management.
 
-{{< std code="DT.19.3" >}}
-Explore career pathways in fitness, wellness, and physical therapy.
-{{< /std >}}
+- **DT.19.3** &mdash; Explore career pathways in fitness, wellness, and physical therapy.
 
-{{< std code="DT.19.4" >}}
-Explore career pathways for producers, directors, and choreographers.
-{{< /std >}}
+- **DT.19.4** &mdash; Explore career pathways for producers, directors, and choreographers.
 
-{{< std code="DT.19.5" >}}
-Understand career pathways for dance and theatre educators and teaching artists.
-{{< /std >}}
+- **DT.19.5** &mdash; Understand career pathways for dance and theatre educators and teaching artists.
 
-{{< std code="DT.19.6" >}}
-Understand how performing artists are well equipped with transferable skills that apply to careers across a variety of industries.
-{{< /std >}}
+- **DT.19.6** &mdash; Understand how performing artists are well equipped with transferable skills that apply to careers across a variety of industries.
 
-{{< std code="DT.19.7" >}}
-Explore the realities and scope of opportunity within the entertainment industry for performing artists.
-{{< /std >}}
+- **DT.19.7** &mdash; Explore the realities and scope of opportunity within the entertainment industry for performing artists.
 
 #### **20.0 Dance and Theatre: Performance**
 
-{{< std code="DT.20.1" >}}
-Participate in the production process by managing attendance for rehearsals, costume fittings and other requirements for performers.
-{{< /std >}}
+- **DT.20.1** &mdash; Participate in the production process by managing attendance for rehearsals, costume fittings and other requirements for performers.
 
-{{< std code="DT.20.2" >}}
-Work collaboratively and interact professionally with stage managers, directors, and crew to meet directorial goals.
-{{< /std >}}
+- **DT.20.2** &mdash; Work collaboratively and interact professionally with stage managers, directors, and crew to meet directorial goals.
 
-{{< std code="DT.20.3" >}}
-Plan and execute performances for different venue types, sites, locations, audiences, and purposes.
-{{< /std >}}
+- **DT.20.3** &mdash; Plan and execute performances for different venue types, sites, locations, audiences, and purposes.
 
-{{< std code="DT.20.4" >}}
-Integrate an advanced level of technical skill and clear intent when performing in ensemble, group, and solo formats.
-{{< /std >}}
+- **DT.20.4** &mdash; Integrate an advanced level of technical skill and clear intent when performing in ensemble, group, and solo formats.
 
-{{< std code="DT.20.5" >}}
-Utilize control of cadence, projection, pitch, power/energy, and tone to effectively communicate emotion in dramatic performance.
-{{< /std >}}
+- **DT.20.5** &mdash; Utilize control of cadence, projection, pitch, power/energy, and tone to effectively communicate emotion in dramatic performance.
 
-{{< std code="DT.20.6" >}}
-Utilize proper breath control and performance energy to support expression of movement and character.
-{{< /std >}}
+- **DT.20.6** &mdash; Utilize proper breath control and performance energy to support expression of movement and character.
 
-{{< std code="DT.20.7" >}}
-Skillfully apply director and choreographer notes to improve performance.
-{{< /std >}}
+- **DT.20.7** &mdash; Skillfully apply director and choreographer notes to improve performance.
 
-{{< std code="DT.20.8" >}}
-Practice self-care and attend to mental and physical needs to maintain health and maximize performance potential.
-{{< /std >}}
+- **DT.20.8** &mdash; Practice self-care and attend to mental and physical needs to maintain health and maximize performance potential.
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 
@@ -436,141 +325,77 @@ Vocal Music
 
 #### **17.0 Music and Recording Arts: Skill Building**
 
-{{< std code="MRA.17.1" >}}
-Apply critical listening to identify and describe various music elements and styles including acoustic and electronic instrumentation.
-{{< /std >}}
+- **MRA.17.1** &mdash; Apply critical listening to identify and describe various music elements and styles including acoustic and electronic instrumentation.
 
-{{< std code="MRA.17.2" >}}
-Demonstrate understanding of acoustics through playing and recording acoustic instruments.
-{{< /std >}}
+- **MRA.17.2** &mdash; Demonstrate understanding of acoustics through playing and recording acoustic instruments.
 
-{{< std code="MRA.17.3" >}}
-Identify song form and musical sections in contemporary/popular music across genres.[^16]
-{{< /std >}}
+- **MRA.17.3** &mdash; Identify song form and musical sections in contemporary/popular music across genres.[^16]
 
-{{< std code="MRA.17.4" >}}
-Use critical listening to identify and describe key signatures.
-{{< /std >}}
+- **MRA.17.4** &mdash; Use critical listening to identify and describe key signatures.
 
-{{< std code="MRA.17.5" >}}
-Apply basic harmony and piano voicings for major, minor, and diminished chords and chord progressions to projects.
-{{< /std >}}
+- **MRA.17.5** &mdash; Apply basic harmony and piano voicings for major, minor, and diminished chords and chord progressions to projects.
 
-{{< std code="MRA.17.6" >}}
-Describe how the emotional aspects of music such as tempo, dynamics, timbre, and feel can invoke a particular response from the listener.
-{{< /std >}}
+- **MRA.17.6** &mdash; Describe how the emotional aspects of music such as tempo, dynamics, timbre, and feel can invoke a particular response from the listener.
 
 Apply organizational elements of song structure to original work.
 
-{{< std code="MRA.17.7" >}}
-Demonstrate understanding of the analog and digital recording processes, including strategies for managing latency and signal flow.
-{{< /std >}}
+- **MRA.17.7** &mdash; Demonstrate understanding of the analog and digital recording processes, including strategies for managing latency and signal flow.
 
-{{< std code="MRA.17.8" >}}
-Explore techniques for mixing[^17] instruments, vocals, and other sounds using a Digital Audio Workstation (DAW).
-{{< /std >}}
+- **MRA.17.8** &mdash; Explore techniques for mixing[^17] instruments, vocals, and other sounds using a Digital Audio Workstation (DAW).
 
-{{< std code="MRA.17.9" >}}
-Export final master in accordance with platform or distribution specifications for the optimal listening experience.
-{{< /std >}}
+- **MRA.17.9** &mdash; Export final master in accordance with platform or distribution specifications for the optimal listening experience.
 
 #### **18.0 Music and Recording Arts: Process and Practice**
 
-{{< std code="MRA.18.1" >}}
-Understand and apply foundational Musical Instrument Digital Interface (MIDI) and DAW principles to create music.
-{{< /std >}}
+- **MRA.18.1** &mdash; Understand and apply foundational Musical Instrument Digital Interface (MIDI) and DAW principles to create music.
 
-{{< std code="MRA.18.2" >}}
-Experiment with different sounds, arrangements, samples, and pieces of music, using instruments, vocal techniques and/or music technology to test and evaluate creative ideas.
-{{< /std >}}
+- **MRA.18.2** &mdash; Experiment with different sounds, arrangements, samples, and pieces of music, using instruments, vocal techniques and/or music technology to test and evaluate creative ideas.
 
-{{< std code="MRA.18.3" >}}
-Demonstrate understanding of sound synthesis and create original work using hardware and/or software synthesizers.
-{{< /std >}}
+- **MRA.18.3** &mdash; Demonstrate understanding of sound synthesis and create original work using hardware and/or software synthesizers.
 
-{{< std code="MRA.18.4" >}}
-Develop musical ideas based on themes and other sources of inspiration.
-{{< /std >}}
+- **MRA.18.4** &mdash; Develop musical ideas based on themes and other sources of inspiration.
 
-{{< std code="MRA.18.5" >}}
-Understand techniques for writing lyrics and melodies.
-{{< /std >}}
+- **MRA.18.5** &mdash; Understand techniques for writing lyrics and melodies.
 
-{{< std code="MRA.18.6" >}}
-Create beats, write loops, and produce original work using industry standard equipment and software.
-{{< /std >}}
+- **MRA.18.6** &mdash; Create beats, write loops, and produce original work using industry standard equipment and software.
 
-{{< std code="MRA.18.7" >}}
-Create desired music and sound effects to invoke a particular mood and impact an audience experience.
-{{< /std >}}
+- **MRA.18.7** &mdash; Create desired music and sound effects to invoke a particular mood and impact an audience experience.
 
-{{< std code="MRA.18.8" >}}
-Create original music for a commercial medium, such as advertising, video games, film soundtracks, etc.
-{{< /std >}}
+- **MRA.18.8** &mdash; Create original music for a commercial medium, such as advertising, video games, film soundtracks, etc.
 
-{{< std code="MRA.18.9" >}}
-Create, record, edit, master, and publish music in distinct styles.
-{{< /std >}}
+- **MRA.18.9** &mdash; Create, record, edit, master, and publish music in distinct styles.
 
 #### **19.0 Music and Recording Arts: Career Exploration**
 
-{{< std code="MRA.19.1" >}}
-Explore a range of careers for studio and live audio Professionals (i.e., mixing, mastering, and engineering.)
-{{< /std >}}
+- **MRA.19.1** &mdash; Explore a range of careers for studio and live audio Professionals (i.e., mixing, mastering, and engineering.)
 
-{{< std code="MRA.19.2" >}}
-Explore career pathway options for artists, arrangers, songwriters, composers, orchestrators, musicians, and producers across industries (i.e., film and television, games, and live events.)
-{{< /std >}}
+- **MRA.19.2** &mdash; Explore career pathway options for artists, arrangers, songwriters, composers, orchestrators, musicians, and producers across industries (i.e., film and television, games, and live events.)
 
-{{< std code="MRA.19.3" >}}
-Explore career pathways in music education.
-{{< /std >}}
+- **MRA.19.3** &mdash; Explore career pathways in music education.
 
-{{< std code="MRA.19.4" >}}
-Examine the role of Performing Rights Organizations and synchronization licensing in the music industry.
-{{< /std >}}
+- **MRA.19.4** &mdash; Examine the role of Performing Rights Organizations and synchronization licensing in the music industry.
 
-{{< std code="MRA.19.5" >}}
-Examine the importance and variety of contracts available to musicians and the difference between royalty splits, mechanical royalties, and contract agreements for songwriting, composition, recording and publishing.
-{{< /std >}}
+- **MRA.19.5** &mdash; Examine the importance and variety of contracts available to musicians and the difference between royalty splits, mechanical royalties, and contract agreements for songwriting, composition, recording and publishing.
 
-{{< std code="MRA.19.6" >}}
-Create an Electronic Press Kit (EPK) that demonstrates creative and technical abilities.
-{{< /std >}}
+- **MRA.19.6** &mdash; Create an Electronic Press Kit (EPK) that demonstrates creative and technical abilities.
 
 #### **20.0 Music and Recording Arts: Live and Studio Performance**
 
-{{< std code="MRA.20.1" >}}
-Practice professional etiquette in various environments including live performance venues and recording studios.
-{{< /std >}}
+- **MRA.20.1** &mdash; Practice professional etiquette in various environments including live performance venues and recording studios.
 
-{{< std code="MRA.20.2" >}}
-Identify specific project needs for a live performance or studio session, including scheduling, budgeting, and staff; coordinate logistics to ensure objectives are met.
-{{< /std >}}
+- **MRA.20.2** &mdash; Identify specific project needs for a live performance or studio session, including scheduling, budgeting, and staff; coordinate logistics to ensure objectives are met.
 
-{{< std code="MRA.20.3" >}}
-Create or analyze a song and/or setlist and determine the flow and length of a show or studio session.
-{{< /std >}}
+- **MRA.20.3** &mdash; Create or analyze a song and/or setlist and determine the flow and length of a show or studio session.
 
-{{< std code="MRA.20.4" >}}
-Rehearse, memorize, refine, and present performance material in studio and live environments.
-{{< /std >}}
+- **MRA.20.4** &mdash; Rehearse, memorize, refine, and present performance material in studio and live environments.
 
-{{< std code="MRA.20.5" >}}
-Apply different techniques for instrumental and vocal performances, including microphone selection and placement on sound sources.
-{{< /std >}}
+- **MRA.20.5** &mdash; Apply different techniques for instrumental and vocal performances, including microphone selection and placement on sound sources.
 
-{{< std code="MRA.20.6" >}}
-Set up, test, and regulate input levels to ensure sound quality during live performances and/or recording sessions.
-{{< /std >}}
+- **MRA.20.6** &mdash; Set up, test, and regulate input levels to ensure sound quality during live performances and/or recording sessions.
 
-{{< std code="MRA.20.7" >}}
-Demonstrate an understanding of monitor and main/front of house mixes in studio and live environments.
-{{< /std >}}
+- **MRA.20.7** &mdash; Demonstrate an understanding of monitor and main/front of house mixes in studio and live environments.
 
-{{< std code="MRA.20.8" >}}
-Coordinate the load in, set up, and load out of audio equipment and instruments.
-{{< /std >}}
+- **MRA.20.8** &mdash; Coordinate the load in, set up, and load out of audio equipment and instruments.
 
 #### **Guidance for High Quality Pathway Sequencing Table**
 

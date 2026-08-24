@@ -1,4 +1,5 @@
 ---
+summary: "Anchor Standards (1.0 - 12.0)"
 title: "Anchor Standards (1.0 - 12.0)"
 type: docs
 description: "1.0 to 12.0 Anchor Standards for Career Ready Practice"
@@ -15,334 +16,192 @@ The 2023 AME Anchor Standards serve as a foundation for all CTE programs. The An
 
 *Apply appropriate technical skills and academic knowledge.*
 
-{{< std code="1.1" >}}
-Examine history, including pioneers, innovators, and icons from diverse genres, cultures, backgrounds, and experiences.
-{{< /std >}}
+- **1.1** &mdash; Examine history, including pioneers, innovators, and icons from diverse genres, cultures, backgrounds, and experiences.
 
-{{< std code="1.2" >}}
-Build mathematical skills for application in industry-specific settings (i.e., applied geometry, linear algebra, and matrix math operations.)
-{{< /std >}}
+- **1.2** &mdash; Build mathematical skills for application in industry-specific settings (i.e., applied geometry, linear algebra, and matrix math operations.)
 
-{{< std code="1.3" >}}
-Explore how narrative structure, point of view, character, conflict, theme and setting impact story development.
-{{< /std >}}
+- **1.3** &mdash; Explore how narrative structure, point of view, character, conflict, theme and setting impact story development.
 
-{{< std code="1.4" >}}
-Apply principles of art, design, and composition to creative works (i.e., contrast, movement, color theory, scale, visual hierarchy, symmetry, anatomy, perspective, form, and positive and negative space.)[^4]
-{{< /std >}}
+- **1.4** &mdash; Apply principles of art, design, and composition to creative works (i.e., contrast, movement, color theory, scale, visual hierarchy, symmetry, anatomy, perspective, form, and positive and negative space.)[^4]
 
 #### **2.0 Communication**
 
 *Communicate clearly, effectively, and with reason.*
 
-{{< std code="2.1" >}}
-Understand how to effectively code-switch, communicate information, and clearly articulate ideas in different types of professional and educational environments.
-{{< /std >}}
+- **2.1** &mdash; Understand how to effectively code-switch, communicate information, and clearly articulate ideas in different types of professional and educational environments.
 
-{{< std code="2.2" >}}
-Use industry-appropriate terminology appropriately (i.e., technology, tools, equipment, stage directions, camera directions, and venue terminology.) when discussing projects, writing proposals, and presenting work.
-{{< /std >}}
+- **2.2** &mdash; Use industry-appropriate terminology appropriately (i.e., technology, tools, equipment, stage directions, camera directions, and venue terminology.) when discussing projects, writing proposals, and presenting work.
 
-{{< std code="2.3" >}}
-Write a professional email.
-{{< /std >}}
+- **2.3** &mdash; Write a professional email.
 
-{{< std code="2.4" >}}
-Speak extemporaneously and professionally when interviewing and/or presenting creative work.
-{{< /std >}}
+- **2.4** &mdash; Speak extemporaneously and professionally when interviewing and/or presenting creative work.
 
-{{< std code="2.5" >}}
-Examine the importance of establishing professional social media presence for the purpose of career-related networking.
-{{< /std >}}
+- **2.5** &mdash; Examine the importance of establishing professional social media presence for the purpose of career-related networking.
 
-{{< std code="2.6" >}}
-Demonstrate proficiency in various writing styles (i.e., reflective, narrative, informational, persuasive, and copywriting) and write industry-specific reports in a clear and concise manner.
-{{< /std >}}
+- **2.6** &mdash; Demonstrate proficiency in various writing styles (i.e., reflective, narrative, informational, persuasive, and copywriting) and write industry-specific reports in a clear and concise manner.
 
-{{< std code="2.7" >}}
-Write a clear and concise artist or designer’s statement that describes conceptual values, creative processes and problem solving.
-{{< /std >}}
+- **2.7** &mdash; Write a clear and concise artist or designer’s statement that describes conceptual values, creative processes and problem solving.
 
 #### **3.0 Career Planning and Management**
 
 *Develop an education and career plan aligned with personal goals.*
 
-{{< std code="3.1" >}}
-Explore the wide array of creative and technical jobs across industries.
-{{< /std >}}
+- **3.1** &mdash; Explore the wide array of creative and technical jobs across industries.
 
-{{< std code="3.2" >}}
-Conduct career research, create a career plan, and develop a professional resume.
-{{< /std >}}
+- **3.2** &mdash; Conduct career research, create a career plan, and develop a professional resume.
 
-{{< std code="3.3" >}}
-Participate in a continuum of career awareness, exploration, preparation, and training (work-based learning) experiences.
-{{< /std >}}
+- **3.3** &mdash; Participate in a continuum of career awareness, exploration, preparation, and training (work-based learning) experiences.
 
-{{< std code="3.4" >}}
-Understand the importance of networking, including building and sustaining partnerships and relationships.
-{{< /std >}}
+- **3.4** &mdash; Understand the importance of networking, including building and sustaining partnerships and relationships.
 
-{{< std code="3.5" >}}
-Understand entry level positions (and how to obtain them).
-{{< /std >}}
+- **3.5** &mdash; Understand entry level positions (and how to obtain them).
 
-{{< std code="3.6" >}}
-Interpret a job offer, and understand how to negotiate fair compensation, terms, and benefits relative to individual circumstances.
-{{< /std >}}
+- **3.6** &mdash; Interpret a job offer, and understand how to negotiate fair compensation, terms, and benefits relative to individual circumstances.
 
-{{< std code="3.7" >}}
-Examine the difference between full-time employment and work-for-hire/freelance, including the tax implications of operating as a sole proprietor or a small business.
-{{< /std >}}
+- **3.7** &mdash; Examine the difference between full-time employment and work-for-hire/freelance, including the tax implications of operating as a sole proprietor or a small business.
 
-{{< std code="3.8" >}}
-Research and examine labor unions, guilds and professional associations and understand the process and requirements for membership.
-{{< /std >}}
+- **3.8** &mdash; Research and examine labor unions, guilds and professional associations and understand the process and requirements for membership.
 
-{{< std code="3.9" >}}
-Develop a web-based professional portfolio that includes an artist or designer statement, highlights process, problem-solving skills, artistic and technical proficiencies and showcases exemplary work (i.e., social media handles, electronic press kit (EPK), work samples, and reel.)
-{{< /std >}}
+- **3.9** &mdash; Develop a web-based professional portfolio that includes an artist or designer statement, highlights process, problem-solving skills, artistic and technical proficiencies and showcases exemplary work (i.e., social media handles, electronic press kit (EPK), work samples, and reel.)
 
 #### **4.0 Technology**
 
 *Apply technology to enhance productivity.*
 
-{{< std code="4.1" >}}
-Practice internet safety, identify malicious activity (i.e., phishing, and malware.), discern and avoid misinformation, and keep personal information private.
-{{< /std >}}
+- **4.1** &mdash; Practice internet safety, identify malicious activity (i.e., phishing, and malware.), discern and avoid misinformation, and keep personal information private.
 
-{{< std code="4.2" >}}
-Use standard business software to create documents and presentations, share files and connect with collaborators and clients.
-{{< /std >}}
+- **4.2** &mdash; Use standard business software to create documents and presentations, share files and connect with collaborators and clients.
 
-{{< std code="4.3" >}}
-Use job-specific hardware/software for workflows and delivery of content to various platforms.
-{{< /std >}}
+- **4.3** &mdash; Use job-specific hardware/software for workflows and delivery of content to various platforms.
 
-{{< std code="4.4" >}}
-Develop a general familiarity with operating systems, version control, databases, and cloud services for data management.
-{{< /std >}}
+- **4.4** &mdash; Develop a general familiarity with operating systems, version control, databases, and cloud services for data management.
 
-{{< std code="4.5" >}}
-Apply rendering and exporting techniques to comply with industry standards.
-{{< /std >}}
+- **4.5** &mdash; Apply rendering and exporting techniques to comply with industry standards.
 
-{{< std code="4.6" >}}
-Use industry-standard asset tracking, file naming conventions and storage/back-up protocols.
-{{< /std >}}
+- **4.6** &mdash; Use industry-standard asset tracking, file naming conventions and storage/back-up protocols.
 
-{{< std code="4.7" >}}
-Explore applications, implications, and ethics of artificial intelligence (AI) and machine learning in creative industries.
-{{< /std >}}
+- **4.7** &mdash; Explore applications, implications, and ethics of artificial intelligence (AI) and machine learning in creative industries.
 
-{{< std code="4.8" >}}
-Explore applications of immersive media technology including immersive audio, virtual and augmented reality, and interactive/participatory web-based interactions across industries.
-{{< /std >}}
+- **4.8** &mdash; Explore applications of immersive media technology including immersive audio, virtual and augmented reality, and interactive/participatory web-based interactions across industries.
 
 #### **5.0 Critical Thinking and Problem Solving**
 
 *Utilize critical thinking to make sense of problems and persevere in solving them.*
 
-{{< std code="5.1" >}}
-Use inductive and deductive reasoning to solve problems and make informed decisions.
-{{< /std >}}
+- **5.1** &mdash; Use inductive and deductive reasoning to solve problems and make informed decisions.
 
-{{< std code="5.2" >}}
-Analyze and interpret information received from various sources to assess bias and discern the credibility, quality and value of information collected online and credibility.
-{{< /std >}}
+- **5.2** &mdash; Analyze and interpret information received from various sources to assess bias and discern the credibility, quality and value of information collected online and credibility.
 
-{{< std code="5.3" >}}
-Use reflection and feedback to iterate when solving problems and exploring ideas for creative development.
-{{< /std >}}
+- **5.3** &mdash; Use reflection and feedback to iterate when solving problems and exploring ideas for creative development.
 
-{{< std code="5.4" >}}
-Explore different approaches to solving creative problems and evaluate what makes each approach effective.
-{{< /std >}}
+- **5.4** &mdash; Explore different approaches to solving creative problems and evaluate what makes each approach effective.
 
-{{< std code="5.5" >}}
-Avoid fallacies of logic when presenting ideas and discussing perspectives.
-{{< /std >}}
+- **5.5** &mdash; Avoid fallacies of logic when presenting ideas and discussing perspectives.
 
 #### **6.0 Health and Safety**
 
 *Practice personal health and understand financial literacy.*
 
-{{< std code="6.1" >}}
-Contribute to healthful workplace culture through safety-related decision-making and problem-solving techniques.
-{{< /std >}}
+- **6.1** &mdash; Contribute to healthful workplace culture through safety-related decision-making and problem-solving techniques.
 
-{{< std code="6.2" >}}
-Practice workplace safety as defined by industry standards, including the appropriate use of personal protective equipment (PPE), injury prevention, and callouts.
-{{< /std >}}
+- **6.2** &mdash; Practice workplace safety as defined by industry standards, including the appropriate use of personal protective equipment (PPE), injury prevention, and callouts.
 
-{{< std code="6.3" >}}
-Attend to wellness needs including rest, ergonomics, nutrition, exercise, and personal hygiene.
-{{< /std >}}
+- **6.3** &mdash; Attend to wellness needs including rest, ergonomics, nutrition, exercise, and personal hygiene.
 
-{{< std code="6.4" >}}
-Attend to mental health needs including emotional, psychological, and social well-being.
-{{< /std >}}
+- **6.4** &mdash; Attend to mental health needs including emotional, psychological, and social well-being.
 
-{{< std code="6.5" >}}
-Examine individual and collective strategies for social and emotional care and stress management.
-{{< /std >}}
+- **6.5** &mdash; Examine individual and collective strategies for social and emotional care and stress management.
 
-{{< std code="6.6" >}}
-Build a workplace culture that mitigates discriminatory practices and employ strategies of accountability and interpersonal repair.
-{{< /std >}}
+- **6.6** &mdash; Build a workplace culture that mitigates discriminatory practices and employ strategies of accountability and interpersonal repair.
 
-{{< std code="6.7" >}}
-Apply principles of financial literacy to budgeting, taxes, and money management.
-{{< /std >}}
+- **6.7** &mdash; Apply principles of financial literacy to budgeting, taxes, and money management.
 
 #### **7.0 Leadership and Community Engagement**
 
 *Act as a responsible citizen in the workplace and the community.*
 
-{{< std code="7.1" >}}
-Identify the responsibilities, competencies, and behaviors of successful leaders.
-{{< /std >}}
+- **7.1** &mdash; Identify the responsibilities, competencies, and behaviors of successful leaders.
 
-{{< std code="7.2" >}}
-Understand how to take direction from leaders, work collaboratively, and follow through with individual responsibilities as a team member.
-{{< /std >}}
+- **7.2** &mdash; Understand how to take direction from leaders, work collaboratively, and follow through with individual responsibilities as a team member.
 
 7.3. Demonstrate independent initiative and work ethic.
 
-{{< std code="7.4" >}}
-Provide, accept, and integrate constructive feedback at various stages of a project.
-{{< /std >}}
+- **7.4** &mdash; Provide, accept, and integrate constructive feedback at various stages of a project.
 
-{{< std code="7.5" >}}
-Lead in an inclusive and positive manner, with a focus on productivity, morale, and organizational culture.
-{{< /std >}}
+- **7.5** &mdash; Lead in an inclusive and positive manner, with a focus on productivity, morale, and organizational culture.
 
 #### **8.0 Ethics and Social Responsibility**
 
 *Model integrity, ethical leadership, and effective management.*
 
-{{< std code="8.1" >}}
-Demonstrate personal integrity and ethical behavior in the workplace.
-{{< /std >}}
+- **8.1** &mdash; Demonstrate personal integrity and ethical behavior in the workplace.
 
-{{< std code="8.2" >}}
-Seek cross-cultural inspiration and understanding through exploration of various resources and materials.
-{{< /std >}}
+- **8.2** &mdash; Seek cross-cultural inspiration and understanding through exploration of various resources and materials.
 
 8.3. Examine the difference between cultural appreciation and cultural appropriation to avoid stereotypes and misrepresentation of different groups.
 
-{{< std code="8.4" >}}
-Examine history and impact of racial discrimination, oppression, and other forms of injustice to better understand diverse experiences and perspectives.
-{{< /std >}}
+- **8.4** &mdash; Examine history and impact of racial discrimination, oppression, and other forms of injustice to better understand diverse experiences and perspectives.
 
-{{< std code="8.5" >}}
-Understand how individual and collective biases influence decision making.
-{{< /std >}}
+- **8.5** &mdash; Understand how individual and collective biases influence decision making.
 
-{{< std code="8.6" >}}
-Ask questions that explore power dynamics and ethical implications of cooperative and managerial decisions.
-{{< /std >}}
+- **8.6** &mdash; Ask questions that explore power dynamics and ethical implications of cooperative and managerial decisions.
 
 #### **9.0 Collaboration and Teamwork**
 
 *Work productively in teams while integrating cultural and global competence.*
 
-{{< std code="9.1" >}}
-Collaborate with a team to realize, refine, finalize, and launch a creative project.
-{{< /std >}}
+- **9.1** &mdash; Collaborate with a team to realize, refine, finalize, and launch a creative project.
 
-{{< std code="9.2" >}}
-Behave respectfully and contribute to an inclusive team environment.
-{{< /std >}}
+- **9.2** &mdash; Behave respectfully and contribute to an inclusive team environment.
 
-{{< std code="9.3" >}}
-Respond thoughtfully to diverse and/or divergent perspectives.
-{{< /std >}}
+- **9.3** &mdash; Respond thoughtfully to diverse and/or divergent perspectives.
 
-{{< std code="9.4" >}}
-Discuss issues and topics with creative teams to establish priorities or positions.
-{{< /std >}}
+- **9.4** &mdash; Discuss issues and topics with creative teams to establish priorities or positions.
 
-{{< std code="9.5" >}}
-Demonstrate the ability to communicate with teammates effectively and de-escalate conflict in collaborative situations.
-{{< /std >}}
+- **9.5** &mdash; Demonstrate the ability to communicate with teammates effectively and de-escalate conflict in collaborative situations.
 
 #### **10.0 Creative Process**
 
 *Demonstrate creativity and innovation.*
 
-{{< std code="10.1" >}}
-Create physical and mental conditions that allow for creative inspiration and exploration.
-{{< /std >}}
+- **10.1** &mdash; Create physical and mental conditions that allow for creative inspiration and exploration.
 
-{{< std code="10.2" >}}
-Use research, imagery, and creative inspiration to generate a mood board or concept document to develop ideas.
-{{< /std >}}
+- **10.2** &mdash; Use research, imagery, and creative inspiration to generate a mood board or concept document to develop ideas.
 
-{{< std code="10.3" >}}
-Visualize thinking using different creative methods (i.e., storytelling, experimentation, improvisation, illustration, sketching, collage, photography, storyboarding, and words.)
-{{< /std >}}
+- **10.3** &mdash; Visualize thinking using different creative methods (i.e., storytelling, experimentation, improvisation, illustration, sketching, collage, photography, storyboarding, and words.)
 
-{{< std code="10.4" >}}
-Develop and bring concepts to life through iterative processes (i.e., mock-ups, prototypes, and performance.)
-{{< /std >}}
+- **10.4** &mdash; Develop and bring concepts to life through iterative processes (i.e., mock-ups, prototypes, and performance.)
 
-{{< std code="10.5" >}}
-Solve industry-specific creative challenges, accept critique, and apply feedback to improve skills.
-{{< /std >}}
+- **10.5** &mdash; Solve industry-specific creative challenges, accept critique, and apply feedback to improve skills.
 
-{{< std code="10.6" >}}
-Seek direct collaboration from people with diverse and/or divergent perspectives as an integral part of the creative process.
-{{< /std >}}
+- **10.6** &mdash; Seek direct collaboration from people with diverse and/or divergent perspectives as an integral part of the creative process.
 
-{{< std code="10.7" >}}
-Create and/or curate a body of work for a public installation, art show or exhibit.
-{{< /std >}}
+- **10.7** &mdash; Create and/or curate a body of work for a public installation, art show or exhibit.
 
 #### **11.0 Research and Media Literacy**
 
 *Employ valid and reliable research strategies.*
 
-{{< std code="11.1" >}}
-Demonstrate media literacy through critical inquiry, analysis, and reflection.
-{{< /std >}}
+- **11.1** &mdash; Demonstrate media literacy through critical inquiry, analysis, and reflection.
 
-{{< std code="11.2" >}}
-Gather information and develop perspective through research, interviews, observation, and experience.
-{{< /std >}}
+- **11.2** &mdash; Gather information and develop perspective through research, interviews, observation, and experience.
 
-{{< std code="11.3" >}}
-Properly cite source information using appropriate formats (i.e., American Psychological Association and Modern Language Association.)
-{{< /std >}}
+- **11.3** &mdash; Properly cite source information using appropriate formats (i.e., American Psychological Association and Modern Language Association.)
 
-{{< std code="11.4" >}}
-Research current industry-standard tools and practices used across art, media, and entertainment industries.
-{{< /std >}}
+- **11.4** &mdash; Research current industry-standard tools and practices used across art, media, and entertainment industries.
 
 #### **12.0 Audience and Behavior**
 
 *Understand the environmental, social, and economic impacts of decisions.*
 
-{{< std code="12.1" >}}
-Study and engage with an intended audience by observing perspectives, environments, behaviors, and needs.
-{{< /std >}}
+- **12.1** &mdash; Study and engage with an intended audience by observing perspectives, environments, behaviors, and needs.
 
-{{< std code="12.2" >}}
-Explore how social and cultural trends influence media creation, consumption, and dissemination.
-{{< /std >}}
+- **12.2** &mdash; Explore how social and cultural trends influence media creation, consumption, and dissemination.
 
-{{< std code="12.3" >}}
-Examine the role of audience and market research in marketing and distribution of creative works.
-{{< /std >}}
+- **12.3** &mdash; Examine the role of audience and market research in marketing and distribution of creative works.
 
-{{< std code="12.4" >}}
-Examine the impact of web-based algorithms, data analytics, ratings, views, and followers on media creation, consumption, and trends.
-{{< /std >}}
+- **12.4** &mdash; Examine the impact of web-based algorithms, data analytics, ratings, views, and followers on media creation, consumption, and trends.
 
-{{< std code="12.5" >}}
-Examine emerging technology, technological trends, and the impact technological advancements have on creative industries.
-{{< /std >}}
+- **12.5** &mdash; Examine emerging technology, technological trends, and the impact technological advancements have on creative industries.
 
-{{< std code="12.6" >}}
-Examine environmental sustainability practices in the arts, media, and entertainment industries.
-{{< /std >}}
+- **12.6** &mdash; Examine environmental sustainability practices in the arts, media, and entertainment industries.
