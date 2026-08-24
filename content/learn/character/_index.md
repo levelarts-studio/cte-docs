@@ -16,20 +16,20 @@ Textbook modules for **Character** organized in sequential learning order from b
     link="/learn/character/character-concept-and-proportions/"
     title="Character Proportions & Silhouette"
     subtitle="Character Proportions & Silhouette"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
   {{< card
     link="/learn/character/base-mesh-sculpt-blockout/"
     title="Sculpt Blockout & Base Meshes"
     subtitle="Sculpt Blockout & Base Meshes"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
   {{< card
     link="/learn/character/facial-structure-and-anatomy/"
     title="Facial Structure & Planes"
     subtitle="Facial Structure & Planes"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
 {{< /cards >}}
 
 ## Core Workflows & Applied Craft
@@ -39,20 +39,20 @@ Textbook modules for **Character** organized in sequential learning order from b
     link="/learn/character/character-topology-and-deform-flow/"
     title="Deformable Character Topology"
     subtitle="Deformable Character Topology"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
   {{< card
     link="/learn/character/costume-clothing-and-armor-modeling/"
     title="Clothing & Armor Modeling"
     subtitle="Clothing & Armor Modeling"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
   {{< card
     link="/learn/character/hair-cards-and-grooming/"
     title="Hair Cards & Alpha Textures"
     subtitle="Hair Cards & Alpha Textures"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
 {{< /cards >}}
 
 ## Advanced Pipeline & Specialization
@@ -62,7 +62,7 @@ Textbook modules for **Character** organized in sequential learning order from b
     link="/learn/character/skin-and-character-pbr-texturing/"
     title="Skin & Character Texturing"
     subtitle="Skin & Character Texturing"
-    tag="STUB"
-    tagColor="amber" >}}
+    tag="3D CHARACTER"
+    tagColor="purple" >}}
 {{< /cards >}}
 

@@ -20,5 +20,5 @@ Flat library of required student assignments and lab specs. Each spec includes t
     title="GAD1 Assignment Track"
     subtitle="Lab Setup, Form Studies, Hero Prop, UV Drills, PBR Textures, Blueprints, Blockout, and Vertical Slice."
     tag="24 SPECS"
-    tagColor="green" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}

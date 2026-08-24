@@ -59,19 +59,19 @@ California Model Curriculum Standards index for Arts, Media, and Entertainment (
     title="View Course Maps"
     subtitle="See sequenced unit pathways for IMC, GAD1, and GAD2."
     tag="3 COURSES"
-    tagColor="green" >}}
+    tagColor="indigo" >}}
 
   {{< card
     link="/assignments/"
     title="Assignment Specs"
     subtitle="Review required student lab deliverables and rubrics."
     tag="50 SPECS"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 
   {{< card
     link="/standards/"
     title="MCS Standards Index"
     subtitle="Explore California CTE AME Model Curriculum Standards."
     tag="178 TERMS"
-    tagColor="purple" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}

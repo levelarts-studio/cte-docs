@@ -66,11 +66,11 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly w
     title="PROD-202: Version Control for Teams"
     subtitle="Git & Perforce branching, merge conflict resolution, and commits."
     tag="MODULE"
-    tagColor="blue" >}}
+    tagColor="indigo" >}}
   {{< card
     link="/learn/production/task-boards-and-sprints/"
     title="PROD-203: Task Boards & Sprints"
     subtitle="Kanban boards, Trello, sprint planning, and backlog grooming."
     tag="MODULE"
-    tagColor="blue" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}

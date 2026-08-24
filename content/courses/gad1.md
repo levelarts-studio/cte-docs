@@ -27,7 +27,7 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="Assignment: Hero Prop Modeling"
     subtitle="Model a hero prop in Blender and export to engine."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 2: 3D Asset Creation
@@ -50,7 +50,7 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="Assignment: Hard Surface Prop"
     subtitle="Create a hard surface prop mesh with clean geometry."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 3: Materials, Textures & Lighting
@@ -73,7 +73,7 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="Assignment: PBR Texture Set"
     subtitle="Author and apply PBR material textures to your hero prop."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 4: Engine Integration & Interaction
@@ -96,7 +96,7 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="Assignment: Interactive Door Blueprint"
     subtitle="Build an interactive trigger door Blueprint in Unreal Engine 5."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 5: Game Systems & Environment
@@ -119,7 +119,7 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="Assignment: Blockout Level Layout"
     subtitle="Greybox a playable level layout with spatial pacing."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 6: Capstone Vertical Slice
@@ -130,11 +130,11 @@ Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, t
     title="PROD-204: Scope & Vertical Slice"
     subtitle="Scope management, feature cuts, and vertical slice targets."
     tag="MODULE"
-    tagColor="blue" >}}
+    tagColor="indigo" >}}
   {{< card
     link="/assignments/solo-vertical-slice/"
     title="Assignment: Solo Vertical Slice"
     subtitle="Assemble, light, and publish a solo vertical slice build."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}

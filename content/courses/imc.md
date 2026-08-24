@@ -15,13 +15,13 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="COMP-101: What a Computer Is Doing"
     subtitle="Hardware, CPU, RAM, storage, and GPU fundamentals."
     tag="MODULE"
-    tagColor="indigo" >}}
+    tagColor="blue" >}}
   {{< card
     link="/learn/computing/operating-systems-and-why-they-differ/"
     title="COMP-102: Operating Systems"
     subtitle="Windows, macOS, Linux, and OS file management differences."
     tag="MODULE"
-    tagColor="indigo" >}}
+    tagColor="blue" >}}
   {{< card
     link="/learn/career/the-arts-entertainment-design-cluster/"
     title="CAREER-101: The AME Cluster"
@@ -33,7 +33,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="Assignment: Build Your Portfolio"
     subtitle="Set up your Google Sites portfolio homepage and bio."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 2: Design & The Creative Process
@@ -56,7 +56,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="Assignment: Mood Board Gathering"
     subtitle="Reference board assembly using PureRef and Google Sites."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 3: Storytelling Across Media
@@ -67,19 +67,19 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="MEDIA-101: What Makes a Story"
     subtitle="Storytelling premises, theme, character motivation, and conflict."
     tag="MODULE"
-    tagColor="red" >}}
+    tagColor="amber" >}}
   {{< card
     link="/learn/media/shot-types-and-framing/"
     title="MEDIA-105: Shot Types & Framing"
     subtitle="Wide shots, medium shots, close-ups, and camera positioning."
     tag="MODULE"
-    tagColor="red" >}}
+    tagColor="amber" >}}
   {{< card
     link="/assignments/storyboard-sequence/"
     title="Assignment: Storyboard Sequence"
     subtitle="Create a 6-panel storyboard sequence with shot notes."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 4: Careers & Media Literacy
@@ -96,7 +96,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="Assignment: O*NET Research Report"
     subtitle="Investigate 2 AME pathway careers and publish to portfolio."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 5: Law, Ethics & AI
@@ -119,7 +119,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="Assignment: Fair Use Case Analysis"
     subtitle="Evaluate copyright scenarios using the 4 factors."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
 
 ## Unit 6: Production & The Pitch
@@ -130,17 +130,17 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
     title="PROD-101: Production Phases"
     subtitle="Pre-production, production, post-production, and launch."
     tag="MODULE"
-    tagColor="blue" >}}
+    tagColor="indigo" >}}
   {{< card
     link="/learn/production/pitching-a-concept/"
     title="PROD-105: Pitching a Concept"
     subtitle="Pitch decks, elevator pitches, and presentation craft."
     tag="MODULE"
-    tagColor="blue" >}}
+    tagColor="indigo" >}}
   {{< card
     link="/assignments/concept-pitch/"
     title="Assignment: Concept Deck Pitch"
     subtitle="Present a final project concept deck to the class."
     tag="ASSIGNMENT"
-    tagColor="amber" >}}
+    tagColor="indigo" >}}
 {{< /cards >}}
