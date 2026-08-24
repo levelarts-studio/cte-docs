@@ -19,7 +19,7 @@
             {{ $std := index $lookup (lower .Title) }}
             {{ if $std }}
               <div class="hx:text-sm hx:font-medium hx:text-slate-200 hx:mt-1">{{ $std.title }}</div>
-              <div class="hx:text-xs hx:text-slate-400 hx:mt-0.5">{{ $std.cluster }} • <span class="hx:capitalize">{{ $std.type }}</span></div>
+              <div class="hx:text-xs hx:text-slate-400 hx:mt-0.5">{{ $std.cluster }} &bull; <span class="hx:capitalize">{{ $std.type }}</span></div>
             {{ end }}
           </div>
           <div class="hx:text-xs hx:font-bold hx:px-2.5 hx:py-1 hx:rounded-full hx:bg-indigo-950 hx:text-indigo-300 hx:border hx:border-indigo-800">
