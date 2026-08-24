@@ -18,10 +18,6 @@ aliases: ["/m/COMP-108"]
 
 - Understand Reading a Spec Sheet.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-105"]
 
 - Understand Shot Types and Framing.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

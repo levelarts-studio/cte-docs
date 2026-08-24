@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-103"]
 
 - Understand Pathways, Focus Areas, Job Titles.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

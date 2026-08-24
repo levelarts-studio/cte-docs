@@ -18,10 +18,6 @@ aliases: ["/m/PROD-204"]
 
 - Understand Scope and the Vertical Slice.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/LAW-111"]
 
 - Understand NDAs and Confidentiality.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

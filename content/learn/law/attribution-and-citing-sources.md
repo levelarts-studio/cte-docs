@@ -18,10 +18,6 @@ aliases: ["/m/LAW-106"]
 
 - Understand Attribution and Citing Sources.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

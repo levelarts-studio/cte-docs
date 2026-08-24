@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-113"]
 
 - Understand Staff, Freelance, and Work for Hire.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

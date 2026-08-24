@@ -18,10 +18,6 @@ aliases: ["/m/UE-302"]
 
 - Understand Data Tables and Save Systems.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

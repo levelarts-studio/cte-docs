@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-109"]
 
 - Understand Networking and Professional Presence.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

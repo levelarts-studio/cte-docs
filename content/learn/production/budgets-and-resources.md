@@ -18,10 +18,6 @@ aliases: ["/m/PROD-206"]
 
 - Understand Budgets and Resources.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

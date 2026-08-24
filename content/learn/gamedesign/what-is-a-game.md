@@ -18,10 +18,6 @@ aliases: ["/m/GAME-101"]
 
 - Understand What Is a Game.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

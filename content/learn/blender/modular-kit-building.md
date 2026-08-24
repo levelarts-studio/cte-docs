@@ -18,10 +18,6 @@ aliases: ["/m/BLND-302"]
 
 - Understand Modular Kit Building.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

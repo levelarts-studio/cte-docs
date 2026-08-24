@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-102"]
 
 - Understand Narrative Structure.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

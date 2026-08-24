@@ -18,10 +18,6 @@ aliases: ["/m/BLND-211"]
 
 - Understand Game-Ready Export.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

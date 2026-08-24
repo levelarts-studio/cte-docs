@@ -18,10 +18,6 @@ aliases: ["/m/UE-210"]
 
 - Understand Performance and Profiling.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

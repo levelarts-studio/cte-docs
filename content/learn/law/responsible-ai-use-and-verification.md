@@ -18,10 +18,6 @@ aliases: ["/m/LAW-110"]
 
 - Understand Responsible AI Use and Verification.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

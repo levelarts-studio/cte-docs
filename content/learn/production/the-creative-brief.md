@@ -18,10 +18,6 @@ aliases: ["/m/PROD-103"]
 
 - Understand The Creative Brief.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

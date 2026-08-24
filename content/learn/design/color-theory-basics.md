@@ -18,10 +18,6 @@ aliases: ["/m/DESN-105"]
 
 - Understand Color Theory Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

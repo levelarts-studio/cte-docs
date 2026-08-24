@@ -18,10 +18,6 @@ aliases: ["/m/DESN-111"]
 
 - Understand Mood Boards and Reference.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

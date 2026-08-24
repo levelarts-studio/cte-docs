@@ -18,10 +18,6 @@ aliases: ["/m/GAME-207"]
 
 - Understand Multiplayer and Networking Concepts.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

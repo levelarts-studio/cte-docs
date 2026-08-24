@@ -18,10 +18,6 @@ aliases: ["/m/UE-207"]
 
 - Understand Landscape and Environment.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

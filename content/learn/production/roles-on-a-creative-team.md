@@ -18,10 +18,6 @@ aliases: ["/m/PROD-102"]
 
 - Understand Roles on a Creative Team.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

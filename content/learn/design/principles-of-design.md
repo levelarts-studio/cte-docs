@@ -18,10 +18,6 @@ aliases: ["/m/DESN-102"]
 
 - Understand Principles of Design.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

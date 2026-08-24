@@ -18,10 +18,6 @@ aliases: ["/m/BLND-209"]
 
 - Understand Rigging Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

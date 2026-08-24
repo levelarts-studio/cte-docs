@@ -18,10 +18,6 @@ aliases: ["/m/GAME-206"]
 
 - Understand Monetization Models.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

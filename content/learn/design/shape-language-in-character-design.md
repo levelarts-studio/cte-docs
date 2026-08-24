@@ -18,10 +18,6 @@ aliases: ["/m/DESN-203"]
 
 - Understand Shape Language in Character Design.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

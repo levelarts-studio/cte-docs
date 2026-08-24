@@ -18,10 +18,6 @@ aliases: ["/m/BLND-202"]
 
 - Understand Hard Surface Modeling.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

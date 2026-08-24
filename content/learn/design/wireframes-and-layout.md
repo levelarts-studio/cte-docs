@@ -18,10 +18,6 @@ aliases: ["/m/DESN-113"]
 
 - Understand Wireframes and Layout.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

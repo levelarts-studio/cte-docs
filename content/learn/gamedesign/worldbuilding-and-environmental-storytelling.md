@@ -18,10 +18,6 @@ aliases: ["/m/GAME-205"]
 
 - Understand Worldbuilding and Environmental Storytelling.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-111"]
 
 - Understand Pre-Production Documents.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

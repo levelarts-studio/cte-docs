@@ -18,10 +18,6 @@ aliases: ["/m/LAW-105"]
 
 - Understand Licenses: CC, Royalty-Free, Commercial.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

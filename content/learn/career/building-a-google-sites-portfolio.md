@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-104"]
 
 - Understand Building a Google Sites Portfolio.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

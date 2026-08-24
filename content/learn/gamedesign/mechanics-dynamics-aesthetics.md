@@ -18,10 +18,6 @@ aliases: ["/m/GAME-104"]
 
 - Understand Mechanics, Dynamics, Aesthetics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

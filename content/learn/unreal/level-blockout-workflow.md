@@ -18,10 +18,6 @@ aliases: ["/m/UE-206"]
 
 - Understand Level Blockout Workflow.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/LAW-103"]
 
 - Understand Trademark and Publicity Rights.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

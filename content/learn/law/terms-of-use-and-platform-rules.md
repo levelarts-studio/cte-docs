@@ -18,10 +18,6 @@ aliases: ["/m/LAW-107"]
 
 - Understand Terms of Use and Platform Rules.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

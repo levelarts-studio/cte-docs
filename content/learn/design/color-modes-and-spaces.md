@@ -18,10 +18,6 @@ aliases: ["/m/DESN-106"]
 
 - Understand Color Modes and Spaces.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

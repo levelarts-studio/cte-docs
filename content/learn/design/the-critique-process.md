@@ -18,10 +18,6 @@ aliases: ["/m/DESN-114"]
 
 - Understand The Critique Process.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

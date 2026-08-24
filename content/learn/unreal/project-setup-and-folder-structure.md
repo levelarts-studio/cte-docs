@@ -18,10 +18,6 @@ aliases: ["/m/UE-102"]
 
 - Understand Project Setup and Folder Structure.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-101"]
 
 - Understand What Makes a Story.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

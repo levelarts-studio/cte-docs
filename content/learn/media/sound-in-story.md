@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-109"]
 
 - Understand Sound in Story.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

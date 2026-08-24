@@ -18,10 +18,6 @@ aliases: ["/m/UE-301"]
 
 - Understand Nanite and Lumen.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

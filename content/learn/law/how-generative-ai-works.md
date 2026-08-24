@@ -18,10 +18,6 @@ aliases: ["/m/LAW-108"]
 
 - Understand How Generative AI Works.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

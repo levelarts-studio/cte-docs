@@ -18,10 +18,6 @@ aliases: ["/m/LAW-102"]
 
 - Understand Copyright Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

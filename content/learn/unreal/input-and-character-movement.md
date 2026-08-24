@@ -18,10 +18,6 @@ aliases: ["/m/UE-203"]
 
 - Understand Input and Character Movement.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

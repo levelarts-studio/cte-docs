@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-112"]
 
 - Understand Reading a Media Message.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

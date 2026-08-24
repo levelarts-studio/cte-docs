@@ -18,10 +18,6 @@ aliases: ["/m/GAME-102"]
 
 - Understand The Core Loop.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

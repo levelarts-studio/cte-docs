@@ -18,10 +18,6 @@ aliases: ["/m/UE-205"]
 
 - Understand UI Widgets and HUD.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

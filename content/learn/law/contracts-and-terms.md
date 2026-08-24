@@ -18,10 +18,6 @@ aliases: ["/m/LAW-201"]
 
 - Understand Contracts and Terms.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

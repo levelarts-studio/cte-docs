@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-111"]
 
 - Understand Education and Training Routes.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

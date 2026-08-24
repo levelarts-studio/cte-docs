@@ -18,10 +18,6 @@ aliases: ["/m/GAME-107"]
 
 - Understand Narrative in Games.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

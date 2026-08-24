@@ -18,10 +18,6 @@ aliases: ["/m/BLND-210"]
 
 - Understand Keyframe Animation Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

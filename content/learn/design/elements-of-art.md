@@ -18,10 +18,6 @@ aliases: ["/m/DESN-101"]
 
 - Understand Elements of Art.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

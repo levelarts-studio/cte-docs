@@ -18,10 +18,6 @@ aliases: ["/m/UE-101"]
 
 - Understand Interface and Navigation.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/COMP-111"]
 
 - Understand Accounts, Passwords, Phishing.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

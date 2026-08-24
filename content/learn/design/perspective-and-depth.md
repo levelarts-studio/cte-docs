@@ -18,10 +18,6 @@ aliases: ["/m/DESN-108"]
 
 - Understand Perspective and Depth.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/LAW-104"]
 
 - Understand Fair Use: The Four Factors.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

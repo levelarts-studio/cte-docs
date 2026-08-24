@@ -18,10 +18,6 @@ aliases: ["/m/UE-208"]
 
 - Understand Audio in Engine.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

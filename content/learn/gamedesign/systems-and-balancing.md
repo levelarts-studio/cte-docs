@@ -18,10 +18,6 @@ aliases: ["/m/GAME-201"]
 
 - Understand Systems and Balancing.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/GAME-109"]
 
 - Understand Accessibility in Games.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/BLND-201"]
 
 - Understand Topology and Edge Flow.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

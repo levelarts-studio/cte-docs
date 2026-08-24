@@ -18,10 +18,6 @@ aliases: ["/m/BLND-102"]
 
 - Understand Objects, Transforms, and Pivots.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

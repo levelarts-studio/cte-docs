@@ -18,10 +18,6 @@ aliases: ["/m/GAME-203"]
 
 - Understand Game Feel and Feedback.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

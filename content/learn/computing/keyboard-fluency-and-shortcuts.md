@@ -18,10 +18,6 @@ aliases: ["/m/COMP-109"]
 
 - Understand Keyboard Fluency and Shortcuts.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

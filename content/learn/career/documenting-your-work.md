@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-105"]
 
 - Understand Documenting Your Work.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

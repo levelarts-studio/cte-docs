@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-108"]
 
 - Understand Professional Email and Communication.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

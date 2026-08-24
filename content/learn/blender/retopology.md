@@ -18,10 +18,6 @@ aliases: ["/m/BLND-301"]
 
 - Understand Retopology.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

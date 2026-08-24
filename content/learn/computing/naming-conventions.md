@@ -18,10 +18,6 @@ aliases: ["/m/COMP-105"]
 
 - Understand Naming Conventions.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -11,12 +11,12 @@
   {{ end }}
 {{ end }}
 {{ if gt (len $usedCourses) 0 }}
-  <div class="hx:my-4 hx:p-3 hx:rounded-md hx:bg-slate-800/80 hx:border hx:border-slate-700">
-    <span class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-slate-400">Used in Courses:</span>
-    <div class="hx:mt-1.5 hx:flex hx:flex-wrap hx:gap-2">
+  <div class="hx:text-xs hx:pt-2 hx:border-t hx:border-neutral-800/60 hx:flex hx:items-center hx:gap-2">
+    <span class="hx:font-semibold hx:text-neutral-400">Used in Courses:</span>
+    <div class="hx:flex hx:flex-wrap hx:gap-1.5">
       {{ range $usedCourses }}
-        <span class="hx:text-xs hx:px-2.5 hx:py-1 hx:rounded-full hx:bg-indigo-950 hx:text-indigo-300 hx:border hx:border-indigo-800">
-          <strong>{{ .course }}</strong> — {{ .unit }}
+        <span class="hx:inline-flex hx:items-center hx:text-xs hx:px-2.5 hx:py-0.5 hx:rounded-md hx:bg-indigo-500/10 hx:text-indigo-300 hx:border hx:border-indigo-500/30">
+          <strong class="hx:font-semibold hx:mr-1">{{ .course }}</strong> &mdash; {{ .unit }}
         </span>
       {{ end }}
     </div>

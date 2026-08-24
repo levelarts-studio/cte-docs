@@ -18,10 +18,6 @@ aliases: ["/m/UE-106"]
 
 - Understand Lighting Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/DESN-201"]
 
 - Understand Color Scripting and Mood.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

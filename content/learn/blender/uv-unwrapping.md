@@ -18,10 +18,6 @@ aliases: ["/m/BLND-204"]
 
 - Understand UV Unwrapping.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

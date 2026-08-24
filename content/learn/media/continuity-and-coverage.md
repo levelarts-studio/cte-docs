@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-107"]
 
 - Understand Continuity and Coverage.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

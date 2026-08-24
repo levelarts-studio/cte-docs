@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-114"]
 
 - Understand Exporting and Delivery.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

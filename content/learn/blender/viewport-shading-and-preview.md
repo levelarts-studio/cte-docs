@@ -18,10 +18,6 @@ aliases: ["/m/BLND-106"]
 
 - Understand Viewport Shading and Preview.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

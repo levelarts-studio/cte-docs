@@ -18,10 +18,6 @@ aliases: ["/m/PROD-106"]
 
 - Understand Meetings, Standups, and Notes.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

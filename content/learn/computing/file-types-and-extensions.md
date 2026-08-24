@@ -18,10 +18,6 @@ aliases: ["/m/COMP-104"]
 
 - Understand File Types and Extensions.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

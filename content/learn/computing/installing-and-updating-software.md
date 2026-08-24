@@ -18,10 +18,6 @@ aliases: ["/m/COMP-107"]
 
 - Understand Installing and Updating Software.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

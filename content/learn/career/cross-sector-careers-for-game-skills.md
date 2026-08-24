@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-203"]
 
 - Understand Cross-Sector Careers for Game Skills.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

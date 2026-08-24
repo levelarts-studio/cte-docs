@@ -18,10 +18,6 @@ aliases: ["/m/LAW-101"]
 
 - Understand What Intellectual Property Is.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

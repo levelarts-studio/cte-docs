@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-107"]
 
 - Understand Resumes.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/UE-103"]
 
 - Understand Placing and Transforming Actors.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

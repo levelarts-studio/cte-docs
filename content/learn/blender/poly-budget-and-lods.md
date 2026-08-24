@@ -18,10 +18,6 @@ aliases: ["/m/BLND-212"]
 
 - Understand Poly Budget and LODs.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

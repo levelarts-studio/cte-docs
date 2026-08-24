@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-202"]
 
 - Understand Esports Careers.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

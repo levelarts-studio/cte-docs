@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-104"]
 
 - Understand Point of View.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

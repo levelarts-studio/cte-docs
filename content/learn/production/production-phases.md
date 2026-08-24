@@ -18,10 +18,6 @@ aliases: ["/m/PROD-101"]
 
 - Understand Production Phases.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

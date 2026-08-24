@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-110"]
 
 - Understand Platform and Audience.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-101"]
 
 - Understand The Arts, Entertainment & Design Cluster.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

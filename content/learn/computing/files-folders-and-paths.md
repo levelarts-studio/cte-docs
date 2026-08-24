@@ -18,10 +18,6 @@ aliases: ["/m/COMP-103"]
 
 - Understand Files, Folders, and Paths.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

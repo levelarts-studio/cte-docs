@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-106"]
 
 - Understand Camera Angles and Movement.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

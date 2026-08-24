@@ -18,10 +18,6 @@ aliases: ["/m/LAW-109"]
 
 - Understand AI, Authorship, and Ownership.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

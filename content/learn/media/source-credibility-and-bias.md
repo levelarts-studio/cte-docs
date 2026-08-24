@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-113"]
 
 - Understand Source Credibility and Bias.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

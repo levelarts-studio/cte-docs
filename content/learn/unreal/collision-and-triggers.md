@@ -18,10 +18,6 @@ aliases: ["/m/UE-204"]
 
 - Understand Collision and Triggers.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/PROD-107"]
 
 - Understand Giving and Receiving Feedback.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

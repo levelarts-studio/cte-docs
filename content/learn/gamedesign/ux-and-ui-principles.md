@@ -18,10 +18,6 @@ aliases: ["/m/GAME-108"]
 
 - Understand UX and UI Principles.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

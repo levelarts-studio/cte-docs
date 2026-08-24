@@ -18,10 +18,6 @@ aliases: ["/m/COMP-101"]
 
 - Understand What a Computer Is Doing.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

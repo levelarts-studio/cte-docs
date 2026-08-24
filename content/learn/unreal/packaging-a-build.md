@@ -18,10 +18,6 @@ aliases: ["/m/UE-209"]
 
 - Understand Packaging a Build.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

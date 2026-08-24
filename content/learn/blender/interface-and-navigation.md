@@ -21,13 +21,9 @@ aliases: ["/m/BLND-101", "/gad1-docs/modules/unit-1/a1"]
 - Select Vertices, Edges, and Faces using `1`, `2`, `3`.
 - Move, Rotate, and Scale 3D meshes using `G`, `R`, `S`.
 
-## Video
-
 <div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
   🎥 <em>Video lesson embedding point (captions & transcript available).</em>
 </div>
-
-## Read
 
 ### 1. Viewport Controls
 - **Orbit**: Hold `Middle Mouse Button` and drag.

@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-103"]
 
 - Understand Character and Conflict.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

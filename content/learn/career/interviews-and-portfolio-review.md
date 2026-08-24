@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-114"]
 
 - Understand Interviews and Portfolio Review.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

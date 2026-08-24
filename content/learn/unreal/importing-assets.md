@@ -18,10 +18,6 @@ aliases: ["/m/UE-104"]
 
 - Understand Importing Assets.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

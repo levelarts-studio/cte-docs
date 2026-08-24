@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-201"]
 
 - Understand Game Industry Roles Map.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

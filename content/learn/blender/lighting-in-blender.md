@@ -18,10 +18,6 @@ aliases: ["/m/BLND-207"]
 
 - Understand Lighting in Blender.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

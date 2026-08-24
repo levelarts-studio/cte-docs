@@ -18,10 +18,6 @@ aliases: ["/m/BLND-107"]
 
 - Understand Saving, Packing, and Exporting.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

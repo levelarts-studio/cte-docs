@@ -18,10 +18,6 @@ aliases: ["/m/PROD-201"]
 
 - Understand The Game Design Document.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

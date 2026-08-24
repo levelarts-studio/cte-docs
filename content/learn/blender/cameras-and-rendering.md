@@ -18,10 +18,6 @@ aliases: ["/m/BLND-208"]
 
 - Understand Cameras and Rendering.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

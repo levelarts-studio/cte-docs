@@ -18,10 +18,6 @@ aliases: ["/m/UE-201"]
 
 - Understand Blueprint Fundamentals.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-106"]
 
 - Understand Artist Statement and Bio.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

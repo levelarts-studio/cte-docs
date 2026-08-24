@@ -18,10 +18,6 @@ aliases: ["/m/PROD-202"]
 
 - Understand Version Control for Teams.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

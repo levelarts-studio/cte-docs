@@ -18,10 +18,6 @@ aliases: ["/m/DESN-110"]
 
 - Understand Thumbnails and Ideation.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

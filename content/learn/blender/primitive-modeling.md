@@ -18,10 +18,6 @@ aliases: ["/m/BLND-103"]
 
 - Understand Primitive Modeling.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

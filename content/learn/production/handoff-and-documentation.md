@@ -18,10 +18,6 @@ aliases: ["/m/PROD-205"]
 
 - Understand Handoff and Documentation.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

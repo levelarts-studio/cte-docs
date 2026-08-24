@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-112"]
 
 - Understand Unions, Guilds, and Professional Orgs.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

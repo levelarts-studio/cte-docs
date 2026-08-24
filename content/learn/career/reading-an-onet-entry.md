@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-102"]
 
 - Understand Reading an O*NET Entry.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

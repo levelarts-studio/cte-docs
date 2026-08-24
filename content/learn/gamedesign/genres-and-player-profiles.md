@@ -18,10 +18,6 @@ aliases: ["/m/GAME-103"]
 
 - Understand Genres and Player Profiles.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

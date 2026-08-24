@@ -18,10 +18,6 @@ aliases: ["/m/GAME-105"]
 
 - Understand Level Design Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/COMP-110"]
 
 - Understand Ergonomics and the Workstation.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

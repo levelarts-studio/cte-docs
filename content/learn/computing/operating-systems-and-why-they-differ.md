@@ -18,10 +18,6 @@ aliases: ["/m/COMP-102"]
 
 - Understand Operating Systems and Why They Differ.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

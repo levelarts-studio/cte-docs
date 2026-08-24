@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-204"]
 
 - Understand Entrepreneurship and Freelancing.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

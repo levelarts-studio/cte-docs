@@ -18,10 +18,6 @@ aliases: ["/m/DESN-107"]
 
 - Understand Composition and Focal Point.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

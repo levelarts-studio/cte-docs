@@ -18,10 +18,6 @@ aliases: ["/m/BLND-105"]
 
 - Understand Modifiers Introduction.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

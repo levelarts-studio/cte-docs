@@ -18,10 +18,6 @@ aliases: ["/m/MEDIA-108"]
 
 - Understand Editing: Cuts and Transitions.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

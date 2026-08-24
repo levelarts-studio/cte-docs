@@ -18,10 +18,6 @@ aliases: ["/m/DESN-103"]
 
 - Understand Line, Shape, and Form.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

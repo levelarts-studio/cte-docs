@@ -18,10 +18,6 @@ aliases: ["/m/PROD-104"]
 
 - Understand Project Planning and Milestones.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

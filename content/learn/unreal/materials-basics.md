@@ -18,10 +18,6 @@ aliases: ["/m/UE-105"]
 
 - Understand Materials Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

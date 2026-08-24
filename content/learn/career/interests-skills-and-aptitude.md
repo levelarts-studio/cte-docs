@@ -18,10 +18,6 @@ aliases: ["/m/CAREER-110"]
 
 - Understand Interests, Skills, and Aptitude.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

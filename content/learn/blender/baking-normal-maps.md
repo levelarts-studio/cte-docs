@@ -18,10 +18,6 @@ aliases: ["/m/BLND-206"]
 
 - Understand Baking Normal Maps.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/COMP-112"]
 
 - Understand Staying Safe and Private Online.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

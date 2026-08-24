@@ -18,10 +18,6 @@ aliases: ["/m/GAME-204"]
 
 - Understand Playtesting Methods.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

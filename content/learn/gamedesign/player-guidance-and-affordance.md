@@ -18,10 +18,6 @@ aliases: ["/m/GAME-106"]
 
 - Understand Player Guidance and Affordance.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/DESN-109"]
 
 - Understand Typography Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

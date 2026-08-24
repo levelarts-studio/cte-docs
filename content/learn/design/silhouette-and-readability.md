@@ -18,10 +18,6 @@ aliases: ["/m/DESN-202"]
 
 - Understand Silhouette and Readability.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

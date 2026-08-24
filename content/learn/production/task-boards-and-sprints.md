@@ -18,10 +18,6 @@ aliases: ["/m/PROD-203"]
 
 - Understand Task Boards and Sprints.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

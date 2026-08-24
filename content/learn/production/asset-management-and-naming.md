@@ -18,10 +18,6 @@ aliases: ["/m/PROD-108"]
 
 - Understand Asset Management and Naming.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

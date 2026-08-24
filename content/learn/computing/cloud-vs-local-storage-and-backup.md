@@ -18,10 +18,6 @@ aliases: ["/m/COMP-106"]
 
 - Understand Cloud vs Local Storage and Backup.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

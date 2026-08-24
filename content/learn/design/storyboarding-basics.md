@@ -18,10 +18,6 @@ aliases: ["/m/DESN-112"]
 
 - Understand Storyboarding Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

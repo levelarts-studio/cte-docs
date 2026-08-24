@@ -18,10 +18,6 @@ aliases: ["/m/DESN-115"]
 
 - Understand Iteration and Revision.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

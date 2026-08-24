@@ -18,10 +18,6 @@ aliases: ["/m/PROD-105"]
 
 - Understand Pitching a Concept.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

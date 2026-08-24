@@ -18,10 +18,6 @@ aliases: ["/m/BLND-205"]
 
 - Understand Texturing and PBR Maps.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

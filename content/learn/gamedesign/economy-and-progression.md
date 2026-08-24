@@ -18,10 +18,6 @@ aliases: ["/m/GAME-202"]
 
 - Understand Economy and Progression.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

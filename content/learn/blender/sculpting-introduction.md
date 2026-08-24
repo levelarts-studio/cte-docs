@@ -18,10 +18,6 @@ aliases: ["/m/BLND-203"]
 
 - Understand Sculpting Introduction.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

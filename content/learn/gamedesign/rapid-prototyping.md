@@ -18,10 +18,6 @@ aliases: ["/m/GAME-208"]
 
 - Understand Rapid Prototyping.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

@@ -18,10 +18,6 @@ aliases: ["/m/BLND-104"]
 
 - Understand Edit Mode Basics.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

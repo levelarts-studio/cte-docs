@@ -18,10 +18,6 @@ aliases: ["/m/UE-202"]
 
 - Understand Variables and Flow Control.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms

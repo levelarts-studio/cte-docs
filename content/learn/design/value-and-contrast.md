@@ -20,10 +20,6 @@ aliases: ["/m/DESN-104"]
 - Identify primary focal points using high contrast values.
 - Apply ambient vs direct light values in 2D thumbnail sketches.
 
-## Video
-
-## Read
-
 ## Try it
 
 ## Terms
