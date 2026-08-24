@@ -13,6 +13,8 @@ description: "ANIM-301: Action Poses & Impact Keying textbook module stub."
 summary: "ANIM-301: Action Poses & Impact Keying textbook module stub."
 ---
 
+{{< badge content="ANIM-301" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

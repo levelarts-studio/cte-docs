@@ -13,6 +13,8 @@ description: "ANIM-201: Biped Rigging & Weight Painting textbook module stub."
 summary: "ANIM-201: Biped Rigging & Weight Painting textbook module stub."
 ---
 
+{{< badge content="ANIM-201" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

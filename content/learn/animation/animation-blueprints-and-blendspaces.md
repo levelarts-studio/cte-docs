@@ -13,6 +13,8 @@ description: "ANIM-401: Anim Blueprints & Blendspaces textbook module stub."
 summary: "ANIM-401: Anim Blueprints & Blendspaces textbook module stub."
 ---
 
+{{< badge content="ANIM-401" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

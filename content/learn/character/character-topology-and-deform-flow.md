@@ -13,6 +13,8 @@ description: "CHAR-202: Deformable Character Topology textbook module stub."
 summary: "CHAR-202: Deformable Character Topology textbook module stub."
 ---
 
+{{< badge content="CHAR-202" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

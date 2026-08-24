@@ -13,6 +13,8 @@ description: "CHAR-201: Facial Structure & Planes textbook module stub."
 summary: "CHAR-201: Facial Structure & Planes textbook module stub."
 ---
 
+{{< badge content="CHAR-201" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

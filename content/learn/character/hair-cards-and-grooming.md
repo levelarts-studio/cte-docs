@@ -13,6 +13,8 @@ description: "CHAR-302: Hair Cards & Alpha Textures textbook module stub."
 summary: "CHAR-302: Hair Cards & Alpha Textures textbook module stub."
 ---
 
+{{< badge content="CHAR-302" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

@@ -13,6 +13,8 @@ description: "CHAR-401: Skin & Character Texturing textbook module stub."
 summary: "CHAR-401: Skin & Character Texturing textbook module stub."
 ---
 
+{{< badge content="CHAR-401" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

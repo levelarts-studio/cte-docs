@@ -13,6 +13,8 @@ description: "CHAR-102: Sculpt Blockout & Base Meshes textbook module stub."
 summary: "CHAR-102: Sculpt Blockout & Base Meshes textbook module stub."
 ---
 
+{{< badge content="CHAR-102" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

@@ -13,6 +13,8 @@ description: "CHAR-301: Clothing & Armor Modeling textbook module stub."
 summary: "CHAR-301: Clothing & Armor Modeling textbook module stub."
 ---
 
+{{< badge content="CHAR-301" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

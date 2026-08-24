@@ -13,6 +13,8 @@ description: "CHAR-101: Character Proportions & Silhouette textbook module stub.
 summary: "CHAR-101: Character Proportions & Silhouette textbook module stub."
 ---
 
+{{< badge content="CHAR-101" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}

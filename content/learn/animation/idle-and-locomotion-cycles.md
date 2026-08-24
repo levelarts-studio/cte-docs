@@ -13,6 +13,8 @@ description: "ANIM-202: Walk & Run Cycles textbook module stub."
 summary: "ANIM-202: Walk & Run Cycles textbook module stub."
 ---
 
+{{< badge content="ANIM-202" color="indigo" >}}
+
 {{< callout type="warning" >}}
 **Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
 {{< /callout >}}
