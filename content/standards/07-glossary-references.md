@@ -203,7 +203,7 @@ North American Scholastic Esports Federation.
 
 ## **Glossary**
 
-{{< details summary="Click to expand full CDE AME Glossary of Terms..." >}} 
+{{< details title="Click to expand full CDE AME Glossary of Terms..." closed="true" >}} 
 
 **21st century skills:** Essential workplace skills, habits, and characteristics such as collaboration, communication, creativity, critical thinking, and problem solving.
 
