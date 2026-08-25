@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["15.4", "15.8"]
+standards: ["15.6", "15.8"]
 keywords: ["eevee", "cycles", "focal length", "render output"]
 duration: 20
 video: ""

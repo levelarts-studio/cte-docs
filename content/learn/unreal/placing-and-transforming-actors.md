@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.1"]
+standards: ["4.3"]
 keywords: ["actors", "static mesh actor", "transforms", "snapping"]
 duration: 20
 video: ""

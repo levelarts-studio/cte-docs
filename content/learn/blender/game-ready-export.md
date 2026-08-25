@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8", "GD.17.1"]
+standards: ["4.5", "4.5"]
 keywords: ["fbx export", "gltf", "unreal export"]
 duration: 20
 video: ""

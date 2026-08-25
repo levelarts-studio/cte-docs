@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.4"]
+standards: ["15.6"]
 keywords: ["low angle", "high angle", "pan", "tilt", "dolly"]
 duration: 20
 video: ""

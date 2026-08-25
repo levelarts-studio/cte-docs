@@ -5,8 +5,8 @@ entity: assignment
 tier: 100
 status: stub
 requires: ["MEDIA-105", "MEDIA-112"]
-standards: ["15.4"]
-evidence_for: "15.4"
+standards: ["AV.17.5"]
+evidence_for: "AV.17.5"
 portfolio: true
 portfolio_section: "Media"
 est_time: 90

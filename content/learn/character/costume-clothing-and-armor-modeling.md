@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 300
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.17.4"]
 weight: 50
 type: docs
 description: "CHAR-301: Clothing & Armor Modeling textbook module stub."

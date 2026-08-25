@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 200
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.17.4"]
 weight: 40
 type: docs
 description: "CHAR-202: Deformable Character Topology textbook module stub."

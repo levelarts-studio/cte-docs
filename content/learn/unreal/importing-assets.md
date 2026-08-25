@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.1", "AV.17.8"]
+standards: ["4.5", "4.5"]
 keywords: ["fbx import", "collision setup", "nanite import"]
 duration: 20
 video: ""

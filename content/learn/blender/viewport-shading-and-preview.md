@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8"]
+standards: ["GD.17.4"]
 keywords: ["solid", "wireframe", "rendered", "material preview"]
 duration: 20
 video: ""

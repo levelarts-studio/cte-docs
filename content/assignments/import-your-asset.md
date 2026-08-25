@@ -5,8 +5,8 @@ entity: assignment
 tier: 100
 status: stub
 requires: ["UE-104", "BLND-211"]
-standards: ["GD.17.1", "AV.17.8"]
-evidence_for: "GD.17.1"
+standards: ["4.5", "4.5"]
+evidence_for: "4.5"
 portfolio: true
 portfolio_section: "GAD1 U4"
 est_time: 90

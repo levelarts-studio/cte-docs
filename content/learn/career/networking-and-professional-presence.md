@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.1", "3.7"]
+standards: ["2.1", "3.3"]
 keywords: ["artstation", "linkedin", "networking"]
 duration: 20
 video: ""

@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 requires: ["DESN-103", "BLND-103"]
-standards: ["10.3", "AV.17.8"]
+standards: ["10.3", "GD.17.4"]
 evidence_for: "10.3"
 portfolio: true
 portfolio_section: "GAD1 U1"

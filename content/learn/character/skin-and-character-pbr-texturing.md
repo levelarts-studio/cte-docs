@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 400
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["10.3"]
 weight: 70
 type: docs
 description: "CHAR-401: Skin & Character Texturing textbook module stub."

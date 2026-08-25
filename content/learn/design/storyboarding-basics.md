@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.1", "15.4"]
+standards: ["15.1", "AV.17.5"]
 keywords: ["storyboard", "camera shot", "sequence"]
 duration: 20
 video: ""

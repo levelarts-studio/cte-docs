@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8"]
+standards: ["GD.17.4"]
 keywords: ["origin point", "3d cursor", "transforms"]
 duration: 20
 video: ""

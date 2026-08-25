@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8", "GD.17.4"]
+standards: ["GD.17.4", "GD.17.4"]
 keywords: ["quads", "topology", "edge loops", "poles", "n-gons"]
 duration: 20
 video: ""

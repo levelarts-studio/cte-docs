@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.6", "GD.17.7"]
+standards: ["GD.17.6", "GD.20.3"]
 keywords: ["enhanced input", "character movement", "wasd"]
 duration: 20
 video: ""

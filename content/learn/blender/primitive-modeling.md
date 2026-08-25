@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8"]
+standards: ["GD.17.4"]
 keywords: ["cube", "cylinder", "sphere", "blocking"]
 duration: 20
 video: ""

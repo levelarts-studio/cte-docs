@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.1", "AV.17.8"]
+standards: ["10.3", "GD.17.4"]
 keywords: ["baking", "high to low poly", "cage", "normal bake"]
 duration: 20
 video: ""

@@ -5,8 +5,8 @@ entity: assignment
 tier: 200
 status: stub
 requires: ["BLND-202"]
-standards: ["AV.17.8"]
-evidence_for: "AV.17.8"
+standards: ["GD.17.4"]
+evidence_for: "GD.17.4"
 portfolio: true
 portfolio_section: "GAD1 U2"
 est_time: 90

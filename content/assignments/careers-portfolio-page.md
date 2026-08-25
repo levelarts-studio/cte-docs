@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 requires: ["CAREER-104", "CAREER-106"]
-standards: ["3.4", "3.7"]
+standards: ["3.4", "3.8"]
 evidence_for: "3.4"
 portfolio: true
 portfolio_section: "Careers"

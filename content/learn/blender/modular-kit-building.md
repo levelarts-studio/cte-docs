@@ -8,7 +8,7 @@ tier: 300
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.8", "GD.18.1"]
+standards: ["GD.17.4", "GD.18.1"]
 keywords: ["grid snapping", "modular wall", "pivot alignment"]
 duration: 20
 video: ""

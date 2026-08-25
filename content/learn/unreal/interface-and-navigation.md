@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.1"]
+standards: ["4.3"]
 keywords: ["unreal viewport", "content browser", "outliner", "details panel"]
 duration: 20
 video: ""

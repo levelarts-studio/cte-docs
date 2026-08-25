@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 100
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.17.4"]
 weight: 10
 type: docs
 description: "CHAR-101: Character Proportions & Silhouette textbook module stub."

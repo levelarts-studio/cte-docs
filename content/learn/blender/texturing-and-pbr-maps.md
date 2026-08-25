@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["AV.17.1"]
+standards: ["10.3"]
 keywords: ["albedo", "roughness", "metallic", "normal map"]
 duration: 20
 video: ""

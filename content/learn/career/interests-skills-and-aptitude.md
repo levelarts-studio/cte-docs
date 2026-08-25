@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.7"]
+standards: ["3.1"]
 keywords: ["self assessment", "skills gap"]
 duration: 20
 video: ""
