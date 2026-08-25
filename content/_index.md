@@ -6,58 +6,70 @@ title: Game Art, Design & Media Learning Library
 layout: hextra-home
 ---
 
-<div class="hx:mt-6 hx:mb-6">
+<div class="hx:mt-8 hx:mb-6 text-center">
 {{< hextra/hero-headline >}}
   Game Art, Design & Media<br class="hx:sm:block hx:hidden" />Learning Library
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx:mb-12">
+<div class="hx:mb-8 text-center">
 {{< hextra/hero-subtitle >}}
-  Standards-tagged modules, flat assignment specs, and sequence maps for high school and adult CTE pathways.
+  Standards-aligned textbook modules, hands-on lab specs, and 3D creation pathways for high school & CTE students.
 {{< /hextra/hero-subtitle >}}
+</div>
+
+<div class="hx:mb-12 hx:flex hx:justify-center hx:gap-4 hx:flex-wrap">
+  {{< hextra/hero-button text="Explore Modules" link="/learn/" >}}
+  {{< hextra/hero-button text="Course Maps" link="/courses/" >}}
+  {{< hextra/hero-button text="Student FAQ" link="/faq/" >}}
 </div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Enrolled Students"
-    subtitle="Follow your course map for IMC, GAD1, or GAD2. Access assigned modules, submission specs, and rubrics."
+    title="Course Maps & Pathways"
+    subtitle="Follow your sequenced unit pathway for Intro to Media Careers, Game Art & Design 1, or Game Art & Design 2."
     link="/courses/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[300px]"
+    icon="academic-cap"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(59,130,246,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
     title="Module Library"
-    subtitle="Jump straight into tool-focused textbook modules for Blender, Unreal Engine, Production, Law, and Game Design."
+    subtitle="Access 144 textbook modules covering Blender 3D, Unreal Engine 5, 3D Character Design, and Game Animation."
     link="/learn/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[300px]"
+    icon="cube"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(16,185,129,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
-    title="Assignments & Specs"
-    subtitle="View flat assignment specs with rubric criteria and Google Sites portfolio submission requirements."
+    title="Assignment Specs & Rubrics"
+    subtitle="Review 50 hands-on lab specs with rubric criteria and Google Sites portfolio submission requirements."
     link="/assignments/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[300px]"
+    icon="document-text"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(234,179,8,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
-    title="Standards Index"
-    subtitle="Inspect Model Curriculum Standards (MCS) coverage across Career-Ready clusters and Game Design focus areas."
+    title="CDE AME Standards Index"
+    subtitle="Inspect California Arts, Media & Entertainment (AME) CTE skills framework and pathway competencies."
     link="/standards/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[300px]"
+    icon="badge-check"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(168,85,247,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
-    title="Start Here"
-    subtitle="Orientation for students and teachers: lab workstation conventions, portfolio setup, and workflow guidelines."
+    title="Start Here & Orientation"
+    subtitle="Orientation for students and teachers: lab workstation setup, portfolio conventions, and workflow shortcuts."
     link="/start/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[300px]"
+    icon="sparkles"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(236,72,153,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
-    title="Build Progress Dashboard"
-    subtitle="Track library development status, active stubs, and standard coverage across all 194 modules and specs."
-    link="/status/"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[300px]"
+    title="FAQ & Student Help Hub"
+    subtitle="Frequently asked questions, software downloads, portfolio submission steps, and hardware fallback guidance."
+    link="/faq/"
+    icon="question-mark-circle"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[260px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(99,102,241,0.15),hsla(0,0%,100%,0));" >}}
 {{< /hextra/feature-grid >}}
