@@ -4,6 +4,7 @@ title: "Storyboard Sequence"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["MEDIA-105", "MEDIA-112"]
 standards: ["AV.17.5"]
 evidence_for: "AV.17.5"

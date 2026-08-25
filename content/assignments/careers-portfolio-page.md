@@ -4,6 +4,7 @@ title: "Careers Portfolio Page"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["CAREER-104", "CAREER-106"]
 standards: ["3.4", "3.8"]
 evidence_for: "3.4"

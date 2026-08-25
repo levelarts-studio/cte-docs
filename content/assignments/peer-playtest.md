@@ -4,6 +4,7 @@ title: "Peer Playtest Session & Log"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["GAME-204"]
 standards: ["GD.18.6"]
 evidence_for: "GD.18.6"

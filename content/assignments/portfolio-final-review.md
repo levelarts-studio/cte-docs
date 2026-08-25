@@ -4,6 +4,7 @@ title: "Portfolio Final Capstone Review"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["CAREER-114"]
 standards: ["3.8"]
 evidence_for: "3.8"

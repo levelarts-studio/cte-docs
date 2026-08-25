@@ -1,24 +1,18 @@
 ---
 id: "ANIM-102"
+aliases: ["/m/ANIM-102"]
 title: "Graph Editor & Interpolation"
-subject: "Game Animation"
+subject: animation
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 100
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.18.4", "AV.17.7"]
 weight: 20
-type: docs
 description: "ANIM-102: Graph Editor & Interpolation textbook module stub."
 summary: "ANIM-102: Graph Editor & Interpolation textbook module stub."
 ---
-
-{{< badge content="ANIM-102" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

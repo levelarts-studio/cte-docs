@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    <article class="hx:w-full hx:flex hx:justify-center hx:pb-8">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        {{- $lookup := dict -}}
+        {{- range $k, $v := site.Data.standards -}}
+          {{- $lookup = merge $lookup (dict (lower $k) (merge $v (dict "code" $k))) -}}
+        {{- end -}}
+        {{- $s := index $lookup (lower .Title) -}}
+        <div class="content">
+          {{ with $s }}
+            <p style="font-family:ui-monospace,monospace;opacity:.6;margin-bottom:.25rem">{{ .code }}</p>
+            <h1 style="margin-top:0">{{ .title }}</h1>
+            <p style="font-size:1.05rem;line-height:1.6;margin:1rem 0 1.5rem">{{ .text }}</p>
+            <p style="opacity:.75;font-size:.9rem;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid rgba(128,128,128,.2)">
+              <span style="font-weight:600">{{ .category }}</span>{{ with .cluster }} &middot; {{ . }}{{ end }}
+              {{ with .focus_area }} &middot; {{ . }}{{ end }}
+              {{ with .pathway }} &middot; {{ . }}{{ end }}
+              &middot; <em>type: {{ .type }}</em>
+            </p>
+          {{ else }}
+            <h1 style="margin-top:0">{{ .Title }}</h1>
+            <p><em>Not found in standards.yaml.</em></p>
+          {{ end }}
+
+          {{ $mods := where .Pages "Params.entity" "module" }}
+          {{ $asns := where .Pages "Params.entity" "assignment" }}
+          
+          <h2 style="margin-top:1.5rem">Aligned Modules ({{ len $mods }})</h2>
+          {{ if gt (len $mods) 0 }}
+          <div class="unit-items-container" style="padding:0;margin:1rem 0">
+            {{ range $mods }}
+            <a href="{{ .RelPermalink }}" class="unit-item-button">
+              <div>
+                <div class="unit-item-title">{{ with .Params.id }}<code style="margin-right:.4rem">{{ . }}</code>{{ end }}{{ .Title }}</div>
+                {{ with .Params.description }}<div class="unit-item-desc">{{ . }}</div>{{ end }}
+              </div>
+              <span class="unit-item-badge badge-module">{{ if ne .Params.status "complete" }}STUB{{ else }}COMPLETE{{ end }}</span>
+            </a>
+            {{ end }}
+          </div>
+          {{ else }}
+          <p style="opacity:.6"><em>No modules currently mapped to this standard.</em></p>
+          {{ end }}
+
+          <h2 style="margin-top:2rem">Aligned Assignments ({{ len $asns }})</h2>
+          {{ if gt (len $asns) 0 }}
+          <div class="unit-items-container" style="padding:0;margin:1rem 0">
+            {{ range $asns }}
+            <a href="{{ .RelPermalink }}" class="unit-item-button">
+              <div>
+                <div class="unit-item-title">{{ .Title }}</div>
+                {{ with .Params.description }}<div class="unit-item-desc">{{ . }}</div>{{ end }}
+              </div>
+              <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+            </a>
+            {{ end }}
+          </div>
+          {{ else }}
+          <p style="opacity:.6"><em>No assignments currently mapped to this standard.</em></p>
+          {{ end }}
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}

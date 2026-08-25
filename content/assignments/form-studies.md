@@ -4,6 +4,7 @@ title: "Form Studies: Primitive Assembly"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-103", "BLND-103"]
 standards: ["10.3", "GD.17.4"]
 evidence_for: "10.3"

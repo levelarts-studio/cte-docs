@@ -4,6 +4,7 @@ title: "Blender First Model: Hero Prop"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["BLND-101", "BLND-104"]
 standards: ["GD.17.4"]
 evidence_for: "GD.17.4"

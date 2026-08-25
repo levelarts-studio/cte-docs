@@ -4,6 +4,7 @@ title: "Value Study: Three Thumbnails"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: [DESN-101, DESN-104]
 standards: ["10.3", "10.5"]
 evidence_for: "10.3"

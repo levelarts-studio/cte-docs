@@ -1,0 +1,59 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    <article class="hx:w-full hx:flex hx:justify-center hx:pb-8">
+      <main class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        <div class="content">
+          <h1>California CTE Model Curriculum Standards Coverage</h1>
+          <p style="font-size:1.05rem;margin-bottom:1.5rem">
+            Official Arts, Entertainment & Design (AED) Career Cluster Standards (CDE, October 2025).
+            Inspect standards coverage, aligned lesson modules, and hands-on lab assignments.
+          </p>
+
+          {{ $tagged := dict }}
+          {{ range site.Taxonomies.standards }}
+            {{ $tagged = merge $tagged (dict (lower .Page.Title) (len .Pages)) }}
+          {{ end }}
+
+          {{ $totalStandards := len site.Data.standards }}
+          {{ $taggedCount := len site.Taxonomies.standards }}
+          {{ $pct := div (mul $taggedCount 100) $totalStandards }}
+
+          <div style="display:flex;gap:1.5rem;flex-wrap:wrap;margin:1.5rem 0 2rem;padding:1rem 1.25rem;border-radius:.75rem;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25)">
+            <div>
+              <div style="font-size:.8rem;opacity:.7;text-transform:uppercase;font-weight:700">Total Standards</div>
+              <div style="font-size:1.5rem;font-weight:700">{{ $totalStandards }}</div>
+            </div>
+            <div>
+              <div style="font-size:.8rem;opacity:.7;text-transform:uppercase;font-weight:700">Mapped Standards</div>
+              <div style="font-size:1.5rem;font-weight:700;color:#818cf8">{{ $taggedCount }}</div>
+            </div>
+            <div>
+              <div style="font-size:.8rem;opacity:.7;text-transform:uppercase;font-weight:700">Curriculum Coverage</div>
+              <div style="font-size:1.5rem;font-weight:700">{{ $pct }}%</div>
+            </div>
+          </div>
+
+          <h2>Standards Index</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:.75rem;margin:1rem 0">
+            {{ range $code, $v := site.Data.standards }}
+              {{ $count := index $tagged (lower $code) | default 0 }}
+              {{ $termUrl := printf "/standards/%s/" (lower $code) }}
+              <a href="{{ $termUrl }}" class="unit-item-button" style="padding:.75rem 1rem">
+                <div>
+                  <div class="unit-item-title"><code style="margin-right:.3rem">{{ $code }}</code>{{ $v.title }}</div>
+                  <div class="unit-item-desc" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:240px">{{ $v.cluster }}</div>
+                </div>
+                {{ if gt $count 0 }}
+                <span class="unit-item-badge badge-module">{{ $count }} ALIGNED</span>
+                {{ else }}
+                <span class="unit-item-badge" style="opacity:.4;border:1px solid currentColor">0</span>
+                {{ end }}
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}

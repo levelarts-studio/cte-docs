@@ -4,6 +4,7 @@ title: "Interactive Door Blueprint"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["UE-204"]
 standards: ["GD.17.6"]
 evidence_for: "GD.17.6"

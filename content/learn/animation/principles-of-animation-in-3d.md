@@ -1,24 +1,18 @@
 ---
 id: "ANIM-101"
+aliases: ["/m/ANIM-101"]
 title: "12 Principles in 3D"
-subject: "Game Animation"
+subject: animation
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 100
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.7"]
 weight: 10
-type: docs
 description: "ANIM-101: 12 Principles in 3D textbook module stub."
 summary: "ANIM-101: 12 Principles in 3D textbook module stub."
 ---
-
-{{< badge content="ANIM-101" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

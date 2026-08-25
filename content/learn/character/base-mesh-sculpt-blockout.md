@@ -1,24 +1,18 @@
 ---
 id: "CHAR-102"
+aliases: ["/m/CHAR-102"]
 title: "Sculpt Blockout & Base Meshes"
-subject: "3D Character Design"
+subject: character
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 100
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.8", "AV.17.2"]
 weight: 20
-type: docs
 description: "CHAR-102: Sculpt Blockout & Base Meshes textbook module stub."
 summary: "CHAR-102: Sculpt Blockout & Base Meshes textbook module stub."
 ---
-
-{{< badge content="CHAR-102" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

@@ -1,24 +1,18 @@
 ---
 id: "CHAR-302"
+aliases: ["/m/CHAR-302"]
 title: "Hair Cards & Alpha Textures"
-subject: "3D Character Design"
+subject: character
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 300
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.1", "GD.17.4"]
 weight: 60
-type: docs
 description: "CHAR-302: Hair Cards & Alpha Textures textbook module stub."
 summary: "CHAR-302: Hair Cards & Alpha Textures textbook module stub."
 ---
-
-{{< badge content="CHAR-302" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

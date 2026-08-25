@@ -4,6 +4,7 @@ title: "Blockout Level Layout"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["UE-206", "GAME-105"]
 standards: ["GD.17.8"]
 evidence_for: "GD.17.8"

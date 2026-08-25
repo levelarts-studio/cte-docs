@@ -4,6 +4,7 @@ title: "Attribution & Citation Audit"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["LAW-106"]
 standards: ["11.6"]
 evidence_for: "11.6"

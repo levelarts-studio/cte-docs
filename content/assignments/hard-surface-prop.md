@@ -4,6 +4,7 @@ title: "Hard Surface Prop"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["BLND-202"]
 standards: ["GD.17.4"]
 evidence_for: "GD.17.4"

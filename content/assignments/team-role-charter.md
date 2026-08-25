@@ -4,6 +4,7 @@ title: "Team Role Charter"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["PROD-102"]
 standards: ["9.1"]
 evidence_for: "9.1"

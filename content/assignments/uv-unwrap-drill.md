@@ -4,6 +4,7 @@ title: "UV Unwrap & Texel Density Drill"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["BLND-204"]
 standards: ["GD.17.4"]
 evidence_for: "GD.17.4"

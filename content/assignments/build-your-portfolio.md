@@ -4,6 +4,7 @@ title: "Build Your Portfolio"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["CAREER-104"]
 standards: ["3.4", "3.8"]
 evidence_for: "3.4"

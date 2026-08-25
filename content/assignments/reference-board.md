@@ -4,6 +4,7 @@ title: "Reference Board & PureRef Setup"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-111"]
 standards: ["16.1"]
 evidence_for: "16.1"

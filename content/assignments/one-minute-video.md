@@ -4,6 +4,7 @@ title: "One-Minute Video Challenge"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["MEDIA-108", "MEDIA-114"]
 standards: ["15.5", "15.8"]
 evidence_for: "15.5"

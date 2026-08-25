@@ -4,6 +4,7 @@ title: "Prop Modeling Set"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["BLND-103", "BLND-104"]
 standards: ["GD.17.4"]
 evidence_for: "GD.17.4"

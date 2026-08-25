@@ -4,6 +4,7 @@ title: "Mini Game Design Document"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["PROD-201"]
 standards: ["16.4"]
 evidence_for: "16.4"

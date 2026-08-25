@@ -4,6 +4,7 @@ title: "Industry Roles Report"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["CAREER-201"]
 standards: ["GD.19.1"]
 evidence_for: "GD.19.1"

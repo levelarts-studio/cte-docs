@@ -4,6 +4,7 @@ title: "Creative Brief Formulation"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["PROD-103"]
 standards: ["16.2"]
 evidence_for: "16.2"

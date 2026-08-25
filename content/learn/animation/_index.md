@@ -1,5 +1,4 @@
 ---
-type: docs
 cascade:
   type: docs
 title: Game Animation

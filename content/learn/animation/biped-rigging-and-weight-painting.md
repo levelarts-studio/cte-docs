@@ -1,24 +1,18 @@
 ---
 id: "ANIM-201"
+aliases: ["/m/ANIM-201"]
 title: "Biped Rigging & Weight Painting"
-subject: "Game Animation"
+subject: animation
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 200
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.8"]
 weight: 30
-type: docs
 description: "ANIM-201: Biped Rigging & Weight Painting textbook module stub."
 summary: "ANIM-201: Biped Rigging & Weight Painting textbook module stub."
 ---
-
-{{< badge content="ANIM-201" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

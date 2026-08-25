@@ -4,6 +4,7 @@ title: "Typing & Shortcut Baseline"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["COMP-109"]
 standards: ["4.3"]
 evidence_for: "4.3"

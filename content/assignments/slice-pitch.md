@@ -4,6 +4,7 @@ title: "Vertical Slice Showcase Pitch"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["PROD-105"]
 standards: ["13.2"]
 evidence_for: "13.2"

@@ -4,6 +4,7 @@ title: "Mood Board & Reference Gathering"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-111"]
 standards: ["1.3"]
 evidence_for: "1.3"

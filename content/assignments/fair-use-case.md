@@ -4,6 +4,7 @@ title: "Fair Use Case Analysis"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["LAW-104"]
 standards: ["14.2"]
 evidence_for: "14.2"

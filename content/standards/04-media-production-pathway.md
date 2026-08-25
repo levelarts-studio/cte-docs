@@ -1,7 +1,6 @@
 ---
 summary: "Media Production Pathway"
 title: "Media Production Pathway"
-type: docs
 description: "Animation, VFX, Games, Film, TV, and Digital Communications Standards"
 weight: 40
 ---

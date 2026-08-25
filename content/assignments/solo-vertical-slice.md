@@ -4,6 +4,7 @@ title: "Solo Vertical Slice Build"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["PROD-204", "UE-209"]
 standards: ["GD.17.2"]
 evidence_for: "GD.17.2"

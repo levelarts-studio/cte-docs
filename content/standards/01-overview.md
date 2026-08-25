@@ -1,7 +1,6 @@
 ---
 summary: "Overview & Description"
 title: "Overview & Description"
-type: docs
 description: "Overview, Description, and Core Framework of AME MCS"
 weight: 10
 ---

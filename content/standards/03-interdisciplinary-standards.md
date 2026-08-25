@@ -1,6 +1,5 @@
 ---
 title: "Interdisciplinary Standards (13.0 - 16.0)"
-type: docs
 description: "Cross-curricular Interdisciplinary Standards for Arts, Media, and Entertainment."
 summary: "Interdisciplinary Standards (13.0 - 16.0)"
 weight: 30

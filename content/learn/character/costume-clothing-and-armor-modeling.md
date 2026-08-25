@@ -1,24 +1,18 @@
 ---
 id: "CHAR-301"
+aliases: ["/m/CHAR-301"]
 title: "Clothing & Armor Modeling"
-subject: "3D Character Design"
+subject: character
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 300
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.4", "GD.17.5"]
 weight: 50
-type: docs
 description: "CHAR-301: Clothing & Armor Modeling textbook module stub."
 summary: "CHAR-301: Clothing & Armor Modeling textbook module stub."
 ---
-
-{{< badge content="CHAR-301" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

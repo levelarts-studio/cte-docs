@@ -4,6 +4,7 @@ title: "Workstation Setup & Conventions"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["COMP-109", "COMP-110"]
 standards: ["4.3", "6.1"]
 evidence_for: "4.3"

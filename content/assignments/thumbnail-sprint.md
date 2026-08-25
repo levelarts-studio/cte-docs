@@ -4,6 +4,7 @@ title: "Thumbnail Ideation Sprint"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-110"]
 standards: ["10.3"]
 evidence_for: "10.3"

@@ -4,6 +4,7 @@ title: "Spot the Phishing Audit"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["COMP-111"]
 standards: ["4.6"]
 evidence_for: "4.6"

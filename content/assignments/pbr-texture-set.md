@@ -4,6 +4,7 @@ title: "PBR Texture Set Creation"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["BLND-205"]
 standards: ["10.3"]
 evidence_for: "10.3"

@@ -1,5 +1,4 @@
 ---
-type: docs
 cascade:
   type: docs
 title: 3D Character Design

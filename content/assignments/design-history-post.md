@@ -4,6 +4,7 @@ title: "Design History Post"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-101"]
 standards: ["10.2"]
 evidence_for: "10.2"

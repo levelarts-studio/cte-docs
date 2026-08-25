@@ -4,6 +4,7 @@ title: "Unreal Engine Orientation"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["UE-101"]
 standards: ["4.3"]
 evidence_for: "4.3"

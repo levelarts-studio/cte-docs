@@ -4,6 +4,7 @@ title: "3-Point Lighting Study"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["BLND-207"]
 standards: ["10.3"]
 evidence_for: "10.3"

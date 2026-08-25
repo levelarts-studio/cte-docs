@@ -4,6 +4,7 @@ title: "File System & Naming Drill"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["COMP-103", "COMP-105"]
 standards: ["2.7", "4.5"]
 evidence_for: "2.7"

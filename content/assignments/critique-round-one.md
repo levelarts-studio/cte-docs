@@ -4,6 +4,7 @@ title: "Critique Round One"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["DESN-114"]
 standards: ["5.2"]
 evidence_for: "5.2"

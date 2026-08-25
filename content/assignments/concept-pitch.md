@@ -4,6 +4,7 @@ title: "Concept Deck & Pitch Presentation"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["PROD-105"]
 standards: ["2.3", "13.2"]
 evidence_for: "2.3"

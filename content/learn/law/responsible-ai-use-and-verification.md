@@ -6,6 +6,7 @@ entity: module
 subject: law
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["4.7", "5.9"]

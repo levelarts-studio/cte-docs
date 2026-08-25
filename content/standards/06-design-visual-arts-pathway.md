@@ -1,7 +1,6 @@
 ---
 summary: "Design, Visual & Graphic Arts"
 title: "Design, Visual & Graphic Arts"
-type: docs
 description: "Design and Studio Arts Pathway Standards"
 weight: 60
 ---

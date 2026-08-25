@@ -4,6 +4,7 @@ title: "Platform & Audience Remix"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["MEDIA-110"]
 standards: ["11.5"]
 evidence_for: "11.5"

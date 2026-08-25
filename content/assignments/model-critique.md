@@ -4,6 +4,7 @@ title: "Model Critique Round"
 entity: assignment
 tier: 200
 status: stub
+excludeSearch: true
 requires: ["DESN-114"]
 standards: ["5.2"]
 evidence_for: "5.2"

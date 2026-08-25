@@ -1,7 +1,6 @@
 ---
 summary: "Anchor Standards (1.0 - 12.0)"
 title: "Anchor Standards (1.0 - 12.0)"
-type: docs
 description: "1.0 to 12.0 Anchor Standards for Career Ready Practice"
 weight: 20
 ---

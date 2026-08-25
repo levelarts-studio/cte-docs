@@ -1,24 +1,18 @@
 ---
 id: "CHAR-202"
+aliases: ["/m/CHAR-202"]
 title: "Deformable Character Topology"
-subject: "3D Character Design"
+subject: character
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 200
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.8", "GD.17.4"]
 weight: 40
-type: docs
 description: "CHAR-202: Deformable Character Topology textbook module stub."
 summary: "CHAR-202: Deformable Character Topology textbook module stub."
 ---
-
-{{< badge content="CHAR-202" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

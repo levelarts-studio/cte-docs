@@ -4,6 +4,7 @@ title: "O*NET Career Research Report"
 entity: assignment
 tier: 100
 status: stub
+excludeSearch: true
 requires: ["CAREER-102", "CAREER-103"]
 standards: ["3.2"]
 evidence_for: "3.2"

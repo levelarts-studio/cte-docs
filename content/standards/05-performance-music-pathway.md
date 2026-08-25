@@ -1,7 +1,6 @@
 ---
 summary: "Performance, Music & Live Events"
 title: "Performance, Music & Live Events"
-type: docs
 description: "Stage, Event Technology, Dance, Theatre, and Music & Recording Arts"
 weight: 50
 ---

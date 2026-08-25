@@ -1,24 +1,18 @@
 ---
 id: "ANIM-401"
+aliases: ["/m/ANIM-401"]
 title: "Anim Blueprints & Blendspaces"
-subject: "Game Animation"
+subject: animation
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 400
-estimated_time: "25 mins"
+duration: 25
 standards: ["GD.17.6", "AV.18.4"]
 weight: 60
-type: docs
 description: "ANIM-401: Anim Blueprints & Blendspaces textbook module stub."
 summary: "ANIM-401: Anim Blueprints & Blendspaces textbook module stub."
 ---
-
-{{< badge content="ANIM-401" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

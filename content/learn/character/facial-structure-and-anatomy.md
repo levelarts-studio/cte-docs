@@ -1,24 +1,18 @@
 ---
 id: "CHAR-201"
+aliases: ["/m/CHAR-201"]
 title: "Facial Structure & Planes"
-subject: "3D Character Design"
+subject: character
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 200
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.17.2"]
 weight: 30
-type: docs
 description: "CHAR-201: Facial Structure & Planes textbook module stub."
 summary: "CHAR-201: Facial Structure & Planes textbook module stub."
 ---
-
-{{< badge content="CHAR-201" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

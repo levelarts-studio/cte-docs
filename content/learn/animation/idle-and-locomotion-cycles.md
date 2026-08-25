@@ -1,24 +1,18 @@
 ---
 id: "ANIM-202"
+aliases: ["/m/ANIM-202"]
 title: "Walk & Run Cycles"
-subject: "Game Animation"
+subject: animation
 entity: "module"
 status: "stub"
 excludeSearch: true
 tier: 200
-estimated_time: "25 mins"
+duration: 25
 standards: ["AV.18.4", "AV.17.7"]
 weight: 40
-type: docs
 description: "ANIM-202: Walk & Run Cycles textbook module stub."
 summary: "ANIM-202: Walk & Run Cycles textbook module stub."
 ---
-
-{{< badge content="ANIM-202" color="indigo" >}}
-
-{{< callout type="warning" >}}
-**Lesson Under Construction**: This module is currently a stub spec. Press **Ctrl + K** to search active tools and topics.
-{{< /callout >}}
 
 ## What you'll be able to do
 

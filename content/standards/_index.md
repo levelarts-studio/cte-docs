@@ -3,8 +3,6 @@ description: "Model Curriculum Standards (MCS)"
 summary: "Model Curriculum Standards (MCS)"
 title: Model Curriculum Standards (MCS)
 type: docs
-cascade:
-  type: docs
 weight: 1
 ---
 
