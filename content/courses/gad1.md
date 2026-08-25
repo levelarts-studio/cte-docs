@@ -1,87 +1,135 @@
 ---
-description: "Game Art & Design 1 course map outlining 3D modeling, texturing, and Unreal Engine units."
-summary: "Game Art & Design 1 course map outlining 3D modeling, texturing, and Unreal Engine units."
+description: "Game Art & Design 1 course map outlining units, modules, and assignments."
+summary: "Game Art & Design 1 course map outlining units, modules, and assignments."
 title: Game Art & Design 1
 course_code: GAD1
 ---
 
+Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modeling, PBR material creation, Unreal Engine 5 interactive environments, and game mechanics prototyping.
 
-Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, texture workflows, blueprint logic, and game feel in Unreal Engine and Blender.
-
-
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 1: Foundations & The 3D Viewport
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Objects, Transforms & Pivots](/learn/blender/objects-transforms-and-pivots/)** — *Origin points, 3D cursor, transform orientation, and pivot manipulation.* `MODULE`
-- **[Interface & Navigation](/learn/unreal/interface-and-navigation/)** — *Unreal viewport controls, content browser, outliner, and details panel.* `MODULE`
-- **[Hero Prop Modeling](/assignments/blender-first-model/)** — *Model a hero prop in Blender and export to engine.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 1: 3D Modeling Foundations</summary>
+<div class="unit-items-container">
+<a href="/learn/blender/interface-and-navigation/" class="unit-item-button">
+<div>
+<div class="unit-item-title">BLND-101: Interface & Navigation</div>
+<div class="unit-item-desc">Blender viewport, outliner, properties, and transform gizmos.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/learn/blender/edit-mode-basics/" class="unit-item-button">
+<div>
+<div class="unit-item-title">BLND-104: Edit Mode Basics</div>
+<div class="unit-item-desc">Vertices, edges, faces, extrude, inset, and loop cuts.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/blender-first-model/" class="unit-item-button">
+<div>
+<div class="unit-item-title">First 3D Model</div>
+<div class="unit-item-desc">Model a complete low-poly prop using primitive primitives and edit mode tools.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 2: 3D Asset Creation
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Topology & Edge Flow](/learn/blender/topology-and-edge-flow/)** — *Quads, edge loops, poles, n-gons, and deformation topology.* `MODULE`
-- **[Hard Surface Modeling](/learn/blender/hard-surface-modeling/)** — *Bevel modifiers, weighted normals, and crease control.* `MODULE`
-- **[Hard Surface Prop](/assignments/hard-surface-prop/)** — *Create a hard surface prop mesh with clean geometry.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 2: Modular Assets & UV Unwrapping</summary>
+<div class="unit-items-container">
+<a href="/learn/blender/uv-unwrapping/" class="unit-item-button">
+<div>
+<div class="unit-item-title">BLND-107: UV Unwrapping</div>
+<div class="unit-item-desc">Seams, texel density, UV packing, and unwrap unwrapping.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/uv-unwrap-drill/" class="unit-item-button">
+<div>
+<div class="unit-item-title">UV Unwrap Drill</div>
+<div class="unit-item-desc">Mark seams, unwrap 3 hard-surface props, and pack UV islands cleanly.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 3: Materials, Textures & Lighting
-  </summary>
-  <div class="hx:pt-3">
-
-- **[UV Unwrapping](/learn/blender/uv-unwrapping/)** — *Seam placement, UV packing, and texel density optimization.* `MODULE`
-- **[Texturing & PBR Maps](/learn/blender/texturing-and-pbr-maps/)** — *Albedo, roughness, metallic, and normal map texture sets.* `MODULE`
-- **[PBR Texture Set](/assignments/pbr-texture-set/)** — *Author and apply PBR material textures to your hero prop.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 3: PBR Texturing & Shading</summary>
+<div class="unit-items-container">
+<a href="/learn/blender/texturing-and-pbr-maps/" class="unit-item-button">
+<div>
+<div class="unit-item-title">BLND-205: PBR Textures & Maps</div>
+<div class="unit-item-desc">Base color, roughness, metallic, normal, and ambient occlusion channels.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/pbr-texture-set/" class="unit-item-button">
+<div>
+<div class="unit-item-title">PBR Texture Set</div>
+<div class="unit-item-desc">Author a complete PBR material set for a 3D asset.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 4: Engine Integration & Interaction
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Importing Assets](/learn/unreal/importing-assets/)** — *FBX import settings, collision setup, and static mesh actors.* `MODULE`
-- **[Blueprint Fundamentals](/learn/unreal/blueprint-fundamentals/)** — *Nodes, execution pins, variable types, and event graphs.* `MODULE`
-- **[Interactive Door Blueprint](/assignments/interactive-door/)** — *Build an interactive trigger door Blueprint in Unreal Engine 5.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 4: Unreal Engine 5 Environment & Lighting</summary>
+<div class="unit-items-container">
+<a href="/learn/unreal/interface-and-navigation/" class="unit-item-button">
+<div>
+<div class="unit-item-title">UE-101: Unreal Interface & Navigation</div>
+<div class="unit-item-desc">Viewport controls, content browser, outliner, and actor details.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/engine-orientation/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Engine Orientation & Graybox</div>
+<div class="unit-item-desc">Set up a new UE5 project, organize folders, and build a graybox level blockout.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 5: Game Systems & Environment
-  </summary>
-  <div class="hx:pt-3">
-
-- **[The Core Loop](/learn/gamedesign/the-core-loop/)** — *Action, reward, expansion, and gameplay loop design.* `MODULE`
-- **[Level Design Basics](/learn/gamedesign/level-design-basics/)** — *Level flow, pacing, sightlines, and greybox layouts.* `MODULE`
-- **[Blockout Level Layout](/assignments/blockout-level/)** — *Greybox a playable level layout with spatial pacing.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 5: Blueprint Interactive Logic</summary>
+<div class="unit-items-container">
+<a href="/learn/unreal/collision-and-triggers/" class="unit-item-button">
+<div>
+<div class="unit-item-title">UE-203: Collision & Trigger Volumes</div>
+<div class="unit-item-desc">Box triggers, overlap events, object channels, and physics responses.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/interactive-door/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Interactive Door Blueprint</div>
+<div class="unit-item-desc">Construct a functional interactive sliding or swinging door actor with audio.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 6: Capstone Vertical Slice
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Scope & Vertical Slice](/learn/production/scope-and-the-vertical-slice/)** — *Scope management, feature cuts, and vertical slice targets.* `MODULE`
-- **[Solo Vertical Slice](/assignments/solo-vertical-slice/)** — *Assemble, light, and publish a solo vertical slice build.* `ASSIGNMENT`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 6: Capstone Vertical Slice</summary>
+<div class="unit-items-container">
+<a href="/learn/production/scope-and-the-vertical-slice/" class="unit-item-button">
+<div>
+<div class="unit-item-title">PROD-205: Vertical Slice Scope</div>
+<div class="unit-item-desc">Defining a complete, playable 5-minute gameplay slice.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/capstone-vertical-slice/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Solo Vertical Slice</div>
+<div class="unit-item-desc">Package and publish a complete interactive environment with custom 3D models and lighting.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>

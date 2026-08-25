@@ -1,58 +1,128 @@
 ---
-description: "Game Art & Design 2 course map outlining technical art, retopology, and capstone units."
-summary: "Game Art & Design 2 course map outlining technical art, retopology, and capstone units."
+description: "Game Art & Design 2 course map outlining units, modules, and assignments."
+summary: "Game Art & Design 2 course map outlining units, modules, and assignments."
 title: Game Art & Design 2
 course_code: GAD2
 ---
 
+Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: character sculpting, retopology, game animation blendspaces, team production sprints, and capstone publishing.
 
-Game Art & Design 2 (GAD2) focuses on advanced technical art, high-to-low poly workflows, modular environments, complex engine blueprints, systems design, and team production capstones.
-
-
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 1: Advanced 3D & Retopology
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Retopology](/learn/blender/retopology/)** — *High-to-low poly retopology, quad drawing, and shrinkwrap workflows.* `MODULE`
-- **[Modular Kit Building](/learn/blender/modular-kit-building/)** — *Grid snapping, modular walls, pivot alignment, and kit assembly.* `MODULE`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 1: Character Blockout & Anatomy</summary>
+<div class="unit-items-container">
+<a href="/learn/character/character-concept-and-proportions/" class="unit-item-button">
+<div>
+<div class="unit-item-title">CHAR-101: Character Proportions & Concept</div>
+<div class="unit-item-desc">Human anatomy landmarks, heroic proportions, and reference silhouettes.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/character-bust-sculpt/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Character Bust Sculpt</div>
+<div class="unit-item-desc">Sculpt a character bust focusing on facial planes and primary forms.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 2: Technical Art & Optimization
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Nanite & Lumen](/learn/unreal/nanite-and-lumen/)** — *Nanite virtualized geometry and Lumen global illumination.* `MODULE`
-- **[Performance & Profiling](/learn/unreal/performance-and-profiling/)** — *Stat fps, GPU visualizer, draw call optimization, and profiling.* `MODULE`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 2: Retopology & Deformation Edge Flow</summary>
+<div class="unit-items-container">
+<a href="/learn/character/character-topology-and-deform-flow/" class="unit-item-button">
+<div>
+<div class="unit-item-title">CHAR-201: Character Topology & Edge Flow</div>
+<div class="unit-item-desc">Facial edge loops, shoulder/elbow deformation rings, and quad optimization.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/retopology-practice/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Low-Poly Retopology Pass</div>
+<div class="unit-item-desc">Retopologize a high-poly sculpt to a clean animatable mesh under 15k triangles.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 3: Advanced Blueprint & Game Systems
-  </summary>
-  <div class="hx:pt-3">
-
-- **[Data Tables & Save Systems](/learn/unreal/data-tables-and-save-systems/)** — *Structs, data tables, save games, and persistent state.* `MODULE`
-- **[Systems & Balancing](/learn/gamedesign/systems-and-balancing/)** — *Spreadsheet balancing, damage math, stat scaling, and curves.* `MODULE`
-
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 3: Biped Rigging & Weight Painting</summary>
+<div class="unit-items-container">
+<a href="/learn/animation/biped-rigging-and-weight-painting/" class="unit-item-button">
+<div>
+<div class="unit-item-title">ANIM-201: Biped Rigging & Weight Painting</div>
+<div class="unit-item-desc">Armature creation, IK/FK bone constraints, vertex weight gradients, and test poses.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/biped-rigging-pass/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Biped Rig & Weighting Pass</div>
+<div class="unit-item-desc">Rig a humanoid character mesh with clean joint deformation.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
 
-<details class="hx:my-3 hx:rounded-lg hx:border hx:border-neutral-200 hx:dark:border-neutral-700 hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-4">
-  <summary class="hx:cursor-pointer hx:font-semibold hx:text-lg hx:text-neutral-900 hx:dark:text-neutral-100">
-    Unit 4: Team Production & Capstone
-  </summary>
-  <div class="hx:pt-3">
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 4: Locomotion & Gameplay Cycles</summary>
+<div class="unit-items-container">
+<a href="/learn/animation/idle-and-locomotion-cycles/" class="unit-item-button">
+<div>
+<div class="unit-item-title">ANIM-301: Walk & Run Cycles</div>
+<div class="unit-item-desc">Contact, down, passing, and up poses, hip swaying, and loop timing.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/walk-cycle-animation/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Walk & Run Cycle Set</div>
+<div class="unit-item-desc">Animate a looped walk and run cycle matching game locomotion specs.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
+</details>
 
-- **[Version Control for Teams](/learn/production/version-control-for-teams/)** — *Git & Perforce branching, merge conflict resolution, and commits.* `MODULE`
-- **[Task Boards & Sprints](/learn/production/task-boards-and-sprints/)** — *Kanban boards, Trello, sprint planning, and backlog grooming.* `MODULE`
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 5: Team Production Sprints & Agile Pipeline</summary>
+<div class="unit-items-container">
+<a href="/learn/production/task-boards-and-sprints/" class="unit-item-button">
+<div>
+<div class="unit-item-title">PROD-203: Agile Sprints & Task Boards</div>
+<div class="unit-item-desc">Kanban boards, burndown velocity, sprint milestones, and peer code reviews.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/team-sprint-milestone/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Team Sprint Milestone 1</div>
+<div class="unit-item-desc">Execute Sprint 1 deliverables on the class collaborative capstone repo.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
+</details>
 
-  </div>
+<details class="unit-accordion">
+<summary class="unit-summary">Unit 6: Capstone Showcase & Portfolio Defense</summary>
+<div class="unit-items-container">
+<a href="/learn/career/interviews-and-portfolio-review/" class="unit-item-button">
+<div>
+<div class="unit-item-title">CAREER-204: Portfolio Review & Interview Prep</div>
+<div class="unit-item-desc">Technical art breakdown reels, live project defense, and industry presentation.</div>
+</div>
+<span class="unit-item-badge badge-module">MODULE</span>
+</a>
+<a href="/assignments/capstone-final-defense/" class="unit-item-button">
+<div>
+<div class="unit-item-title">Capstone Showcase & Defense</div>
+<div class="unit-item-desc">Present a completed game project and defend technical art contributions.</div>
+</div>
+<span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
+</a>
+</div>
 </details>
