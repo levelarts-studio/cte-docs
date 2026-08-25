@@ -6,6 +6,7 @@ entity: module
 subject: design
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.17.5", "AV.17.4"]

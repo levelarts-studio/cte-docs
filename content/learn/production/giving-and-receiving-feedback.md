@@ -6,6 +6,7 @@ entity: module
 subject: production
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["8.4", "5.2"]

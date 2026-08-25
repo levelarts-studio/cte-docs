@@ -4,6 +4,7 @@ title: "Deformable Character Topology"
 subject: "3D Character Design"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 200
 estimated_time: "25 mins"
 standards: ["AV.17.8", "GD.17.4"]

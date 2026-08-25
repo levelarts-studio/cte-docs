@@ -6,6 +6,7 @@ entity: module
 subject: career
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["3.8", "2.5"]

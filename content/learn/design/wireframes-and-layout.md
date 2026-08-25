@@ -6,6 +6,7 @@ entity: module
 subject: design
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["10.3", "DGA.17.6"]

@@ -4,6 +4,7 @@ title: "Clothing & Armor Modeling"
 subject: "3D Character Design"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 300
 estimated_time: "25 mins"
 standards: ["AV.17.4", "GD.17.5"]

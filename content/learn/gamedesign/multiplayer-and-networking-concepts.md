@@ -6,6 +6,7 @@ entity: module
 subject: gamedesign
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.17.9"]

@@ -6,6 +6,7 @@ entity: module
 subject: unreal
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.17.6", "GD.20.3"]

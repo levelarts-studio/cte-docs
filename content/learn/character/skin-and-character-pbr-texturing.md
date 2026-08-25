@@ -4,6 +4,7 @@ title: "Skin & Character Texturing"
 subject: "3D Character Design"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 400
 estimated_time: "25 mins"
 standards: ["AV.17.1", "GD.17.5"]

@@ -4,6 +4,7 @@ title: "Facial Structure & Planes"
 subject: "3D Character Design"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 200
 estimated_time: "25 mins"
 standards: ["AV.17.2"]

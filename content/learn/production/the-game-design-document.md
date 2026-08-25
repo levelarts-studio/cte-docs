@@ -6,6 +6,7 @@ entity: module
 subject: production
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.18.2", "16.4"]

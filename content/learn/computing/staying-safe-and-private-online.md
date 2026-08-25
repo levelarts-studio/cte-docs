@@ -6,6 +6,7 @@ entity: module
 subject: computing
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["4.1", "2.7"]

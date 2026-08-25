@@ -4,6 +4,7 @@ title: "12 Principles in 3D"
 subject: "Game Animation"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 100
 estimated_time: "25 mins"
 standards: ["AV.17.7"]

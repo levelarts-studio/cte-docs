@@ -4,6 +4,7 @@ title: "Action Poses & Impact Keying"
 subject: "Game Animation"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 300
 estimated_time: "25 mins"
 standards: ["AV.18.4", "AV.17.4"]

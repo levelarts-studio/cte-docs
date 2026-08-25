@@ -6,6 +6,7 @@ entity: module
 subject: design
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: [DESN-101, DESN-102]
 standards: ["DGA.17.1", "GD.17.4"]

@@ -6,6 +6,7 @@ entity: module
 subject: design
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["10.2", "10.3"]

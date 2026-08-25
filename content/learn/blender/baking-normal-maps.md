@@ -6,6 +6,7 @@ entity: module
 subject: blender
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.18.8", "AV.17.8"]

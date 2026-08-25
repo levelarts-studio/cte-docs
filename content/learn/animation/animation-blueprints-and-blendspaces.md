@@ -4,6 +4,7 @@ title: "Anim Blueprints & Blendspaces"
 subject: "Game Animation"
 entity: "module"
 status: "stub"
+excludeSearch: true
 tier: 400
 estimated_time: "25 mins"
 standards: ["GD.17.6", "AV.18.4"]

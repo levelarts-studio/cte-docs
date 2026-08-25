@@ -6,6 +6,7 @@ entity: module
 subject: career
 tier: 200
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["GD.19.4"]

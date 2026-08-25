@@ -6,6 +6,7 @@ entity: module
 subject: media
 tier: 100
 status: stub
+excludeSearch: true
 tools: []
 prereqs: []
 standards: ["15.8"]
