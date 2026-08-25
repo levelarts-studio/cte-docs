@@ -12,6 +12,13 @@
 {{- $tagBorder := not (eq .tagBorder false) | default true }}
 {{- $tagIcon := .tagIcon -}}
 
+{{- /* User Rule: If no image, no tag and no description! Clean simple Regolith button style! */ -}}
+{{- $hasImage := ne ($image | default "") "" -}}
+{{- if not $hasImage -}}
+  {{- $tag = "" -}}
+  {{- $subtitle = "" -}}
+{{- end -}}
+
 {{ $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50/50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-800/50" }}
 {{- with $image -}}
   {{ $linkClass = "hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700" }}
@@ -40,9 +47,9 @@
     />
   {{- end -}}
 
-  {{- $padding := "hx:p-5" -}}
+  {{- $padding := "hx:p-4" -}}
   {{- with $subtitle -}}
-    {{- $padding = "hx:pt-5 hx:px-5" -}}
+    {{- $padding = "hx:pt-4 hx:px-4" -}}
   {{- end -}}
 
   <div class="hx:mt-auto">
@@ -51,11 +58,11 @@
       {{- $title -}}
     </span>
     {{- with $subtitle -}}
-      <div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:px-5 hx:mb-5 hx:mt-2">{{- $subtitle | markdownify -}}</div>
+      <div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:px-4 hx:mb-4 hx:mt-2">{{- $subtitle | markdownify -}}</div>
     {{- end -}}
   </div>
 
-  {{- if $tag }}
+  {{- if and $hasImage $tag }}
     {{- partial "shortcodes/badge.html" (dict
       "content" $tag
       "color" $tagColor
