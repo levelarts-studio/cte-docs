@@ -41,8 +41,8 @@ menu:
       url: /standards/
       weight: 5
 
-    - name: Status Dashboard
-      url: /status/
+    - name: FAQ & Help
+      url: /faq/
       weight: 6
 
     - name: Google Classroom
@@ -67,3 +67,4 @@ params:
 
 cascade:
   - type: docs
+
