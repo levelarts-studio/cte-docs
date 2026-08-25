@@ -1,5 +1,90 @@
-/* Prevent Hextra card tag badges from overlapping card titles */
-.hextra-card-icon {
-  padding-right: 4.5rem;
-  display: block;
+/* Clever Cloud & Regolith Inspired High-Contrast Card Styling */
+
+/* Card Container */
+.hextra-card {
+  position: relative !important;
+  border-radius: 1rem !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Dark Mode Card Background & Text */
+.dark .hextra-card,
+.dark a.hextra-card {
+  background-color: rgba(23, 23, 23, 0.85) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .hextra-card:hover,
+.dark a.hextra-card:hover {
+  background-color: rgba(32, 32, 38, 0.95) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Light Mode Card Background & Text */
+html:not(.dark) .hextra-card,
+html:not(.dark) a.hextra-card {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #0f172a !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+html:not(.dark) .hextra-card:hover,
+html:not(.dark) a.hextra-card:hover {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+  color: #000000 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* High-Contrast Card Titles */
+.hextra-card-icon,
+.hextra-card-icon * {
+  padding-right: 5rem !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.5rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+}
+
+.dark .hextra-card-icon,
+.dark .hextra-card-icon *,
+.dark a.hextra-card .hextra-card-icon {
+  color: #ffffff !important;
+}
+
+html:not(.dark) .hextra-card-icon,
+html:not(.dark) .hextra-card-icon *,
+html:not(.dark) a.hextra-card .hextra-card-icon {
+  color: #0f172a !important;
+}
+
+/* High-Contrast Subtitles */
+.hextra-card-subtitle {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  margin-top: 0.5rem !important;
+}
+
+.dark .hextra-card-subtitle {
+  color: #cbd5e1 !important;
+}
+
+html:not(.dark) .hextra-card-subtitle {
+  color: #475569 !important;
+}
+
+/* Badge Tag Position & Styling */
+.hextra-card-tag {
+  position: absolute !important;
+  top: 0.85rem !important;
+  right: 0.85rem !important;
+  z-index: 10 !important;
 }
