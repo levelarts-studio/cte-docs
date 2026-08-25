@@ -5,142 +5,54 @@ title: Intro to Media Careers
 course_code: IMC
 ---
 
+
 Intro to Media Careers (IMC) explores digital literacy, design principles, media production, intellectual property, and career pathways in the Arts, Entertainment, and Design cluster.
 
-## Unit 1: Digital Foundations
 
-{{< cards >}}
-  {{< card
-    link="/learn/computing/what-a-computer-is-doing/"
-    title="COMP-101: What a Computer Is Doing"
-    subtitle="Hardware, CPU, RAM, storage, and GPU fundamentals."
-    tag="MODULE"
-    tagColor="blue" >}}
-  {{< card
-    link="/learn/computing/operating-systems-and-why-they-differ/"
-    title="COMP-102: Operating Systems"
-    subtitle="Windows, macOS, Linux, and OS file management differences."
-    tag="MODULE"
-    tagColor="blue" >}}
-  {{< card
-    link="/learn/career/the-arts-entertainment-design-cluster/"
-    title="CAREER-101: The AME Cluster"
-    subtitle="CTE pathways, industry sectors, and focus area career maps."
-    tag="MODULE"
-    tagColor="green" >}}
-  {{< card
-    link="/assignments/build-your-portfolio/"
-    title="Assignment: Build Your Portfolio"
-    subtitle="Set up your Google Sites portfolio homepage and bio."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< details title="Unit 1: Digital Foundations" closed="true" >}}
 
-## Unit 2: Design & The Creative Process
+- **[What a Computer Is Doing](/learn/computing/what-a-computer-is-doing/)** — *Hardware, CPU, RAM, storage, and GPU fundamentals.* `MODULE`
+- **[Operating Systems](/learn/computing/operating-systems-and-why-they-differ/)** — *Windows, macOS, Linux, and OS file management differences.* `MODULE`
+- **[CAREER-101: The AME Cluster](/learn/career/the-arts-entertainment-design-cluster/)** — *CTE pathways, industry sectors, and focus area career maps.* `MODULE`
+- **[Build Your Portfolio](/assignments/build-your-portfolio/)** — *Set up your Google Sites portfolio homepage and bio.* `ASSIGNMENT`
 
-{{< cards >}}
-  {{< card
-    link="/learn/design/elements-of-art/"
-    title="DESN-101: Elements of Art"
-    subtitle="Line, shape, form, value, space, color, and texture."
-    tag="MODULE"
-    tagColor="purple" >}}
-  {{< card
-    link="/learn/design/principles-of-design/"
-    title="DESN-102: Principles of Design"
-    subtitle="Balance, contrast, emphasis, movement, pattern, and rhythm."
-    tag="MODULE"
-    tagColor="purple" >}}
-  {{< card
-    link="/assignments/mood-board/"
-    title="Assignment: Mood Board Gathering"
-    subtitle="Reference board assembly using PureRef and Google Sites."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< /details >}}
 
-## Unit 3: Storytelling Across Media
+{{< details title="Unit 2: Design & The Creative Process" closed="true" >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/media/what-makes-a-story/"
-    title="MEDIA-101: What Makes a Story"
-    subtitle="Storytelling premises, theme, character motivation, and conflict."
-    tag="MODULE"
-    tagColor="amber" >}}
-  {{< card
-    link="/learn/media/shot-types-and-framing/"
-    title="MEDIA-105: Shot Types & Framing"
-    subtitle="Wide shots, medium shots, close-ups, and camera positioning."
-    tag="MODULE"
-    tagColor="amber" >}}
-  {{< card
-    link="/assignments/storyboard-sequence/"
-    title="Assignment: Storyboard Sequence"
-    subtitle="Create a 6-panel storyboard sequence with shot notes."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+- **[Elements of Art](/learn/design/elements-of-art/)** — *Line, shape, form, value, space, color, and texture.* `MODULE`
+- **[Principles of Design](/learn/design/principles-of-design/)** — *Balance, contrast, emphasis, movement, pattern, and rhythm.* `MODULE`
+- **[Mood Board Gathering](/assignments/mood-board/)** — *Reference board assembly using PureRef and Google Sites.* `ASSIGNMENT`
 
-## Unit 4: Careers & Media Literacy
+{{< /details >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/career/reading-an-onet-entry/"
-    title="CAREER-102: Reading an O*NET Entry"
-    subtitle="O*NET codes, median salaries, and career outlook data."
-    tag="MODULE"
-    tagColor="green" >}}
-  {{< card
-    link="/assignments/onet-career-report/"
-    title="Assignment: O*NET Research Report"
-    subtitle="Investigate 2 AME pathway careers and publish to portfolio."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< details title="Unit 3: Storytelling Across Media" closed="true" >}}
 
-## Unit 5: Law, Ethics & AI
+- **[MEDIA-101: What Makes a Story](/learn/media/what-makes-a-story/)** — *Storytelling premises, theme, character motivation, and conflict.* `MODULE`
+- **[MEDIA-105: Shot Types & Framing](/learn/media/shot-types-and-framing/)** — *Wide shots, medium shots, close-ups, and camera positioning.* `MODULE`
+- **[Storyboard Sequence](/assignments/storyboard-sequence/)** — *Create a 6-panel storyboard sequence with shot notes.* `ASSIGNMENT`
 
-{{< cards >}}
-  {{< card
-    link="/learn/law/copyright-basics/"
-    title="LAW-102: Copyright Basics"
-    subtitle="Original authorship, copyright protections, and public domain."
-    tag="MODULE"
-    tagColor="amber" >}}
-  {{< card
-    link="/learn/law/fair-use-the-four-factors/"
-    title="LAW-104: Fair Use: The 4 Factors"
-    subtitle="Transformative use, market impact, and parody analysis."
-    tag="MODULE"
-    tagColor="amber" >}}
-  {{< card
-    link="/assignments/fair-use-case/"
-    title="Assignment: Fair Use Case Analysis"
-    subtitle="Evaluate copyright scenarios using the 4 factors."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< /details >}}
 
-## Unit 6: Production & The Pitch
+{{< details title="Unit 4: Careers & Media Literacy" closed="true" >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/production/production-phases/"
-    title="PROD-101: Production Phases"
-    subtitle="Pre-production, production, post-production, and launch."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/learn/production/pitching-a-concept/"
-    title="PROD-105: Pitching a Concept"
-    subtitle="Pitch decks, elevator pitches, and presentation craft."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/assignments/concept-pitch/"
-    title="Assignment: Concept Deck Pitch"
-    subtitle="Present a final project concept deck to the class."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+- **[CAREER-102: Reading an O*NET Entry](/learn/career/reading-an-onet-entry/)** — *O*NET codes, median salaries, and career outlook data.* `MODULE`
+- **[O*NET Research Report](/assignments/onet-career-report/)** — *Investigate 2 AME pathway careers and publish to portfolio.* `ASSIGNMENT`
+
+{{< /details >}}
+
+{{< details title="Unit 5: Law, Ethics & AI" closed="true" >}}
+
+- **[Copyright Basics](/learn/law/copyright-basics/)** — *Original authorship, copyright protections, and public domain.* `MODULE`
+- **[Fair Use: The 4 Factors](/learn/law/fair-use-the-four-factors/)** — *Transformative use, market impact, and parody analysis.* `MODULE`
+- **[Fair Use Case Analysis](/assignments/fair-use-case/)** — *Evaluate copyright scenarios using the 4 factors.* `ASSIGNMENT`
+
+{{< /details >}}
+
+{{< details title="Unit 6: Production & The Pitch" closed="true" >}}
+
+- **[Production Phases](/learn/production/production-phases/)** — *Pre-production, production, post-production, and launch.* `MODULE`
+- **[Pitching a Concept](/learn/production/pitching-a-concept/)** — *Pitch decks, elevator pitches, and presentation craft.* `MODULE`
+- **[Concept Deck Pitch](/assignments/concept-pitch/)** — *Present a final project concept deck to the class.* `ASSIGNMENT`
+
+{{< /details >}}

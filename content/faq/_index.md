@@ -69,27 +69,23 @@ Every module and assignment is tagged with specific California AME Model Curricu
     title="Start Here & Orientation"
     subtitle="Orientation guide to the site, navigation pillar guides, and search shortcuts."
     tag="ORIENTATION"
-    tagColor="indigo"
-  >}}
+    tagColor="indigo" >}}
   {{< card
     link="/learn/"
     title="Explore Module Library"
     subtitle="Browse 144 textbook modules across 11 subject areas."
     tag="144 MODULES"
-    tagColor="purple"
-  >}}
+    tagColor="purple" >}}
   {{< card
     link="/assignments/"
     title="Assignment Specs"
     subtitle="Review required student lab deliverables and rubrics."
     tag="50 SPECS"
-    tagColor="amber"
-  >}}
+    tagColor="amber" >}}
   {{< card
     link="/courses/"
     title="Course Maps"
     subtitle="View sequenced unit pathways for IMC, GAD1, and GAD2."
     tag="3 PATHWAYS"
-    tagColor="green"
-  >}}
+    tagColor="green" >}}
 {{< /cards >}}

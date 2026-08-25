@@ -5,6 +5,7 @@ cascade:
   type: docs
 ---
 
+
 Course maps define the ordered sequence of units, modules, and assignments for each active class track.
 
 {{< cards >}}
@@ -29,3 +30,4 @@ Course maps define the ordered sequence of units, modules, and assignments for e
     tag="COURSE MAP"
     tagColor="indigo" >}}
 {{< /cards >}}
+

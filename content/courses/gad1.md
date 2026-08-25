@@ -5,136 +5,53 @@ title: Game Art & Design 1
 course_code: GAD1
 ---
 
+
 Game Art & Design 1 (GAD1) introduces 3D asset creation, environment modeling, texture workflows, blueprint logic, and game feel in Unreal Engine and Blender.
 
-## Unit 1: Foundations & The 3D Viewport
 
-{{< cards >}}
-  {{< card
-    link="/learn/blender/objects-transforms-and-pivots/"
-    title="BLND-102: Objects, Transforms & Pivots"
-    subtitle="Origin points, 3D cursor, transform orientation, and pivot manipulation."
-    tag="MODULE"
-    tagColor="orange" >}}
-  {{< card
-    link="/learn/unreal/interface-and-navigation/"
-    title="UE-101: Interface & Navigation"
-    subtitle="Unreal viewport controls, content browser, outliner, and details panel."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/assignments/blender-first-model/"
-    title="Assignment: Hero Prop Modeling"
-    subtitle="Model a hero prop in Blender and export to engine."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< details title="Unit 1: Foundations & The 3D Viewport" closed="true" >}}
 
-## Unit 2: 3D Asset Creation
+- **[Objects, Transforms & Pivots](/learn/blender/objects-transforms-and-pivots/)** — *Origin points, 3D cursor, transform orientation, and pivot manipulation.* `MODULE`
+- **[Interface & Navigation](/learn/unreal/interface-and-navigation/)** — *Unreal viewport controls, content browser, outliner, and details panel.* `MODULE`
+- **[Hero Prop Modeling](/assignments/blender-first-model/)** — *Model a hero prop in Blender and export to engine.* `ASSIGNMENT`
 
-{{< cards >}}
-  {{< card
-    link="/learn/blender/topology-and-edge-flow/"
-    title="BLND-201: Topology & Edge Flow"
-    subtitle="Quads, edge loops, poles, n-gons, and deformation topology."
-    tag="MODULE"
-    tagColor="orange" >}}
-  {{< card
-    link="/learn/blender/hard-surface-modeling/"
-    title="BLND-202: Hard Surface Modeling"
-    subtitle="Bevel modifiers, weighted normals, and crease control."
-    tag="MODULE"
-    tagColor="orange" >}}
-  {{< card
-    link="/assignments/hard-surface-prop/"
-    title="Assignment: Hard Surface Prop"
-    subtitle="Create a hard surface prop mesh with clean geometry."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< /details >}}
 
-## Unit 3: Materials, Textures & Lighting
+{{< details title="Unit 2: 3D Asset Creation" closed="true" >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/blender/uv-unwrapping/"
-    title="BLND-204: UV Unwrapping"
-    subtitle="Seam placement, UV packing, and texel density optimization."
-    tag="MODULE"
-    tagColor="orange" >}}
-  {{< card
-    link="/learn/blender/texturing-and-pbr-maps/"
-    title="BLND-205: Texturing & PBR Maps"
-    subtitle="Albedo, roughness, metallic, and normal map texture sets."
-    tag="MODULE"
-    tagColor="orange" >}}
-  {{< card
-    link="/assignments/pbr-texture-set/"
-    title="Assignment: PBR Texture Set"
-    subtitle="Author and apply PBR material textures to your hero prop."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+- **[Topology & Edge Flow](/learn/blender/topology-and-edge-flow/)** — *Quads, edge loops, poles, n-gons, and deformation topology.* `MODULE`
+- **[Hard Surface Modeling](/learn/blender/hard-surface-modeling/)** — *Bevel modifiers, weighted normals, and crease control.* `MODULE`
+- **[Hard Surface Prop](/assignments/hard-surface-prop/)** — *Create a hard surface prop mesh with clean geometry.* `ASSIGNMENT`
 
-## Unit 4: Engine Integration & Interaction
+{{< /details >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/unreal/importing-assets/"
-    title="UE-104: Importing Assets"
-    subtitle="FBX import settings, collision setup, and static mesh actors."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/learn/unreal/blueprint-fundamentals/"
-    title="UE-201: Blueprint Fundamentals"
-    subtitle="Nodes, execution pins, variable types, and event graphs."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/assignments/interactive-door/"
-    title="Assignment: Interactive Door Blueprint"
-    subtitle="Build an interactive trigger door Blueprint in Unreal Engine 5."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< details title="Unit 3: Materials, Textures & Lighting" closed="true" >}}
 
-## Unit 5: Game Systems & Environment
+- **[UV Unwrapping](/learn/blender/uv-unwrapping/)** — *Seam placement, UV packing, and texel density optimization.* `MODULE`
+- **[Texturing & PBR Maps](/learn/blender/texturing-and-pbr-maps/)** — *Albedo, roughness, metallic, and normal map texture sets.* `MODULE`
+- **[PBR Texture Set](/assignments/pbr-texture-set/)** — *Author and apply PBR material textures to your hero prop.* `ASSIGNMENT`
 
-{{< cards >}}
-  {{< card
-    link="/learn/gamedesign/the-core-loop/"
-    title="GAME-102: The Core Loop"
-    subtitle="Action, reward, expansion, and gameplay loop design."
-    tag="MODULE"
-    tagColor="green" >}}
-  {{< card
-    link="/learn/gamedesign/level-design-basics/"
-    title="GAME-105: Level Design Basics"
-    subtitle="Level flow, pacing, sightlines, and greybox layouts."
-    tag="MODULE"
-    tagColor="green" >}}
-  {{< card
-    link="/assignments/blockout-level/"
-    title="Assignment: Blockout Level Layout"
-    subtitle="Greybox a playable level layout with spatial pacing."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+{{< /details >}}
 
-## Unit 6: Capstone Vertical Slice
+{{< details title="Unit 4: Engine Integration & Interaction" closed="true" >}}
 
-{{< cards >}}
-  {{< card
-    link="/learn/production/scope-and-the-vertical-slice/"
-    title="PROD-204: Scope & Vertical Slice"
-    subtitle="Scope management, feature cuts, and vertical slice targets."
-    tag="MODULE"
-    tagColor="indigo" >}}
-  {{< card
-    link="/assignments/solo-vertical-slice/"
-    title="Assignment: Solo Vertical Slice"
-    subtitle="Assemble, light, and publish a solo vertical slice build."
-    tag="ASSIGNMENT"
-    tagColor="indigo" >}}
-{{< /cards >}}
+- **[Importing Assets](/learn/unreal/importing-assets/)** — *FBX import settings, collision setup, and static mesh actors.* `MODULE`
+- **[Blueprint Fundamentals](/learn/unreal/blueprint-fundamentals/)** — *Nodes, execution pins, variable types, and event graphs.* `MODULE`
+- **[Interactive Door Blueprint](/assignments/interactive-door/)** — *Build an interactive trigger door Blueprint in Unreal Engine 5.* `ASSIGNMENT`
+
+{{< /details >}}
+
+{{< details title="Unit 5: Game Systems & Environment" closed="true" >}}
+
+- **[The Core Loop](/learn/gamedesign/the-core-loop/)** — *Action, reward, expansion, and gameplay loop design.* `MODULE`
+- **[Level Design Basics](/learn/gamedesign/level-design-basics/)** — *Level flow, pacing, sightlines, and greybox layouts.* `MODULE`
+- **[Blockout Level Layout](/assignments/blockout-level/)** — *Greybox a playable level layout with spatial pacing.* `ASSIGNMENT`
+
+{{< /details >}}
+
+{{< details title="Unit 6: Capstone Vertical Slice" closed="true" >}}
+
+- **[Scope & Vertical Slice](/learn/production/scope-and-the-vertical-slice/)** — *Scope management, feature cuts, and vertical slice targets.* `MODULE`
+- **[Solo Vertical Slice](/assignments/solo-vertical-slice/)** — *Assemble, light, and publish a solo vertical slice build.* `ASSIGNMENT`
+
+{{< /details >}}
