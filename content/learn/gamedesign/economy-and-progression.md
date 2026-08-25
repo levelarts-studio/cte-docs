@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.7"]
+standards: ["GD.17.7"]
 keywords: ["currency sink", "faucet", "progression tree", "xp curve"]
 duration: 20
 video: ""

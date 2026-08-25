@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: [DESN-101, DESN-102]
-standards: ["10.3", "GD.17.4", "DGA.17.1"]
+standards: ["DGA.17.1", "GD.17.4"]
 keywords: ["shading", "light", "dark", "grayscale", "contrast ratio", "value scale"]
 duration: 20
 video: ""

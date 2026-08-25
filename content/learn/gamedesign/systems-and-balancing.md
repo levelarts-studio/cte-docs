@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.7"]
+standards: ["GD.17.7"]
 keywords: ["spreadsheet balancing", "math", "dps", "stat scaling"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["14.2", "11.6"]
+standards: ["11.3", "11.6"]
 keywords: ["attribution", "citation", "asset log"]
 duration: 20
 video: ""

@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 200
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.18.4", "AV.17.7"]
 weight: 40
 type: docs
 description: "ANIM-202: Walk & Run Cycles textbook module stub."

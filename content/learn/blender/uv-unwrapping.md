@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.4", "GD.17.4"]
+standards: ["GD.17.4", "AV.17.8"]
 keywords: ["seams", "unwrap", "uv map", "texel density"]
 duration: 20
 video: ""

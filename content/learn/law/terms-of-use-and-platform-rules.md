@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["14.1"]
+standards: ["14.5"]
 keywords: ["tos", "eula", "platform rules"]
 duration: 20
 video: ""

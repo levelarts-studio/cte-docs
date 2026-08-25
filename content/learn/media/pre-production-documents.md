@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["16.6"]
+standards: ["15.5"]
 keywords: ["script", "call sheet", "shot list"]
 duration: 20
 video: ""

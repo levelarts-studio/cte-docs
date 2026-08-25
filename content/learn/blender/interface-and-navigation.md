@@ -8,7 +8,7 @@ tier: 100
 status: complete
 tools: ["blender"]
 prereqs: []
-standards: ["GD.17.4", "GD.17.4"]
+standards: ["4.3"]
 keywords: ["viewport", "orbit", "pan", "zoom", "edit mode", "object mode", "susanne", "shortcut", "g", "r", "s"]
 duration: 30
 video: ""

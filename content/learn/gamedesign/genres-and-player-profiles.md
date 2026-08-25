@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.19.1"]
+standards: ["GD.17.2"]
 keywords: ["bartle taxonomy", "achiever", "explorer", "socializer", "killer"]
 duration: 20
 video: ""

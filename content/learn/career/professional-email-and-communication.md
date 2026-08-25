@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.1"]
+standards: ["2.1", "2.5"]
 keywords: ["email etiquette", "communication", "workplace"]
 duration: 20
 video: ""

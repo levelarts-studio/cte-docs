@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.1", "13.2"]
+standards: ["3.6", "14.8"]
 keywords: ["freelance", "w2", "1099", "contractor"]
 duration: 20
 video: ""

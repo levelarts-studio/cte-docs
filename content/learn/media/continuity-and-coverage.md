@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.5"]
+standards: ["15.6", "15.8"]
 keywords: ["180 degree rule", "axis of action", "coverage"]
 duration: 20
 video: ""

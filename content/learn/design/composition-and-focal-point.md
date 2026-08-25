@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.5"]
+standards: ["AV.17.3", "DGA.17.1"]
 keywords: ["rule of thirds", "golden ratio", "leading lines", "focal point"]
 duration: 20
 video: ""

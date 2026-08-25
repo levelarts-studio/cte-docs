@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.3"]
+standards: ["GD.17.8", "GD.18.5"]
 keywords: ["affordance", "lighting guidance", "yellow paint", "composition"]
 duration: 20
 video: ""

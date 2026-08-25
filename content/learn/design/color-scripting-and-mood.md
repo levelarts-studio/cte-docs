@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["10.4"]
+standards: ["AV.17.1", "DGA.17.1"]
 keywords: ["color script", "mood lighting", "atmosphere"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["5.3"]
+standards: ["10.5", "5.3"]
 keywords: ["iteration", "refinement", "revision"]
 duration: 20
 video: ""

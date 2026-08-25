@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["16.9"]
+standards: ["16.9", "GD.18.3"]
 keywords: ["scope creep", "vertical slice", "feature list"]
 duration: 20
 video: ""

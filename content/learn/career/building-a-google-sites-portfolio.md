@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.4", "3.8"]
+standards: ["3.8"]
 keywords: ["google sites", "portfolio", "webpage"]
 duration: 20
 video: ""

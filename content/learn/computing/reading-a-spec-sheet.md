@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.1"]
+standards: ["4.4"]
 keywords: ["vram", "cpu cores", "system specs"]
 duration: 20
 video: ""

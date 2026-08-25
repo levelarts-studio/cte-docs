@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.20.2", "DC.20.5"]
+standards: ["GD.18.7"]
 keywords: ["diegetic ui", "non diegetic", "user experience", "hud"]
 duration: 20
 video: ""

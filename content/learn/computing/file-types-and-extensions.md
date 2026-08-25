@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.7"]
+standards: ["4.5"]
 keywords: ["extensions", "png", "jpg", "blend", "uasset", "psd"]
 duration: 20
 video: ""

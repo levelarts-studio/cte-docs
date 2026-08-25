@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.4"]
+standards: ["DGA.17.1"]
 keywords: ["rgb", "cmyk", "srgb", "linear color"]
 duration: 20
 video: ""

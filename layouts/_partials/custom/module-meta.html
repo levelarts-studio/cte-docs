@@ -1,0 +1,78 @@
+{{/* Renders ID, tier, status, prereqs, and standards from front matter. */}}
+{{- $p := . -}}
+{{- $isEntity := or (eq $p.Params.entity "module") (eq $p.Params.entity "assignment") -}}
+{{- if $isEntity -}}
+
+{{/* case-normalized standards lookup */}}
+{{- $lookup := dict -}}
+{{- range $k, $v := site.Data.standards -}}
+  {{- $lookup = merge $lookup (dict (lower $k) (merge $v (dict "code" $k))) -}}
+{{- end -}}
+
+{{/* id -> page index, for resolving prereqs */}}
+{{- $byID := dict -}}
+{{- range where site.RegularPages "Params.id" "!=" nil -}}
+  {{- $byID = merge $byID (dict (string .Params.id) .) -}}
+{{- end -}}
+
+{{/* code -> term permalink, avoids guessing URLs */}}
+{{- $terms := dict -}}
+{{- range $p.GetTerms "standards" -}}
+  {{- $terms = merge $terms (dict (lower .LinkTitle) .RelPermalink) -}}
+{{- end -}}
+
+<div style="display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.5rem 0 1rem;font-size:.8rem">
+  {{- with $p.Params.id }}
+  <span style="font-family:ui-monospace,monospace;background:#4f46e5;color:#fff;padding:.15rem .5rem;border-radius:.25rem">{{ . }}</span>
+  {{- end }}
+  {{- with $p.Params.tier }}
+  <span style="border:1px solid currentColor;opacity:.7;padding:.15rem .5rem;border-radius:.25rem">Tier {{ . }}</span>
+  {{- end }}
+  {{- with $p.Params.subject }}
+  <span style="border:1px solid currentColor;opacity:.7;padding:.15rem .5rem;border-radius:.25rem">{{ . }}</span>
+  {{- end }}
+  {{- with $p.Params.duration }}
+  <span style="opacity:.6">{{ . }} min</span>
+  {{- end }}
+  {{- with $p.Params.est_time }}
+  <span style="opacity:.6">{{ . }} min</span>
+  {{- end }}
+</div>
+
+{{- if ne $p.Params.status "complete" }}
+<div style="border-left:4px solid #f59e0b;background:rgba(245,158,11,.1);padding:.75rem 1rem;border-radius:.25rem;margin:1rem 0">
+  <strong>{{ if eq $p.Params.status "draft" }}Draft lesson.{{ else }}This lesson has not been written yet.{{ end }}</strong>
+  Press <kbd>Ctrl</kbd>+<kbd>K</kbd> to search for the topic, or use the related modules below.
+</div>
+{{- end }}
+
+{{- with $p.Params.prereqs }}
+<p style="margin:.5rem 0"><strong>Before this:</strong>
+  {{- range $i, $id := . }}{{ if $i }}, {{ end }}
+    {{- with index $byID (string $id) }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- else }}<span style="opacity:.5">{{ $id }}</span>{{ end -}}
+  {{ end }}
+</p>
+{{- end }}
+
+{{- with $p.Params.standards }}
+<details style="margin:1rem 0;border:1px solid rgba(128,128,128,.3);border-radius:.375rem;padding:.5rem .75rem">
+  <summary style="cursor:pointer;font-weight:600">
+    Standards ({{ len . }})
+  </summary>
+  <ul style="margin:.5rem 0 0;padding-left:1.1rem">
+    {{- range $code := . }}
+      {{- $s := index $lookup (lower $code) }}
+      {{- $url := index $terms (lower $code) }}
+      <li style="margin:.4rem 0">
+        {{ if $url }}<a href="{{ $url }}"><code>{{ $code }}</code></a>{{ else }}<code>{{ $code }}</code>{{ end }}
+        {{ with $s }}<strong>{{ .title }}</strong><br>
+        <span style="opacity:.75;font-size:.85em">{{ .text }}</span>
+        {{ else }}<em style="color:#dc2626">not found in standards.yaml</em>{{ end }}
+      </li>
+    {{- end }}
+  </ul>
+</details>
+{{- end }}
+
+{{- end -}}

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.1", "GD.18.4"]
+standards: ["GD.17.3"]
 keywords: ["environmental storytelling", "narrative design", "dialogue"]
 duration: 20
 video: ""

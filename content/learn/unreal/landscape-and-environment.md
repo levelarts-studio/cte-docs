@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.1"]
+standards: ["GD.18.4"]
 keywords: ["landscape mode", "sculpting", "foliage mode"]
 duration: 20
 video: ""

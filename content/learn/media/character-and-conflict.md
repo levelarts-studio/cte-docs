@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.2"]
+standards: ["15.1"]
 keywords: ["protagonist", "antagonist", "internal conflict", "external conflict"]
 duration: 20
 video: ""

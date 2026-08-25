@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 300
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.18.4", "AV.17.4"]
 weight: 50
 type: docs
 description: "ANIM-301: Action Poses & Impact Keying textbook module stub."

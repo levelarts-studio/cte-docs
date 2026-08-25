@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.8"]
+standards: ["3.8", "2.5"]
 keywords: ["bio", "artist statement", "about me"]
 duration: 20
 video: ""

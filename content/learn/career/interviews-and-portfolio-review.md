@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.3", "3.8"]
+standards: ["3.4", "2.3"]
 keywords: ["interview prep", "portfolio review"]
 duration: 20
 video: ""

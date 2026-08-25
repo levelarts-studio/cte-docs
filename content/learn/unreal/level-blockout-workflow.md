@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.8"]
+standards: ["GD.17.6", "GD.18.4"]
 keywords: ["greybox", "geometry brushes", "modeling mode"]
 duration: 20
 video: ""

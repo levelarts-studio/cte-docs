@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.8"]
+standards: ["GD.17.6", "GD.17.1"]
 keywords: ["level flow", "pacing", "chokepoints", "sightlines"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.7", "4.5"]
+standards: ["4.5"]
 keywords: ["camelcase", "snakecase", "pascalcase", "versioning"]
 duration: 20
 video: ""

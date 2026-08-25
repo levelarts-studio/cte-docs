@@ -8,7 +8,7 @@ tier: 300
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.8", "GD.19.2"]
+standards: ["GD.18.8", "GD.20.1"]
 keywords: ["nanite mesh", "lumen global illumination", "virtual shadow maps"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["3.1"]
+standards: ["GD.19.4"]
 keywords: ["architectural viz", "simulation", "film vfx"]
 duration: 20
 video: ""

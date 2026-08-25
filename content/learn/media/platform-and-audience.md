@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["11.5"]
+standards: ["15.2"]
 keywords: ["youtube", "tiktok", "aspect ratio", "target audience"]
 duration: 20
 video: ""

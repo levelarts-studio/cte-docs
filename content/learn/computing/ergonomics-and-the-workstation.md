@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.3", "6.1"]
+standards: ["6.3"]
 keywords: ["posture", "monitor height", "wrist rest", "chair"]
 duration: 20
 video: ""

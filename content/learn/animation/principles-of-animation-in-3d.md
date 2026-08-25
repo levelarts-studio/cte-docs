@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 100
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.17.7"]
 weight: 10
 type: docs
 description: "ANIM-101: 12 Principles in 3D textbook module stub."

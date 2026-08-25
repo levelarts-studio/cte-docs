@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.4"]
+standards: ["DGA.17.1", "AV.17.1"]
 keywords: ["color wheel", "primary", "secondary", "complementary", "analogous"]
 duration: 20
 video: ""

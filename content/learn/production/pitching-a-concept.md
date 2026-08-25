@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["2.3", "13.2"]
+standards: ["13.2", "2.3"]
 keywords: ["pitch deck", "elevator pitch", "presentation"]
 duration: 20
 video: ""

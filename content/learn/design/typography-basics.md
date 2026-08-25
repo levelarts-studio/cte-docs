@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.2"]
+standards: ["DGA.17.4"]
 keywords: ["serif", "sans serif", "kerning", "leading", "hierarchy"]
 duration: 20
 video: ""

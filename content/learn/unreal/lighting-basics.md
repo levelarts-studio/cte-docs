@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.3"]
+standards: ["AV.17.1"]
 keywords: ["directional light", "sky light", "lumen", "post process volume"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.4"]
+standards: ["4.4", "4.5"]
 keywords: ["google drive", "onedrive", "backup", "local storage"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.8", "GD.18.8"]
+standards: ["GD.18.8"]
 keywords: ["poly count", "triangles", "lods", "decimate"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["16.2"]
+standards: ["16.4"]
 keywords: ["creative brief", "project goals", "constraints"]
 duration: 20
 video: ""

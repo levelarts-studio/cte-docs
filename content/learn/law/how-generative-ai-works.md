@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.7"]
+standards: ["4.6"]
 keywords: ["diffusion", "llm", "training data", "ai model"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.3", "10.3"]
+standards: ["AV.17.1", "GD.17.4"]
 keywords: ["material editor", "base color", "roughness", "instance"]
 duration: 20
 video: ""

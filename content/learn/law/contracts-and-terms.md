@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["14.1"]
+standards: ["14.4"]
 keywords: ["freelance contract", "work for hire", "scope of work"]
 duration: 20
 video: ""

@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.7"]
+standards: ["GD.17.8"]
 keywords: ["juice", "screen shake", "hitstop", "particle FX", "sfx"]
 duration: 20
 video: ""

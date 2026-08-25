@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.6", "6.3"]
+standards: ["4.1"]
 keywords: ["passwords", "2fa", "mfa", "phishing", "security"]
 duration: 20
 video: ""

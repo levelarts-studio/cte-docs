@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.1", "3.2"]
+standards: ["3.1"]
 keywords: ["3d animator", "game designer", "technical artist"]
 duration: 20
 video: ""

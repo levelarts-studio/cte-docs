@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["16.4"]
+standards: ["GD.18.2", "16.4"]
 keywords: ["gdd", "design doc", "game bible"]
 duration: 20
 video: ""

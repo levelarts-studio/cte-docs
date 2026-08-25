@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["16.8"]
+standards: ["16.7", "DGA.18.7"]
 keywords: ["trello", "jira", "kanban", "sprint board"]
 duration: 20
 video: ""

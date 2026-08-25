@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 100
 estimated_time: "25 mins"
-standards: ["AV.17.4"]
+standards: ["AV.17.8", "AV.17.2"]
 weight: 20
 type: docs
 description: "CHAR-102: Sculpt Blockout & Base Meshes textbook module stub."

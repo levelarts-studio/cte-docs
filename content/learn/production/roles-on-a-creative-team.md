@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["9.1", "16.1"]
+standards: ["16.2"]
 keywords: ["producer", "lead artist", "programmer", "designer"]
 duration: 20
 video: ""

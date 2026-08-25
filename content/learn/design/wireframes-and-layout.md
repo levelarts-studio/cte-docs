@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.5"]
+standards: ["10.3", "DGA.17.6"]
 keywords: ["wireframe", "ui layout", "mockup"]
 duration: 20
 video: ""

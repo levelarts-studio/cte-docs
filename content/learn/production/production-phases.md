@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["16.1"]
+standards: ["16.6"]
 keywords: ["pre-production", "production", "post-production", "maintenance"]
 duration: 20
 video: ""

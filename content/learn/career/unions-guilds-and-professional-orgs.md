@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.1"]
+standards: ["3.7", "7.9"]
 keywords: ["animation guild", "igda", "sag aftra"]
 duration: 20
 video: ""

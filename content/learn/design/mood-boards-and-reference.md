@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["1.3"]
+standards: ["10.3"]
 keywords: ["purepref", "moodboard", "reference gathering"]
 duration: 20
 video: ""

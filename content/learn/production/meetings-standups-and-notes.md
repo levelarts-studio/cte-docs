@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["9.1"]
+standards: ["16.8"]
 keywords: ["standup", "daily scrums", "meeting notes"]
 duration: 20
 video: ""

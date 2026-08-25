@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.9"]
+standards: ["15.9", "GD.18.8"]
 keywords: ["package project", "win64 build", "shipping config"]
 duration: 20
 video: ""

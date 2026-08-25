@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.3", "4.5"]
+standards: ["4.5"]
 keywords: ["ue5 project", "template", "content folders"]
 duration: 20
 video: ""

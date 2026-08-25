@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.5", "15.8"]
+standards: ["4.5"]
 keywords: ["blend file", "pack resources", "fbx", "obj"]
 duration: 20
 video: ""

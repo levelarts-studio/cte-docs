@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["8.4", "16.2"]
+standards: ["16.5", "DGA.18.8"]
 keywords: ["milestones", "deliverables", "timeline"]
 duration: 20
 video: ""

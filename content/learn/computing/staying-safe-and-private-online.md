@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.6", "6.3"]
+standards: ["4.1", "2.7"]
 keywords: ["privacy", "cookies", "digital footprint"]
 duration: 20
 video: ""

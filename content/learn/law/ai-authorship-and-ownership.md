@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.7", "14.1"]
+standards: ["14.2", "4.6"]
 keywords: ["ai copyright", "usco ruling", "authorship"]
 duration: 20
 video: ""

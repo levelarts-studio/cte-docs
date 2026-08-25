@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.1"]
+standards: ["4.4"]
 keywords: ["hardware", "cpu", "ram", "storage", "gpu"]
 duration: 20
 video: ""

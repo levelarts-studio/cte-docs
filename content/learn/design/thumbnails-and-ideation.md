@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["1.3", "10.3"]
+standards: ["10.2", "10.3"]
 keywords: ["thumbnailing", "sketching", "brainstorming"]
 duration: 20
 video: ""

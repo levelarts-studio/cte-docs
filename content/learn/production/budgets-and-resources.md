@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["13.6"]
+standards: ["16.5", "13.5"]
 keywords: ["budget", "resource allocation", "hardware cost"]
 duration: 20
 video: ""

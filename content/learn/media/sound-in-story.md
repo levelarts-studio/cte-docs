@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.6"]
+standards: ["15.7"]
 keywords: ["foley", "diegetic", "non-diegetic", "sound effects", "sfx"]
 duration: 20
 video: ""

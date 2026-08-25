@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.19.4"]
+standards: ["GD.18.9"]
 keywords: ["premium", "free to play", "battle pass", "dlc"]
 duration: 20
 video: ""

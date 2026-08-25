@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["15.6"]
+standards: ["15.7", "GD.17.8"]
 keywords: ["sound wave", "meta sound", "audio attenuation"]
 duration: 20
 video: ""

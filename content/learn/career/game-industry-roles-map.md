@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.19.1"]
+standards: ["GD.19.2"]
 keywords: ["game dev roles", "tech artist", "level designer"]
 duration: 20
 video: ""

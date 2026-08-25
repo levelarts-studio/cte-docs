@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.8"]
+standards: ["3.8", "4.5"]
 keywords: ["process shots", "breakdown", "reflection"]
 duration: 20
 video: ""

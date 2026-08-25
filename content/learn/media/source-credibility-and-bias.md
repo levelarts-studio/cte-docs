@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["11.1"]
+standards: ["11.5"]
 keywords: ["fact checking", "bias", "credibility"]
 duration: 20
 video: ""

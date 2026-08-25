@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["15.8"]
+standards: ["15.9"]
 keywords: ["codecs", "mp4", "h264", "bitrate", "resolution"]
 duration: 20
 video: ""

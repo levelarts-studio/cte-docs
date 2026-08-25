@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.4"]
+standards: ["GD.17.4", "AV.17.2"]
 keywords: ["sculpt mode", "grab brush", "clay strips", "dyntopo"]
 duration: 20
 video: ""

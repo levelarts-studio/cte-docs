@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["13.2"]
+standards: ["GD.19.5", "3.9"]
 keywords: ["indie dev", "business setup", "invoicing"]
 duration: 20
 video: ""

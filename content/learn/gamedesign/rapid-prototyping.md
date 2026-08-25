@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.18.2"]
+standards: ["GD.18.3", "GD.18.6"]
 keywords: ["paper prototype", "greybox prototype", "game jam"]
 duration: 20
 video: ""

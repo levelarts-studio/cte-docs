@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["3.2"]
+standards: ["3.1"]
 keywords: ["onet", "soc code", "salary", "job outlook"]
 duration: 20
 video: ""

@@ -66,3 +66,5 @@ params:
 
 cascade:
   - type: docs
+    target:
+      path: '{/learn/**,/assignments/**,/courses/**,/start/**,/faq/**,/standards/**}'

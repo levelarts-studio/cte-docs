@@ -8,7 +8,7 @@ tier: 300
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.17.4"]
+standards: ["GD.17.4", "GD.18.8"]
 keywords: ["retopo", "snapping", "shrinkwrap", "quad draw"]
 duration: 20
 video: ""

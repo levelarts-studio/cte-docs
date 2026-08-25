@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["10.3"]
+standards: ["AV.17.1"]
 keywords: ["point light", "sun light", "spot light", "hdri"]
 duration: 20
 video: ""

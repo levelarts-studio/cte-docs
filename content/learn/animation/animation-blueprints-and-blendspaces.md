@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 400
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["GD.17.6", "AV.18.4"]
 weight: 60
 type: docs
 description: "ANIM-401: Anim Blueprints & Blendspaces textbook module stub."

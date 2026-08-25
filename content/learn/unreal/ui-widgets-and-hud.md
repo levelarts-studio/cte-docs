@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.20.2"]
+standards: ["GD.18.7", "GD.17.8"]
 keywords: ["umg", "widget blueprint", "hud", "button", "progress bar"]
 duration: 20
 video: ""

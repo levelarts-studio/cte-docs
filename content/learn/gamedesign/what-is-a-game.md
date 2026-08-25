@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.19.1"]
+standards: ["GD.17.1"]
 keywords: ["game definition", "rules", "goals", "feedback loop"]
 duration: 20
 video: ""

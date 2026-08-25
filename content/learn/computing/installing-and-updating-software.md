@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["4.2"]
+standards: ["4.3"]
 keywords: ["installers", "exe", "msi", "updates"]
 duration: 20
 video: ""

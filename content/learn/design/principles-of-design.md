@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["10.2"]
+standards: ["DGA.17.1", "GD.17.4"]
 keywords: ["balance", "contrast", "emphasis", "movement", "pattern", "rhythm", "unity"]
 duration: 20
 video: ""

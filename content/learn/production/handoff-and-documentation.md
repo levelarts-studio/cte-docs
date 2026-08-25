@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["9.3"]
+standards: ["16.7", "2.5"]
 keywords: ["handoff", "documentation", "pipeline doc"]
 duration: 20
 video: ""

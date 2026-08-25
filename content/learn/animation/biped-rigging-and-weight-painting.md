@@ -6,7 +6,7 @@ entity: "module"
 status: "stub"
 tier: 200
 estimated_time: "25 mins"
-standards: ["AV.17.1"]
+standards: ["AV.17.8"]
 weight: 30
 type: docs
 description: "ANIM-201: Biped Rigging & Weight Painting textbook module stub."

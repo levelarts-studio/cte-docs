@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["GD.19.2"]
+standards: ["GD.17.9"]
 keywords: ["client server", "replication", "latency", "ping"]
 duration: 20
 video: ""

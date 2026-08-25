@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["10.3"]
+standards: ["GD.17.4", "AV.17.4"]
 keywords: ["silhouette", "pose", "readability"]
 duration: 20
 video: ""

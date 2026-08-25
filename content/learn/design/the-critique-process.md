@@ -8,7 +8,7 @@ tier: 100
 status: stub
 tools: []
 prereqs: []
-standards: ["5.2"]
+standards: ["5.2", "8.4"]
 keywords: ["critique", "feedback", "peer review"]
 duration: 20
 video: ""

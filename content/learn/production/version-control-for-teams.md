@@ -8,7 +8,7 @@ tier: 200
 status: stub
 tools: []
 prereqs: []
-standards: ["16.7"]
+standards: ["16.7", "4.5"]
 keywords: ["git", "perforce", "commit", "branch", "merge"]
 duration: 20
 video: ""
