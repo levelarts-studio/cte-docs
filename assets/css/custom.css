@@ -1,4 +1,55 @@
-/* Clever Cloud & Regolith Inspired High-Contrast Card Styling */
+/* Clever Cloud & Regolith Inspired High-Contrast Card & Button Styling */
+
+/* Hero Action Buttons Container & Pills */
+.hero-actions-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.85rem !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 2.75rem !important;
+}
+
+.hero-action-pill {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  padding: 0.6rem 1.25rem !important;
+  border-radius: 9999px !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.dark .hero-action-pill {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  color: #f8fafc !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) !important;
+}
+
+.dark .hero-action-pill:hover {
+  background-color: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+html:not(.dark) .hero-action-pill {
+  background-color: #f1f5f9 !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  color: #0f172a !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+}
+
+html:not(.dark) .hero-action-pill:hover {
+  background-color: #e2e8f0 !important;
+  border-color: rgba(0, 0, 0, 0.25) !important;
+  color: #000000 !important;
+  transform: translateY(-1px);
+}
 
 /* Card Container */
 .hextra-card {

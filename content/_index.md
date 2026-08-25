@@ -6,31 +6,31 @@ title: Game Art, Design & Media Learning Library
 layout: hextra-home
 ---
 
-<div class="hx:mt-10 hx:mb-6 text-center">
+<div class="hx:mt-8 hx:mb-4">
 {{< hextra/hero-headline >}}
   Game Art, Design & Media<br class="hx:sm:block hx:hidden" />Learning Library
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx:mb-10 text-center">
+<div class="hx:mb-8">
 {{< hextra/hero-subtitle >}}
   Standards-aligned textbook modules, hands-on lab specs, and 3D creation pathways for high school & CTE students.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<!-- Clever Cloud Inspired Hero Action Buttons -->
-<div class="hx:mb-14 hx:flex hx:justify-center hx:gap-4 hx:flex-wrap">
-  <a href="/learn/" class="hx:inline-flex hx:items-center hx:gap-2 hx:px-6 hx:py-3 hx:rounded-full hx:bg-blue-600 hx:hover:bg-blue-500 hx:text-white hx:font-semibold hx:text-sm hx:shadow-lg hx:shadow-blue-500/20 hx:transition-all hx:no-underline">
+<!-- Uniform High-Polish Hero Action Buttons -->
+<div class="hero-actions-container">
+  <a href="/learn/" class="hero-action-pill">
     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
-    Explore Module Library
+    <span>Explore Module Library</span>
   </a>
-  <a href="/courses/" class="hx:inline-flex hx:items-center hx:gap-2 hx:px-6 hx:py-3 hx:rounded-full hx:bg-neutral-800 hx:hover:bg-neutral-700 hx:border hx:border-neutral-700 hx:text-white hx:font-semibold hx:text-sm hx:shadow-md hx:transition-all hx:no-underline">
+  <a href="/courses/" class="hero-action-pill">
     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
-    Course Maps & Pathways
+    <span>Course Maps & Pathways</span>
   </a>
-  <a href="/faq/" class="hx:inline-flex hx:items-center hx:gap-2 hx:px-6 hx:py-3 hx:rounded-full hx:bg-neutral-800 hx:hover:bg-neutral-700 hx:border hx:border-neutral-700 hx:text-white hx:font-semibold hx:text-sm hx:shadow-md hx:transition-all hx:no-underline">
+  <a href="/faq/" class="hero-action-pill">
     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-    Student FAQ & Help
+    <span>Student FAQ & Help</span>
   </a>
 </div>
 
@@ -45,7 +45,7 @@ layout: hextra-home
 
   {{< hextra/feature-card
     title="Module Library"
-    subtitle="Access 144 textbook modules covering Blender 3D, Unreal Engine 5, 3D Character Design, and Game Animation."
+    subtitle="Access 157 textbook modules covering Blender 3D, Unreal Engine 5, 3D Character Design, and Game Animation."
     link="/learn/"
     icon="cube"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[240px]"
