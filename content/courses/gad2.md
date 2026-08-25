@@ -12,7 +12,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/character/character-concept-and-proportions/" class="unit-item-button">
 <div>
-<div class="unit-item-title">CHAR-101: Character Proportions & Concept</div>
+<div class="unit-item-title">Character Proportions & Concept</div>
 <div class="unit-item-desc">Human anatomy landmarks, heroic proportions, and reference silhouettes.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -32,7 +32,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/character/character-topology-and-deform-flow/" class="unit-item-button">
 <div>
-<div class="unit-item-title">CHAR-201: Character Topology & Edge Flow</div>
+<div class="unit-item-title">Character Topology & Edge Flow</div>
 <div class="unit-item-desc">Facial edge loops, shoulder/elbow deformation rings, and quad optimization.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -52,7 +52,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/animation/biped-rigging-and-weight-painting/" class="unit-item-button">
 <div>
-<div class="unit-item-title">ANIM-201: Biped Rigging & Weight Painting</div>
+<div class="unit-item-title">Biped Rigging & Weight Painting</div>
 <div class="unit-item-desc">Armature creation, IK/FK bone constraints, vertex weight gradients, and test poses.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -72,7 +72,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/animation/idle-and-locomotion-cycles/" class="unit-item-button">
 <div>
-<div class="unit-item-title">ANIM-301: Walk & Run Cycles</div>
+<div class="unit-item-title">Walk & Run Cycles</div>
 <div class="unit-item-desc">Contact, down, passing, and up poses, hip swaying, and loop timing.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -92,7 +92,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/production/task-boards-and-sprints/" class="unit-item-button">
 <div>
-<div class="unit-item-title">PROD-203: Agile Sprints & Task Boards</div>
+<div class="unit-item-title">Agile Sprints & Task Boards</div>
 <div class="unit-item-desc">Kanban boards, burndown velocity, sprint milestones, and peer code reviews.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -112,7 +112,7 @@ Game Art & Design 2 (GAD2) focuses on advanced technical art pipelines: characte
 <div class="unit-items-container">
 <a href="/learn/career/interviews-and-portfolio-review/" class="unit-item-button">
 <div>
-<div class="unit-item-title">CAREER-204: Portfolio Review & Interview Prep</div>
+<div class="unit-item-title">Portfolio Review & Interview Prep</div>
 <div class="unit-item-desc">Technical art breakdown reels, live project defense, and industry presentation.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>

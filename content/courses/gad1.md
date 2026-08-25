@@ -12,14 +12,14 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/blender/interface-and-navigation/" class="unit-item-button">
 <div>
-<div class="unit-item-title">BLND-101: Interface & Navigation</div>
+<div class="unit-item-title">Interface & Navigation</div>
 <div class="unit-item-desc">Blender viewport, outliner, properties, and transform gizmos.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
 </a>
 <a href="/learn/blender/edit-mode-basics/" class="unit-item-button">
 <div>
-<div class="unit-item-title">BLND-104: Edit Mode Basics</div>
+<div class="unit-item-title">Edit Mode Basics</div>
 <div class="unit-item-desc">Vertices, edges, faces, extrude, inset, and loop cuts.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -39,7 +39,7 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/blender/uv-unwrapping/" class="unit-item-button">
 <div>
-<div class="unit-item-title">BLND-107: UV Unwrapping</div>
+<div class="unit-item-title">UV Unwrapping</div>
 <div class="unit-item-desc">Seams, texel density, UV packing, and unwrap unwrapping.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -59,7 +59,7 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/blender/texturing-and-pbr-maps/" class="unit-item-button">
 <div>
-<div class="unit-item-title">BLND-205: PBR Textures & Maps</div>
+<div class="unit-item-title">PBR Textures & Maps</div>
 <div class="unit-item-desc">Base color, roughness, metallic, normal, and ambient occlusion channels.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -79,7 +79,7 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/unreal/interface-and-navigation/" class="unit-item-button">
 <div>
-<div class="unit-item-title">UE-101: Unreal Interface & Navigation</div>
+<div class="unit-item-title">Unreal Interface & Navigation</div>
 <div class="unit-item-desc">Viewport controls, content browser, outliner, and actor details.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -99,7 +99,7 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/unreal/collision-and-triggers/" class="unit-item-button">
 <div>
-<div class="unit-item-title">UE-203: Collision & Trigger Volumes</div>
+<div class="unit-item-title">Collision & Trigger Volumes</div>
 <div class="unit-item-desc">Box triggers, overlap events, object channels, and physics responses.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -119,7 +119,7 @@ Game Art & Design 1 (GAD1) develops core competencies in 3D hard-surface modelin
 <div class="unit-items-container">
 <a href="/learn/production/scope-and-the-vertical-slice/" class="unit-item-button">
 <div>
-<div class="unit-item-title">PROD-205: Vertical Slice Scope</div>
+<div class="unit-item-title">Vertical Slice Scope</div>
 <div class="unit-item-desc">Defining a complete, playable 5-minute gameplay slice.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>

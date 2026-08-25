@@ -26,7 +26,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
 </a>
 <a href="/learn/career/the-arts-entertainment-design-cluster/" class="unit-item-button">
 <div>
-<div class="unit-item-title">CAREER-101: The AME Cluster</div>
+<div class="unit-item-title">The AME Cluster</div>
 <div class="unit-item-desc">CTE pathways, industry sectors, and focus area career maps.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -73,14 +73,14 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
 <div class="unit-items-container">
 <a href="/learn/media/what-makes-a-story/" class="unit-item-button">
 <div>
-<div class="unit-item-title">MEDIA-101: What Makes a Story</div>
+<div class="unit-item-title">What Makes a Story</div>
 <div class="unit-item-desc">Storytelling premises, theme, character motivation, and conflict.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
 </a>
 <a href="/learn/media/shot-types-and-framing/" class="unit-item-button">
 <div>
-<div class="unit-item-title">MEDIA-105: Shot Types & Framing</div>
+<div class="unit-item-title">Shot Types & Framing</div>
 <div class="unit-item-desc">Wide shots, medium shots, close-ups, and camera positioning.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
@@ -100,7 +100,7 @@ Intro to Media Careers (IMC) explores digital literacy, design principles, media
 <div class="unit-items-container">
 <a href="/learn/career/reading-an-onet-entry/" class="unit-item-button">
 <div>
-<div class="unit-item-title">CAREER-102: Reading an O*NET Entry</div>
+<div class="unit-item-title">Reading an O*NET Entry</div>
 <div class="unit-item-desc">O*NET codes, median salaries, and career outlook data.</div>
 </div>
 <span class="unit-item-badge badge-module">MODULE</span>
