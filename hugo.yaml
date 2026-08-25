@@ -9,9 +9,6 @@ taxonomies:
   standard: standards
   tool: tools
 
-outputs:
-  home: ["HTML", "JSON"]
-
 markup:
   goldmark:
     renderer:
@@ -58,6 +55,8 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+  sidebar:
+    collapsed: true
   author:
     email: jay@levelarts.studio
     name: Jay Tilghman
@@ -67,4 +66,3 @@ params:
 
 cascade:
   - type: docs
-
