@@ -13,21 +13,21 @@ Textbook modules for **Character** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/character-concept-and-proportions/"
     title="Character Proportions & Silhouette"
-    subtitle="Character Proportions & Silhouette"
     tag="3D CHARACTER"
     tagColor="purple" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/base-mesh-sculpt-blockout/"
     title="Sculpt Blockout & Base Meshes"
-    subtitle="Sculpt Blockout & Base Meshes"
     tag="3D CHARACTER"
     tagColor="purple" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/facial-structure-and-anatomy/"
     title="Facial Structure & Planes"
-    subtitle="Facial Structure & Planes"
     tag="3D CHARACTER"
     tagColor="purple" >}}
 {{< /cards >}}
@@ -36,21 +36,21 @@ Textbook modules for **Character** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/character-topology-and-deform-flow/"
     title="Deformable Character Topology"
-    subtitle="Deformable Character Topology"
     tag="3D CHARACTER"
     tagColor="purple" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/costume-clothing-and-armor-modeling/"
     title="Clothing & Armor Modeling"
-    subtitle="Clothing & Armor Modeling"
     tag="3D CHARACTER"
     tagColor="purple" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/hair-cards-and-grooming/"
     title="Hair Cards & Alpha Textures"
-    subtitle="Hair Cards & Alpha Textures"
     tag="3D CHARACTER"
     tagColor="purple" >}}
 {{< /cards >}}
@@ -59,9 +59,9 @@ Textbook modules for **Character** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/character/skin-and-character-pbr-texturing/"
     title="Skin & Character Texturing"
-    subtitle="Skin & Character Texturing"
     tag="3D CHARACTER"
     tagColor="purple" >}}
 {{< /cards >}}

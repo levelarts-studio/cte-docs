@@ -13,15 +13,15 @@ Textbook modules for **Animation** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/principles-of-animation-in-3d/"
     title="12 Principles in 3D"
-    subtitle="12 Principles in 3D"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/keyframing-and-graph-editor/"
     title="Graph Editor & Interpolation"
-    subtitle="Graph Editor & Interpolation"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
 {{< /cards >}}
@@ -30,15 +30,15 @@ Textbook modules for **Animation** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/biped-rigging-and-weight-painting/"
     title="Biped Rigging & Weight Painting"
-    subtitle="Biped Rigging & Weight Painting"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/idle-and-locomotion-cycles/"
     title="Walk & Run Cycles"
-    subtitle="Walk & Run Cycles"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
 {{< /cards >}}
@@ -47,15 +47,15 @@ Textbook modules for **Animation** organized in sequential learning order from b
 
 {{< cards >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/combat-and-action-poses/"
     title="Action Poses & Impact Keying"
-    subtitle="Action Poses & Impact Keying"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
   {{< card
+    image="/images/card-placeholder.webp"
     link="/learn/animation/animation-blueprints-and-blendspaces/"
     title="Anim Blueprints & Blendspaces"
-    subtitle="Anim Blueprints & Blendspaces"
     tag="GAME ANIMATION"
     tagColor="blue" >}}
 {{< /cards >}}
