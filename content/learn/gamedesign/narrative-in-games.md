@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.3"]
 keywords: ["environmental storytelling", "narrative design", "dialogue"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-107"]
 ---

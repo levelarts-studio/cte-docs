@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.2", "AV.17.3"]
 keywords: ["one point", "two point", "vanishing point", "horizon"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-108"]
 ---

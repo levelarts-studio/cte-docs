@@ -10,7 +10,7 @@ tools: []
 prereqs: []
 standards: ["GD.19.3"]
 keywords: ["esports", "observer", "caster", "tournament organizer"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-202"]
 ---

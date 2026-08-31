@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["10.3"]
 keywords: ["purepref", "moodboard", "reference gathering"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-111"]
 ---

@@ -1,0 +1,49 @@
+build-your-portfolio	Build Your Portfolio	100	CAREER-104	3.4,3.8	true	Digital Foundations
+workstation-setup	Workstation Setup & Conventions	100	COMP-109,COMP-110	4.3,6.1	false	Digital Foundations
+file-system-drill	File System & Naming Drill	100	COMP-103,COMP-105	2.7,4.5	false	Digital Foundations
+typing-baseline	Typing & Shortcut Baseline	100	COMP-109	4.3	false	Digital Foundations
+spot-the-phishing	Spot the Phishing Audit	100	COMP-111	4.6	false	Digital Foundations
+mood-board	Mood Board & Reference Gathering	100	DESN-111	1.3	true	Design
+thumbnail-sprint	Thumbnail Ideation Sprint	100	DESN-110	10.3	true	Design
+critique-round-one	Critique Round One	100	DESN-114	5.2	false	Design
+design-history-post	Design History Post	100	DESN-101	10.2	true	Design
+story-breakdown	Story Structure Breakdown	100	MEDIA-101,MEDIA-102	15.1	true	Media
+storyboard-sequence	Storyboard Sequence	100	MEDIA-105,MEDIA-112	15.4	true	Media
+one-minute-video	One-Minute Video Challenge	100	MEDIA-108,MEDIA-114	15.5,15.8	true	Media
+platform-remix	Platform & Audience Remix	100	MEDIA-110	11.5	true	Media
+onet-career-report	O*NET Career Research Report	100	CAREER-102,CAREER-103	3.2	true	Careers
+careers-portfolio-page	Careers Portfolio Page	100	CAREER-104,CAREER-106	3.4,3.7	true	Careers
+media-analysis	Media Message Analysis	100	MEDIA-112,MEDIA-113	11.1	true	Careers
+career-plan-draft	Career Plan Draft	100	CAREER-107,CAREER-110	3.7	true	Careers
+license-hunt	Asset License Audit	100	LAW-105,LAW-106	11.6,14.2	false	Law & Ethics
+fair-use-case	Fair Use Case Analysis	100	LAW-104	14.2	true	Law & Ethics
+ai-tool-review	Generative AI Tool Review	100	LAW-108,LAW-110	4.7,5.9	true	Law & Ethics
+attribution-audit	Attribution & Citation Audit	100	LAW-106	11.6	false	Law & Ethics
+creative-brief	Creative Brief Formulation	100	PROD-103	16.2	true	Production
+team-role-charter	Team Role Charter	100	PROD-102	9.1	false	Production
+concept-pitch	Concept Deck & Pitch Presentation	100	PROD-105	2.3,13.2	true	Production
+portfolio-final-review	Portfolio Final Capstone Review	100	CAREER-114	3.8	true	Production
+lab-setup-and-conventions	Lab Setup and Conventions	100	COMP-109,COMP-110	4.3,6.1	false	GAD1 U1
+form-studies	Form Studies: Primitive Assembly	100	DESN-103,BLND-103	10.3,AV.17.8	true	GAD1 U1
+blender-first-model	Blender First Model: Hero Prop	100	BLND-101,BLND-104	AV.17.8	true	GAD1 U1
+reference-board	Reference Board & PureRef Setup	100	DESN-111	16.1	true	GAD1 U1
+prop-modeling-set	Prop Modeling Set	200	BLND-103,BLND-104	AV.17.8	true	GAD1 U2
+topology-fix-challenge	Topology Fix Challenge	200	BLND-201	GD.17.4	false	GAD1 U2
+hard-surface-prop	Hard Surface Prop	200	BLND-202	AV.17.8	true	GAD1 U2
+model-critique	Model Critique Round	200	DESN-114	5.2	false	GAD1 U2
+uv-unwrap-drill	UV Unwrap & Texel Density Drill	200	BLND-204	AV.17.1	false	GAD1 U3
+pbr-texture-set	PBR Texture Set Creation	200	BLND-205	AV.17.1	true	GAD1 U3
+lighting-study	3-Point Lighting Study	200	BLND-207	10.3	true	GAD1 U3
+asset-license-log	Asset License Log	100	LAW-105	11.6	false	GAD1 U3
+engine-orientation	Unreal Engine Orientation	100	UE-101	GD.17.1	false	GAD1 U4
+import-your-asset	Import Your Asset into Engine	100	UE-104,BLND-211	GD.17.1,AV.17.8	true	GAD1 U4
+first-blueprint	First Blueprint Logic	200	UE-201	GD.17.6	false	GAD1 U4
+interactive-door	Interactive Door Blueprint	200	UE-204	GD.17.6	true	GAD1 U4
+blockout-level	Blockout Level Layout	200	UE-206,GAME-105	GD.17.8	true	GAD1 U5
+core-loop-prototype	Core Loop Prototype	200	GAME-102,UE-203	GD.17.7	true	GAD1 U5
+feedback-systems-pass	Feedback Systems & Juice Pass	200	GAME-203	GD.17.7	true	GAD1 U5
+peer-playtest	Peer Playtest Session & Log	200	GAME-204	GD.18.6	false	GAD1 U5
+mini-gdd	Mini Game Design Document	200	PROD-201	16.4	true	GAD1 U6
+solo-vertical-slice	Solo Vertical Slice Build	200	PROD-204,UE-209	GD.17.2	true	GAD1 U6
+industry-roles-report	Industry Roles Report	100	CAREER-201	GD.19.1	true	GAD1 U6
+slice-pitch	Vertical Slice Showcase Pitch	200	PROD-105	13.2	true	GAD1 U6

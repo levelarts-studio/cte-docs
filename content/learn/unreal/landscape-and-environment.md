@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.4"]
 keywords: ["landscape mode", "sculpting", "foliage mode"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-207"]
 ---

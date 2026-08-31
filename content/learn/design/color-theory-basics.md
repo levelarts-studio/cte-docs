@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["DGA.17.1", "AV.17.1"]
 keywords: ["color wheel", "primary", "secondary", "complementary", "analogous"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-105"]
 ---

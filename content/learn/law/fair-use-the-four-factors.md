@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.2"]
 keywords: ["fair use", "parody", "transformative", "four factors"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-104"]
 ---

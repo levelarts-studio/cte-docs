@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.8", "AV.17.8"]
 keywords: ["baking", "high to low poly", "cage", "normal bake"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-206"]
 ---

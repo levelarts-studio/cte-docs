@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.7", "4.5"]
 keywords: ["git", "perforce", "commit", "branch", "merge"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-202"]
 ---

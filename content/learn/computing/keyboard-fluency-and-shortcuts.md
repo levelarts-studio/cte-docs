@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["shortcuts", "hotkeys", "wpm", "fluency"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-109"]
 ---

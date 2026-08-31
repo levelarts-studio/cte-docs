@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 excludeSearch: true
-requires: ["DESN-101"]
+requires: ["DESN-117"]
 standards: ["10.2"]
 evidence_for: "10.2"
 portfolio: true

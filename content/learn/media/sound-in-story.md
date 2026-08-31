@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.7"]
 keywords: ["foley", "diegetic", "non-diegetic", "sound effects", "sfx"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-109"]
 ---

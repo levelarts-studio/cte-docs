@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.1"]
 keywords: ["storytelling", "premise", "theme"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-101"]
 ---

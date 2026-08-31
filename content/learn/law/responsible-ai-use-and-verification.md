@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.7", "5.9"]
 keywords: ["deepfakes", "verification", "ai ethics"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-110"]
 ---

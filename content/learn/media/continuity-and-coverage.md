@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.6", "15.8"]
 keywords: ["180 degree rule", "axis of action", "coverage"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-107"]
 ---

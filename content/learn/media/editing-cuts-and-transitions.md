@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.8"]
 keywords: ["cut", "hard cut", "fade", "dissolve", "j-cut", "l-cut"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-108"]
 ---

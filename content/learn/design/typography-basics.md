@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["DGA.17.4"]
 keywords: ["serif", "sans serif", "kerning", "leading", "hierarchy"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-109"]
 ---

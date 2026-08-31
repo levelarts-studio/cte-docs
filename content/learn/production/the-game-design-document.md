@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.2", "16.4"]
 keywords: ["gdd", "design doc", "game bible"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-201"]
 ---

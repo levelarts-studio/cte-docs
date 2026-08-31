@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.8"]
 keywords: ["poly count", "triangles", "lods", "decimate"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-212"]
 ---

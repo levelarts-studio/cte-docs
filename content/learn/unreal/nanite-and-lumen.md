@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.8", "GD.20.1"]
 keywords: ["nanite mesh", "lumen global illumination", "virtual shadow maps"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-301"]
 ---

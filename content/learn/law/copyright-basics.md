@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.1"]
 keywords: ["copyright", "authorship", "original work"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-102"]
 ---

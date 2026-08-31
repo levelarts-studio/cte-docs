@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.6", "GD.18.4"]
 keywords: ["greybox", "geometry brushes", "modeling mode"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-206"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.6", "GD.20.3"]
 keywords: ["data table", "struct", "save game object"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-302"]
 ---

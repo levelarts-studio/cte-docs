@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["2.1", "2.5"]
 keywords: ["email etiquette", "communication", "workplace"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-108"]
 ---

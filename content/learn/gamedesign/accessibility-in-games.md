@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.20.2"]
 keywords: ["subtitles", "colorblind mode", "remapping", "accessibility"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-109"]
 ---

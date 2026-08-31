@@ -68,11 +68,15 @@ html:not(.dark) .unit-accordion {
 
 .unit-summary {
   cursor: pointer !important;
-  padding: 0.9rem 1.25rem !important;
-  font-size: 1.05rem !important;
+  padding: 0.85rem 1.15rem !important;
+  font-size: 1rem !important;
   font-weight: 600 !important;
   color: #f8fafc !important;
   user-select: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 0.75rem !important;
   transition: background-color 0.15s ease !important;
 }
 
@@ -89,10 +93,32 @@ html:not(.dark) .unit-summary:hover {
 }
 
 .unit-items-container {
-  padding: 0.5rem 1.25rem 1.25rem !important;
+  padding: 0.4rem 1.15rem 1.15rem !important;
   display: flex !important;
   flex-direction: column !important;
-  gap: 0.6rem !important;
+  gap: 0.55rem !important;
+}
+
+.module-block-desc {
+  font-size: 0.875rem !important;
+  opacity: 0.85 !important;
+  margin-bottom: 0.25rem !important;
+  line-height: 1.4 !important;
+}
+
+.module-standards-row {
+  font-size: 0.8rem !important;
+  margin-top: 0.35rem !important;
+  padding-top: 0.35rem !important;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1) !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.35rem !important;
+}
+
+html:not(.dark) .module-standards-row {
+  border-top-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .unit-item-button {
@@ -164,6 +190,69 @@ html:not(.dark) .unit-item-button:hover {
   background-color: rgba(245, 158, 11, 0.2) !important;
   color: #fbbf24 !important;
   border: 1px solid rgba(245, 158, 11, 0.4) !important;
+}
+
+.unit-stats {
+  display: block !important;
+  margin-top: 0.5rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  opacity: 0.85 !important;
+  letter-spacing: 0.02em !important;
+}
+
+.unit-ref-shelf {
+  margin-top: 1rem !important;
+  padding: 0.85rem 1rem !important;
+  border-radius: 0.6rem !important;
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  border: 1px dashed rgba(255, 255, 255, 0.15) !important;
+  font-size: 0.875rem !important;
+}
+
+html:not(.dark) .unit-ref-shelf {
+  background-color: #f1f5f9 !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.unit-ref-shelf-title {
+  font-weight: 600 !important;
+  margin-bottom: 0.4rem !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  opacity: 0.85 !important;
+}
+
+.unit-ref-shelf-items {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+}
+
+.unit-ref-pill {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  padding: 0.25rem 0.6rem !important;
+  border-radius: 0.375rem !important;
+  font-size: 0.8rem !important;
+  text-decoration: none !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: inherit !important;
+  transition: all 0.15s ease !important;
+}
+
+html:not(.dark) .unit-ref-pill {
+  background-color: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.unit-ref-pill:hover {
+  background-color: rgba(99, 102, 241, 0.15) !important;
+  border-color: rgba(99, 102, 241, 0.4) !important;
+  color: #818cf8 !important;
 }
 
 /* Card Container */

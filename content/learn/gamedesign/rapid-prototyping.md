@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.3", "GD.18.6"]
 keywords: ["paper prototype", "greybox prototype", "game jam"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-208"]
 ---

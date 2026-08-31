@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.1", "2.7"]
 keywords: ["privacy", "cookies", "digital footprint"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-112"]
 ---

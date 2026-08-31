@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.4"]
 keywords: ["freelance contract", "work for hire", "scope of work"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-201"]
 ---

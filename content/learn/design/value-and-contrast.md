@@ -11,7 +11,7 @@ tools: []
 prereqs: [DESN-101, DESN-102]
 standards: ["DGA.17.1", "GD.17.4"]
 keywords: ["shading", "light", "dark", "grayscale", "contrast ratio", "value scale"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-104"]
 ---

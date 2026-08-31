@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["8.4", "5.2"]
 keywords: ["critique", "actionable feedback"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-107"]
 ---

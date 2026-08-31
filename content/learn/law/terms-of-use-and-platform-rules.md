@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.5"]
 keywords: ["tos", "eula", "platform rules"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-107"]
 ---

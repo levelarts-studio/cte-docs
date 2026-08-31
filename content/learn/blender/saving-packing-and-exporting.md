@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.5"]
 keywords: ["blend file", "pack resources", "fbx", "obj"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-107"]
 ---

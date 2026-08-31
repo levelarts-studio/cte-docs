@@ -1,0 +1,6 @@
+{{ $q := .Get "question" }}
+<div style="border:1px solid rgba(128,128,128,.35);border-radius:.5rem;padding:.9rem 1.1rem;margin:1.25rem 0">
+  <div style="font-weight:600;margin-bottom:.5rem">Try it</div>
+  <p style="margin:.25rem 0 .6rem">{{ $q }}</p>
+  {{ .Inner | markdownify }}
+</div>

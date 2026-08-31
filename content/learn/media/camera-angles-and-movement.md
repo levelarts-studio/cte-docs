@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.6"]
 keywords: ["low angle", "high angle", "pan", "tilt", "dolly"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-106"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.7", "GD.17.8"]
 keywords: ["umg", "widget blueprint", "hud", "button", "progress bar"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-205"]
 ---

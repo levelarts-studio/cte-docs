@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.3"]
 keywords: ["nda", "non disclosure", "trade secrets"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-111"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.4"]
 keywords: ["creative brief", "project goals", "constraints"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-103"]
 ---

@@ -5,7 +5,7 @@ entity: assignment
 tier: 200
 status: stub
 excludeSearch: true
-requires: ["BLND-202"]
+requires: ["BLND-104", "BLND-105"]
 standards: ["GD.17.4"]
 evidence_for: "GD.17.4"
 portfolio: true

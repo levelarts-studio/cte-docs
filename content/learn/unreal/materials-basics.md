@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.1", "GD.17.4"]
 keywords: ["material editor", "base color", "roughness", "instance"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-105"]
 ---

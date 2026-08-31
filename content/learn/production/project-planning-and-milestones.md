@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.5", "DGA.18.8"]
 keywords: ["milestones", "deliverables", "timeline"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-104"]
 ---

@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 excludeSearch: true
-requires: ["LAW-105", "LAW-106"]
+requires: ["LAW-105"]
 standards: ["11.6", "14.2"]
 evidence_for: "11.6"
 portfolio: false

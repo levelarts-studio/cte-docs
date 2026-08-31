@@ -5,7 +5,7 @@ entity: assignment
 tier: 200
 status: stub
 excludeSearch: true
-requires: ["GAME-102", "UE-203"]
+requires: ["GAME-201"]
 standards: ["GD.17.7"]
 evidence_for: "GD.17.7"
 portfolio: true

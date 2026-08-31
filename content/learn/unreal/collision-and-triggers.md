@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.6", "GD.17.7"]
 keywords: ["trigger volume", "overlap", "on component begin overlap"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-204"]
 ---

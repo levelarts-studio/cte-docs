@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.9", "GD.18.8"]
 keywords: ["package project", "win64 build", "shipping config"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-209"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["11.5"]
 keywords: ["fact checking", "bias", "credibility"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-113"]
 ---

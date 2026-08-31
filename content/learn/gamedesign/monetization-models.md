@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.9"]
 keywords: ["premium", "free to play", "battle pass", "dlc"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-206"]
 ---

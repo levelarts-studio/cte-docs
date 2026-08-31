@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["solid", "wireframe", "rendered", "material preview"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-106"]
 ---

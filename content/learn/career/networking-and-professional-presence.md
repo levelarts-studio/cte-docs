@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.3", "2.4"]
 keywords: ["artstation", "linkedin", "networking"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-109"]
 ---

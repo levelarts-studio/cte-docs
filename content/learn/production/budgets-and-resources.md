@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.5", "13.5"]
 keywords: ["budget", "resource allocation", "hardware cost"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-206"]
 ---

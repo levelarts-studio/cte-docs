@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.5"]
 keywords: ["filepath", "directory", "folder structure"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-103"]
 ---

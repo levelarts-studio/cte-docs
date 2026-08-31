@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.9", "15.6"]
 keywords: ["eevee", "cycles", "focal length", "render output"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-208"]
 ---

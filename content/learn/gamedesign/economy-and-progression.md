@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.7"]
 keywords: ["currency sink", "faucet", "progression tree", "xp curve"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-202"]
 ---

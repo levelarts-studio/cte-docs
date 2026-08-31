@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["origin point", "3d cursor", "transforms"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-102"]
 ---

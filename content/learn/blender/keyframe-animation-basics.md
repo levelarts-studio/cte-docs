@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.7", "AV.18.4"]
 keywords: ["keyframes", "timeline", "dopesheet", "graph editor"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-210"]
 ---

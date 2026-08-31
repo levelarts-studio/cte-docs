@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.7", "7.9"]
 keywords: ["animation guild", "igda", "sag aftra"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-112"]
 ---

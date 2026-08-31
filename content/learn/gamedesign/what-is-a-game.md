@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.1"]
 keywords: ["game definition", "rules", "goals", "feedback loop"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-101"]
 ---

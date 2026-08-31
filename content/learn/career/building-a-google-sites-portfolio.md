@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.8"]
 keywords: ["google sites", "portfolio", "webpage"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-104"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.5", "AV.17.4"]
 keywords: ["triangles", "circles", "squares", "character shapes"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-203"]
 ---

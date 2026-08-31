@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.4"]
 keywords: ["hardware", "cpu", "ram", "storage", "gpu"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-101"]
 ---

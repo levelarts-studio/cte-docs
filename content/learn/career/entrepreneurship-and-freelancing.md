@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.19.5", "3.9"]
 keywords: ["indie dev", "business setup", "invoicing"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-204"]
 ---

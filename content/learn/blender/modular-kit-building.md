@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.4", "GD.18.4"]
 keywords: ["grid snapping", "modular wall", "pivot alignment"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-302"]
 ---

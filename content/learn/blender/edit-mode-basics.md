@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.4", "4.3"]
 keywords: ["extrude", "inset", "bevel", "loop cut"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-104"]
 ---

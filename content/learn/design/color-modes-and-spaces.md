@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["DGA.17.1"]
 keywords: ["rgb", "cmyk", "srgb", "linear color"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-106"]
 ---

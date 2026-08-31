@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.8"]
 keywords: ["juice", "screen shake", "hitstop", "particle FX", "sfx"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-203"]
 ---

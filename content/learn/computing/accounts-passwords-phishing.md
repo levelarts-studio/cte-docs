@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.1"]
 keywords: ["passwords", "2fa", "mfa", "phishing", "security"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-111"]
 ---

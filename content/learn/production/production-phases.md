@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.6"]
 keywords: ["pre-production", "production", "post-production", "maintenance"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-101"]
 ---

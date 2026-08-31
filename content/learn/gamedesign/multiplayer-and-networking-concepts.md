@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.9"]
 keywords: ["client server", "replication", "latency", "ping"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-207"]
 ---

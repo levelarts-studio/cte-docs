@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.6", "GD.20.3"]
 keywords: ["branch", "if", "variables", "integer", "boolean", "float"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-202"]
 ---

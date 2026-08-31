@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.4", "AV.17.8"]
 keywords: ["bevel modifier", "weighted normals", "crease"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-202"]
 ---

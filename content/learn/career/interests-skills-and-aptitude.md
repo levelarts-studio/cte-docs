@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.2"]
 keywords: ["self assessment", "skills gap"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-110"]
 ---

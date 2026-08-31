@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.8"]
 keywords: ["standup", "daily scrums", "meeting notes"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-106"]
 ---

@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 excludeSearch: true
-requires: ["CAREER-107", "CAREER-110"]
+requires: ["CAREER-110"]
 standards: ["3.1"]
 evidence_for: "3.1"
 portfolio: true

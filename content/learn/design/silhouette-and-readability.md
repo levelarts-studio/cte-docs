@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.4", "AV.17.4"]
 keywords: ["silhouette", "pose", "readability"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-202"]
 ---

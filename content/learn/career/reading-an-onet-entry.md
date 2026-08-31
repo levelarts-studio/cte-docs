@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.1"]
 keywords: ["onet", "soc code", "salary", "job outlook"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-102"]
 ---

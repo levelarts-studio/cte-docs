@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["11.1"]
 keywords: ["media analysis", "subtext", "representation"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-112"]
 ---

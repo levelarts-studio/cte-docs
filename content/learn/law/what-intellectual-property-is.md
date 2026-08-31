@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.1"]
 keywords: ["ip", "intellectual property", "patents", "copyright"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-101"]
 ---

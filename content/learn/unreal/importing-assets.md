@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.5"]
 keywords: ["fbx import", "collision setup", "nanite import"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-104"]
 ---

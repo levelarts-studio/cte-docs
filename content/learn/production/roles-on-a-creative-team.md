@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.2"]
 keywords: ["producer", "lead artist", "programmer", "designer"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-102"]
 ---

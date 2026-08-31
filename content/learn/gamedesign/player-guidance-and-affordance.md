@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.8", "GD.18.5"]
 keywords: ["affordance", "lighting guidance", "yellow paint", "composition"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-106"]
 ---

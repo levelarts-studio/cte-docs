@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.9", "4.5"]
 keywords: ["fbx export", "gltf", "unreal export"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-211"]
 ---

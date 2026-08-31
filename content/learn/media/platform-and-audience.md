@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.2"]
 keywords: ["youtube", "tiktok", "aspect ratio", "target audience"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-110"]
 ---

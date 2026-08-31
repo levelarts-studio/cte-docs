@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["13.2", "2.3"]
 keywords: ["pitch deck", "elevator pitch", "presentation"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-105"]
 ---

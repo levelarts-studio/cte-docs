@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.9"]
 keywords: ["codecs", "mp4", "h264", "bitrate", "resolution"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-114"]
 ---

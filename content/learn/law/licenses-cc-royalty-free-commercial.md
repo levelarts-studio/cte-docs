@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.1", "11.6"]
 keywords: ["creative commons", "royalty free", "mit license", "cc-by"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-105"]
 ---

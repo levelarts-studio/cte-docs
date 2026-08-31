@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["unreal viewport", "content browser", "outliner", "details panel"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-101"]
 ---

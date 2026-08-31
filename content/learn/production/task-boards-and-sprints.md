@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.7", "DGA.18.7"]
 keywords: ["trello", "jira", "kanban", "sprint board"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-203"]
 ---

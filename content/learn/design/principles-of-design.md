@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["DGA.17.1", "GD.17.4"]
 keywords: ["balance", "contrast", "emphasis", "movement", "pattern", "rhythm", "unity"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-102"]
 ---

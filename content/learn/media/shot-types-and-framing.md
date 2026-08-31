@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.6"]
 keywords: ["wide shot", "medium shot", "close up", "extreme close up"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-105"]
 ---

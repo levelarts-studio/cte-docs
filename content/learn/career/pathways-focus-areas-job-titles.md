@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.1"]
 keywords: ["3d animator", "game designer", "technical artist"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-103"]
 ---

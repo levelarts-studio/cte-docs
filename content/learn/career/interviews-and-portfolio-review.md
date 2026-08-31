@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.4", "2.3"]
 keywords: ["interview prep", "portfolio review"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-114"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.4"]
 keywords: ["lore", "world bible", "prop placement"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-205"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["6.3"]
 keywords: ["posture", "monitor height", "wrist rest", "chair"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-110"]
 ---

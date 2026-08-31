@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["installers", "exe", "msi", "updates"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-107"]
 ---

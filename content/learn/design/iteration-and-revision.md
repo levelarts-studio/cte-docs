@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["10.5", "5.3"]
 keywords: ["iteration", "refinement", "revision"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-115"]
 ---

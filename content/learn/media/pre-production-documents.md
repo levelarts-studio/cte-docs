@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.5"]
 keywords: ["script", "call sheet", "shot list"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/MEDIA-111"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.4", "4.5"]
 keywords: ["google drive", "onedrive", "backup", "local storage"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/COMP-106"]
 ---

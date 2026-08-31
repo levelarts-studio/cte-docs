@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.8"]
 keywords: ["armature", "bones", "parenting", "weight painting"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-209"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.19.4"]
 keywords: ["architectural viz", "simulation", "film vfx"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-203"]
 ---

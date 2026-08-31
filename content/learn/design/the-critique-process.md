@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["5.2", "8.4"]
 keywords: ["critique", "feedback", "peer review"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-114"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.7"]
 keywords: ["diegetic ui", "non diegetic", "user experience", "hud"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-108"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.4", "GD.18.8"]
 keywords: ["retopo", "snapping", "shrinkwrap", "quad draw"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-301"]
 ---

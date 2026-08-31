@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.5", "15.5"]
 keywords: ["storyboard", "camera shot", "sequence"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-112"]
 ---

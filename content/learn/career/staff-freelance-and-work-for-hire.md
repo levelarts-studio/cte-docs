@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.6", "14.8"]
 keywords: ["freelance", "w2", "1099", "contractor"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-113"]
 ---

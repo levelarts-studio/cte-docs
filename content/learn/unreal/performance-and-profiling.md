@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.8"]
 keywords: ["stat fps", "stat unit", "gpu visualizer", "profiling"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-210"]
 ---

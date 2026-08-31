@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3", "GD.17.4"]
 keywords: ["mirror", "subdivision", "boolean", "array"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/BLND-105"]
 ---

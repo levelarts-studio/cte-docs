@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.1"]
 keywords: ["trademark", "brand", "publicity rights"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-103"]
 ---

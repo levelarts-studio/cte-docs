@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["11.3", "11.6"]
 keywords: ["attribution", "citation", "asset log"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-106"]
 ---

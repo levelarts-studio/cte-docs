@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["15.7", "GD.17.8"]
 keywords: ["sound wave", "meta sound", "audio attenuation"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-208"]
 ---

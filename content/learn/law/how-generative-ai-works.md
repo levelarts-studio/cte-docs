@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.6"]
 keywords: ["diffusion", "llm", "training data", "ai model"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-108"]
 ---

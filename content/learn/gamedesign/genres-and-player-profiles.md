@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.2"]
 keywords: ["bartle taxonomy", "achiever", "explorer", "socializer", "killer"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-103"]
 ---

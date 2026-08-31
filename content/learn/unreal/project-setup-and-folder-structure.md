@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.5"]
 keywords: ["ue5 project", "template", "content folders"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-102"]
 ---

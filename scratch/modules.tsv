@@ -1,0 +1,142 @@
+COMP-101	computing	100	what-a-computer-is-doing	What a Computer Is Doing	4.1	hardware,cpu,ram,storage,gpu
+COMP-102	computing	100	operating-systems-and-why-they-differ	Operating Systems and Why They Differ	4.1	windows,macos,linux,os
+COMP-103	computing	100	files-folders-and-paths	Files, Folders, and Paths	2.7,4.5	filepath,directory,folder structure
+COMP-104	computing	100	file-types-and-extensions	File Types and Extensions	2.7	extensions,png,jpg,blend,uasset,psd
+COMP-105	computing	100	naming-conventions	Naming Conventions	2.7,4.5	camelcase,snakecase,pascalcase,versioning
+COMP-106	computing	100	cloud-vs-local-storage-and-backup	Cloud vs Local Storage and Backup	4.4	google drive,onedrive,backup,local storage
+COMP-107	computing	100	installing-and-updating-software	Installing and Updating Software	4.2	installers,exe,msi,updates
+COMP-108	computing	100	reading-a-spec-sheet	Reading a Spec Sheet	4.1	vram,cpu cores,system specs
+COMP-109	computing	100	keyboard-fluency-and-shortcuts	Keyboard Fluency and Shortcuts	4.3	shortcuts,hotkeys,wpm,fluency
+COMP-110	computing	100	ergonomics-and-the-workstation	Ergonomics and the Workstation	4.3,6.1	posture,monitor height,wrist rest,chair
+COMP-111	computing	100	accounts-passwords-phishing	Accounts, Passwords, Phishing	4.6,6.3	passwords,2fa,mfa,phishing,security
+COMP-112	computing	100	staying-safe-and-private-online	Staying Safe and Private Online	4.6,6.3	privacy,cookies,digital footprint
+DESN-101	design	100	elements-of-art	Elements of Art	10.2	line,shape,form,value,space,color,texture
+DESN-102	design	100	principles-of-design	Principles of Design	10.2	balance,contrast,emphasis,movement,pattern,rhythm,unity
+DESN-103	design	100	line-shape-and-form	Line, Shape, and Form	10.2,10.3	contour,geometric,organic,3d form
+DESN-105	design	100	color-theory-basics	Color Theory Basics	10.4	color wheel,primary,secondary,complementary,analogous
+DESN-106	design	100	color-modes-and-spaces	Color Modes and Spaces	10.4	rgb,cmyk,srgb,linear color
+DESN-107	design	100	composition-and-focal-point	Composition and Focal Point	10.5	rule of thirds,golden ratio,leading lines,focal point
+DESN-108	design	100	perspective-and-depth	Perspective and Depth	10.3,10.5	one point,two point,vanishing point,horizon
+DESN-109	design	100	typography-basics	Typography Basics	10.2	serif,sans serif,kerning,leading,hierarchy
+DESN-110	design	100	thumbnails-and-ideation	Thumbnails and Ideation	1.3,10.3	thumbnailing,sketching,brainstorming
+DESN-111	design	100	mood-boards-and-reference	Mood Boards and Reference	1.3	purepref,moodboard,reference gathering
+DESN-112	design	100	storyboarding-basics	Storyboarding Basics	15.1,15.4	storyboard,camera shot,sequence
+DESN-113	design	100	wireframes-and-layout	Wireframes and Layout	10.5	wireframe,ui layout,mockup
+DESN-114	design	100	the-critique-process	The Critique Process	5.2	critique,feedback,peer review
+DESN-115	design	100	iteration-and-revision	Iteration and Revision	5.3	iteration,refinement,revision
+DESN-201	design	200	color-scripting-and-mood	Color Scripting and Mood	10.4	color script,mood lighting,atmosphere
+DESN-202	design	200	silhouette-and-readability	Silhouette and Readability	10.3	silhouette,pose,readability
+DESN-203	design	200	shape-language-in-character-design	Shape Language in Character Design	10.3,15.2	triangles,circles,squares,character shapes
+MEDIA-101	media	100	what-makes-a-story	What Makes a Story	15.1	storytelling,premise,theme
+MEDIA-102	media	100	narrative-structure	Narrative Structure	15.1	three act structure,inciting incident,climax,resolution
+MEDIA-103	media	100	character-and-conflict	Character and Conflict	15.2	protagonist,antagonist,internal conflict,external conflict
+MEDIA-104	media	100	point-of-view	Point of View	15.1	first person,third person,camera pov
+MEDIA-105	media	100	shot-types-and-framing	Shot Types and Framing	15.4	wide shot,medium shot,close up,extreme close up
+MEDIA-106	media	100	camera-angles-and-movement	Camera Angles and Movement	15.4	low angle,high angle,pan,tilt,dolly
+MEDIA-107	media	100	continuity-and-coverage	Continuity and Coverage	15.5	180 degree rule,axis of action,coverage
+MEDIA-108	media	100	editing-cuts-and-transitions	Editing: Cuts and Transitions	15.5	cut,hard cut,fade,dissolve,j-cut,l-cut
+MEDIA-109	media	100	sound-in-story	Sound in Story	15.6	foley,diegetic,non-diegetic,sound effects,sfx
+MEDIA-110	media	100	platform-and-audience	Platform and Audience	11.5	youtube,tiktok,aspect ratio,target audience
+MEDIA-111	media	100	pre-production-documents	Pre-Production Documents	16.6	script,call sheet,shot list
+MEDIA-112	media	100	reading-a-media-message	Reading a Media Message	11.1	media analysis,subtext,representation
+MEDIA-113	media	100	source-credibility-and-bias	Source Credibility and Bias	11.1	fact checking,bias,credibility
+MEDIA-114	media	100	exporting-and-delivery	Exporting and Delivery	15.8	codecs,mp4,h264,bitrate,resolution
+CAREER-101	career	100	the-arts-entertainment-design-cluster	The Arts, Entertainment & Design Cluster	3.1	cte cluster,ame,pathways
+CAREER-102	career	100	reading-an-onet-entry	Reading an O*NET Entry	3.2	onet,soc code,salary,job outlook
+CAREER-103	career	100	pathways-focus-areas-job-titles	Pathways, Focus Areas, Job Titles	3.1,3.2	3d animator,game designer,technical artist
+CAREER-104	career	100	building-a-google-sites-portfolio	Building a Google Sites Portfolio	3.4,3.8	google sites,portfolio,webpage
+CAREER-105	career	100	documenting-your-work	Documenting Your Work	3.8	process shots,breakdown,reflection
+CAREER-106	career	100	artist-statement-and-bio	Artist Statement and Bio	3.7	bio,artist statement,about me
+CAREER-107	career	100	resumes	Resumes	3.7	resume,cv,skills list
+CAREER-108	career	100	professional-email-and-communication	Professional Email and Communication	2.1	email etiquette,communication,workplace
+CAREER-109	career	100	networking-and-professional-presence	Networking and Professional Presence	2.1,3.7	artstation,linkedin,networking
+CAREER-110	career	100	interests-skills-and-aptitude	Interests, Skills, and Aptitude	3.7	self assessment,skills gap
+CAREER-111	career	100	education-and-training-routes	Education and Training Routes	3.1	college,bootcamp,self taught,degree
+CAREER-112	career	100	unions-guilds-and-professional-orgs	Unions, Guilds, and Professional Orgs	3.1	animation guild,igda,sag aftra
+CAREER-113	career	100	staff-freelance-and-work-for-hire	Staff, Freelance, and Work for Hire	3.1,13.2	freelance,w2,1099,contractor
+CAREER-114	career	100	interviews-and-portfolio-review	Interviews and Portfolio Review	2.3,3.8	interview prep,portfolio review
+CAREER-201	career	200	game-industry-roles-map	Game Industry Roles Map	GD.19.1	game dev roles,tech artist,level designer
+CAREER-202	career	200	esports-careers	Esports Careers	GD.19.3	esports,observer,caster,tournament organizer
+CAREER-203	career	200	cross-sector-careers-for-game-skills	Cross-Sector Careers for Game Skills	3.1	architectural viz,simulation,film vfx
+CAREER-204	career	200	entrepreneurship-and-freelancing	Entrepreneurship and Freelancing	13.2	indie dev,business setup,invoicing
+LAW-101	law	100	what-intellectual-property-is	What Intellectual Property Is	14.1	ip,intellectual property,patents,copyright
+LAW-102	law	100	copyright-basics	Copyright Basics	14.1	copyright,authorship,original work
+LAW-103	law	100	trademark-and-publicity-rights	Trademark and Publicity Rights	14.1	trademark,brand,publicity rights
+LAW-104	law	100	fair-use-the-four-factors	Fair Use: The Four Factors	14.2	fair use,parody,transformative,four factors
+LAW-105	law	100	licenses-cc-royalty-free-commercial	Licenses: CC, Royalty-Free, Commercial	14.2,11.6	creative commons,royalty free,mit license,cc-by
+LAW-106	law	100	attribution-and-citing-sources	Attribution and Citing Sources	14.2,11.6	attribution,citation,asset log
+LAW-107	law	100	terms-of-use-and-platform-rules	Terms of Use and Platform Rules	14.1	tos,eula,platform rules
+LAW-108	law	100	how-generative-ai-works	How Generative AI Works	4.7	diffusion,llm,training data,ai model
+LAW-109	law	100	ai-authorship-and-ownership	AI, Authorship, and Ownership	4.7,14.1	ai copyright,usco ruling,authorship
+LAW-110	law	100	responsible-ai-use-and-verification	Responsible AI Use and Verification	4.7,5.9	deepfakes,verification,ai ethics
+LAW-111	law	100	ndas-and-confidentiality	NDAs and Confidentiality	14.1	nda,non disclosure,trade secrets
+LAW-201	law	200	contracts-and-terms	Contracts and Terms	14.1	freelance contract,work for hire,scope of work
+PROD-101	production	100	production-phases	Production Phases	16.1	pre-production,production,post-production,maintenance
+PROD-102	production	100	roles-on-a-creative-team	Roles on a Creative Team	9.1,16.1	producer,lead artist,programmer,designer
+PROD-103	production	100	the-creative-brief	The Creative Brief	16.2	creative brief,project goals,constraints
+PROD-104	production	100	project-planning-and-milestones	Project Planning and Milestones	8.4,16.2	milestones,deliverables,timeline
+PROD-105	production	100	pitching-a-concept	Pitching a Concept	2.3,13.2	pitch deck,elevator pitch,presentation
+PROD-106	production	100	meetings-standups-and-notes	Meetings, Standups, and Notes	9.1	standup,daily scrums,meeting notes
+PROD-107	production	100	giving-and-receiving-feedback	Giving and Receiving Feedback	5.2,9.3	critique,actionable feedback
+PROD-108	production	100	asset-management-and-naming	Asset Management and Naming	4.5,16.7	asset matrix,naming convention,folder structure
+PROD-201	production	200	the-game-design-document	The Game Design Document	16.4	gdd,design doc,game bible
+PROD-202	production	200	version-control-for-teams	Version Control for Teams	16.7	git,perforce,commit,branch,merge
+PROD-203	production	200	task-boards-and-sprints	Task Boards and Sprints	16.8	trello,jira,kanban,sprint board
+PROD-204	production	200	scope-and-the-vertical-slice	Scope and the Vertical Slice	16.9	scope creep,vertical slice,feature list
+PROD-205	production	200	handoff-and-documentation	Handoff and Documentation	9.3	handoff,documentation,pipeline doc
+PROD-206	production	200	budgets-and-resources	Budgets and Resources	13.6	budget,resource allocation,hardware cost
+BLND-102	blender	100	objects-transforms-and-pivots	Objects, Transforms, and Pivots	AV.17.8	origin point,3d cursor,transforms
+BLND-103	blender	100	primitive-modeling	Primitive Modeling	AV.17.8	cube,cylinder,sphere,blocking
+BLND-104	blender	100	edit-mode-basics	Edit Mode Basics	AV.17.8	extrude,inset,bevel,loop cut
+BLND-105	blender	100	modifiers-introduction	Modifiers Introduction	AV.17.8	mirror,subdivision,boolean,array
+BLND-106	blender	100	viewport-shading-and-preview	Viewport Shading and Preview	AV.17.8	solid,wireframe,rendered,material preview
+BLND-107	blender	100	saving-packing-and-exporting	Saving, Packing, and Exporting	4.5,15.8	blend file,pack resources,fbx,obj
+BLND-201	blender	200	topology-and-edge-flow	Topology and Edge Flow	AV.17.8,GD.17.4	quads,topology,edge loops,poles,n-gons
+BLND-202	blender	200	hard-surface-modeling	Hard Surface Modeling	AV.17.8	bevel modifier,weighted normals,crease
+BLND-203	blender	200	sculpting-introduction	Sculpting Introduction	AV.17.8	sculpt mode,grab brush,clay strips,dyntopo
+BLND-204	blender	200	uv-unwrapping	UV Unwrapping	AV.17.1,AV.17.8	seams,unwrap,uv map,texel density
+BLND-205	blender	200	texturing-and-pbr-maps	Texturing and PBR Maps	AV.17.1	albedo,roughness,metallic,normal map
+BLND-206	blender	200	baking-normal-maps	Baking Normal Maps	AV.17.1,AV.17.8	baking,high to low poly,cage,normal bake
+BLND-207	blender	200	lighting-in-blender	Lighting in Blender	10.3	point light,sun light,spot light,hdri
+BLND-208	blender	200	cameras-and-rendering	Cameras and Rendering	15.4,15.8	eevee,cycles,focal length,render output
+BLND-209	blender	200	rigging-basics	Rigging Basics	AV.17.8	armature,bones,parenting,weight painting
+BLND-210	blender	200	keyframe-animation-basics	Keyframe Animation Basics	AV.17.8	keyframes,timeline,dopesheet,graph editor
+BLND-211	blender	200	game-ready-export	Game-Ready Export	AV.17.8,GD.17.1	fbx export,gltf,unreal export
+BLND-212	blender	200	poly-budget-and-lods	Poly Budget and LODs	AV.17.8,GD.18.8	poly count,triangles,lods,decimate
+BLND-301	blender	300	retopology	Retopology	AV.17.8	retopo,snapping,shrinkwrap,quad draw
+BLND-302	blender	300	modular-kit-building	Modular Kit Building	AV.17.8,GD.18.1	grid snapping,modular wall,pivot alignment
+UE-101	unreal	100	interface-and-navigation	Interface and Navigation	GD.17.1	unreal viewport,content browser,outliner,details panel
+UE-102	unreal	100	project-setup-and-folder-structure	Project Setup and Folder Structure	GD.17.1,4.5	ue5 project,template,content folders
+UE-103	unreal	100	placing-and-transforming-actors	Placing and Transforming Actors	GD.17.1	actors,static mesh actor,transforms,snapping
+UE-104	unreal	100	importing-assets	Importing Assets	GD.17.1,AV.17.8	fbx import,collision setup,nanite import
+UE-105	unreal	100	materials-basics	Materials Basics	AV.17.1,GD.17.1	material editor,base color,roughness,instance
+UE-106	unreal	100	lighting-basics	Lighting Basics	GD.17.3	directional light,sky light,lumen,post process volume
+UE-201	unreal	200	blueprint-fundamentals	Blueprint Fundamentals	GD.17.6	blueprint,nodes,execution pin,event graph
+UE-202	unreal	200	variables-and-flow-control	Variables and Flow Control	GD.17.6	branch,if,variables,integer,boolean,float
+UE-203	unreal	200	input-and-character-movement	Input and Character Movement	GD.17.6,GD.17.7	enhanced input,character movement,wasd
+UE-204	unreal	200	collision-and-triggers	Collision and Triggers	GD.17.6,GD.17.7	trigger volume,overlap,on component begin overlap
+UE-205	unreal	200	ui-widgets-and-hud	UI Widgets and HUD	GD.20.2	umg,widget blueprint,hud,button,progress bar
+UE-206	unreal	200	level-blockout-workflow	Level Blockout Workflow	GD.17.8	greybox,geometry brushes,modeling mode
+UE-207	unreal	200	landscape-and-environment	Landscape and Environment	GD.18.1	landscape mode,sculpting,foliage mode
+UE-208	unreal	200	audio-in-engine	Audio in Engine	15.6	sound wave,meta sound,audio attenuation
+UE-209	unreal	200	packaging-a-build	Packaging a Build	GD.18.9	package project,win64 build,shipping config
+UE-210	unreal	200	performance-and-profiling	Performance and Profiling	GD.18.8	stat fps,stat unit,gpu visualizer,profiling
+UE-301	unreal	300	nanite-and-lumen	Nanite and Lumen	GD.18.8,GD.19.2	nanite mesh,lumen global illumination,virtual shadow maps
+UE-302	unreal	300	data-tables-and-save-systems	Data Tables and Save Systems	GD.17.6	data table,struct,save game object
+GAME-101	gamedesign	100	what-is-a-game	What Is a Game	GD.19.1	game definition,rules,goals,feedback loop
+GAME-102	gamedesign	100	the-core-loop	The Core Loop	GD.17.7	core loop,action,reward,expansion
+GAME-103	gamedesign	100	genres-and-player-profiles	Genres and Player Profiles	GD.19.1	bartle taxonomy,achiever,explorer,socializer,killer
+GAME-104	gamedesign	100	mechanics-dynamics-aesthetics	Mechanics, Dynamics, Aesthetics	GD.17.7	mda framework,mechanics,dynamics,aesthetics
+GAME-105	gamedesign	100	level-design-basics	Level Design Basics	GD.17.8	level flow,pacing,chokepoints,sightlines
+GAME-106	gamedesign	100	player-guidance-and-affordance	Player Guidance and Affordance	GD.17.3	affordance,lighting guidance,yellow paint,composition
+GAME-107	gamedesign	100	narrative-in-games	Narrative in Games	15.1,GD.18.4	environmental storytelling,narrative design,dialogue
+GAME-108	gamedesign	100	ux-and-ui-principles	UX and UI Principles	GD.20.2,DC.20.5	diegetic ui,non diegetic,user experience,hud
+GAME-109	gamedesign	100	accessibility-in-games	Accessibility in Games	GD.20.3,DGA.20.2	subtitles,colorblind mode,remapping,accessibility
+GAME-201	gamedesign	200	systems-and-balancing	Systems and Balancing	GD.18.7	spreadsheet balancing,math,dps,stat scaling
+GAME-202	gamedesign	200	economy-and-progression	Economy and Progression	GD.18.7	currency sink,faucet,progression tree,xp curve
+GAME-203	gamedesign	200	game-feel-and-feedback	Game Feel and Feedback	GD.17.7	juice,screen shake,hitstop,particle FX,sfx
+GAME-204	gamedesign	200	playtesting-methods	Playtesting Methods	GD.18.6	blind playtest,questionnaire,observation,iteration
+GAME-205	gamedesign	200	worldbuilding-and-environmental-storytelling	Worldbuilding and Environmental Storytelling	GD.18.4	lore,world bible,prop placement
+GAME-206	gamedesign	200	monetization-models	Monetization Models	GD.19.4	premium,free to play,battle pass,dlc
+GAME-207	gamedesign	200	multiplayer-and-networking-concepts	Multiplayer and Networking Concepts	GD.19.2	client server,replication,latency,ping
+GAME-208	gamedesign	200	rapid-prototyping	Rapid Prototyping	GD.18.2	paper prototype,greybox prototype,game jam

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.18.6"]
 keywords: ["blind playtest", "questionnaire", "observation", "iteration"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-204"]
 ---

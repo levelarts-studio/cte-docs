@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.3", "DGA.17.1"]
 keywords: ["rule of thirds", "golden ratio", "leading lines", "focal point"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-107"]
 ---

@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 excludeSearch: true
-requires: ["UE-104", "BLND-211"]
+requires: ["UE-104"]
 standards: ["4.5", "4.5"]
 evidence_for: "4.5"
 portfolio: true

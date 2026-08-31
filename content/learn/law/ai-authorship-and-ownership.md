@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["14.2", "4.6"]
 keywords: ["ai copyright", "usco ruling", "authorship"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/LAW-109"]
 ---

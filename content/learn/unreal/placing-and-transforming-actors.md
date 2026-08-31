@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.3"]
 keywords: ["actors", "static mesh actor", "transforms", "snapping"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-103"]
 ---

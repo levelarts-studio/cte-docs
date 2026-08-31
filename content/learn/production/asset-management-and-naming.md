@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["4.5", "16.7"]
 keywords: ["asset matrix", "naming convention", "folder structure"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-108"]
 ---

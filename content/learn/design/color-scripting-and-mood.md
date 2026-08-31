@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.1", "DGA.17.1"]
 keywords: ["color script", "mood lighting", "atmosphere"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-201"]
 ---

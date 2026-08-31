@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["10.2", "10.3"]
 keywords: ["thumbnailing", "sketching", "brainstorming"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/DESN-110"]
 ---

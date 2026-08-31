@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["16.7", "2.5"]
 keywords: ["handoff", "documentation", "pipeline doc"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/PROD-205"]
 ---

@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["AV.17.1"]
 keywords: ["directional light", "sky light", "lumen", "post process volume"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/UE-106"]
 ---

@@ -5,7 +5,7 @@ entity: assignment
 tier: 100
 status: stub
 excludeSearch: true
-requires: ["MEDIA-112", "MEDIA-113"]
+requires: ["MEDIA-113"]
 standards: ["11.1"]
 evidence_for: "11.1"
 portfolio: true

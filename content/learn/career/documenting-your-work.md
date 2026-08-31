@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["3.8", "4.5"]
 keywords: ["process shots", "breakdown", "reflection"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/CAREER-105"]
 ---

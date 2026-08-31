@@ -11,7 +11,7 @@ tools: []
 prereqs: []
 standards: ["GD.17.1", "GD.17.7"]
 keywords: ["mda framework", "mechanics", "dynamics", "aesthetics"]
-duration: 20
+duration: 10
 video: ""
 aliases: ["/m/GAME-104"]
 ---
