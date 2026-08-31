@@ -25,12 +25,6 @@
   {{- with $p.Params.id }}
   <span style="font-family:ui-monospace,monospace;background:#4f46e5;color:#fff;padding:.15rem .5rem;border-radius:.25rem">{{ . }}</span>
   {{- end }}
-  {{- with $p.Params.tier }}
-  <span style="border:1px solid currentColor;opacity:.7;padding:.15rem .5rem;border-radius:.25rem">Tier {{ . }}</span>
-  {{- end }}
-  {{- with $p.Params.subject }}
-  <span style="border:1px solid currentColor;opacity:.7;padding:.15rem .5rem;border-radius:.25rem">{{ . }}</span>
-  {{- end }}
   {{- with $p.Params.duration }}
   <span style="opacity:.6">{{ . }} min</span>
   {{- end }}
