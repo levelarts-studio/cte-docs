@@ -7,15 +7,6 @@ cascade:
 
 Welcome to the Game Art & Design pathway! Every unit and project you complete connects directly to California Arts, Entertainment, and Design (AED) standards and builds your professional creative portfolio.
 
-## Pathway Overview
-
-| Sector & Focus Area                               | Covered | Total |
-| ------------------------------------------------- | :-----: | :---: |
-| Career Ready & Cross-Pathway Standards (1.0–16.0) | **135** |  135  |
-| Game Design Focus Area                            | **27**  |  28   |
-| Animation & VFX / Design & Graphic Arts Standards | **10**  |   —   |
-| **Distinct Standards Across Your Pathway**        | **172** |       |
-
 ---
 
 ## Active Course Tracks
