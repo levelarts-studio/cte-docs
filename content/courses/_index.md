@@ -1,8 +1,5 @@
 ---
 title: Course Maps & Pathways
-type: docs
-cascade:
-  type: docs
 ---
 
 Welcome to the Game Art & Design pathway! Every unit and project you complete connects directly to California Arts, Entertainment, and Design (AED) standards and builds your professional creative portfolio.

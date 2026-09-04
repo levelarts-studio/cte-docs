@@ -1,8 +1,8 @@
 ---
 title: FAQ & Student Help Hub
 type: docs
-description: Frequently asked questions for students and teachers using the AED Module Library.
-summary: Frequently asked questions for students and teachers using the AED Module Library.
+description: Frequently asked questions for students and teachers using the AED Learning Library.
+summary: Frequently asked questions for students and teachers using the AED Learning Library.
 ---
 
 Frequently asked questions, software setup guidance, portfolio submission instructions, and troubleshooting tips for students and teachers.

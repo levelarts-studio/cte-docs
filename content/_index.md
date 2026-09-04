@@ -1,11 +1,11 @@
 ---
-title: Game Art, Design & Media Learning Library
+title: AED Learning Library
 layout: hextra-home
 ---
 
 <div class="hx:mt-8 hx:mb-4">
 {{< hextra/hero-headline >}}
-  Game Art, Design & Media<br class="hx:sm:block hx:hidden" />Learning Library
+  AED Learning Library
 {{< /hextra/hero-headline >}}
 </div>
 
