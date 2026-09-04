@@ -1,0 +1,568 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+
+        {{- $asns := where site.RegularPages "Section" "assignments" -}}
+        {{- $total := len $asns -}}
+
+        <style>
+          .assignments-hub-header {
+            margin-bottom: 1.5rem;
+          }
+          
+          /* Course Tabs (Pill style, wrapping naturally without scrollbars) */
+          .course-tabs-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1.25rem 0;
+            padding: 0;
+          }
+          .course-tab-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.45rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.825rem;
+            font-weight: 600;
+            background: rgba(128, 128, 128, 0.08);
+            border: 1px solid rgba(128, 128, 128, 0.2);
+            color: inherit;
+            opacity: 0.8;
+            cursor: pointer;
+            transition: all 0.15s ease;
+          }
+          .course-tab-btn:hover {
+            opacity: 1;
+            border-color: rgba(99, 102, 241, 0.4);
+            color: #818cf8;
+          }
+          .course-tab-btn.active {
+            opacity: 1;
+            background: #6366f1;
+            border-color: #6366f1;
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+          }
+
+          /* Search & Filter Toolbar */
+          .assignments-toolbar {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1.75rem;
+            padding: 1rem 1.15rem;
+            border-radius: 0.75rem;
+            background: rgba(128, 128, 128, 0.05);
+            border: 1px solid rgba(128, 128, 128, 0.15);
+          }
+          .search-input-wrapper {
+            position: relative;
+            width: 100%;
+          }
+          .search-input-wrapper input {
+            width: 100%;
+            padding: 0.65rem 1rem 0.65rem 2.4rem;
+            border-radius: 0.5rem;
+            border: 1px solid rgba(128, 128, 128, 0.25);
+            background: rgba(255, 255, 255, 0.05);
+            color: inherit;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.15s ease;
+          }
+          .search-input-wrapper input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+          }
+          .search-icon-svg {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.5;
+            pointer-events: none;
+          }
+          .toolbar-filters-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+          }
+          .dropdown-group {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+          }
+          .filter-select {
+            padding: 0.45rem 0.85rem;
+            border-radius: 0.5rem;
+            border: 1px solid rgba(128, 128, 128, 0.25);
+            background: rgba(128, 128, 128, 0.08);
+            color: inherit;
+            font-size: 0.825rem;
+            font-weight: 500;
+            outline: none;
+            cursor: pointer;
+          }
+          .dark .filter-select option {
+            background: #1e1e24;
+            color: #ffffff;
+          }
+          .results-status-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.825rem;
+            opacity: 0.85;
+          }
+          .clear-filters-link {
+            background: none;
+            border: none;
+            color: #818cf8;
+            font-size: 0.825rem;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 0;
+          }
+
+          /* 2-Column Responsive Card Grid */
+          .assignment-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1.15rem;
+            margin: 1.5rem 0 2.5rem;
+          }
+
+          /* Entire Card is a Clean Clickable Link */
+          .assignment-card {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1.15rem 1.25rem;
+            border-radius: 0.75rem;
+            transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+            text-decoration: none !important;
+            color: inherit !important;
+            border: 1px solid rgba(128, 128, 128, 0.15);
+            background: rgba(255, 255, 255, 0.02);
+            cursor: pointer;
+          }
+          .dark .assignment-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.1);
+          }
+          .dark .assignment-card:hover {
+            border-color: rgba(99, 102, 241, 0.5);
+            background-color: rgba(99, 102, 241, 0.05);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+          }
+          html:not(.dark) .assignment-card {
+            background-color: #ffffff;
+            border-color: rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+          }
+          html:not(.dark) .assignment-card:hover {
+            border-color: #6366f1;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+          }
+
+          /* Hard Hide Override Rule */
+          .assignment-card.is-hidden {
+            display: none !important;
+          }
+
+          .assignment-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+          }
+          .track-badge {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding: 0.18rem 0.5rem;
+            border-radius: 0.3rem;
+            font-size: 0.72rem;
+          }
+          .track-imc {
+            background: rgba(99, 102, 241, 0.15);
+            color: #818cf8;
+            border: 1px solid rgba(99, 102, 241, 0.35);
+          }
+          .track-gad1 {
+            background: rgba(14, 165, 233, 0.15);
+            color: #38bdf8;
+            border: 1px solid rgba(14, 165, 233, 0.35);
+          }
+          .track-gad2 {
+            background: rgba(168, 85, 247, 0.15);
+            color: #c084fc;
+            border: 1px solid rgba(168, 85, 247, 0.35);
+          }
+
+          .assignment-card-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            line-height: 1.35;
+            margin: 0 0 0.35rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 0.5rem;
+          }
+          .assignment-card:hover .assignment-card-title {
+            color: #818cf8;
+          }
+          .arrow-icon {
+            font-size: 0.9rem;
+            opacity: 0.5;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+          }
+          .assignment-card:hover .arrow-icon {
+            opacity: 1;
+            transform: translateX(3px);
+            color: #818cf8;
+          }
+
+          .assignment-card-section {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+          }
+
+          .assignment-card-footer {
+            padding-top: 0.6rem;
+            border-top: 1px solid rgba(128, 128, 128, 0.12);
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            font-size: 0.78rem;
+          }
+          .meta-pill-group {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+          }
+          .meta-label {
+            font-weight: 600;
+            opacity: 0.65;
+            min-width: 54px;
+          }
+          .meta-pill {
+            font-family: ui-monospace, monospace;
+            font-size: 0.73rem;
+            padding: 0.1rem 0.38rem;
+            border-radius: 0.25rem;
+            background: rgba(128, 128, 128, 0.1);
+            color: inherit;
+          }
+          .meta-pill-std {
+            background: rgba(16, 185, 129, 0.12);
+            color: #10b981;
+          }
+
+          .no-results-box {
+            display: none;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px dashed rgba(128, 128, 128, 0.3);
+            margin: 2rem 0;
+          }
+        </style>
+
+        <div class="content">
+          <div class="assignments-hub-header">
+            <h1 class="hx:mb-1">Assignment Specs & Lab Rubrics</h1>
+            <p style="font-size:1.02rem;line-height:1.6;opacity:.88;margin:0">
+              Complete index of all <strong>{{ $total }} hands-on lab specifications</strong> across the AED Learning Library. Click any assignment to open its step-by-step instructions, submission checklist, and rubric.
+            </p>
+          </div>
+
+          <!-- Course Filter Tabs -->
+          <div class="course-tabs-wrapper">
+            <button class="course-tab-btn active" data-track="all" onclick="selectCourseTrack('all', this)">
+              All Assignments ({{ $total }})
+            </button>
+            <button class="course-tab-btn" data-track="imc" onclick="selectCourseTrack('imc', this)">
+              Intro to Media Careers (25)
+            </button>
+            <button class="course-tab-btn" data-track="gad1" onclick="selectCourseTrack('gad1', this)">
+              Game Art & Design 1 (24)
+            </button>
+            <button class="course-tab-btn" data-track="gad2" onclick="selectCourseTrack('gad2', this)">
+              Game Art & Design 2 (1)
+            </button>
+          </div>
+
+          <!-- Search & Filter Controls Toolbar -->
+          <div class="assignments-toolbar">
+            <!-- Full-width Search Input -->
+            <div class="search-input-wrapper">
+              <svg class="search-icon-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input 
+                id="assignment-search" 
+                type="text" 
+                placeholder="Filter by title, prerequisite (e.g. BLND-101), standard (e.g. 4.3), or tool..." 
+                oninput="applyAllFilters()" 
+                autocomplete="off"
+              />
+            </div>
+
+            <!-- Filters Row -->
+            <div class="toolbar-filters-row">
+              <div class="dropdown-group">
+                <select id="domain-select" class="filter-select" onchange="applyAllFilters()">
+                  <option value="all">All Topics & Domains</option>
+                  <option value="3d">3D Modeling & UVs</option>
+                  <option value="texturing">PBR Texturing & Lighting</option>
+                  <option value="unreal">Unreal Engine & Blueprints</option>
+                  <option value="leveldesign">Level Design & Playtesting</option>
+                  <option value="design">2D Design & Visual Craft</option>
+                  <option value="media">Media & Storytelling</option>
+                  <option value="foundations">Digital Foundations & PC</option>
+                  <option value="career">Careers, Law & AI Ethics</option>
+                  <option value="production">Production & Capstone</option>
+                </select>
+
+                <select id="tier-select" class="filter-select" onchange="applyAllFilters()">
+                  <option value="all">All Skill Tiers</option>
+                  <option value="100">Tier 100 · Foundational</option>
+                  <option value="200">Tier 200 · Intermediate</option>
+                  <option value="300">Tier 300 · Advanced</option>
+                </select>
+              </div>
+
+              <div class="results-status-row">
+                <span id="results-count-label">Showing {{ $total }} of {{ $total }} assignments</span>
+                <button id="reset-filters-btn" class="clear-filters-link" style="display:none" onclick="resetFilters()">
+                  Reset
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Empty State Box -->
+          <div id="no-results" class="no-results-box">
+            <div style="font-size:1.5rem;margin-bottom:.5rem">🔍</div>
+            <div style="font-size:1.1rem;font-weight:600;margin-bottom:.35rem">No assignments found</div>
+            <p style="opacity:.75;font-size:.9rem;margin-bottom:1rem">No lab specifications match your active search and filter combination.</p>
+            <button class="course-tab-btn active" style="display:inline-block;padding:.45rem 1.1rem" onclick="resetFilters()">Reset Filters</button>
+          </div>
+
+          <!-- 2-Column Responsive Card Grid -->
+          <div id="assignment-grid" class="assignment-cards-grid">
+            {{- range $asns.ByTitle -}}
+              {{- $pSection := .Params.portfolio_section | default "" -}}
+              {{- $tier := string (.Params.tier | default "100") -}}
+              {{- $status := .Params.status | default "spec" -}}
+              {{- $estTime := .Params.est_time | default 90 -}}
+              {{- $id := .Params.id | default .File.BaseFileName -}}
+              
+              {{/* Compute Course Track */}}
+              {{- $track := "imc" -}}
+              {{- $trackLabel := "IMC · Year 1" -}}
+              {{- $trackClass := "track-imc" -}}
+              {{- if or (strings.Contains $pSection "GAD1") (in (slice "blender-first-model" "form-studies" "reference-board" "hard-surface-prop" "model-critique" "prop-modeling-set" "topology-fix-challenge" "pbr-texture-set" "uv-unwrap-drill" "lighting-study" "asset-license-log" "engine-orientation" "first-blueprint" "import-your-asset" "interactive-door" "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "mini-gdd" "solo-vertical-slice" "slice-pitch" "industry-roles-report" "lab-setup-and-conventions") $id) -}}
+                {{- $track = "gad1" -}}
+                {{- $trackLabel = "GAD1 · Year 2" -}}
+                {{- $trackClass = "track-gad1" -}}
+              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter") $id) -}}
+                {{- $track = "gad2" -}}
+                {{- $trackLabel = "GAD2 · Capstone" -}}
+                {{- $trackClass = "track-gad2" -}}
+              {{- end -}}
+
+              {{/* Compute Domain category */}}
+              {{- $domain := "other" -}}
+              {{- if in (slice "blender-first-model" "form-studies" "hard-surface-prop" "prop-modeling-set" "reference-board" "topology-fix-challenge" "uv-unwrap-drill") $id -}}
+                {{- $domain = "3d" -}}
+              {{- else if in (slice "pbr-texture-set" "lighting-study" "asset-license-log") $id -}}
+                {{- $domain = "texturing" -}}
+              {{- else if in (slice "engine-orientation" "first-blueprint" "import-your-asset" "interactive-door") $id -}}
+                {{- $domain = "unreal" -}}
+              {{- else if in (slice "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "solo-vertical-slice" "slice-pitch" "mini-gdd") $id -}}
+                {{- $domain = "leveldesign" -}}
+              {{- else if or (in (slice "design-history-post" "mood-board" "thumbnail-sprint" "value-study" "critique-round-one") $id) (strings.Contains (lower $pSection) "design") -}}
+                {{- $domain = "design" -}}
+              {{- else if or (in (slice "story-breakdown" "storyboard-sequence" "platform-remix" "one-minute-video") $id) (strings.Contains (lower $pSection) "media") -}}
+                {{- $domain = "media" -}}
+              {{- else if or (in (slice "build-your-portfolio" "workstation-setup" "file-system-drill" "spot-the-phishing" "typing-baseline" "lab-setup-and-conventions") $id) (strings.Contains (lower $pSection) "foundations") -}}
+                {{- $domain = "foundations" -}}
+              {{- else if or (in (slice "ai-tool-review" "attribution-audit" "license-hunt" "fair-use-case" "career-plan-draft" "careers-portfolio-page" "onet-career-report" "media-analysis" "industry-roles-report") $id) (strings.Contains (lower $pSection) "career") (strings.Contains (lower $pSection) "law") -}}
+                {{- $domain = "career" -}}
+              {{- else if or (in (slice "team-role-charter" "creative-brief" "concept-pitch" "portfolio-final-review" "model-critique") $id) (strings.Contains (lower $pSection) "production") -}}
+                {{- $domain = "production" -}}
+              {{- end -}}
+
+              {{/* Pre-calculate search string */}}
+              {{- $searchTokens := printf "%s %s %s %s %s %s" .Title $id $track $domain $tier (delimit (.Params.requires | default slice) " ") -}}
+              {{- $searchTokens = printf "%s %s" $searchTokens (delimit (.Params.standards | default slice) " ") | lower -}}
+
+              <!-- Clickable Spec Card -->
+              <a 
+                href="{{ .RelPermalink }}"
+                class="assignment-card"
+                data-track="{{ $track }}"
+                data-domain="{{ $domain }}"
+                data-tier="{{ $tier }}"
+                data-search="{{ $searchTokens }}"
+                title="View {{ .Title }} specification"
+              >
+                <!-- Card Header -->
+                <div>
+                  <div class="assignment-card-header">
+                    <span class="track-badge {{ $trackClass }}">{{ $trackLabel }}</span>
+                    <div style="display:flex;align-items:center;gap:.45rem;font-size:.78rem;opacity:.85">
+                      <span style="font-weight:600">Tier {{ $tier }}</span>
+                      <span>&middot;</span>
+                      <span>⏱ {{ $estTime }} min</span>
+                    </div>
+                  </div>
+
+                  <!-- Card Title -->
+                  <h3 class="assignment-card-title">
+                    <span>{{ .Title }}</span>
+                    <span class="arrow-icon">&rarr;</span>
+                  </h3>
+
+                  <!-- Section / Deliverable -->
+                  <div class="assignment-card-section">
+                    <span>📁 Google Sites Portfolio</span>
+                    {{ with $pSection }}
+                    <span>&middot; {{ . }}</span>
+                    {{ end }}
+                  </div>
+                </div>
+
+                <!-- Card Footer Meta (Prereqs & Standards) -->
+                <div class="assignment-card-footer">
+                  <div class="meta-pill-group">
+                    <span class="meta-label">Prereqs:</span>
+                    {{- with .Params.requires -}}
+                      {{- range . -}}
+                        <span class="meta-pill">{{ . }}</span>
+                      {{- end -}}
+                    {{- else -}}
+                      <span style="opacity:.5;font-style:italic">None (Orientation)</span>
+                    {{- end -}}
+                  </div>
+
+                  <div class="meta-pill-group">
+                    <span class="meta-label">Standards:</span>
+                    {{- with .Params.standards -}}
+                      {{- range . -}}
+                        <span class="meta-pill meta-pill-std">{{ . }}</span>
+                      {{- end -}}
+                    {{- else -}}
+                      <span style="opacity:.5;font-style:italic">—</span>
+                    {{- end -}}
+                  </div>
+                </div>
+              </a>
+            {{- end -}}
+          </div>
+
+          {{ .Content }}
+        </div>
+      </main>
+    </article>
+  </div>
+
+  <script>
+    let activeTrackFilter = 'all';
+
+    function selectCourseTrack(track, btn) {
+      activeTrackFilter = track;
+      document.querySelectorAll('.course-tab-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyAllFilters();
+    }
+
+    function applyAllFilters() {
+      const q = (document.getElementById('assignment-search')?.value || '').toLowerCase().trim();
+      const domain = document.getElementById('domain-select')?.value || 'all';
+      const tier = document.getElementById('tier-select')?.value || 'all';
+
+      const cards = document.querySelectorAll('.assignment-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardTrack = card.getAttribute('data-track');
+        const cardDomain = card.getAttribute('data-domain');
+        const cardTier = card.getAttribute('data-tier');
+        const cardSearch = card.getAttribute('data-search') || '';
+
+        const matchTrack = (activeTrackFilter === 'all') || (cardTrack === activeTrackFilter);
+        const matchDomain = (domain === 'all') || (cardDomain === domain);
+        const matchTier = (tier === 'all') || (cardTier === tier);
+        const matchQuery = !q || cardSearch.includes(q);
+
+        if (matchTrack && matchDomain && matchTier && matchQuery) {
+          card.classList.remove('is-hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('is-hidden');
+        }
+      });
+
+      // Update count
+      const countLabel = document.getElementById('results-count-label');
+      if (countLabel) {
+        countLabel.textContent = `Showing ${visibleCount} of ${cards.length} assignments`;
+      }
+
+      // Show / hide clear button
+      const resetBtn = document.getElementById('reset-filters-btn');
+      const isFiltered = (activeTrackFilter !== 'all') || (domain !== 'all') || (tier !== 'all') || (q.length > 0);
+      if (resetBtn) {
+        resetBtn.style.display = isFiltered ? 'inline-block' : 'none';
+      }
+
+      // Empty state
+      const noResults = document.getElementById('no-results');
+      if (noResults) {
+        noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+      }
+    }
+
+    function resetFilters() {
+      activeTrackFilter = 'all';
+      document.querySelectorAll('.course-tab-btn').forEach((b, i) => {
+        if (i === 0) b.classList.add('active');
+        else b.classList.remove('active');
+      });
+
+      const searchInput = document.getElementById('assignment-search');
+      if (searchInput) searchInput.value = '';
+
+      const domainSelect = document.getElementById('domain-select');
+      if (domainSelect) domainSelect.value = 'all';
+
+      const tierSelect = document.getElementById('tier-select');
+      if (tierSelect) tierSelect.value = 'all';
+
+      applyAllFilters();
+    }
+
+    document.addEventListener('DOMContentLoaded', applyAllFilters);
+  </script>
+{{ end }}
