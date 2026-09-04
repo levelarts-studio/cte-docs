@@ -56,7 +56,7 @@ Visit the [**Course Maps**](/courses/) section to view complete unit pathways:
 {{< /details >}}
 
 {{< details title="How do these modules align with California CTE Model Curriculum Standards?" closed="true" >}}
-Every module and assignment is tagged with specific California AME Model Curriculum Standards. Visit the [**Standards Index**](/standards/) to explore Anchor Standards (1.0–12.0), Interdisciplinary Standards (13.0–16.0), and Pathway Standards.
+Every module and assignment is tagged with specific California Arts, Entertainment & Design (AED) Model Curriculum Standards. Visit the [**Standards Index**](/standards/) to explore Anchor Standards (1.0–12.0), Interdisciplinary Standards (13.0–16.0), and Pathway Standards.
 {{< /details >}}
 
 ---

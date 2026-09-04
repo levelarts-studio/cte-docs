@@ -1,0 +1,214 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        
+        {{- $allModules := where site.RegularPages "Section" "learn" -}}
+        {{- $totalModules := len $allModules -}}
+        {{- $completeModules := where $allModules "Params.status" "complete" -}}
+        {{- $draftModules := where $allModules "Params.status" "draft" -}}
+        {{- $completeCount := len $completeModules -}}
+        {{- $draftCount := len $draftModules -}}
+        {{- $stubCount := sub $totalModules (add $completeCount $draftCount) -}}
+        {{- $writtenCount := add $completeCount $draftCount -}}
+        {{- $percent := 0 -}}
+        {{- if gt $totalModules 0 -}}
+          {{- $percent = math.Round (mul (div (float $writtenCount) (float $totalModules)) 100) -}}
+        {{- end -}}
+        {{- $allAssignments := where site.RegularPages "Section" "assignments" -}}
+        {{- $totalAssignments := len $allAssignments -}}
+
+        <div class="content">
+          <div class="hx:flex hx:flex-col hx:sm:flex-row hx:items-start hx:sm:items-center hx:sm:justify-between hx:gap-4 hx:mb-2">
+            <h1 class="hx:mb-0">Curriculum Development Dashboard</h1>
+            {{ partial "components/page-context-menu" . }}
+          </div>
+          <p style="font-size:1.05rem;line-height:1.6;margin-bottom:1.5rem;opacity:.9">
+            Live status dashboard tracking the development and authoring progress of all {{ $totalModules }} textbook modules, {{ $totalAssignments }} assignment lab specs, and California AED CTE standards coverage.
+          </p>
+
+          <!-- Overall Progress Metric Cards -->
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));gap:1rem;margin:1.5rem 0 1.75rem;padding:1.25rem;border-radius:.75rem;background:rgba(99,102,241,.08);border:1px solid rgba(99,102,241,.25)">
+            <div>
+              <div style="font-size:.75rem;opacity:.7;text-transform:uppercase;font-weight:700;letter-spacing:.05em">Total Scope</div>
+              <div style="font-size:1.6rem;font-weight:700;color:#818cf8">{{ $totalModules }} Modules</div>
+              <div style="font-size:.8rem;opacity:.8;margin-top:.2rem">{{ $totalAssignments }} Lab Specs</div>
+            </div>
+            <div>
+              <div style="font-size:.75rem;opacity:.7;text-transform:uppercase;font-weight:700;letter-spacing:.05em">Written & In Progress</div>
+              <div style="font-size:1.6rem;font-weight:700;color:#10b981">{{ $writtenCount }} Written</div>
+              <div style="font-size:.8rem;opacity:.8;margin-top:.2rem">{{ $completeCount }} Complete &middot; {{ $draftCount }} Draft</div>
+            </div>
+            <div>
+              <div style="font-size:.75rem;opacity:.7;text-transform:uppercase;font-weight:700;letter-spacing:.05em">Remaining Stubs</div>
+              <div style="font-size:1.6rem;font-weight:700;color:#f59e0b">{{ $stubCount }} Stubs</div>
+              <div style="font-size:.8rem;opacity:.8;margin-top:.2rem">Ready for authoring</div>
+            </div>
+            <div>
+              <div style="font-size:.75rem;opacity:.7;text-transform:uppercase;font-weight:700;letter-spacing:.05em">Overall Progress</div>
+              <div style="font-size:1.6rem;font-weight:700;color:#38bdf8">{{ $percent }}%</div>
+              <div style="font-size:.8rem;opacity:.8;margin-top:.2rem">Curriculum complete</div>
+            </div>
+          </div>
+
+          <!-- Visual Progress Bar -->
+          <div style="margin-bottom:2rem">
+            <div style="display:flex;justify-content:space-between;font-size:.85rem;font-weight:600;margin-bottom:.4rem;opacity:.85">
+              <span>Curriculum Authoring Completion</span>
+              <span>{{ $writtenCount }} of {{ $totalModules }} modules ({{ $percent }}%)</span>
+            </div>
+            <div style="width:100%;height:10px;border-radius:5px;background:rgba(128,128,128,.2);overflow:hidden;display:flex">
+              <div style="width:{{ if gt $totalModules 0 }}{{ mul (div (float $completeCount) (float $totalModules)) 100 }}{{ else }}0{{ end }}%;background:#10b981" title="Complete ({{ $completeCount }})"></div>
+              <div style="width:{{ if gt $totalModules 0 }}{{ mul (div (float $draftCount) (float $totalModules)) 100 }}{{ else }}0{{ end }}%;background:#f59e0b" title="Draft ({{ $draftCount }})"></div>
+            </div>
+            <div style="display:flex;gap:1.25rem;font-size:.8rem;margin-top:.4rem;opacity:.75">
+              <span style="display:flex;align-items:center;gap:.35rem"><span style="width:8px;height:8px;border-radius:50%;background:#10b981;display:inline-block"></span> Complete ({{ $completeCount }})</span>
+              <span style="display:flex;align-items:center;gap:.35rem"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;display:inline-block"></span> In Draft ({{ $draftCount }})</span>
+              <span style="display:flex;align-items:center;gap:.35rem"><span style="width:8px;height:8px;border-radius:50%;background:rgba(128,128,128,.4);display:inline-block"></span> Unwritten Stubs ({{ $stubCount }})</span>
+            </div>
+          </div>
+
+          <!-- Interactive Search & Filter Controls -->
+          <div style="margin:2rem 0 1.25rem;display:flex;flex-direction:column;gap:.75rem">
+            <input 
+              id="status-search-input" 
+              type="text" 
+              placeholder="Filter modules by title, code (e.g. 'BLND-101'), or domain..." 
+              style="width:100%;padding:.75rem 1rem;border-radius:.5rem;border:1px solid rgba(128,128,128,.3);background:rgba(255,255,255,.05);color:inherit;font-size:.95rem;outline:none"
+              oninput="filterModuleDashboard()"
+            />
+            <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+              <span style="font-size:.85rem;font-weight:600;opacity:.8;margin-right:.25rem">Filter Status:</span>
+              <button class="unit-ref-pill status-filter-btn active" data-filter="all" onclick="setStatusFilter('all', this)">All ({{ $totalModules }})</button>
+              <button class="unit-ref-pill status-filter-btn" data-filter="complete" onclick="setStatusFilter('complete', this)">Complete ({{ $completeCount }})</button>
+              <button class="unit-ref-pill status-filter-btn" data-filter="draft" onclick="setStatusFilter('draft', this)">In Draft ({{ $draftCount }})</button>
+              <button class="unit-ref-pill status-filter-btn" data-filter="stub" onclick="setStatusFilter('stub', this)">Stubs ({{ $stubCount }})</button>
+            </div>
+          </div>
+
+          <!-- Modules Grouped By Subject Area -->
+          {{- $domains := slice 
+            (dict "slug" "blender" "name" "Blender 3D" "icon" "cube")
+            (dict "slug" "unreal" "name" "Unreal Engine 5" "icon" "sparkles")
+            (dict "slug" "character" "name" "3D Character Design" "icon" "user")
+            (dict "slug" "animation" "name" "Game Animation" "icon" "play")
+            (dict "slug" "gamedesign" "name" "Game Design & Mechanics" "icon" "puzzle-piece")
+            (dict "slug" "design" "name" "Design & Visual Craft" "icon" "color-swatch")
+            (dict "slug" "media" "name" "Media & Storytelling" "icon" "video-camera")
+            (dict "slug" "production" "name" "Production & Pipelines" "icon" "clipboard-list")
+            (dict "slug" "computing" "name" "Computing & PC Literacy" "icon" "desktop-computer")
+            (dict "slug" "career" "name" "Career & Portfolio" "icon" "briefcase")
+            (dict "slug" "law" "name" "Law, Ethics & AI" "icon" "scale")
+          -}}
+
+          {{- range $domains -}}
+            {{- $domainSlug := .slug -}}
+            {{- $domainName := .name -}}
+            {{- $domainPages := where $allModules "File.Dir" (printf "learn/%s/" $domainSlug) -}}
+            {{- if eq (len $domainPages) 0 -}}
+              {{- $domainPages = where $allModules "File.Dir" (printf "learn\\%s\\" $domainSlug) -}}
+            {{- end -}}
+            {{- if gt (len $domainPages) 0 -}}
+              {{- $dComplete := len (where $domainPages "Params.status" "complete") -}}
+              {{- $dDraft := len (where $domainPages "Params.status" "draft") -}}
+              {{- $dTotal := len $domainPages -}}
+
+              <div class="status-domain-block" data-domain="{{ $domainSlug }}" style="margin:2.5rem 0 1.5rem">
+                <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid rgba(99,102,241,.3);padding-bottom:.5rem;margin-bottom:1rem">
+                  <h2 style="margin:0;font-size:1.3rem"><a href="/learn/{{ $domainSlug }}/" style="text-decoration:none;color:inherit">{{ $domainName }}</a></h2>
+                  <span style="font-size:.85rem;opacity:.8;font-weight:600">
+                    {{ if gt (add $dComplete $dDraft) 0 }}
+                      <span style="color:#10b981">{{ add $dComplete $dDraft }} written</span> / 
+                    {{ end }}
+                    {{ $dTotal }} modules
+                  </span>
+                </div>
+
+                <div class="unit-items-container status-module-grid" style="display:flex;flex-direction:column;gap:.5rem">
+                  {{- range $domainPages -}}
+                    {{- $st := .Params.status | default "stub" -}}
+                    {{- if and (ne $st "complete") (ne $st "draft") }}{{ $st = "stub" }}{{ end -}}
+                    <a 
+                      href="{{ .RelPermalink }}" 
+                      class="unit-item-button status-module-item" 
+                      data-status="{{ $st }}"
+                      data-title="{{ .Title | lower }}"
+                      data-id="{{ .Params.id | default "" | lower }}"
+                      data-search="{{ printf "%s %s %s" (.Params.id | default "") .Title $domainName | lower }}"
+                      style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding:.85rem 1.15rem;text-decoration:none"
+                    >
+                      <div style="flex:1">
+                        <div class="unit-item-title" style="font-size:1rem;font-weight:600;margin-bottom:.25rem">
+                          {{ with .Params.id }}<code style="margin-right:.45rem;font-size:.88rem">{{ . }}</code>{{ end }}
+                          {{ .Title }}
+                        </div>
+                        {{ with .Params.description }}
+                        <div class="unit-item-desc" style="font-size:.88rem;line-height:1.5;opacity:.85">{{ . }}</div>
+                        {{ end }}
+                      </div>
+                      <div style="flex-shrink:0;display:flex;align-items:center;gap:.5rem;margin-top:.2rem">
+                        {{ with .Params.duration }}
+                        <span style="font-size:.78rem;opacity:.65;font-family:ui-monospace,monospace">{{ . }}m</span>
+                        {{ end }}
+                        {{ if eq $st "complete" }}
+                        <span class="unit-item-badge" style="background:#10b981;color:#fff;font-weight:700">COMPLETE</span>
+                        {{ else if eq $st "draft" }}
+                        <span class="unit-item-badge" style="background:#f59e0b;color:#111;font-weight:700">DRAFT</span>
+                        {{ else }}
+                        <span class="unit-item-badge" style="opacity:.5;border:1px solid currentColor">STUB</span>
+                        {{ end }}
+                      </div>
+                    </a>
+                  {{- end -}}
+                </div>
+              </div>
+            {{- end -}}
+          {{- end -}}
+
+          {{ .Content }}
+        </div>
+      </main>
+    </article>
+  </div>
+
+  <script>
+    let currentFilter = 'all';
+
+    function setStatusFilter(filter, btn) {
+      currentFilter = filter;
+      document.querySelectorAll('.status-filter-btn').forEach(b => b.classList.remove('active', 'hx:bg-primary-600'));
+      if (btn) {
+        btn.classList.add('active');
+      }
+      filterModuleDashboard();
+    }
+
+    function filterModuleDashboard() {
+      const q = (document.getElementById('status-search-input')?.value || '').toLowerCase().trim();
+      const items = document.querySelectorAll('.status-module-item');
+
+      items.forEach(item => {
+        const itemStatus = item.getAttribute('data-status');
+        const itemSearch = item.getAttribute('data-search') || '';
+
+        const matchesStatus = (currentFilter === 'all') || (itemStatus === currentFilter);
+        const matchesQuery = !q || itemSearch.includes(q);
+
+        if (matchesStatus && matchesQuery) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // Hide or show domain blocks if they have visible items
+      document.querySelectorAll('.status-domain-block').forEach(block => {
+        const visibleChildren = block.querySelectorAll('.status-module-item:not([style*="display: none"])');
+        block.style.display = visibleChildren.length > 0 ? 'block' : 'none';
+      });
+    }
+  </script>
+{{ end }}

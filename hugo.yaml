@@ -1,4 +1,4 @@
-title: "AED Module Library"
+title: "Game Art, Design & Media Learning Library"
 baseURL: "https://cte.levelarts.studio/"
 languageCode: en-us
 theme: hextra
@@ -52,6 +52,7 @@ menu:
         type: search
 
 params:
+  description: "California CTE Model Curriculum Standards-aligned textbook modules, hands-on lab specs, and 3D creation pathways for high school & CTE students."
   navbar:
     displayTitle: true
     displayLogo: false
@@ -67,4 +68,4 @@ params:
 cascade:
   - type: docs
     target:
-      path: '{/learn/**,/assignments/**,/courses/**,/start/**,/faq/**,/standards/**}'
+      path: '{/learn/**,/assignments/**,/courses/**,/start/**,/faq/**,/status/**}'

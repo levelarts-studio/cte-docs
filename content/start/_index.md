@@ -1,9 +1,6 @@
 ---
 title: "Start Here"
 weight: 1
-type: docs
-cascade:
-  type: docs
 ---
 
 This site is your interactive digital textbook. Everything you need to read, watch, and build for **Intro to Media Careers**, **Game Art & Design 1**, and **Game Art & Design 2** lives here.

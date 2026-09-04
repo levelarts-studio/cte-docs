@@ -2,11 +2,10 @@
 description: "Model Curriculum Standards (MCS)"
 summary: "Model Curriculum Standards (MCS)"
 title: Model Curriculum Standards (MCS)
-type: docs
 weight: 1
 ---
 
-California Department of Education Model Curriculum Standards for **Arts, Media, and Entertainment (AME)**.
+California Department of Education Model Curriculum Standards for **Arts, Entertainment, and Design (AED)**.
 
 Use the left sidebar menu or the navigation cards below to read all Anchor, Interdisciplinary, and Pathway standards listed out section-by-section.
 

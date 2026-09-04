@@ -1,7 +1,4 @@
 ---
-type: docs
-cascade:
-  type: docs
 title: Game Art, Design & Media Learning Library
 layout: hextra-home
 ---
@@ -45,7 +42,7 @@ layout: hextra-home
 
   {{< hextra/feature-card
     title="Module Library"
-    subtitle="Access 157 textbook modules covering Blender 3D, Unreal Engine 5, 3D Character Design, and Game Animation."
+    subtitle="Access {learn_count} textbook modules covering Blender 3D, Unreal Engine 5, 3D Character Design, and Game Animation."
     link="/learn/"
     icon="cube"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[240px]"
@@ -53,15 +50,15 @@ layout: hextra-home
 
   {{< hextra/feature-card
     title="Assignment Specs & Rubrics"
-    subtitle="Review 50 hands-on lab specs with rubric criteria and Google Sites portfolio submission requirements."
+    subtitle="Review {assignment_count} hands-on lab specs with rubric criteria and Google Sites portfolio submission requirements."
     link="/assignments/"
     icon="document-text"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[240px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(234,179,8,0.15),hsla(0,0%,100%,0));" >}}
 
   {{< hextra/feature-card
-    title="CDE AME Standards Index"
-    subtitle="Inspect California Arts, Media & Entertainment (AME) CTE skills framework and pathway competencies."
+    title="CDE AED Standards Index"
+    subtitle="Inspect California Arts, Entertainment & Design (AED) CTE skills framework and pathway competencies."
     link="/standards/"
     icon="badge-check"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[240px]"

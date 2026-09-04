@@ -89,7 +89,7 @@ Textbook modules organized by subject area, technical domain, and skill tier lev
     image="/images/card-placeholder.webp"
     link="/learn/career/"
     title="Career & Portfolio"
-    subtitle="AME CTE pathways, O*NET research, Google Sites portfolios, artist statements, and interviews."
+    subtitle="AED CTE pathways, O*NET research, Google Sites portfolios, artist statements, and interviews."
     tag="18 MODULES"
     tagColor="green" >}}
   {{< card
