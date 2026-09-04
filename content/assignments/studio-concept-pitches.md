@@ -24,8 +24,8 @@ You are not pitching your dream game. You are pitching something fifteen people 
 
 ## Before you start
 
-- [Genres and Player Profiles](/game-103/) — who this is for
-- [Pitching a Concept](/prod-105/) — how to structure and deliver it
+- [Genres and Player Profiles](/learn/gamedesign/genres-and-player-profiles/) — who this is for
+- [Pitching a Concept](/learn/production/pitching-a-concept/) — how to structure and deliver it
 
 ## The constraints
 

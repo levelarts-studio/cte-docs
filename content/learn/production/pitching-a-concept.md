@@ -12,8 +12,7 @@ standards: ["13.2", "2.3"]
 keywords: ["pitch", "elevator pitch", "high concept", "one sheet", "pitch deck", "hook", "core mechanic", "vertical slice", "comparables", "presenting"]
 duration: 10
 video: ""
-url: "/prod-105/"
-aliases: ["/m/PROD-105", "/m/prod-105", "/PROD-105", "/learn/production/pitching-a-concept/"]
+aliases: ["/m/PROD-105", "/m/prod-105", "/prod-105"]
 ---
 
 ## What you'll be able to do

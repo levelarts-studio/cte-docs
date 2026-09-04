@@ -12,8 +12,7 @@ standards: ["GD.17.2"]
 keywords: ["genre", "player types", "bartle", "quantic foundry", "motivation", "target audience", "demographics", "comparables", "comps", "who is this for"]
 duration: 10
 video: ""
-url: "/game-103/"
-aliases: ["/m/GAME-103", "/m/game-103", "/GAME-103", "/learn/gamedesign/genres-and-player-profiles/"]
+aliases: ["/m/GAME-103", "/m/game-103", "/game-103"]
 ---
 
 ## What you'll be able to do
