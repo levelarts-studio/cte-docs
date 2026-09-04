@@ -296,17 +296,17 @@
 
           <!-- Course Filter Tabs -->
           <div class="course-tabs-wrapper">
-            <button class="course-tab-btn active" data-track="all" onclick="selectCourseTrack('all', this)">
+            <button id="tab-all" class="course-tab-btn active" data-track="all" onclick="selectCourseTrack('all', this)">
               All Assignments ({{ $total }})
             </button>
-            <button class="course-tab-btn" data-track="imc" onclick="selectCourseTrack('imc', this)">
-              Intro to Media Careers (25)
+            <button id="tab-imc" class="course-tab-btn" data-track="imc" onclick="selectCourseTrack('imc', this)">
+              Intro to Media Careers
             </button>
-            <button class="course-tab-btn" data-track="gad1" onclick="selectCourseTrack('gad1', this)">
-              Game Art & Design 1 (24)
+            <button id="tab-gad1" class="course-tab-btn" data-track="gad1" onclick="selectCourseTrack('gad1', this)">
+              Game Art & Design 1
             </button>
-            <button class="course-tab-btn" data-track="gad2" onclick="selectCourseTrack('gad2', this)">
-              Game Art & Design 2 (1)
+            <button id="tab-gad2" class="course-tab-btn" data-track="gad2" onclick="selectCourseTrack('gad2', this)">
+              Game Art & Design 2
             </button>
           </div>
 
@@ -385,7 +385,7 @@
                 {{- $track = "gad1" -}}
                 {{- $trackLabel = "GAD1 · Year 2" -}}
                 {{- $trackClass = "track-gad1" -}}
-              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter") $id) -}}
+              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter" "studio-concept-pitches") $id) -}}
                 {{- $track = "gad2" -}}
                 {{- $trackLabel = "GAD2 · Capstone" -}}
                 {{- $trackClass = "track-gad2" -}}
@@ -409,7 +409,7 @@
                 {{- $domain = "foundations" -}}
               {{- else if or (in (slice "ai-tool-review" "attribution-audit" "license-hunt" "fair-use-case" "career-plan-draft" "careers-portfolio-page" "onet-career-report" "media-analysis" "industry-roles-report") $id) (strings.Contains (lower $pSection) "career") (strings.Contains (lower $pSection) "law") -}}
                 {{- $domain = "career" -}}
-              {{- else if or (in (slice "team-role-charter" "creative-brief" "concept-pitch" "portfolio-final-review" "model-critique") $id) (strings.Contains (lower $pSection) "production") -}}
+              {{- else if or (in (slice "team-role-charter" "studio-concept-pitches" "creative-brief" "concept-pitch" "portfolio-final-review" "model-critique") $id) (strings.Contains (lower $pSection) "production") -}}
                 {{- $domain = "production" -}}
               {{- end -}}
 
@@ -563,6 +563,25 @@
       applyAllFilters();
     }
 
-    document.addEventListener('DOMContentLoaded', applyAllFilters);
+    function updateTabCounts() {
+      const imc = document.querySelectorAll('.assignment-card[data-track="imc"]').length;
+      const gad1 = document.querySelectorAll('.assignment-card[data-track="gad1"]').length;
+      const gad2 = document.querySelectorAll('.assignment-card[data-track="gad2"]').length;
+      const all = document.querySelectorAll('.assignment-card').length;
+
+      const tabAll = document.getElementById('tab-all');
+      if (tabAll) tabAll.textContent = `All Assignments (${all})`;
+      const tabImc = document.getElementById('tab-imc');
+      if (tabImc) tabImc.textContent = `Intro to Media Careers (${imc})`;
+      const tabGad1 = document.getElementById('tab-gad1');
+      if (tabGad1) tabGad1.textContent = `Game Art & Design 1 (${gad1})`;
+      const tabGad2 = document.getElementById('tab-gad2');
+      if (tabGad2) tabGad2.textContent = `Game Art & Design 2 (${gad2})`;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      updateTabCounts();
+      applyAllFilters();
+    });
   </script>
 {{ end }}
