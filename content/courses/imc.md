@@ -140,7 +140,7 @@ Welcome to Intro to Media Careers. In this course, you will build your foundatio
   <span class="unit-item-badge badge-assignment">ASSIGNMENT & READINGS</span>
 </summary>
 <div class="unit-items-container">
-  <div class="module-block-desc">You will learn how computer hardware operates and set up a healthy, ergonomic workstation posture.</div>
+  <div class="module-block-desc">You will learn how computer hardware operates, design a custom workstation build, and set up a healthy, ergonomic posture.</div>
   <a href="/m/COMP-110/" class="unit-item-button">
     <div>
       <div class="unit-item-title">Ergonomics and the Workstation</div>
@@ -158,7 +158,7 @@ Welcome to Intro to Media Careers. In this course, you will build your foundatio
   <a href="/assignments/workstation-setup/" class="unit-item-button">
     <div>
       <div class="unit-item-title">Workstation Setup & Ergonomics</div>
-      <div class="unit-item-desc">ID: <code>workstation-setup</code> · Deliverable: Photo verification and ergonomic checklist</div>
+      <div class="unit-item-desc">ID: <code>workstation-setup</code> · Deliverable: Setup audit, PCPartPicker build justification & ergonomic plan</div>
     </div>
     <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
   </a>

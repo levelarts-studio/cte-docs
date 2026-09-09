@@ -110,5 +110,5 @@ Spec for your heaviest task, not your average one.
 
 ## Next
 
-- [Workstation Setup & Ergonomics](/assignments/workstation-setup/) — complete the ergonomic lab and hardware verification
+- [Workstation Setup & Ergonomics](/assignments/workstation-setup/) — audit your setup, design a custom PC on PCPartPicker, and plan your ergonomic workstation
 - [Files, Folders, and Paths](/learn/computing/files-folders-and-paths/) (`COMP-103`) — learn directory trees, absolute paths, and extensions

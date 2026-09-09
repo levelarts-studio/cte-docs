@@ -104,4 +104,4 @@ A laptop cannot be ergonomic on its own: if the screen is at the right height, t
 ## Next
 
 - [What a Computer Is Doing](/learn/computing/what-a-computer-is-doing/) (`COMP-101`) — learn the core components and data pipeline
-- [Workstation Setup & Ergonomics](/assignments/workstation-setup/) — adjust your setup, take verification photos, and complete the checklist
+- [Workstation Setup & Ergonomics](/assignments/workstation-setup/) — audit your setup, design a custom PC on PCPartPicker, and plan your ergonomic workstation
