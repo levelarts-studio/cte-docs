@@ -1,7 +1,7 @@
 ---
 title: "Assignment Specs & Lab Rubrics"
-description: "51 hands-on lab specifications with prerequisite modules, Google Sites submission guides, and California AED CTE rubric criteria."
-summary: "51 hands-on lab specifications with prerequisite modules, Google Sites submission guides, and California AED CTE rubric criteria."
+description: "52 hands-on lab specifications with prerequisite modules, Google Sites submission guides, and California AED CTE rubric criteria."
+summary: "52 hands-on lab specifications with prerequisite modules, Google Sites submission guides, and California AED CTE rubric criteria."
 sidebar:
   hide: true
 ---

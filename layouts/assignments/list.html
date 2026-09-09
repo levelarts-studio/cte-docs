@@ -381,7 +381,7 @@
               {{- $track := "imc" -}}
               {{- $trackLabel := "IMC · Year 1" -}}
               {{- $trackClass := "track-imc" -}}
-              {{- if or (strings.Contains $pSection "GAD1") (in (slice "blender-first-model" "form-studies" "reference-board" "hard-surface-prop" "model-critique" "prop-modeling-set" "topology-fix-challenge" "pbr-texture-set" "uv-unwrap-drill" "lighting-study" "asset-license-log" "engine-orientation" "first-blueprint" "import-your-asset" "interactive-door" "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "mini-gdd" "solo-vertical-slice" "slice-pitch" "industry-roles-report" "lab-setup-and-conventions") $id) -}}
+              {{- if or (strings.Contains $pSection "GAD1") (in (slice "blender-first-model" "form-studies" "navigating-3d-space" "reference-board" "hard-surface-prop" "model-critique" "prop-modeling-set" "topology-fix-challenge" "pbr-texture-set" "uv-unwrap-drill" "lighting-study" "asset-license-log" "engine-orientation" "first-blueprint" "import-your-asset" "interactive-door" "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "mini-gdd" "solo-vertical-slice" "slice-pitch" "industry-roles-report" "lab-setup-and-conventions") $id) -}}
                 {{- $track = "gad1" -}}
                 {{- $trackLabel = "GAD1 · Year 2" -}}
                 {{- $trackClass = "track-gad1" -}}
@@ -393,7 +393,7 @@
 
               {{/* Compute Domain category */}}
               {{- $domain := "other" -}}
-              {{- if in (slice "blender-first-model" "form-studies" "hard-surface-prop" "prop-modeling-set" "reference-board" "topology-fix-challenge" "uv-unwrap-drill") $id -}}
+              {{- if in (slice "blender-first-model" "form-studies" "navigating-3d-space" "hard-surface-prop" "prop-modeling-set" "reference-board" "topology-fix-challenge" "uv-unwrap-drill") $id -}}
                 {{- $domain = "3d" -}}
               {{- else if in (slice "pbr-texture-set" "lighting-study" "asset-license-log") $id -}}
                 {{- $domain = "texturing" -}}
