@@ -385,7 +385,7 @@
                 {{- $track = "gad1" -}}
                 {{- $trackLabel = "GAD1 · Year 2" -}}
                 {{- $trackClass = "track-gad1" -}}
-              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter" "studio-concept-pitches") $id) -}}
+              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter" "studio-concept-pitches" "team-gdd") $id) -}}
                 {{- $track = "gad2" -}}
                 {{- $trackLabel = "GAD2 · Capstone" -}}
                 {{- $trackClass = "track-gad2" -}}
@@ -409,7 +409,7 @@
                 {{- $domain = "foundations" -}}
               {{- else if or (in (slice "ai-tool-review" "attribution-audit" "license-hunt" "fair-use-case" "career-plan-draft" "careers-portfolio-page" "onet-career-report" "media-analysis" "industry-roles-report") $id) (strings.Contains (lower $pSection) "career") (strings.Contains (lower $pSection) "law") -}}
                 {{- $domain = "career" -}}
-              {{- else if or (in (slice "team-role-charter" "studio-concept-pitches" "creative-brief" "concept-pitch" "portfolio-final-review" "model-critique") $id) (strings.Contains (lower $pSection) "production") -}}
+              {{- else if or (in (slice "team-role-charter" "studio-concept-pitches" "team-gdd" "creative-brief" "concept-pitch" "portfolio-final-review" "model-critique") $id) (strings.Contains (lower $pSection) "production") -}}
                 {{- $domain = "production" -}}
               {{- end -}}
 
