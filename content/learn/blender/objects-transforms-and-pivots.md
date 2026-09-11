@@ -123,5 +123,5 @@ Worth knowing now because Unreal measures in centimeters. That conversion is han
 
 ## Next
 
-- [Navigating 3D Space](/assignments/navigating-3d-space/) — complete the precision coordinate challenge
+- [Navigating 3D Space](/assignments/navigating-3d-space/) — generate and assemble the tiny house with snapping and hinge pivots
 - [Primitive Modeling](/learn/blender/primitive-modeling/) — build block-outs using simple 3D primitives

@@ -16,167 +16,191 @@ aliases: ["/a/navigating-3d-space"]
 
 ## The task
 
-**Blender Exercise: Coordinates, Scale, and Pivot Points**
+**Blender Exercise: Generate and Assemble the Tiny House**
 
-Complete a precision coordinate, scale, and pivot point exercise in Blender. Place, rotate, and scale objects at exact coordinates using typed values instead of dragging, understand the difference between scale and dimensions, master both the 3D cursor and median pivot points, and prove your accuracy with orthographic screenshots.
+You'll run a short Python script inside Blender that builds a full set of house pieces for you, colored, correctly sized, and scattered off to the side like a parts bin. Then you'll assemble them into a house entirely by moving and snapping the pieces into place, and get the door and shutters swinging open the way real hinges do. Everything in this exercise happens inside Blender, there's no outside math to work out first.
+
+Running someone else's setup script instead of building everything by hand is a completely normal part of real 3D and game pipelines, so this exercise has you do it the same way a studio would: read what the script does, run it once, and take it from there.
 
 ### What this exercise teaches
 
 By the end, you should understand:
 
-- **Exact coordinate placement**: How to place objects using exact numbers instead of dragging
-- **Scale vs. dimensions**: The difference between an object's scale and its dimensions
-- **Pivot points**: How the pivot point setting changes what happens when you rotate something
-
-Work through the steps in order. Don't skip the "why" notes—they explain what you're actually supposed to be learning at each stage.
+- **Running a script in Blender**: Using the Scripting workspace to load and execute a `.py` file that sets up a scene for you.
+- **Snapping objects together**: Using Blender's snap tools to align pieces exactly, instead of eyeballing it.
+- **Pivot points**: Why 3D Cursor, Median Point, and Individual Origins each rotate an object differently, and how to pick the one that makes a hinge behave like a real hinge.
 
 ## Before you start
 
 Read [Objects, Transforms, and Pivots](/learn/blender/objects-transforms-and-pivots/) (`BLND-102`).
 
+{{< callout type="info" >}}
+**Starter Script Download**: Download the generator script [**`generate_house_demo_file.py`**](/downloads/generate_house_demo_file.py) to your computer before beginning Step 1.
+{{< /callout >}}
+
 ## Steps
 
 {{% steps %}}
 
-### Step 1 — Set up your file
+### Step 1 — Run the generator script
 
 1. Open Blender: **File > New > General**.
-2. Click the default cube to select it, press `X`, and choose **Delete**.
-3. Save the file as `LASTNAME_NavCourse_v01.blend` inside the `01_Projects` folder.
+2. Switch to the **Scripting** workspace (tab along the top header).
+3. In the Text Editor panel, click **Open** and browse to `generate_house_demo_file.py`. (If Open isn't available for some reason, click **New**, then copy and paste the script's contents in.)
+4. Read through the script before running it. You don't need to understand every line, but notice what it's doing: defining each piece's name, size, and color, then placing it at a scattered starting position.
+5. Click the **Run Script** button (the play icon) in the Text Editor's header.
+6. Switch to the **Layout** workspace. You should see 14 colored objects scattered off to one side. Check the Outliner for their names.
+7. Immediately save the file as `LASTNAME_HouseCourse_v01.blend` inside `01_Projects`.
 
-### Step 2 — Plan your coordinates on paper first
+> [!IMPORTANT]
+> **Important:** The script clears the entire scene when it runs, including anything you've built. Only run it once, right at the start. If you run it again later by accident, you'll lose your progress.
 
-Before you touch Blender, work this out with pencil and paper (or a text file).
+### Step 2 — Inventory the pieces and turn on snapping
 
-You're going to build a cube-shaped frame out of eight small cubes, one at each corner. The frame is 4 meters wide, tall, and deep, and it's centered on the world origin `(0, 0, 0)`.
+Open the Outliner and find all fourteen objects:
 
-**Why centered matters**: If a cube is 4m wide and centered on 0, its edges reach from `-2` to `+2`. That's just half of 4 on each side.
+`floor`, `wall_left`, `wall_right`, `wall_back`, `wall_front_L`, `wall_front_R`, `wall_lintel`, `gable_left`, `gable_right`, `roof_slope_front`, `roof_slope_back`, `door`, `shutter_L`, `shutter_R`
 
-So the eight corner positions are every combination of $x = \pm 2$, $y = \pm 2$, $z = \pm 2$:
+Switch your viewport shading to Material Preview (**Z**, then **2**, or click the material preview sphere icon at the top-right of the 3D Viewport) so you can see the colors: brown for the floor, cream for walls and gable ends, terracotta for the roof, dark wood for the door, green for the shutters.
 
-| Corner | X | Y | Z |
-| :---: | :---: | :---: | :---: |
-| **1** | 2 | 2 | 2 |
-| **2** | 2 | 2 | -2 |
-| **3** | 2 | -2 | 2 |
-| **4** | 2 | -2 | -2 |
-| **5** | -2 | 2 | 2 |
-| **6** | -2 | 2 | -2 |
-| **7** | -2 | -2 | 2 |
-| **8** | -2 | -2 | -2 |
+Now turn on snapping:
 
-Write this table out yourself before moving on. You'll type these numbers in by hand in the next step, so know them cold.
+1. Click the magnet icon near the top center of the viewport (or press **Shift+Tab**) to enable Snapping.
+2. Click the small dropdown arrow next to the magnet and set **Snap To: Vertex**.
+3. Leave everything else at its default.
 
-### Step 3 — Place the eight corner cubes
+With this on, when you grab a piece (**G**) and move your mouse near a corner of another piece, the nearest corner of the piece you're moving will jump to line up with it. This is how you're going to assemble the whole house, corner to corner.
 
-For each of the eight coordinates from your table:
+### Step 3 — Understand the floor plan
 
-1. Press `Shift+A` > **Mesh** > **Cube**. It'll appear at the 3D cursor (probably `0, 0, 0`).
-2. Press `N` to open the sidebar if it's not already open.
-3. In the **Location** fields, type in the X, Y, Z values for that corner. **Do not drag the cube into place.** Typing keeps your placement exact; dragging by eye will not.
+Before you start dragging pieces around, look at the shapes you have and figure out how they fit together. Here's the general layout, roughly to scale:
 
-Now resize each cube to **0.25m per side**. Blender's default cube starts at 2m per side, so you have two ways to shrink it:
+```text
+                    wall_back
+       (shutter_L)     |      (shutter_R)
+      +---------------------------------+
+      |                                 |
+wall_left                          wall_right
+      |                                 |
+      +----------+           +---------+
+      wall_front_L   [door]   wall_front_R
+                 (wall_lintel above the door)
+```
 
-- **Option A (recommended for this exercise)**: In the sidebar, find the **Dimensions** fields (below Scale) and type `0.25` into X, Y, and Z. Blender will calculate the scale for you.
-- **Option B**: Set **Scale** to `0.125` on all three axes ($0.125 \times 2\text{m} = 0.25\text{m}$). This works the same but requires you to do the math yourself.
+- The house is roughly 4m long along the wall with the door, and about 3m deep.
+- The front wall (the one with the door) is split into three pieces because of the opening: two side segments and a lintel piece that sits above the door.
+- Once the four walls and floor are together, the roof sits on top: `gable_left` and `gable_right` fill the triangular gaps above `wall_left` and `wall_right`, and the two sloped roof panels meet along a ridge running the length of the house.
+- `shutter_L` and `shutter_R` sit on the outside of `wall_back`, flanking where a window would be, roughly centered.
 
-Repeat this for all eight cubes. Yes, it's repetitive. That repetition is what builds the habit of typing coordinates instead of eyeballing them.
+Use the pieces' own shapes and the gaps between them as your guide, the same way you'd assemble a physical model kit.
 
-### Step 4 — Add the center sphere
+### Step 4 — Assemble the floor and walls
 
-The center of the frame is the world origin: `(0, 0, 0)`.
+1. Move `floor` to the world origin area first—it's your base reference for everything else.
+2. Grab each wall (**G**) and drag it toward the floor. As it gets close, snapping should catch the bottom edge of the wall against the top edge of the floor. Watch for the snap indicator (a small orange circle) to know when it's caught.
+3. Position each wall along the correct edge of the floor, matching the diagram above. Snap wall corners to floor corners and to each other where walls meet.
+4. Place `wall_front_L`, `wall_front_R`, and `wall_lintel` together to form the front wall with its doorway gap. The lintel should snap into the gap above where the door opening will be, level with the tops of the side segments.
 
-1. Press `Shift+A` > **Mesh** > **UV Sphere**.
-2. In the sidebar, set **Location** to `(0, 0, 0)`.
-3. You want a sphere 0.5m across. In the **Dimensions** fields, type `0.5` for X, Y, and Z.
+Check your work often from Top (**Numpad 7**) and Front (**Numpad 1**) orthographic views. A gap you can see is a snap that didn't catch—go back and try that corner again.
 
-### Step 5 — Add the connecting cylinder
+### Step 5 — Assemble the roof
 
-This is the step that requires actual calculation, so slow down here.
+The roof pieces already have their slope baked into their shape, you're not rotating anything here, just snapping them into position on top of the walls.
 
-You want a cylinder that runs straight up through the center of the frame, touching the middle of the bottom face and the middle of the top face:
+1. Snap `gable_left` and `gable_right` onto the tops of `wall_left` and `wall_right`. The flat bottom edge of each triangle should catch the top edge of its wall.
+2. Snap the two roof slope panels (`roof_slope_front`, `roof_slope_back`) so their lower edges rest on the tops of the front and back walls, and their upper edges meet each other and the peaks of the two gable ends.
 
-- The bottom face's center is at `(0, 0, -2)`.
-- The top face's center is at `(0, 0, 2)`.
-- The distance between them is **4 meters**. That's your cylinder's height.
-- The midpoint between `-2` and `2` is `0`. Since a cylinder in Blender is centered on its own origin by default, placing its origin at $Z = 0$ means it will automatically stretch from `-2` to `+2`, exactly matching the two face centers.
+Work slowly, check from Front and Side (**Numpad 3**) orthographic views, and confirm there's no gap where the two roof panels meet at the ridge, and no sliver of missing gable showing through underneath the eaves.
 
-So:
+### Step 6 — Add the door and shutters
 
-1. Press `Shift+A` > **Mesh** > **Cylinder**.
-2. Set **Location** to `(0, 0, 0)`.
-3. In **Dimensions**, set **Z** to `4`.
+1. Snap `door` into the opening in the front wall, so it sits flush and closed, filling the gap between `wall_front_L`, `wall_front_R`, and `wall_lintel`.
+2. Snap `shutter_L` and `shutter_R` onto the outside face of `wall_back`, evenly spaced on either side of the imaginary window's center. Use the Front orthographic view to check they're level and evenly spaced.
 
-If your math was right, the cylinder should now touch both the top and bottom of the frame exactly, with no gap and no overlap.
+Once everything is placed, do a full walkaround in Perspective view. You should have a complete, closed house.
 
-### Step 6 — Check and fix your scale values
+### Step 7 — Open the door
 
-This step exists because Option B in Step 3 (and some Dimension edits) can leave an object's underlying Scale value at something other than `1.0, 1.0, 1.0`, even though it looks correct in the viewport. That's a hidden trap: it can cause weird behavior later if you add modifiers or export the file.
+A door hinges on its edge, not its center, so this step is about putting the pivot point exactly on that edge before you rotate. No calculation needed, you'll find the hinge by selecting it directly.
 
-For every object you've made:
+1. Select `door` and press **Tab** to enter Edit Mode.
+2. Switch to Vertex select (press **1**), and box-select the two vertices along the door's left edge, the side touching `wall_front_L`.
+3. Press **Shift+S** and choose **Cursor to Selected**. This snaps the 3D cursor exactly onto the hinge line, no typing required.
+4. Press **Tab** to return to Object Mode.
+5. Set the Transform Pivot Point dropdown (top of viewport) to **3D Cursor**.
+6. With `door` selected, press **R**, then **Z**, type `90`, and press **Enter**. Watch it swing open around the hinge, like a real door.
+7. Try it again with a smaller angle (**R**, **Z**, `30`, **Enter**) to see it open partway.
+8. Undo back to a fully open or fully closed position, whichever you'd like for your screenshot.
 
-1. Select it and check the **Scale** row in the sidebar.
-2. If any value isn't exactly `1.0`, press `Ctrl+A` and choose **Scale** from the menu. This is called "applying" the scale.
-3. Immediately check the **Dimensions** again. They should be unchanged. If the object visibly changed size, something went wrong and you should undo and try again.
+> [!TIP]
+> **Try it wrong, on purpose:** Set the Transform Pivot Point to **Median Point** and rotate the door again. Notice it now spins around its own center instead of swinging on the hinge, clearly not how a real door works. Undo, set the pivot back to **3D Cursor**, and leave the door open for your screenshot.
 
-### Step 7 — Pivot point experiment
+### Step 8 — Pivot point comparison with the shutters
 
-This is the core concept of the exercise. Read it through once before doing it.
+This step compares three pivot modes side by side, using the same tools as Step 7, so you can see the full picture of why the hinge needed 3D Cursor specifically.
 
-**Background**: When you rotate an object in Blender, it doesn't automatically rotate around the object itself. It rotates around whatever point is currently set as the "pivot point." There are a few pivot options, but we're comparing two: **3D Cursor** and **Median Point**.
+Select both `shutter_L` and `shutter_R` (Shift-click both) for Parts A through C:
 
-#### Part A: Rotating around a corner
+#### Part A — 3D Cursor
+1. Set the 3D Cursor to the world origin: **Shift+C**.
+2. Set Transform Pivot Point to **3D Cursor**.
+3. Press **R**, **Z**, `45`, **Enter**.
+4. **Observe**: Both shutters swing through a wide arc around the house's center, not around either shutter. Press **Ctrl+Z** to undo.
 
-1. Select one of your bottom corner cubes (any cube with $Z = -2$).
-2. Press `Shift+S`, choose **Cursor to Selected**. This moves the 3D cursor to that cube.
-3. In the header at the top of the viewport, find the **Transform Pivot Point** dropdown and set it to **3D Cursor**.
-4. Select the sphere (not the cube).
-5. Press `R`, then `Z`, type `45`, press `Enter`.
+#### Part B — Median Point
+1. Set Transform Pivot Point to **Median Point**.
+2. Press **R**, **Z**, `45`, **Enter**.
+3. **Observe**: Both shutters rotate around the point exactly between them, swapping toward each other instead of swinging outward. Press **Ctrl+Z** to undo.
 
-- **What to observe**: The sphere doesn't spin in place. It swings through an arc and ends up somewhere else in space entirely.
-- **Why**: You told Blender to rotate around the 3D cursor's position, which is at the corner cube, not at the sphere. The sphere got dragged along that rotation like it was tied to the corner with a string.
-- **Reset**: Press `Ctrl+Z` to undo the rotation. Confirm the sphere is back at the center before continuing.
+#### Part C — Individual Origins (before fixing origins)
+1. Set Transform Pivot Point to **Individual Origins**.
+2. Press **R**, **Z**, `45`, **Enter**.
+3. **Observe**: Each shutter rotates around its own origin, but that's currently its geometric center, so the shutters spin around their middles instead of swinging open. Press **Ctrl+Z** to undo.
 
-#### Part B: Rotating around the object's own center
+#### Part D — Individual Origins, with the origin moved to the hinge
+Use the same edit-mode trick from Step 7 to find each hinge, no typing needed:
 
-1. Change the **Transform Pivot Point** dropdown to **Median Point**.
-2. With the sphere still selected, press `R`, `Z`, `45`, `Enter` again.
+1. Select only `shutter_L`, press **Tab**, switch to Vertex select (**1**), and select the two vertices on its outer edge (away from the window).
+2. Press **Shift+S** > **Cursor to Selected**, then press **Tab** back to Object Mode.
+3. With `shutter_L` selected, go to **Object > Set Origin > Origin to 3D Cursor**. Its origin (the orange dot) should jump to its outer edge.
+4. Repeat for `shutter_R`: Edit Mode, select its outer edge vertices, **Shift+S > Cursor to Selected**, **Tab** out, **Object > Set Origin > Origin to 3D Cursor**.
+5. Select both shutters again, keep **Individual Origins** as the pivot mode.
+6. Press **R**, **Z**, `45`, **Enter**.
+7. **Observe**: Now each shutter swings open on its own outer edge, like a real shutter.
 
-- **What to observe**: This time the sphere stays exactly where it was. Only its orientation changes, which you may not even notice on a sphere since spheres look the same from most angles.
-- **Why**: With a single object selected, its "median point" is its own origin. So rotating "around the median point" just means rotating around itself, like a top spinning in place.
+> [!NOTE]
+> **Reflection:** In two or three sentences, describe what was different about Part D compared to Parts A through C. You don't need any numbers, just describe what you saw and why moving the origin mattered.
 
-**Reflection**: Write one sentence in your own words explaining the difference between what happened in Part A and Part B. This is the actual skill this exercise is testing.
+### Step 9 — Capture your proof
 
-### Step 8 — Capture your proof
+Take six screenshots:
 
-Take four screenshots showing your work is accurate:
+1. **Front orthographic view** (**Numpad 1**), house fully assembled with roof, door and shutters closed
+2. **Top orthographic view** (**Numpad 7**)
+3. **Side (Right) orthographic view** (**Numpad 3**), showing the roof's ridge and slopes clearly
+4. **Perspective view** of the fully assembled house
+5. **The door open on its hinge** (from Step 7)
+6. **Both shutters open correctly at 45°** (from Step 8, Part D)
 
-1. **Front orthographic view** — press `Numpad 1`
-2. **Right orthographic view** — press `Numpad 3`
-3. **Top orthographic view** — press `Numpad 7`
-4. **Perspective view** — any perspective view, with the sidebar (`N`) open and one corner cube selected, so its Location, Scale, and Dimensions values are all visible
+**What "correct" looks like:** The assembled house should form a closed structure with a peaked roof, no visible gaps at the wall corners, around the lintel, or at the ridge line.
 
-**What "correct" looks like**: In all three orthographic views, your cubes should line up into a perfect square outline, evenly spaced, with the sphere and cylinder centered inside. If one cube is off, even slightly, you'll see a visible gap or misalignment. That's intentional. The exercise is designed so mistakes are easy to spot, not hidden.
-
-### Step 9 — Post to your portfolio
+### Step 10 — Post to your portfolio
 
 Post to your portfolio's **Coursework** page using the standard write-up format, plus:
 
-- Your four screenshots (Front, Right, Top, and Perspective with sidebar open)
-- The coordinate table you used for all eight cubes
-- Your one-sentence explanation in your own words on the difference between rotating around the 3D cursor and rotating around the median point
+- Your six screenshots
+- Your written reflection on the four pivot/origin setups from Step 8
 
 {{% /steps %}}
 
 ## Submission checklist
 
-- [ ] File saved with correct name (`LASTNAME_NavCourse_v01.blend`) in `01_Projects`
-- [ ] Eight cubes at correct coordinates, each 0.25m per side
-- [ ] Sphere at center, 0.5m diameter
-- [ ] Cylinder spanning the full 4m height, touching top and bottom faces
-- [ ] All objects have Scale `1.0, 1.0, 1.0` after applying
-- [ ] Pivot point experiment completed, with a one-sentence explanation written
-- [ ] Four screenshots captured as described above
+- [ ] Script run once at the start, file saved as `LASTNAME_HouseCourse_v01.blend` in `01_Projects`
+- [ ] Snapping enabled and used to assemble all fourteen pieces
+- [ ] House fully assembled with no visible gaps: walls, roof (ridge and gables), door, and shutters
+- [ ] Door opens correctly around its hinge using 3D Cursor snapped to the hinge edge
+- [ ] Four-part pivot/origin comparison completed on the shutters, with written reflection
+- [ ] Six screenshots captured as described above
 
 ## Submit
 
@@ -188,13 +212,14 @@ Post to your portfolio's **Coursework** page using the standard write-up format,
 
 | Criteria | Approaching | Proficient | Advanced |
 | :--- | :--- | :--- | :--- |
-| **Frame Accuracy (4m Cube)** | Cubes placed by eye or misaligned; incorrect dimensions | All 8 corner cubes placed at exact calculated coordinates (±2m, ±2m, ±2m), 0.25m size | Mathematical symmetry exact; clear precision in coordinate entry |
-| **Center Objects** | Sphere or cylinder missing, eyeballed, or wrong dimensions | 0.5m sphere at origin; cylinder connects bottom and top cube faces exactly | Exact Z calculations and scale values verified cleanly |
-| **Transform & Scale** | Scale values not applied (non-1.0 scales present) | All objects have scale applied (`Ctrl+A → Scale`) at 1.0 without dimension distortion | Clean transform hierarchy; item properties verified in Item panel |
-| **Pivot Comparison** | Difference between 3D cursor and median pivot not documented | Documented rotation results for both 3D Cursor and Median Point with accurate explanation | Clear, insightful explanation in own words of how origin vs cursor influences rotation |
-| **Orthographic Proof & Write-up** | Missing orthographic views or incomplete write-up | All 4 views submitted (Front, Right, Top, Perspective with sidebar) plus cube coordinates and reflection | Cleanly framed screenshots showing perfect alignment; well-formatted coursework post |
+| **Script Setup** | Script not run correctly, pieces missing, or wrong file saved | Script run once, all 14 pieces present and correctly named, file saved correctly | Read through the script and can explain in their own words what it's doing |
+| **Assembly Accuracy** | Pieces placed by eye without snapping; visible gaps or misalignment | Snapping used correctly to close all gaps; house forms a complete structure with door opening and full roof | Clean corners and ridge line, gable ends fit their openings exactly, evenly spaced shutters |
+| **Door Hinge** | Door rotates from the wrong point, or cursor not placed on the actual hinge edge | Cursor correctly snapped to the hinge edge using Edit Mode selection; door swings correctly around it | Correctly demonstrates the wrong pivot mode too, and can explain why it looked wrong |
+| **Pivot & Origin Comparison** | Fewer than four parts completed, or difference not documented | All four setups tested and documented | Reflection clearly distinguishes the role of pivot point vs. object origin |
+| **Proof & Write-up** | Missing screenshots or incomplete write-up | All six items submitted, reflection included | Cleanly framed screenshots showing correct alignment; well-formatted coursework post |
 
 ## Notes
 
-- **Typing beats dragging**: Every professional workflow depends on exact values. If you can only place things by dragging, nothing you build will fit together, and in Unreal nothing will line up.
-- **The math is the assignment**: Working out where the corners of a 4m cube sit is the part that transfers. Blender is just where you do the arithmetic.
+- **Running scripts is a real skill**: Most production Blender and game pipelines rely on setup scripts, asset importers, and batch tools written by someone else on the team. Knowing how to open the Scripting workspace, read what a script is about to do, and run it safely is a habit worth having early.
+- **Snapping beats eyeballing**: Dragging pieces close and letting Blender's snap catch the exact corner is how real modeling gets done fast. You'll notice immediately if a corner isn't caught, which is the whole point.
+- **Finding a pivot beats calculating one**: Selecting the actual edge you want to rotate around and snapping the cursor to it is faster and less error-prone than typing in a coordinate, and it's how this is actually done in production work.
