@@ -126,7 +126,7 @@ Welcome to Game Art & Design 1. In Semester 1, you will master 3D modeling and t
   <a href="/assignments/navigating-3d-space/" class="unit-item-button">
     <div>
       <div class="unit-item-title">Navigating 3D Space</div>
-      <div class="unit-item-desc">ID: <code>navigating-3d-space</code> · Deliverable: 3D navigation obstacle course submission</div>
+      <div class="unit-item-desc">ID: <code>navigating-3d-space</code> · Deliverable: Coordinates, scale, and pivot points precision drill</div>
     </div>
     <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
   </a>
