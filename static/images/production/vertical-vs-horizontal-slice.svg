@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" width="100%" height="100%" style="background: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 8px;">
+  <defs>
+    <linearGradient id="gradSlice" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="420" y="38" fill="#f8fafc" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0.5">Horizontal vs. Vertical Slicing</text>
+  <text x="420" y="60" fill="#94a3b8" font-size="13" text-anchor="middle">How production models structure feature integration and mitigate pipeline risk</text>
+
+  <!-- LEFT PANEL: Horizontal Slicing -->
+  <g transform="translate(40, 85)">
+    <!-- Background Card -->
+    <rect x="0" y="0" width="360" height="315" rx="8" fill="#131b2e" stroke="#334155" stroke-width="1.5"/>
+    
+    <text x="180" y="32" fill="#ef4444" font-size="16" font-weight="700" text-anchor="middle">Horizontal Slicing</text>
+    <text x="180" y="52" fill="#94a3b8" font-size="12" text-anchor="middle">Building layer-by-layer (High Risk)</text>
+
+    <!-- Layer 1: Art (Finished alone) -->
+    <g transform="translate(30, 75)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#3b82f6" fill-opacity="0.85" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="15" y="23" fill="#ffffff" font-size="13" font-weight="600">Art &amp; Visuals (100% Modeled)</text>
+      <text x="285" y="23" fill="#bfdbfe" font-size="11" text-anchor="end">Done</text>
+    </g>
+
+    <!-- Layer 2: Systems -->
+    <g transform="translate(30, 120)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" stroke-dasharray="4,4"/>
+      <text x="15" y="23" fill="#64748b" font-size="13">Mechanics &amp; Systems</text>
+      <text x="285" y="23" fill="#64748b" font-size="11" text-anchor="end">Waiting</text>
+    </g>
+
+    <!-- Layer 3: Level Design -->
+    <g transform="translate(30, 165)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" stroke-dasharray="4,4"/>
+      <text x="15" y="23" fill="#64748b" font-size="13">Level Design &amp; Scripting</text>
+      <text x="285" y="23" fill="#64748b" font-size="11" text-anchor="end">Waiting</text>
+    </g>
+
+    <!-- Layer 4: Audio & UI -->
+    <g transform="translate(30, 210)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" stroke-dasharray="4,4"/>
+      <text x="15" y="23" fill="#64748b" font-size="13">Audio, VFX &amp; Interface</text>
+      <text x="285" y="23" fill="#64748b" font-size="11" text-anchor="end">Waiting</text>
+    </g>
+
+    <!-- Status Tag -->
+    <rect x="30" y="265" width="300" height="32" rx="4" fill="#450a0a" fill-opacity="0.6" stroke="#b91c1c" stroke-width="1"/>
+    <text x="180" y="285" fill="#fca5a5" font-size="12" font-weight="600" text-anchor="middle">⚠️ 0% Playable • Integration surprises late</text>
+  </g>
+
+  <!-- RIGHT PANEL: Vertical Slicing -->
+  <g transform="translate(440, 85)">
+    <!-- Background Card -->
+    <rect x="0" y="0" width="360" height="315" rx="8" fill="#131b2e" stroke="#3b82f6" stroke-width="1.5"/>
+    
+    <text x="180" y="32" fill="#10b981" font-size="16" font-weight="700" text-anchor="middle">Vertical Slicing</text>
+    <text x="180" y="52" fill="#94a3b8" font-size="12" text-anchor="middle">Cross-discipline integration (Studio Standard)</text>
+
+    <!-- Layer 1: Art -->
+    <g transform="translate(30, 75)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="23" fill="#cbd5e1" font-size="13">Art &amp; Visuals</text>
+    </g>
+
+    <!-- Layer 2: Systems -->
+    <g transform="translate(30, 120)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="23" fill="#cbd5e1" font-size="13">Mechanics &amp; Systems</text>
+    </g>
+
+    <!-- Layer 3: Level Design -->
+    <g transform="translate(30, 165)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="23" fill="#cbd5e1" font-size="13">Level Design &amp; Scripting</text>
+    </g>
+
+    <!-- Layer 4: Audio & UI -->
+    <g transform="translate(30, 210)">
+      <rect x="0" y="0" width="300" height="36" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="23" fill="#cbd5e1" font-size="13">Audio, VFX &amp; Interface</text>
+    </g>
+
+    <!-- THE VERTICAL SLICE CUT (Cross-cutting highlighted column) -->
+    <rect x="115" y="65" width="130" height="190" rx="6" fill="url(#gradSlice)" stroke="#60a5fa" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="180" y="150" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">5-Minute Slice</text>
+    <text x="180" y="170" fill="#93c5fd" font-size="11" font-weight="600" text-anchor="middle">Fully Integrated</text>
+
+    <!-- Status Tag -->
+    <rect x="30" y="265" width="300" height="32" rx="4" fill="#064e3b" fill-opacity="0.6" stroke="#059669" stroke-width="1"/>
+    <text x="180" y="285" fill="#6ee7b7" font-size="12" font-weight="600" text-anchor="middle">✨ 100% Playable Loop • Proves whole stack</text>
+  </g>
+</svg>
