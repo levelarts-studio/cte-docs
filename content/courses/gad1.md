@@ -233,7 +233,7 @@ Welcome to Game Art & Design 1. In Semester 1, you will master 3D modeling and t
   <a href="/assignments/reference-board/" class="unit-item-button">
     <div>
       <div class="unit-item-title">Reference Board & Art Direction Study</div>
-      <div class="unit-item-desc">ID: <code>reference-board</code> · Deliverable: Embedded PureRef board on your portfolio</div>
+      <div class="unit-item-desc">ID: <code>reference-board</code> · Deliverable: Reference board on your portfolio</div>
     </div>
     <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
   </a>
