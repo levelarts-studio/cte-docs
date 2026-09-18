@@ -44,13 +44,27 @@ A board that's just forty images dumped in a grid doesn't help you as much as on
 
 Group your board into these three zones, roughly, even if the boundaries blur a little. A board organized this way answers a specific question at a glance instead of making you scroll through everything every time.
 
+<div style="margin: 1.5rem 0; border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; overflow: hidden; background: rgba(0, 0, 0, 0.2);">
+  <img src="/images/reference/reference-board-three-layers.jpg" alt="Organized reference board breakdown showing Primary Form, Secondary Form, and Material Callouts for a camping lantern" style="width: 100%; height: auto; display: block;" />
+  <div style="padding: 0.75rem 1rem; font-size: 0.85rem; opacity: 0.85; border-top: 1px solid rgba(128, 128, 128, 0.15);">
+    <strong>Figure 1:</strong> The three core layers of an effective prop board. <em>Primary Form</em> establishes proportion and silhouette from multiple angles; <em>Secondary Form</em> isolates functional features like hinges, valves, and wire guards; <em>Material Callouts</em> identify surface finishes, roughness, and light behavior before 3D work begins.
+  </div>
+</div>
+
 ### Building your board in Canva
 
-You already have a Canva account, so that's the tool for this class. Open a blank design, pick a large canvas (a "Whiteboard" template works well since it isn't locked to a fixed page shape), and build three labeled zones: **Primary Form**, **Secondary Form**, **Material**.
+You already have a Canva account, so that's the tool for this class. Open a blank design, pick a large canvas (a "Whiteboard" template works well since it isn't locked to a fixed page shape), and build three labeled zones: **Primary Form**, **Secondary Form**, and **Material**.
 
 Drag images into each zone. Canva can pull directly from a web image search inside the editor, or you can upload photos you've saved. Resize freely, and add a text box under each material image with your callout.
 
 That's the whole workflow, and it's enough to do everything this assignment asks for.
+
+<div style="margin: 1.5rem 0; border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; overflow: hidden; background: rgba(0, 0, 0, 0.2);">
+  <img src="/images/reference/canva-whiteboard-reference-board.jpg" alt="Canva Whiteboard reference board example with Primary Form, Secondary Form, and Material References zones" style="width: 100%; height: auto; display: block;" />
+  <div style="padding: 0.75rem 1rem; font-size: 0.85rem; opacity: 0.85; border-top: 1px solid rgba(128, 128, 128, 0.15);">
+    <strong>Figure 2:</strong> A completed reference board built on a Canva Whiteboard. Three separate color-coded frames organize overall silhouette angles, mechanical detail closeups (latches, rivets, handles), and specific material swatches with descriptive text callouts.
+  </div>
+</div>
 
 ### The tool the industry actually uses
 
@@ -66,6 +80,21 @@ What it does that a slide tool doesn't:
 That last point, floating above your modeling software while you work, is the thing a slide-based board can't do. It's worth installing once you're building reference boards regularly, and it's free.
 
 This unit, use Canva. If you want to try PureRef, it's a quick install and I'm glad to show you.
+
+<div style="margin: 1.5rem 0; border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; overflow: hidden; background: rgba(0, 0, 0, 0.2);">
+  <img src="/images/reference/pureref-blender-workflow.jpg" alt="PureRef floating window pinned with Always on Top above Blender 3D viewport" style="width: 100%; height: auto; display: block;" />
+  <div style="padding: 0.75rem 1rem; font-size: 0.85rem; opacity: 0.85; border-top: 1px solid rgba(128, 128, 128, 0.15);">
+    <strong>Figure 3:</strong> PureRef in production. Pinned with <em>Always on Top</em> directly beside the Blender 3D viewport so the artist can inspect hinge construction and brass surface wear without ever leaving the modeling workspace.
+  </div>
+</div>
+
+### Industry reference boards & artist credits
+
+Studying how working production artists set up their boards shows how research directly influences 3D asset quality:
+
+- **Ilia Artsybachev** — [*Victorian Banquet Oil Lamp "Caryatides"*](https://www.artstation.com/artwork/victorian-oil-lamp): 3D game prop artist Ilia Artsybachev compiled an extensive PureRef board of Victorian banquet lamps, glass chimney fittings, and bronze patina statues to guide Maya modeling and Substance Painter texturing.
+- **Michael Collingwood** — [*Prop Reference Boards & Technical Breakdowns*](https://www.artstation.com/artwork/rpg-7-prop): Hard-surface prop artist showcasing how dedicated reference sheets isolate weld seams, stamped factory markings, and real-world metal wear patterns.
+- **Pablo Muñoz Gómez (Pablander)** — [*The Art of Gathering Reference*](https://www.pablander.academy/): Digital sculptor and educator demonstrating infinite-canvas reference management, grouping techniques, and live annotations for 3D modeling pipelines.
 
 ### Gathering with intent
 

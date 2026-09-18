@@ -50,6 +50,13 @@ Find at least **3 images** showing what the object is actually made of, up close
 
 Open a large canvas (a "Whiteboard" template works well since it isn't locked to a fixed page shape) and arrange your images into three visibly separate, labeled zones: **Primary Form**, **Secondary Form**, and **Material**.
 
+<div style="margin: 1.25rem 0; border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; overflow: hidden; background: rgba(0, 0, 0, 0.2);">
+  <img src="/images/reference/canva-whiteboard-reference-board.jpg" alt="Example completed reference board in Canva Whiteboard" style="width: 100%; height: auto; display: block;" />
+  <div style="padding: 0.65rem 0.9rem; font-size: 0.82rem; opacity: 0.85; border-top: 1px solid rgba(128, 128, 128, 0.15);">
+    <strong>Example Board Layout:</strong> A Canva Whiteboard divided into three distinct zones with 4 primary form angles, 4 secondary feature closeups, and 3 material swatches with descriptive callout notes.
+  </div>
+</div>
+
 ### Step 6 — Write your callouts
 
 For each material image, add a text box with one or two sentences: what is this material, and what does it do under light? *"Brushed aluminum, matte, picks up soft reflections but no hard highlights"* tells you something useful. *"Metal"* does not.
