@@ -226,8 +226,8 @@ Welcome to Game Art & Design 2. In this advanced capstone course, you and your c
   </a>
   <a href="/assignments/schedule-and-taskboard/" class="unit-item-button">
     <div>
-      <div class="unit-item-title">Production Schedule & Task Board</div>
-      <div class="unit-item-desc">ID: <code>schedule-and-taskboard</code> · Deliverable: Live project task board and repo setup</div>
+      <div class="unit-item-title">Production Schedule & Task List</div>
+      <div class="unit-item-desc">ID: <code>schedule-and-taskboard</code> · Deliverable: Personal task list screenshot and reflection</div>
     </div>
     <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
   </a>
