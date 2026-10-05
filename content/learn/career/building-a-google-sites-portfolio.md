@@ -11,7 +11,7 @@ prereqs: []
 standards: ["3.8"]
 keywords: ["google sites", "portfolio", "webpage", "publish"]
 duration: 10
-video: ""
+video: "https://youtu.be/Ha5dA16cwRQ"
 aliases: ["/m/CAREER-104"]
 ---
 
@@ -22,9 +22,7 @@ aliases: ["/m/CAREER-104"]
 - Publish it so other people can actually open it
 - Keep your work after you graduate
 
-<div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
-  🎥 <em>Video lesson embedding point (captions & transcript available).</em>
-</div>
+{{< youtube Ha5dA16cwRQ >}}
 
 ## Read
 

@@ -11,7 +11,7 @@ prereqs: []
 standards: ["4.4"]
 keywords: ["hardware", "cpu", "core", "ram", "volatile memory", "gpu", "vram", "storage", "ssd", "nvme", "pipeline", "bottleneck"]
 duration: 10
-video: ""
+video: "https://youtu.be/pqKZJx841fQ"
 aliases: ["/m/COMP-101"]
 ---
 
@@ -22,9 +22,7 @@ aliases: ["/m/COMP-101"]
 - Say why 3D work is harder on a computer than most tasks
 - Read a spec and know which number matters for what
 
-<div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
-  🎥 <em>Video lesson embedding point (captions & transcript available).</em>
-</div>
+{{< youtube pqKZJx841fQ >}}
 
 ## Read
 

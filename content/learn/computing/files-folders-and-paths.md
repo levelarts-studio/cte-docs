@@ -11,7 +11,7 @@ prereqs: []
 standards: ["4.5"]
 keywords: ["filepath", "directory", "folder structure", "nesting", "extension", "google drive"]
 duration: 10
-video: ""
+video: "https://youtu.be/5bvg3CK6IQ0"
 aliases: ["/m/COMP-103"]
 ---
 
@@ -22,9 +22,7 @@ aliases: ["/m/COMP-103"]
 - Explain what a file extension does and why it matters
 - Navigate Google Drive the way you'd navigate a folder tree anywhere else
 
-<div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
-  🎥 <em>Video lesson embedding point (captions & transcript available).</em>
-</div>
+{{< youtube 5bvg3CK6IQ0 >}}
 
 ## Read
 

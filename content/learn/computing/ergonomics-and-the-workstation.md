@@ -11,7 +11,7 @@ prereqs: []
 standards: ["6.3"]
 keywords: ["posture", "monitor height", "wrist rest", "chair", "neutral posture", "lumbar support", "viewing distance", "glare", "20-20-20 rule", "micro-break"]
 duration: 10
-video: ""
+video: "https://youtu.be/Ei51mdcAp80"
 aliases: ["/m/COMP-110"]
 ---
 
@@ -22,9 +22,7 @@ aliases: ["/m/COMP-110"]
 - Position a monitor at a healthy height and distance
 - Build breaks into long work sessions
 
-<div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
-  🎥 <em>Video lesson embedding point (captions & transcript available).</em>
-</div>
+{{< youtube Ei51mdcAp80 >}}
 
 ## Read
 

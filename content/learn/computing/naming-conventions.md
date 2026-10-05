@@ -11,7 +11,7 @@ prereqs: []
 standards: ["4.5"]
 keywords: ["naming conventions", "versioning", "file naming", "underscores", "overwriting", "file hygiene"]
 duration: 10
-video: ""
+video: "https://youtu.be/GT8CAMFo6sc"
 aliases: ["/m/COMP-105"]
 ---
 
@@ -22,9 +22,7 @@ aliases: ["/m/COMP-105"]
 - Avoid the characters and habits that cause files to break or misbehave
 - Apply one consistent naming pattern across a whole project
 
-<div class="hx:p-4 hx:my-4 hx:rounded-lg hx:bg-slate-900 hx:border hx:border-slate-800 hx:text-slate-400 hx:text-sm">
-  🎥 <em>Video lesson embedding point (captions & transcript available).</em>
-</div>
+{{< youtube GT8CAMFo6sc >}}
 
 ## Read
 
