@@ -385,7 +385,7 @@
                 {{- $track = "gad1" -}}
                 {{- $trackLabel = "GAD1 · Year 2" -}}
                 {{- $trackClass = "track-gad1" -}}
-              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter" "studio-concept-pitches" "team-gdd" "scope-and-slice" "schedule-and-taskboard") $id) -}}
+              {{- else if or (strings.Contains $pSection "GAD2") (in (slice "team-role-charter" "studio-concept-pitches" "team-gdd" "scope-and-slice" "schedule-and-taskboard" "greybox-slice") $id) -}}
                 {{- $track = "gad2" -}}
                 {{- $trackLabel = "GAD2 · Capstone" -}}
                 {{- $trackClass = "track-gad2" -}}
@@ -399,7 +399,7 @@
                 {{- $domain = "texturing" -}}
               {{- else if in (slice "engine-orientation" "first-blueprint" "import-your-asset" "interactive-door") $id -}}
                 {{- $domain = "unreal" -}}
-              {{- else if in (slice "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "solo-vertical-slice" "slice-pitch" "mini-gdd") $id -}}
+              {{- else if in (slice "blockout-level" "core-loop-prototype" "feedback-systems-pass" "peer-playtest" "solo-vertical-slice" "slice-pitch" "mini-gdd" "greybox-slice") $id -}}
                 {{- $domain = "leveldesign" -}}
               {{- else if or (in (slice "design-history-post" "mood-board" "thumbnail-sprint" "value-study" "critique-round-one") $id) (strings.Contains (lower $pSection) "design") -}}
                 {{- $domain = "design" -}}
