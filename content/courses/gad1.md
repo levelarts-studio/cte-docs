@@ -295,7 +295,7 @@ Welcome to Game Art & Design 1. In Semester 1, you will master 3D modeling and t
   <span class="unit-item-badge badge-assignment">ASSIGNMENT & READING</span>
 </summary>
 <div class="unit-items-container">
-  <div class="module-block-desc">You will mark seams, unwrap 3 hard-surface props, optimize texel density, and pack UV islands cleanly.</div>
+  <div class="module-block-desc">You will mark seams, unwrap a low-poly character mesh, optimize texel density, and pack UV islands cleanly.</div>
   <a href="/m/BLND-204/" class="unit-item-button">
     <div>
       <div class="unit-item-title">UV Unwrapping</div>
