@@ -30,11 +30,11 @@ This exercise transitions you from simple primitive unwraps to character and org
 - [UV Unwrapping](/m/BLND-204/) (`BLND-204`)
 
 {{< callout type="info" >}}
-**Required Asset Download**:
-- **Model:** [**Human (Low Poly Male Human 3D Model)** on Sketchfab](https://sketchfab.com/3d-models/human-03a70758739544b3aa705c13af3872b1)
-- **Author:** [aaron.kalvin](https://sketchfab.com/aaron.kalvin)
-- **Format:** FBX (or glTF / OBJ)
-- **License:** Creative Commons Attribution ([CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)) — *Remember to credit the author in your portfolio documentation.*
+**Exercise Asset Download**:
+Download the exercise package [**`human.zip`**](/resources/human.zip) (or [mirror link](/downloads/human.zip)) to your workstation before beginning Step 1.
+- **Included File:** `source/Human.fbx`
+- **Asset Type:** Low-poly male humanoid base mesh
+- **Format:** Autodesk FBX (`.fbx`)
 {{< /callout >}}
 
 ---
@@ -71,14 +71,13 @@ Keep these three core principles in mind as you work through the drill:
 
 {{% steps %}}
 
-### Step 1 — Download and import the FBX
+### Step 1 — Download and extract the exercise package
 
-1. Navigate to the model page on Sketchfab: [**Low Poly Male Human 3D Model**](https://sketchfab.com/3d-models/human-03a70758739544b3aa705c13af3872b1).
-2. Click **Download 3D Model**, log in (free account), and choose the **FBX** format (or glTF if FBX is unavailable).
-3. Extract the downloaded zip file into your local project directory under `01_Projects/SourceAssets/`.
-4. Open Blender: **File > New > General**. Delete the default cube.
-5. Go to **File > Import > FBX (.fbx)** and select the downloaded human model.
-6. Save your file immediately as `LASTNAME_UV_Unwrap_Drill_v01.blend` in your `01_Projects` directory.
+1. Download the [**`human.zip`**](/resources/human.zip) archive (or [mirror download](/downloads/human.zip)).
+2. Extract `human.zip` into your local project directory under `01_Projects/SourceAssets/` (the archive contains `source/Human.fbx`).
+3. Open Blender: **File > New > General**. Delete the default cube.
+4. Go to **File > Import > FBX (.fbx)** and select `Human.fbx`.
+5. Save your file immediately as `LASTNAME_UV_Unwrap_Drill_v01.blend` in your `01_Projects` directory.
 
 ### Step 2 — Reset transforms and prepare the mesh
 
@@ -175,7 +174,7 @@ Capture high-resolution screenshots for your portfolio:
 1. **Full-Body Checker Render/Capture:** A 3/4 perspective viewport capture showing the entire character textured with the UV checker grid.
 2. **UV Editor Layout:** A clear capture of the UV Editor showing all neatly packed, non-overlapping islands within the 0–1 square.
 3. **Seam Placement Close-Up:** A wireframe/Edit Mode capture showing your marked orange-red seams along the underarm or inner leg.
-4. Post your captures to your Google Sites portfolio with the required reflection and Sketchfab asset attribution.
+4. Post your captures to your Google Sites portfolio with the required reflection.
 
 {{% /steps %}}
 
@@ -191,7 +190,7 @@ Upload your documentation to your Google Sites portfolio under **Coursework > Un
    - Full-body 3/4 beauty view with UV Grid applied
    - 2D UV Editor island packing layout (0–1 space)
    - Close-up showing hidden seam placement (in-engine or viewport)
-3. **Asset Attribution:** Credit the source model with a live link: *Model: Low Poly Male Human by aaron.kalvin via Sketchfab (CC BY 4.0).*
+3. **Asset Reference:** Note the exercise model used: *Low Poly Male Human (`Human.fbx`).*
 4. **Written Reflection (3–4 sentences):**
    - *Why is it critical to apply object transforms (`Ctrl + A → Scale`) before unwrapping?*
    - *What tool did you use to normalize texel density across the head, torso, and limbs?*
@@ -210,7 +209,7 @@ Upload your documentation to your Google Sites portfolio under **Coursework > Un
 | **Distortion & Checker Grid Uniformity** | UV checker squares are uniformly square across all body parts with no pinching, skewing, or severe stretching. Scale was applied prior to unwrapping. | Minor stretching or diagonal shearing in complex regions (hands, feet, shoulders), but main body is readable. | Heavy distortion, oblong rectangular checkers, severe pinching at poles, or scale unapplied. |
 | **Texel Density Optimization** | Texel density is equalized across all islands using `Average Island Scale`. Checkers are proportionally sized from head to toe. | Slight mismatch in island scale between extremities and torso, but overall resolution is acceptable. | Grossly mismatched texel density (e.g., massive blurry checkers on head and tiny sharp checkers on legs). |
 | **Island Packing & Margins (0–1 Space)** | All islands are packed tightly inside the 0–1 UV coordinate space with consistent 16–32px margin padding. No overlapping geometry or boundary clipping. | Islands are packed within 0–1 space, but margins are inconsistent (some islands touching) or space is poorly utilized. | Overlapping UV islands, geometry placed outside 0–1 space, or zero margin causing mipmap bleeding. |
-| **Documentation & Attribution** | Portfolio post contains all 3 required screenshots, full Creative Commons attribution link for the Sketchfab model, and an insightful technical reflection. | Screenshots included, but missing model attribution link or reflection is superficial. | Missing portfolio post, incomplete screenshots, or unsubmitted assignment. |
+| **Documentation & Technical Reflection** | Portfolio post contains all 3 required screenshots and an insightful technical reflection addressing scale transforms, texel density equalization, and UV margin padding. | Screenshots included, but reflection is superficial or misses answers to the technical prompts. | Missing portfolio post, incomplete screenshots, or unsubmitted assignment. |
 
 ---
 
@@ -219,4 +218,4 @@ Upload your documentation to your Google Sites portfolio under **Coursework > Un
 - **The #1 Student Mistake is Forgetting Scale:** If you scale an object in Object Mode, Blender stores an internal multiplier ($X=1.0, Y=1.0, Z=2.0$). When you unwrap, Blender calculates 2D coordinates using the unscaled mesh, creating stretched checkers. Always press **Ctrl + A → Apply All Transforms** before unwrapping!
 - **Pinning Vertices:** If an island keeps twisting during unwrapping, select two vertices in the UV Editor, press **P** to pin them, and re-unwrap (`U`). Pinned vertices stay locked in place while the rest of the island relaxes around them. Press **Alt + P** to unpin.
 - **UV Synchronization:** Toggle the **UV Sync Selection** button (two diagonal arrows in the top-left of the UV Editor). When enabled, selecting a face or edge in the 3D viewport instantly highlights its corresponding UV polygon in the UV Editor, making it effortless to identify which island belongs to which body part.
-- **Creative Commons Compliance:** In industry, legal asset tracking is mandatory. Whenever you use a third-party base mesh, you must verify its license terms and maintain an attribution trail in your project files.
+- **Studio Asset Organization:** In production, keeping raw source assets in a dedicated folder (such as `SourceAssets/`) separate from working `.blend` files ensures models can be re-imported or inspected cleanly at any point in the pipeline.
