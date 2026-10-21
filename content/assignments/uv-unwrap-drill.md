@@ -39,30 +39,13 @@ Download the exercise package [**`human.zip`**](/resources/human.zip) (or [mirro
 
 ---
 
-## Visual Reference Guide
+## Deliverable Target
 
-Keep these three core principles in mind as you work through the drill:
+Your goal is an undistorted unwrap verified by a uniform UV checker texture across the entire model:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
-
-<div style="border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; padding: 1rem; background: rgba(255, 255, 255, 0.02); display: flex; flex-direction: column;">
-  <img src="/images/uv/character-seam-placement.jpg" alt="Character Seam Placement Reference" style="width: 100%; height: 170px; object-fit: cover; border-radius: 0.375rem; margin-bottom: 0.75rem;" />
-  <h3 style="margin: 0.25rem 0 0.5rem; font-size: 1.05rem; color: #818cf8;">1. Seam Placement Strategy</h3>
-  <p style="font-size: 0.85rem; opacity: 0.85; margin-bottom: 0.5rem;">Place cuts along natural occlusions and interior contours (leg inseams, underarms, torso sides, center-back skull) so front-facing camera views remain seamless.</p>
-</div>
-
-<div style="border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; padding: 1rem; background: rgba(255, 255, 255, 0.02); display: flex; flex-direction: column;">
-  <img src="/images/uv/uv-distortion-checker.jpg" alt="UV Distortion Checker Comparison" style="width: 100%; height: 170px; object-fit: cover; border-radius: 0.375rem; margin-bottom: 0.75rem;" />
-  <h3 style="margin: 0.25rem 0 0.5rem; font-size: 1.05rem; color: #818cf8;">2. Zero Distortion Verification</h3>
-  <p style="font-size: 0.85rem; opacity: 0.85; margin-bottom: 0.5rem;">Use a generated UV checker texture. Checkers must be square, upright, and uniform in size across every body part without pinching or diagonal shear.</p>
-</div>
-
-<div style="border: 1px solid rgba(128, 128, 128, 0.2); border-radius: 0.5rem; padding: 1rem; background: rgba(255, 255, 255, 0.02); display: flex; flex-direction: column;">
-  <img src="/images/uv/uv-packing-islands.jpg" alt="UV Packing and Margin Padding" style="width: 100%; height: 170px; object-fit: cover; border-radius: 0.375rem; margin-bottom: 0.75rem;" />
-  <h3 style="margin: 0.25rem 0 0.5rem; font-size: 1.05rem; color: #818cf8;">3. Island Packing & Margins</h3>
-  <p style="font-size: 0.85rem; opacity: 0.85; margin-bottom: 0.5rem;">Fit all islands strictly within the 0–1 UV coordinate bounds. Maintain a 16–32px island margin (padding) to prevent mipmap texture bleeding.</p>
-</div>
-
+<div style="max-width: 680px; margin: 1.5rem auto; text-align: center;">
+  <img src="/images/uv/human-checker-preview.png" alt="Human Model with Uniform UV Checker Grid in Blender" style="width: 100%; border-radius: 0.5rem; border: 1px solid rgba(128, 128, 128, 0.2);" />
+  <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;"><em>Reference Target: Full human character unwrapped in Blender with uniform texel density, square checker distribution, and hidden seam placement.</em></p>
 </div>
 
 ---
@@ -89,7 +72,7 @@ Keep these three core principles in mind as you work through the drill:
 3. If Scale is not `(1.0, 1.0, 1.0)` or Rotation is non-zero, press **Ctrl + A → Apply All Transforms** (or **Apply Rotation & Scale**).
 4. Switch to the **UV Editing** workspace using the top header tabs.
 5. In the Properties panel, click the green triangle icon (**Object Data Properties**) and expand the **UV Maps** section.
-6. If the downloaded model has a pre-existing broken or messy UV map, click the `-` (minus) button to delete it, then click `+` to create a fresh, clean map named `UVMap_Character`.
+6. If the model has a pre-existing broken UV map, click the `-` (minus) button to delete it, then click `+` to create a fresh, clean map named `UVMap_Character`.
 
 ### Step 3 — Mark the anatomical seams
 
@@ -100,7 +83,7 @@ Work through the body systematically:
 #### A. Head and Neck
 - **Collar Seam:** Select the edge loop encircling the base of the neck where it meets the clavicle/trapezius muscles. Mark seam.
 - **Skull Seam:** Run a vertical seam starting from the back of the neck collar, traveling up the center-back of the skull to the apex crown.
-- *Check:* The face and front crown should be able to peel open forward like a mask without any seams across the forehead, nose, cheeks, or mouth.
+- *Check:* The face and front crown should peel open forward like a mask without any seams cutting across the forehead, nose, cheeks, or mouth.
 
 #### B. Arms and Hands
 - **Shoulder Socket:** Select the loop where the arm joins the shoulder/chest torso. Mark seam.
@@ -111,44 +94,43 @@ Work through the body systematically:
 #### C. Torso and Pelvis
 - **Lateral Sides:** Run a vertical seam down each side of the ribcage, starting from the armpit down through the flank to the hip.
 - **Shoulder Ridge:** Mark a seam across the crest of each shoulder from the neck collar to the arm socket.
-- *Check:* The torso should now unfold into two clean halves: a front chest/belly island and a back island.
+- *Check:* The torso unfolds into two clean halves: a front chest/belly island and a back island.
 
 #### D. Legs and Feet
 - **Leg Inseam:** Mark a continuous seam running along the **inside of the leg**, starting from the perineum/crotch, along the inner thigh, behind the knee, down the inner calf to the ankle.
 - **Ankle Loop:** Select the circular loop encircling the ankle above the foot. Mark seam.
 - **Sole of Foot:** Select the edge loop separating the sole/bottom of the foot from the top/instep.
-- *Check:* Each leg unfolds into an unrolled tapered cylinder.
+- *Check:* Each leg unfolds into an unrolled tapered cylinder with the seam completely occluded between the legs.
 
 ### Step 4 — Unwrap and inspect islands
 
 1. In the 3D Viewport, ensure you are in Edit Mode with all faces selected (**A**).
 2. Press **U → Unwrap**.
-3. In the 2D **UV Editor** panel (left side), inspect the generated UV islands.
-4. You should see distinct, readable islands:
+3. In the 2D **UV Editor** panel (left side), inspect the generated UV islands:
    - Head / Face
    - Front Torso & Back Torso
    - Left Arm & Right Arm
    - Left Leg & Right Leg
    - Left Hand & Right Hand
    - Left Foot & Right Foot (top and soles)
-5. In the UV Editor header, click **Overlays** and turn on **Display Stretch**. Verify that all islands display in solid **dark blue** or light cyan. If any island glows orange or red, orbit to that part of the mesh and add a relief cut.
+4. In the UV Editor header, click **Overlays** and turn on **Display Stretch**. Verify that all islands display in solid **dark blue** or light cyan. If any island glows orange or red, orbit to that part of the mesh and add a relief cut.
 
 ### Step 5 — Equalize texel density
 
 1. In the UV Editor, ensure all UV islands are selected (`A`).
 2. Go to **UV → Average Island Scale** (Hotkey: `Ctrl + A` inside the UV Editor window).
-3. Observe the islands adjusting in size: Blender automatically rescales every island relative to its actual 3D surface area. The torso will expand to reflect its volume, while smaller parts (hands, feet) will resize proportionally.
+3. Observe the islands adjusting in size: Blender automatically rescales every island relative to its actual 3D surface area, ensuring uniform resolution from head to toe.
 
 ### Step 6 — Pack islands in 0–1 space with margin padding
 
 1. With all islands selected in the UV Editor, go to **UV → Pack Islands** (Hotkey: `Ctrl + P`).
 2. Open the operator popup at the bottom left (or press **F9**) and configure:
-   - **Margin:** `0.015` (approximately a 16–32px gutter at 2K resolution).
-   - **Rotate:** Enabled (allows Blender to rotate islands 90° for optimal bounding box packing).
-   - **Shape Method:** Exact Shape (or Concave).
+   - **Margin:** `0.015` (approximately a 16–32px gutter at 2K resolution to prevent mipmap bleed).
+   - **Rotate:** Enabled (allows Blender to rotate islands for optimal packing density).
+   - **Shape Method:** Exact Shape.
 3. Verify the layout:
-   - All islands must sit entirely inside the dark square canvas ($0.0 \le U, V \le 1.0$).
-   - No two islands should touch or overlap.
+   - All islands must sit entirely inside the square canvas ($0.0 \le U, V \le 1.0$).
+   - No two islands may touch or overlap.
    - The margin gutters between islands must be uniform.
 
 ### Step 7 — Apply the UV checker texture and diagnose

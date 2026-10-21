@@ -17,8 +17,8 @@ aliases: ["/m/BLND-204"]
 
 ## What you'll be able to do
 
-- Explain how 2D UV coordinates ($U, V$) map textures onto 3D polygon meshes ($X, Y, Z$)
-- Strategically place seams to unroll complex 3D forms while hiding cuts from camera view
+- Explain how 2D UV coordinates ($U, V$) map flat textures onto 3D polygon meshes ($X, Y, Z$)
+- Strategically place seams to unroll complex forms while hiding cuts from camera view
 - Diagnose stretching, shearing, and compression using UV checker grids and stretch heatmaps
 - Equalize and balance texel density across multiple mesh islands using **Average Island Scale**
 - Pack UV islands within 0–1 coordinate space with correct margin padding to prevent mipmap texture bleed
@@ -31,16 +31,16 @@ aliases: ["/m/BLND-204"]
 
 ### The 3D to 2D Translation Problem
 
-Every texture in computer graphics—whether a hand-painted sprite, a scanned photo, or a PBR normal map—is a flat, two-dimensional image defined by horizontal and vertical pixels. But a 3D model exists in three-dimensional Cartesian space with $X, Y,$ and $Z$ coordinates.
+Every texture in computer graphics—whether a hand-painted sprite, a scanned photo, or a PBR normal map—is a flat, two-dimensional image defined by horizontal and vertical pixels. But a 3D model exists in three-dimensional space with $X, Y,$ and $Z$ coordinates.
 
 How does a 3D engine know which pixel of a flat image belongs on the tip of a character's nose or the strap of a backpack?
 
 The answer is **UV coordinates**. Just as $X, Y,$ and $Z$ represent positions in 3D world space, **$U$** (horizontal) and **$V$** (vertical) represent positions on a 2D texture canvas, normalized from **0.0 to 1.0**.
 
-UV unwrapping is the process of cutting open a 3D mesh and flattening its surface onto that 2D grid. The closest real-world analogy is tailoring: clothing patterns start as flat sheets of fabric cut into specific shapes and stitched together along seams into a wearable 3D jacket or pair of pants. In 3D software, you do the exact reverse: you cut along seams and unfold the 3D surface into flat 2D pattern pieces called **UV islands**.
+![UV Mapping: 3D Model to 2D Texture Space](/images/uv/uv-mapping-concept.png)
+<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>The relationship between 3D spatial coordinates (X, Y, Z), 2D UV coordinates (U, V), and the final 2D texture map.</em></p>
 
-![UV Unwrapping Concept: 3D Mesh to 2D Coordinate Plane](/images/uv/uv-unwrapping-concept.jpg)
-<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>UV unwrapping translates 3D polygon faces (X, Y, Z) into a 2D coordinate plane (U, V) by cutting along seams and unfolding the mesh into flat pattern islands, similar to tailoring clothing.</em></p>
+UV unwrapping is the process of cutting open a 3D mesh and flattening its surface onto that 2D grid. The closest real-world analogy is tailoring: clothing patterns start as flat sheets of fabric cut into specific shapes and stitched together along seams into a wearable 3D jacket or pair of pants. In 3D software, you do the exact reverse: you cut along seams and unfold the 3D surface into flat 2D pattern pieces called **UV islands**.
 
 Without clean UV coordinates, you cannot apply detailed materials, bake normal maps, paint textures, or export game-ready assets to Unreal Engine or Unity.
 
@@ -52,20 +52,17 @@ If you try to flatten a hollow sphere or a hollow cylinder without cutting it, t
 
 Placing seams is both a technical requirement and an artistic craft. Every seam creates a potential visual discontinuity in your texture, so your goal is twofold:
 
-1. **Relieve tension:** Add enough cuts so that curved 3D geometry can flatten out with near-zero geometric stretching.
+1. **Relieve geometric tension:** Add enough cuts so that curved 3D geometry can flatten out with minimal stretching.
 2. **Hide the cut lines:** Place seams where players and cameras are least likely to see them.
 
-#### Rules of Seam Placement on Characters and Organic Forms
+#### Anatomical Seam Placement Guide
 
-- **Cylindrical Limbs (Arms & Legs):** Arms, legs, fingers, and necks are essentially hollow tubes. To flatten a tube into a rectangle, it needs one continuous longitudinal cut running along its length.
-  - On the **arms**, run the seam along the **underside** (from the armpit down through the inner elbow to the wrist).
-  - On the **legs**, run the seam along the **inseam** (from the crotch down the inside of the thigh and calf to the ankle).
-- **The Torso:** Cut down the lateral sides of the ribcage (from the armpit to the hip) and across the top of each shoulder, splitting the torso into a front chest island and a back island.
-- **The Head and Face:** The face is the primary focal point of any character. **Never put a seam across the face.** Instead, place a collar seam around the base of the neck, and run a single vertical cut up the **center-back of the skull** to the crown. This allows the face and front of the head to peel open like a mask while keeping all seams concealed beneath hair or at the back.
-- **Limb Disconnects:** Separate distinct appendages at natural anatomical creases: where the arm meets the torso (armpit/shoulder seam), where the wrist meets the hand, and where the ankle meets the foot.
-
-![UV Seam Placement Strategy on a Character Mesh](/images/uv/character-seam-placement.jpg)
-<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>Strategic seam placement on a humanoid character: seams are placed along hidden interior lines (leg inseams, arm undersides, back of skull) to avoid visible texture seams across prominent front-facing surfaces.</em></p>
+| Body Region | Seam Placement | Why It's Placed Here |
+|---|---|---|
+| **Head & Neck** | Collar loop around base of neck; vertical cut up the **center-back of the skull** to the crown. | Keeps the face 100% seamless; hides the back cut line under hair geometry or behind the character. |
+| **Arms & Hands** | Armpit/shoulder socket loop; continuous inseam along the **underside** of the arm to the inner wrist. | Hides the seam when the character's arms rest in a natural idle or combat pose at their sides. |
+| **Torso & Pelvis** | Vertical seams down the **lateral sides** of the ribcage (armpit to hip); shoulder top ridges. | Splits the torso cleanly into front and back halves, occluding side cuts under resting arms. |
+| **Legs & Feet** | Continuous **inseam** along the inside of each leg (crotch to inner ankle); perimeter cut around foot sole. | The inner leg seam is naturally occluded between the legs; foot sole cut stays hidden on the ground. |
 
 #### Blender Seam Controls
 
@@ -81,13 +78,13 @@ In Edit Mode (`Tab`), switch to Edge select (`2`):
 
 How do you know if an unwrap is successful? You cannot reliably judge distortion on a solid gray mesh. You must inspect it with a **UV Checker Texture**.
 
-A checker grid maps an alternating black-and-white (or colored, numbered) grid across your model. When an unwrap is correct:
+A checker grid maps an alternating black-and-white grid across your model. When an unwrap is correct:
 - Every checker square is **perfectly square** (equal width and height).
 - The grid lines remain **straight and parallel**, with no diagonal shear or waviness.
 - The squares maintain a **consistent, uniform scale** across the entire mesh.
 
-![UV Texture Distortion vs. Uniform Texel Density](/images/uv/uv-distortion-checker.jpg)
-<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>Evaluating UV unwraps with a checkerboard texture: distorted UVs (left) produce stretched, oblong checker patterns with pinching at seams, while a clean unwrap (right) delivers crisp, uniform square distribution across the entire surface.</em></p>
+![Character Model with Uniform UV Checker Grid in Blender](/images/uv/human-checker-preview.png)
+<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>A clean humanoid unwrap evaluated with a procedural UV checker texture in Blender. Squares remain uniform in scale from head to toe with straight, undistorted flow along natural contours.</em></p>
 
 #### Common UV Flaws and Symptoms
 
@@ -123,7 +120,7 @@ For standard third-person and first-person game assets, studios enforce standard
 
 Blender provides an automated tool to match island scale across your entire mesh:
 1. In the **UV Editor**, select all UV islands (`A`).
-2. Go to **UV → Average Island Scale** (Hotkey: `Ctrl + A` inside the UV Editor).
+2. Go to **UV → Average Island Scale** (Hotkey: `Ctrl + A` inside the UV Editor window).
 
 Blender instantly recalculates the area of every 3D polygon and rescales its corresponding 2D UV island so that all islands share identical pixel density. Check your 3D viewport: your checkerboard squares will instantly match in size from head to toe.
 
@@ -138,13 +135,10 @@ Once your islands are unwrapped, relaxed, and scaled, they must be neatly arrang
 
 A game engine evaluates texture maps within this single $[0, 1] \times [0, 1]$ bounding box. Any geometry placed outside this square will repeat or clamp, depending on material settings.
 
-![UV Packing and Margin Padding in 0-1 Coordinate Space](/images/uv/uv-packing-islands.jpg)
-<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>Optimal UV packing in 0–1 space: UV islands are organized with sufficient margin padding to prevent texture bleeding during mipmapping, maximizing coverage while avoiding overlaps.</em></p>
-
 #### The 3 Golden Rules of UV Packing
 
-1. **Maximize UV Space Utilization:** Fill as much of the 0–1 canvas as possible (aim for $70\%\text{–}85\%$ surface coverage on game assets). Empty black space on your UV sheet represents wasted GPU memory.
-2. **Prevent Overlaps:** Unless you are deliberately stacking symmetrical halves to save texture space (e.g., identical left and right arm armor on a generic grunt prop), no two UV faces may ever occupy the same UV space. Overlapping islands will cause one part of your model to display the paint strokes or baked normals of another.
+1. **Maximize UV Space Utilization:** Fill as much of the 0–1 canvas as possible (aim for $70\%\text{–}85\%$ surface coverage on game assets). Empty space on your UV sheet represents wasted GPU memory.
+2. **Prevent Overlaps:** Unless you are deliberately stacking symmetrical halves to save texture space, no two UV faces may ever occupy the same UV space. Overlapping islands will cause one part of your model to display the paint strokes or baked normals of another.
 3. **Always Include Margin Padding:** UV islands must **never touch each other** and must **never touch the outer boundary** of the UV square.
 
 #### Why Island Margins Matter: Mipmapping & Pixel Bleed
@@ -153,10 +147,16 @@ As your camera moves away from a 3D object in a game engine, the GPU automatical
 
 At lower mipmap levels, individual pixels blur and blend together. If two UV islands are separated by only 1 or 2 pixels, their colors will bleed across each other at medium-to-long distances, producing bright outlines or black seam artifacts in your scene.
 
-To prevent mipmap bleeding:
+| Texture Map Resolution | Recommended Margin Padding | Blender Pack Margin Setting |
+|---|---|---|
+| **1024 × 1024** | 8 – 16 pixels | `~0.010` |
+| **2048 × 2048** | 16 – 32 pixels | `~0.015` |
+| **4096 × 4096** | 32 – 64 pixels | `~0.020` |
+
+To pack islands with safe padding:
 - In the UV Editor, select all islands (`A`).
 - Run **UV → Pack Islands** (Hotkey: `Ctrl + P`).
-- In the operator panel (bottom-left or `F9`), set **Margin** to approximately `0.015` to `0.02` (which provides a safe 16–32 pixel gutter for a 2048x2048 texture).
+- In the operator panel (bottom-left or `F9`), set **Margin** to approximately `0.015` for a 2048x2048 texture.
 - Enable **Rotate** so Blender can orient islands at optimal angles to pack tightly.
 
 ---
