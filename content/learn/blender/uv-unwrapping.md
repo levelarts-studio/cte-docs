@@ -84,7 +84,7 @@ A checker grid maps an alternating black-and-white grid across your model. When 
 - The squares maintain a **consistent, uniform scale** across the entire mesh.
 
 ![Character Model with Uniform UV Checker Grid in Blender](/images/uv/human-checker-preview.png)
-<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>A clean humanoid unwrap evaluated with a procedural UV checker texture in Blender. Squares remain uniform in scale from head to toe with straight, undistorted flow along natural contours.</em></p>
+<p style="font-size: 0.85rem; opacity: 0.8; margin-top: -0.5rem; margin-bottom: 1.5rem;"><em>A clean humanoid unwrap evaluated with Blender's built-in Color Grid test texture in the 3D viewport. Squares remain uniform in scale from head to toe with straight, undistorted flow along natural contours.</em></p>
 
 #### Common UV Flaws and Symptoms
 
