@@ -1,6 +1,6 @@
 import os, re
 
-base_dir = r"C:\Users\tilgh\Documents\GitHub\cte-docs"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 1. Load Standards keys from data/standards.yaml
 standards_file = os.path.join(base_dir, "data", "standards.yaml")
