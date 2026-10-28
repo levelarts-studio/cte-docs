@@ -358,7 +358,7 @@ Welcome to Game Art & Design 2. In this advanced capstone course, you and your c
   <a href="/assignments/greybox-slice/" class="unit-item-button">
     <div>
       <div class="unit-item-title">Greybox the Vertical Slice</div>
-      <div class="unit-item-desc">ID: <code>greybox-slice</code> · Deliverable: Master greybox level commit in Git repo</div>
+      <div class="unit-item-desc">ID: <code>greybox-slice</code> · Deliverable: Complete level with video walkthrough, screenshots, and write-up</div>
     </div>
     <span class="unit-item-badge badge-assignment">ASSIGNMENT</span>
   </a>
